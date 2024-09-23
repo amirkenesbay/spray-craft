@@ -1,0 +1,99 @@
+baits:
+  Shrimp:
+    item:
+      material: NAUTILUS_SHELL
+      displayname: "&#ff7777Креветки"
+    glowing: true
+    bait-theme: "&#ff7777"
+    fish:
+      Common:
+        - "Carp"
+        - "Bluefish"
+        - "Haddock"
+      Rare:
+        - "Sunfish"
+        - "Goldfish"
+        - "Nemo"
+    catch-weight: 100
+    application-weight: 150
+    max-baits: 100
+
+  Fresh Water:
+    item:
+      head-64: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I0YWUzYTM1ZWE4NTQ4ZTMzNGQ2OWZmODc4ZGZlZGIyMDgyMTU0MDJmZTk2NmI3YjhkZmFhMTZiNmE2M2I4OSJ9fX0="
+      displayname: "&bПресная вода"
+    bait-theme: "&b"
+    rarities:
+      - "Epic"
+      - "Legendary"
+    lore:
+      - "&7Увеличивает улов эпических и легендарных рыб."
+    catch-weight: 2
+    application-weight: 5
+    max-baits: 64
+
+  Epic Elixir:
+    item:
+      material: HONEY_BOTTLE
+    glowing: true
+    application-weight: 7
+    rarities:
+      - "Epic"
+    max-baits: 64
+
+  Stringy Worms:
+    item:
+      material: STRING
+    glowing: true
+    rarities:
+      - "Common"
+      - "Legendary"
+    catch-weight: 20
+    application-weight: 40
+    max-baits: 16
+
+  Legendary Lure:
+    item:
+      material: GOLDEN_CARROT
+      displayname: "&6Легендарная приманка"
+    glowing: true
+    rarities:
+      - "Legendary"
+    catch-weight: 2
+    application-weight: 40
+    max-baits: 20
+
+general:
+  boost: 1.5
+  competition-disable: true
+  add-to-lore: true
+  catch-percentage: 2.5
+  baits-per-rod: 7
+  show-unused-slots: true
+
+format:
+  rod-lore:
+    - "&f"
+    - "&7Слоты приманок: &e({current_baits}/{max_baits})"
+    - "&f"
+    - "{baits}"
+    - "&f"
+
+  bait-lore:
+    - "&f"
+    - "{bait_theme}Увеличивает шанс поймать:"
+    - "{boosts}"
+    - "{lore}"
+    - "&f"
+    - "&#dadadaПоложите на удочку или &nУдерживайте SHIFT&#dadada, чтобы применить все."
+    - "&f"
+
+  baits: "&6► {amount} {bait}"
+
+  boosts-rarity: "{bait_theme}► &f1 {bait_theme}Редкость"
+  boosts-rarities: "{bait_theme}► &f{amount} {bait_theme}Редкости"
+  boosts-fish: "{bait_theme}► &f{amount} {bait_theme}Рыбы"
+
+  unused-slot: "&7► ? &oСвободный слот"
+
+config-version: 1

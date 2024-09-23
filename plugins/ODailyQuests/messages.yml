@@ -1,0 +1,72 @@
+player_help: |-
+  &a&nPlayer commands:
+  &e/quests me &a: see your own quests
+  &e/quests show <global/easy/medium/hard> &a: see the quests of a category
+admin_help: |-
+  &c&nAdmin commands:
+  &e/qadmin complete <player> <index> &a: complete a player quest
+  &e/qadmin reset <quests/total> <player> &a: draw new quests for a player, or reset his total number of achieved quests.
+  &e/qadmin show <player> &a: see quests of a player
+no_permission: '&cУ вас нет разрешения.'
+no_permission_category: '&cУ вас нет разрешения на просмотр этой категории.'
+player_only: '&cЭту команду может выполнить только игрок.'
+invalid_category: '&cНедопустимая категория задания.'
+invalid_player: '&cЭтот игрок не существует или офлайн.'
+invalid_quest_id: '&cВы должны указать допустимый идентификатор задания.'
+invalid_quest_index: '&cУказанный индекс недопустим.'
+categorized_enabled: '&cЗадания разделены на категории, глобальное меню недоступно.'
+categorized_disabled: '&cЗадания разделены на категории, доступно только глобальное
+  меню.'
+global_disabled: '&cГлобальные задания отключены, доступны только меню категорий.'
+already_achieved: '&cЭто задание уже выполнено.'
+hologram_categorized_enabled: '&cЗадания разделены на категории, невозможно создать
+  глобальный голограмму.'
+hologram_categorized_disabled: '&cЗадания разделены на категории, невозможно создать
+  голограмму в категории.'
+hologram_deleted: '&aГолограмма успешно удалена.'
+hologram_invalid_index: '&cНедопустимый индекс голограммы.'
+quests_in_progress: "&f\n&f &a&lЕжедневные задания\n&f \n&f  У #DBCDF0вас еще есть\
+  \ &fежедневные\n&f  задания для выполнения.\n&f   \n&f  &7Посмотреть квесты &8-\
+  \ &e/quests\n&f    "
+all_quests_achieved_connect: ''
+quests_renewed: ''
+quests_renewed_admin: '&eВы сбросили задания для %target%.'
+quest_achieved: "&f\n&f &a&lЕжедневные задания\n&f \n&f  Вы &aвыполнили &fзадание\
+  : &e%questName%\n&f  и получили награду на баланс.\n&f   \n&f  &7Посмотреть ещё\
+  \ квесты &8- &e/quests \n&f"
+all_quests_achieved: "&f\n&f &a&lЕжедневные задания\n&f \n&f  Вы выполнили все еже\
+  дневные\n&f  задания, хорошая работа.\n&f   "
+not_enough_items: '&cУ вас недостаточно предметов для выполнения этого задания.'
+total_amount_reset: '&eВаш общее количество выполненных заданий было сброшено администратором.'
+total_amount_reset_admin: '&eОбщее количество выполненных заданий для %target% было
+  сброшено администратором.'
+reward_command: ''
+reward_exp_levels: '&aВы получили &e%rewardAmount% &bуровней опыта&a.'
+reward_exp_points: '&aВы получили &e%rewardAmount% &bочков опыта&a.'
+reward_money: ''
+reward_points: '&aВы получили &e%rewardAmount% &bочков&a.'
+new_day: ''
+reward_money_fail: '&cПроизошла ошибка. Невозможно выдать награду. Пожалуйста, свяжитесь
+  с администратором.'
+too_far: '&cВы слишком далеко от требуемого местоположения.'
+bad_world: '&cВы находитесь в неправильном мире.'
+placeholder_api_not_enabled: '&cПлагин PlaceholderAPI не активирован. Сообщите администратору.'
+placeholder_not_number: '&cЗаполнитель %placeholder% не является числом. Сообщите
+  администратору.'
+easy_reward: ''
+medium_reward: ''
+hard_reward: ''
+reward_coins_engine: '&aВы получили &e%rewardAmount% &b%currencyName%&a.'
+world_disabled: '&cYou can''t complete quests in this world.'
+not_required_world: '&cYou can''t complete this quest in this world.'
+invalid_amount: '&cThe specified amount is invalid.'
+quest_rerolled: '&aYou have rerolled your quest number %index% !'
+quest_rerolled_admin: '&eYou have rerolled the quest number %index% of %target%.'
+add_total_admin: '&eYou have added %amount% to %target%''s total number of completed
+  quests.'
+add_total_target: '&eAn admin has added %amount% to your total number of completed
+  quests.'
+cannot_complete_quest_with_off_hand: '&cAll required items must be in your inventory,
+  not in your off hand.'
+cannot_reroll_if_achieved: '&cYou can''t reroll a quest that you have already achieved!'
+not_required_region: '&cYou can''t complete this quest in this region.'

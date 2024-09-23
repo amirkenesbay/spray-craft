@@ -1,0 +1,21 @@
+backpack_data:
+  classname: teammt.mtbackpack.classes.Sack
+  fields:
+    item:
+      classname: org.bukkit.inventory.ItemStack
+      properties:
+        classname: java.util.LinkedHashMap
+        entries:
+          entry0:
+            key: v
+            value: 3953
+          entry1:
+            key: type
+            value: GRASS_BLOCK
+    amount: 0
+    size: 100
+    id:
+      classname: java.util.UUID
+      value: 49f68c3c-f33a-4a58-ba56-f3555039a48d
+    requiresRerender: false
+    type: rare_sack

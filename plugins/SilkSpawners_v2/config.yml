@@ -1,0 +1,29 @@
+messages:
+  prefix: $7[$bСпанер$7]
+  locale: en
+spawner:
+  dropChance: 50
+  destroyable: true
+  pickaxeRequired: true
+  silktouchRequired: true
+  item:
+    name: $dСпавнер
+    prefix: $e
+    prefixOld: ''
+    lore: []
+  explosion:
+    normal: 0
+    silktouch: 0
+  message:
+    denyDestroy: true
+    denyPlace: true
+    denyChange: true
+  permission:
+    disableDestroy: false
+    disablePlace: false
+    disableChange: false
+update:
+  configVersion: 2
+  check:
+    enabled: true
+    interval: 24

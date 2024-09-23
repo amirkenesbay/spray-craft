@@ -1,0 +1,167 @@
+title: "{{abilities_title}}"
+size: 4
+fill:
+  enabled: true
+  material: black_stained_glass_pane
+items:
+  fill1:
+    material: gray_stained_glass_pane
+    pos: 0,0
+    display_name: " "
+  fill2:
+    material: gray_stained_glass_pane
+    pos: 0,8
+    display_name: " "
+  fill3:
+    material: green_stained_glass_pane
+    pos: 1,0
+    display_name: " "
+  fill4:
+    material: green_stained_glass_pane
+    pos: 2,0
+    display_name: " "
+  fill5:
+    material: green_stained_glass_pane
+    pos: 1,1
+    display_name: " "
+  fill6:
+    material: green_stained_glass_pane
+    pos: 2,1
+    display_name: " "
+  fill7:
+    material: green_stained_glass_pane
+    pos: 1,7
+    display_name: " "
+  fill8:
+    material: green_stained_glass_pane
+    pos: 2,7
+    display_name: " "
+  fill9:
+    material: green_stained_glass_pane
+    pos: 1,8
+    display_name: " "
+  fill10:
+    material: green_stained_glass_pane
+    pos: 2,8
+    display_name: " "
+  fill11:
+    material: brown_stained_glass_pane
+    pos: 2,2
+    display_name: " "
+  fill12:
+    material: brown_stained_glass_pane
+    pos: 2,3
+    display_name: " "
+  fill13:
+    material: brown_stained_glass_pane
+    pos: 2,5
+    display_name: " "
+  fill14:
+    material: brown_stained_glass_pane
+    pos: 2,6
+    display_name: " "
+  back:
+    material: jungle_door
+    pos: 3,0
+    display_name: "{{back}}"
+templates:
+  locked_ability:
+    material: gray_dye
+    display_name: "<color:#dde254>{name}"
+    lore:
+      - "&8Информация"
+      - ""
+      - " <color:#dde254>| <gray>{{description}}:"
+      - text: "{desc}"
+        wrap: true
+        wrap_indent: "  "
+        style: "<white>"
+      - " "
+      - text: " <color:#dde254>| {{unlocked_at}}"
+        styles:
+          1: "<gray>"
+          2: "<color:#dde254>"
+      - " "
+      - "<color:#dde254>▶ Способность заблокирована!"
+  locked_mana_ability:
+    pos: 2,4
+    material: gray_dye
+    display_name: "<#9bea4c>{name}"
+    lore:
+      - "&8Информация"
+      - ""
+      - " <#9bea4c>| <gray>{{description}}:"
+      - text: "{desc}"
+        wrap: true
+        wrap_indent: "   "
+        styles:
+          0: "<white>"
+          1: "<color:#64677E><italic>"
+      - " "
+      - text: " <#9bea4c>| {{unlocked_at}}"
+        styles:
+          1: "<gray>"
+          2: "<#9bea4c>"
+      - " "
+      - "<#9bea4c>▶ Способность закрыта!"
+  unlocked_ability:
+    material: yellow_dye
+    display_name: "<color:#dde254>{name}"
+    lore:
+      - "&8Информация"
+      - ""
+      - component: your_level
+      - component: your_level_maxed
+      - " "
+      - component: unlocked_desc
+      - component: unlocked_desc_maxed
+      - " "
+      - "<color:#dde254>▶ Способность открыта!"
+  unlocked_mana_ability:
+    pos: 2,4
+    material: lime_dye
+    display_name: "<#9bea4c>{name}"
+    lore:
+      - "&8Информация"
+      - ""
+      - component: your_level
+      - component: your_level_maxed
+      - " "
+      - component: unlocked_desc
+      - component: unlocked_desc_maxed
+      - " "
+      - "<#9bea4c>▶ Ability locked!"
+components:
+  your_level:
+    context: AbstractAbility
+    lore:
+      - " <color:#dde254>| <gray>{{your_level}}: <color:#dde254>{level}"
+  your_level_maxed:
+    context: AbstractAbility
+    lore:
+      - " <color:#dde254>| <gray>{{your_level}}: <color:#dde254>{level}"
+  unlocked_desc:
+    context: AbstractAbility
+    lore:
+      - text: " <color:#dde254>| {{next_upgrade_at}}"
+        styles:
+          1: "<gray>"
+          2: "<color:#dde254>"
+      - text: "{desc}"
+        wrap: true
+        wrap_indent: "  "
+        styles:
+          0: "<white>"
+          1: "<color:#64677E><italic>"
+  unlocked_desc_maxed:
+    context: AbstractAbility
+    lore:
+      - " <color:#dde254>| <gray>{{description}}:"
+      - text: "{desc}"
+        wrap: true
+        wrap_indent: "  "
+        styles:
+          0: "<white>"
+          1: "<color:#64677E><italic>"
+formats:
+  desc_upgrade_value: "<dark_gray>{current}→<green>{next}<white>"

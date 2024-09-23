@@ -1,0 +1,102 @@
+menu_title: '&0Набор бриллианта [1/2]'
+open_command: 
+- brillium
+size: 54
+items: 
+  '1':
+    material: stone_sword
+    slot: 11
+    amount: 1
+  '2':
+    material: stone_pickaxe
+    slot: 12
+    amount: 1
+  '3':
+    material: stone_axe
+    slot: 13
+    amount: 1
+  '4':
+    material: stone_shovel
+    slot: 14
+    amount: 1
+  '5':
+    material: stone_hoe
+    slot: 15
+    amount: 1
+
+  '6':
+    material: apple
+    slot: 20
+    amount: 24
+  '7':
+    material: compass
+    slot: 21
+    amount: 1
+  '8':
+    material: leather_helmet
+    slot: 22
+    amount: 1
+  '9':
+    material: chainmail_chestplate
+    slot: 23
+    amount: 1
+  '10':
+    material: leather_leggings
+    slot: 24
+    amount: 1
+
+  '11':
+    material: chainmail_boots
+    slot: 29
+    amount: 1
+  '12':
+    material: lead
+    slot: 30
+    amount: 1
+  '13':
+    material: spyglass
+    slot: 31
+    amount: 1
+  '14':
+    material: map
+    slot: 32
+    amount: 1
+  '15':
+    material: carrot
+    slot: 33
+    amount: 1
+
+
+
+
+  'next':
+    material: ARROW
+    slots:
+    - 50
+    display_name: '&#FBF386&lСледующая страница'
+    lore: 
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfПерейти на следующию'
+    - '  &#cfcfcfстраницу'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[openguimenu] brillium2'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'               
+    
+  'give':
+    material: glow_item_frame
+    slots:
+    - 48
+    display_name: '&a&lПолучить набор'
+    lore: 
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfПолучите ваш начальный'
+    - '  &#cfcfcfнабор для выживания'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[player] cmi kit brillium'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'       

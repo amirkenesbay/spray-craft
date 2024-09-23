@@ -1,0 +1,39 @@
+tasks:
+  walking:
+    type: "walking"
+    distance: 8000
+
+display:
+  name: " &#6D6D6D● &#13FF00Хождение VIII"
+  lore-normal:
+    - "&#6D6D6DКвест доступен"
+    - ""
+    - " &#DFDFDFНачните этот квест"
+    - " &#DFDFDFчтобы получить награды"
+    - ""
+    - " &#FF2525✘ Требования:"
+    - " &#6C6C6C▶ &#DFDFDFПройти x8000 блоков"
+    - ""
+    - " &#6C6C6C| &#DFDFDFНаграды: &#E537FA+1750 опыта уровня"
+  lore-started:
+    - ""
+    - " &#51FF00✔ &#DFDFDFТекущий прогресс"
+    - " &#6C6C6C- &#DFDFDF{walking:progress}&#6C6C6C/&#DFDFDF8000 блоков пройдено"
+  type: "FEATHER"
+
+rewards:
+  - "clv addeXp 1750 {player}"
+
+placeholders:
+  description: ""
+  progress: ""
+
+options:
+  category: "walking"
+  requires:
+    - "walking7"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 8

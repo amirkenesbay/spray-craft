@@ -1,0 +1,35 @@
+id: donate
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 08ae4161-eea8-4f44-8025-47df3db0900d
+world: spawn
+location:
+  x: -48.489625194027234
+  y: 64.0
+  z: -889.4844913926887
+  yaw: -72.07739
+  pitch: -3.6440868
+type: player
+properties:
+  skin_left_leg: 'true'
+  look: CLOSEST_PLAYER
+  skin_cape: 'true'
+  skin_hat: 'true'
+  skin_jacket: 'true'
+  skin: fetching;tippyyyyy
+  skin_left_sleeve: 'true'
+  skin_right_leg: 'true'
+  skin_right_sleeve: 'true'
+  hand: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAD3F0AAdESUFNT05E
+hologram:
+  lines:
+  - '&a&lПРИВИЛЕГИИ'
+  - '&7Поддержка сервера'
+  - ''
+  - '&fПокупайте эксклюзивные привилегии'
+  - '&fдля новых возможностей'
+  - ''
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;ZG9uYXRl;1000;ANY_CLICK;0

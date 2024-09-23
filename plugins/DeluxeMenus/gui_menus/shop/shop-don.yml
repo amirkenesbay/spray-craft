@@ -1,0 +1,59 @@
+menu_title: '&0Торговец'
+size: 26
+open_command:
+- shop1
+- unical
+- магазин
+- torg
+register_command: true
+items:
+  'spawners':
+    material: barrel
+    slots: 
+    - 11
+    display_name: '&#E27267&lРазличные предметы'
+    lore:
+    - '&8Полезное вещи'
+    - ''
+    - ' &8Информация '
+    - '  &#cfcfcfПокупайте различные предметы'
+    - '  &#cfcfcfкоторый помогут вам в выживаний'
+    - ''
+    - '&#52d797▸ Нажмите, чтобы перейти'   
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] premium-items'
+         
+  'money':
+    material: gold_ingot
+    slots: 
+    - 13
+    display_name: '&#F1FB33&lМонеты'
+    lore:
+    - '&8Игровая валюта'
+    - ''
+    - ' &8Информация '
+    - '  &#cfcfcfПокупайте игровую валюту'
+    - '  &#cfcfcfдля дальнейших трат'
+    - ''
+    - '&#52d797▸ Нажмите, чтобы перейти'   
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] money'      
+
+  'eggs':
+    material: allay_spawn_egg
+    slots: 
+    - 15
+    display_name: '&#EF10FB&lСпавнера'
+    lore:
+    - '&8Игровая валюта'
+    - ''
+    - ' &8Информация '
+    - '  &#cfcfcfПокупайте яица различных'
+    - '  &#cfcfcfмобов для выживания'
+    - ''
+    - '&#52d797▸ Нажмите, чтобы перейти'   
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] premium-spawners'          

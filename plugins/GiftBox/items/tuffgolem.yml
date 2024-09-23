@@ -1,0 +1,398 @@
+id-counter: 39
+items:
+  '1':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: BOLT_ARMOR_TRIM_SMITHING_TEMPLATE
+  '2':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: FLOW_ARMOR_TRIM_SMITHING_TEMPLATE
+  '3':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE
+  '4':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND
+      amount: 16
+  '5':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: EMERALD
+      amount: 16
+  '6':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_INGOT
+      amount: 24
+  '7':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 2
+          minecraft:unbreaking: 1
+  '8':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: FURNACE
+      amount: 10
+  '9':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: TNT
+      amount: 16
+  '10':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: CRAFTING_TABLE
+  '11':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: BLAST_FURNACE
+      amount: 6
+  '12':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 1
+          minecraft:unbreaking: 2
+  '13':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: COAL
+      amount: 64
+  '14':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: LAPIS_LAZULI
+      amount: 64
+  '15':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: REDSTONE
+      amount: 64
+  '16':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: QUARTZ
+      amount: 32
+  '17':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GOLD_INGOT
+      amount: 16
+  '18':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: ARROW
+      amount: 64
+  '19':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: OBSIDIAN
+      amount: 24
+  '20':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: ARROW
+      amount: 64
+  '21':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: CHORUS_FRUIT
+      amount: 24
+  '22':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 2
+          minecraft:unbreaking: 1
+  '23':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 2
+          minecraft:unbreaking: 1
+  '24':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: ENCHANTING_TABLE
+  '25':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: CHORUS_FLOWER
+      amount: 6
+  '26':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: END_CRYSTAL
+      amount: 6
+  '27':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: BOOKSHELF
+      amount: 16
+  '28':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"▪ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"ᴏxᴏтʜичьᴇ
+          лᴇзʙиᴇ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#BA98FF","bold":true}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"Опытный охотник V","color":"#A2FF9D"}],"italic":false}'
+        enchants:
+          minecraft:looting: 5
+          minecraft:sharpness: 5
+          minecraft:smite: 5
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+  '29':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SHIELD
+  '30':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: FIREWORK_ROCKET
+      amount: 64
+  '31':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: CHEST
+      amount: 16
+  '32':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: COOKED_PORKCHOP
+      amount: 64
+  '33':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GOLDEN_APPLE
+      amount: 6
+  '34':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPYGLASS
+  '35':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Туннель I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FFDB9D","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Сокровищная добыча III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+        enchants:
+          minecraft:efficiency: 4
+          minecraft:unbreaking: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 2
+          }
+  '36':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 2
+          minecraft:sharpness: 2
+          minecraft:unbreaking: 3
+  '37':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Туннель II","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FFDB9D","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Шахтёр I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A2FF9D","bold":false}]}'
+        enchants:
+          minecraft:efficiency: 5
+          minecraft:unbreaking: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 2
+          }
+  '38':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Взрывные стрелы II","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FFF69D","bold":false}]}'
+        enchants:
+          minecraft:flame: 1
+          minecraft:power: 5
+          minecraft:unbreaking: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+  '39':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Отравление II","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A2FF9D","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Двойной удар I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FFDB9D","bold":false}]}'
+        enchants:
+          minecraft:bane_of_arthropods: 3
+          minecraft:fire_aspect: 2
+          minecraft:looting: 3
+          minecraft:sharpness: 5
+          minecraft:smite: 4
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 2
+          }

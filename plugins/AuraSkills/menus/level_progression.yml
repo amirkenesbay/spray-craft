@@ -1,0 +1,389 @@
+title: '{{level_progression_title}}'
+size: 6
+fill:
+  enabled: true
+  material: brown_stained_glass_pane
+items:
+  fill1:
+    pos: 0,0
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill11111111:
+    pos: 0,1
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill111:
+    pos: 0,3
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill1111:
+    pos: 0,5
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill111111:
+    pos: 0,7
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill2:
+    pos: 0,8
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill3:
+    pos: 0,2
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill4:
+    pos: 0,4
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill5:
+    pos: 0,6
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill6:
+    pos: 5,1
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill7:
+    pos: 5,2
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill8:
+    pos: 5,3
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill9:
+    pos: 5,4
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill10:
+    pos: 5,5
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill11:
+    pos: 5,6
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill12:
+    pos: 5,7
+    material: black_stained_glass_pane
+    display_name: ' '
+  rank:
+    pos: 0,2
+    material: brewing_stand
+    display_name: <color:#ccc016>{{your_ranking}}
+    lore:
+    - '&8Информация'
+    - ''
+    - text: В меню рейтингов отображаются игроки с самым высоким уровнем.
+      wrap: true
+      style: <white>
+    - ''
+    - text: ' <color:#ccc016>| <gray>Ваша позиция: {{rank_out_of}} {{rank_percent}}'
+      styles:
+        1: <color:#ccc016>
+    - ' '
+    - <color:#ccc016>{{leaderboard_click}}
+  back:
+    pos: 5,0
+    material: jungle_door
+    display_name: '{{back}}'
+  close:
+    pos: 5,8
+    material: barrier
+    display_name: <red>{{close}}
+  next_page:
+    pos: 5,6
+    material: lime_bed
+    display_name: <gold>{{next_page}}
+  previous_page:
+    pos: 5,2
+    material: red_bed
+    display_name: '{{previous_page}}'
+  sources:
+    pos: 0,4
+    material: experience_bottle
+    display_name: <color:#20ff14>{{sources}}
+    lore:
+    - '&8Информация'
+    - ''
+    - text: '{{sources_desc}}'
+      wrap: true
+      style: <white>
+    - ' '
+    - <color:#20ff14>{{sources_click}}
+  abilities:
+    pos: 0,6
+    material: book
+    display_name: <color:#cd57ff>{{abilities}}
+    lore:
+    - '&8Информация'
+    - ''
+    - text: '{{abilities_desc}} {{mana_abilities_desc}}'
+      wrap: true
+      style: <white>
+    - ' '
+    - <color:#cd57ff>{{abilities_click}}
+  job:
+    pos: 0,4
+    material: gold_ingot
+    display_name: <yellow>{{job}}
+    lore:
+    - text: '{{job_desc}}'
+      wrap: true
+      style: <gray>
+    - ' '
+    - component: job_select
+    - component: job_active
+    - component: job_limit
+templates:
+  skill:
+    pos: 5,4
+    contexts:
+      farming:
+        material: wheat
+        flags:
+        - hide_attributes
+      foraging:
+        material: oak_log
+        flags:
+        - hide_attributes
+      mining:
+        material: diamond_ore
+        flags:
+        - hide_attributes
+      fishing:
+        material: salmon
+      excavation:
+        material: grass_block
+        flags:
+        - hide_attributes
+      archery:
+        material: bow
+      defense:
+        material: golden_chestplate
+        flags:
+        - hide_attributes
+      fighting:
+        material: iron_sword
+        flags:
+        - hide_attributes
+      endurance:
+        material: golden_apple
+      agility:
+        material: leather_boots
+        flags:
+        - hide_attributes
+      alchemy:
+        material: brewing_stand
+      enchanting:
+        material: enchanting_table
+      sorcery:
+        material: blaze_powder
+      healing:
+        material: splash_potion
+        potion_data:
+          type: instant_heal
+        flags:
+        - hide_potion_effects
+      forging:
+        material: anvil
+    display_name: <color:#dde254>{skill} {level}
+    lore:
+    - '&8Информация'
+    - ' '
+    - text: '{desc}'
+      wrap: true
+      style: <white>
+    - component: stats_leveled
+    - component: ability_levels
+    - component: mana_ability_info
+    - ' '
+  unlocked:
+    material: lime_dye
+    display_name: <color:#87cc21>{{level}} {level}
+    lore:
+    - '&8Информация'
+    - ''
+    - ' <color:#87cc21>| <gray>{{rewards}}: '
+    - component: rewards
+    - |2-
+
+       <color:#87cc21>| <gray>Преимущества:
+    - component: ability_unlock
+    - component: ability_level
+    - component: mana_ability_unlock
+    - component: mana_ability_level
+    - ' '
+    - <color:#87cc21>{{unlocked}}
+  in_progress:
+    material: orange_dye
+    display_name: <color:#cc832f>{{level}} {level}
+    lore:
+    - '&8Информация'
+    - ''
+    - ' <color:#cc832f>| <gray>Прогресс: <color:#cc832f>{current_xp}/{level_xp} {xp_unit}'
+    - ''
+    - ' <color:#cc832f>| <gray>{{rewards}}: '
+    - component: rewards
+    - |2-
+
+       <color:#cc832f>| <gray>Преимущества:
+    - component: ability_unlock
+    - component: ability_level
+    - component: mana_ability_unlock
+    - component: mana_ability_level
+    - ' '
+    - <color:#cc832f>{{in_progress}}
+  locked:
+    material: gray_dye
+    display_name: <color:#adc6cc>{{level}} {level}
+    lore:
+    - '&8Информация'
+    - ''
+    - ' <color:#adc6cc>| <gray>{{rewards}}: '
+    - component: rewards
+    - |2-
+
+       <color:#adc6cc>| <gray>Преимущества:
+    - component: ability_unlock
+    - component: ability_level
+    - component: mana_ability_unlock
+    - component: mana_ability_level
+    - ' '
+    - <color:#adc6cc>{{locked}}
+components:
+  stats_leveled:
+    context: Skill
+    lore:
+    - ' '
+    - ' <color:#dde254>| <gray>{{stats_leveled}}: {entries[<white>]}'
+  ability_levels:
+    context: Skill
+    lore:
+    - ' '
+    - ' <color:#dde254>| <gray>{{ability_levels}}: {entries[]}'
+  mana_ability_info:
+    context: Skill
+    lore:
+    - '    &8• <#9bea4c>{name} {level}'
+  progress:
+    context: Skill
+    lore:
+    - '<gray>{{progress_to_level}} {next_level}: <yellow>{percent}%'
+    - '{bar}'
+    - <gray>{current_xp}/{level_xp} {xp_unit}
+  max_level:
+    context: Skill
+    lore:
+    - |2-
+
+      <color:#e22938><bold>{{max_level}}
+  rewards:
+    context: Integer
+    lore:
+    - '{entries[]}'
+  ability_unlock:
+    context: Integer
+    lore:
+    - '    &8• <color:#dde254>{name} <green>{{ability_unlock}}'
+    - text: '{desc}'
+      wrap: true
+      wrap_indent: '  '
+      style: <white>
+  ability_level:
+    context: Integer
+    lore:
+    - '    &8• <color:#dde254>{name} {level}'
+    - text: '{desc}'
+      wrap: true
+      wrap_indent: '   '
+      style: <white>
+  mana_ability_unlock:
+    context: Integer
+    lore:
+    - ' '
+    - '    &8• <#9bea4c>{name} <green>{{mana_ability_unlock}}'
+    - text: '{desc}'
+      wrap: true
+      wrap_indent: '  '
+      styles:
+        0: <white>
+        1: <color:#64677E><italic>
+  mana_ability_level:
+    context: Integer
+    lore:
+    - ' '
+    - '    &8• <#9bea4c>{name} {level}'
+    - text: '{desc}'
+      wrap: true
+      wrap_indent: '   '
+      styles:
+        0: <white>
+        1: <color:#64677E><italic>
+  job_select:
+    lore:
+    - <yellow>{{job_select}}
+  job_active:
+    lore:
+    - <dark_gray>▶ <green>{{job_active}}
+    - ' '
+    - <gray>{{job_quit}}
+  job_limit:
+    lore:
+    - text: '{{job_limit}}'
+      wrap: true
+      style: <red>
+formats:
+  stat_leveled_entry: |2-
+
+        &8• <color:#dde254>{stat}
+  unlocked_ability_entry: |2-
+
+        &8• <color:#dde254>{name} {level}
+  locked_ability_entry: |2-
+
+        &8• <color:#64677E><strikethrough>{name}
+  duration_entry: '<gray>{{duration}}: <green>{duration}s '
+  mana_cost_entry: '<gray>{{mana_cost}}: <aqua>{mana_cost} '
+  cooldown_entry: '<gray>{{cooldown}}: <yellow>{cooldown}s '
+  damage_entry: '<gray>{{damage}}: <red>{value} '
+  damage_per_mana_entry: '<gray>{{damage}}: <red>+{value}% / Mana '
+  max_mana_cost_entry: '<gray>{{max_mana_cost}}: <aqua>{mana_cost} '
+  attack_speed_entry: '<gray>{{attack_speed}}: <red>+{value}% '
+  stat_reward_entry: |2
+        &8• {color}+{num} {stat} {symbol}
+  money_reward_entry: |2-
+
+        &8• <green>${amount}
+options:
+  use_level_as_amount: false
+  over_max_stack_amount: 1
+  items_per_page: 24
+  start_level: 2
+  track:
+  - 9
+  - 18
+  - 27
+  - 36
+  - 37
+  - 38
+  - 29
+  - 20
+  - 11
+  - 12
+  - 13
+  - 22
+  - 31
+  - 40
+  - 41
+  - 42
+  - 33
+  - 24
+  - 15
+  - 16
+  - 17
+  - 26
+  - 35
+  - 44
+file_version: 1

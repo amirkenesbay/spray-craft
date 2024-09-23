@@ -1,0 +1,241 @@
+# Use %p% to insert the plugins prefix.
+# All messages support HEX color codes on 1.16+. Format: {#FFFFFF}
+# Almost all messages support PlaceholderAPI.
+prefix: '&7[&9AdvancedEnchantments&7]&r '
+
+effects:
+  steal-money: '&f→{#e55039} &6%attacker% {#e55039}украл &6%amount% {#e55039}у &6%victim%&7!'
+  used: '&fUsed &r%enchant-color% %level%'
+
+commands:
+  no-permission: '&f→{#e55039} У вас нет прав на это!'
+  offline-player: '&f→{#e55039} Этот игрок не онлайн!'
+  enchantment-not-found: '&f→{#e55039} Зачарование &n%enchant%  не найдено.'
+  invalid-amount: '&f→{#e55039} Неверное количество. Должно быть от 1 до 64.'
+  invalid-enchant: '&f→{#e55039} %enchant% не является допустимым зачарованием!'
+  invalid-level: '&f→{#e55039} Неверный уровень зачарования! Попробуйте использовать:
+    %levels%'
+  invalid-usage: '&f→{#e55039} Неверное использование: %usage%'
+  not-a-number: '&f→{#e55039} %number% не является числом!'
+  not-holding-item: '&f→{#e55039} Вы должны держать предмет!'
+  enchantment-info:
+    invalid-usage: '&f→{#e55039} Неверное использование! Правильное использование:
+      %command% <зачарование>'
+    open-menu-message: '&7Информация о зачаровании &e%enchant%.'
+  enchants:
+    open-menu-message: '&7Показан список всех зачарований...'
+  apply:
+    cooldown: '&f→{#e55039} Вы сможете использовать эту команду через %seconds% секунд.'
+    no-args: '&f→{#e55039} Пожалуйста, укажите игрока, на которого это должно повлиять.'
+    reapplied: '&f→{#00d52a} Ваши доспехи были повторно применены.'
+    reapplied-other: '&f→{#00d52a} Доспехи были повторно применены для %player%.'
+    reapplied-for-all: '&f→{#00d52a} Доспехи были повторно применены для всех!'
+  withdrawsouls:
+    invalid-usage: '&f→{#e55039} Использование: /withdrawsouls <количество>'
+    less-than-one: '&f→{#e55039} Количество должно быть положительным.'
+    invalid-item: '&f→{#e55039} Неверный предмет.'
+  aegive:
+    invalid-material: '&f→{#e55039} Неверный материал. Пожалуйста, посмотрите файл
+      ''materials.yml'' для всех допустимых материалов.'
+    invalid-item-flag: '&f→{#e55039} Неверный ItemFlag! Вы можете выбрать из следующих:
+      %itemflags%'
+    invalid-enchantment: '&f→{#e55039} Неверное зачарование!'
+    success: '&f→{#00d52a} Передано &2%amount%x %material% игроку %player%!'
+  gedit:
+    unknown-gkit: '&f→{#e55039} %gkit% не является допустимым GKit!'
+    edit:
+      invalid-usage: '&f→{#e55039} Использование: /gedit edit <gkit>'
+    set-permission:
+      invalid-usage: '&f→{#e55039} Использование: /gedit setpermission <gkit> <perm>'
+      success: '&eИзменено разрешение для набора &6%gkit%&e на &6%permission%'
+    reset:
+      invalid-usage: '&f→{#e55039} Использование: /gedit reset <gkit> <player>'
+      success: '&6%gkit% &6gkit был сброшен для игрока &e%player%'
+    list: '&eGKits: &6%gkits%'
+    setdelay:
+      invalid-usage: '&f→{#e55039} Использование: /gedit setdelay <gkit> <задержка
+        (в секундах)>'
+      invalid-delay: '&f→{#e55039} %delay% не является допустимым целым числом!'
+      success: '&eИзменена задержка набора &6%gkit%&e на &6%delay%'
+  main:
+    unknown-command: '&f→{#e55039} Неверное использование команды! Введите "/ae" для
+      правильного использования.'
+    setsouls:
+      invalid-usage: '&f→{#e55039} Неверное использование: /ae setsouls <количество>'
+      invalid-item: '&f→{#e55039} Неверный предмет.'
+      success: '&f→{#e55039} Установлено количество душ предмета: %amount%'
+    unenchant:
+      invalid-usage: '&f→{#e55039} Неверное использование: /ae unenchant <зачарование>'
+      invalid-enchant: '&f→{#e55039} %enchant% не является допустимым зачарованием!'
+      not-holding-item: '&f→{#e55039} Вы должны держать предмет!'
+      does-not-have-enchant: '&f→{#e55039} Этот предмет не имеет &4%enchant%!'
+      success: '&f→{#00d52a} Зачарование %enchant% удалено!'
+    zip:
+      zip-exists: '&f→{#e55039} Попробуйте снова.'
+      success: '&eАрхив, содержащий все данные плагина, был создан по пути %path%.'
+      error: '&f→{#e55039} Произошла ошибка при архивировании файлов! Проверьте консоль
+        для получения дополнительной информации.'
+    greset:
+      reset: '&f→{#00d52a} Сбросил набор %gkit% для %player%!'
+      reset-all: '&f→{#00d52a} Сбросил все GKits для %player%!'
+    claim:
+      invalid-usage: '&f→{#e55039} Пожалуйста, введите токен зачарования.'
+    givegkit:
+      success: '&f→{#e55039} Набор %gkit% был передан игроку %player%'
+    giverandombook:
+      success: '&f→{#00d52a} Передано &2%player% %amount%x книг %group%!'
+    givebook:
+      success: '&f→{#00d52a} Передано &2%player% %amount%x книг %enchant% %level%!'
+    enchant:
+      added: '&f→{#00d52a} Добавлено зачарование %enchant%!'
+      upgraded: '&2Улучшено зачарование %enchant% с уровня %previous-level% до %level%.'
+      downgraded: '&2Понижено зачарование %enchant% с уровня %previous-level% до %level%.'
+      removed: '&f→{#e55039} Зачарование %enchant% удалено с предмета.'
+    giveitem:
+      success: '&f→{#00d52a} Добавлено &a%amount%x &f%item%{#00d52a} для игрока &b%player%'
+    givercbook:
+      success: '&f→{#00d52a} Передано &2%player% %amount%x книг на правый клик из
+        %group%!'
+    give:
+      success: '&f→{#00d52a} Успешно передано %player% одна книга %enchant% %level%!'
+    tinkereritem:
+      success: '&f→{#e55039} Передано x%amount% предметов тинкера игроку %player%'
+    admin:
+      invalid-page: '&f→{#e55039} Неверная страница'
+    info:
+    - '&eИнформация о зачаровании &6%enchant% &eenchantment&7:'
+    - '&6Описание&7: &e%description%'
+    - '&6Применяется к&7: &e%applies%'
+    - '&6Максимальный уровень&7: &e%max-level%'
+    
+    pastetypes: '&f→{#00d52a} Список типов зачарований: %url%'
+    pasteenchants: '&f→{#00d52a} Список зачарований: %url%'
+    open: '&f→{#00d52a} Открыто %menu% для %player%!'
+
+token:
+  success: '&2&lx &f→{#00d52a} Токен &l%token%{#00d52a} успешно загружен, перезагрузка...'
+
+interact:
+  main-hand-only: '&f→{#e55039} Вы можете сделать это только в основной руке!'
+
+enchanter:
+  re-buy: '&f→{#e55039} Пожалуйста, повторно купите предмет у зачарователя.'
+  disabled-in-world: '&f→{#e55039} Зачарователь отключен в этом мире.'
+  full-inventory: '&f→{#e55039} Ваш инвентарь полон!'
+  examine-book: '&f→{#00d52a} Вы изучили книгу &f%group-name%{#00d52a} и нашли зачарование
+    %enchant-color% %level%'
+  unknown-payment-method: '&f→{#e55039} Не удалось проверить метод оплаты %paymentType%,
+    пожалуйста, свяжитесь с администратором.'
+  successful-purchase: '&f→{#00d52a} Покупка успешна!'
+  cannot-afford:
+  - '&f→{#e55039} У вас недостаточно EXP для покупки этого.'
+  - '{#e55039}Ваш текущий XP: &f%exp%'
+
+tinkerer:
+  trade-accepted: '&f→{#00d52a} Обмен принят!'
+  non-tradeable-item:
+  - '&f→{#e55039} Серверный Тинкерер не хочет этот предмет!'
+  - '{#e55039}Он примет только кастомные зачарованные предметы'
+
+alchemist:
+  doesnt-accept: '&f→{#e55039} Алхимик не принимает этот предмет!'
+  trade-cancelled: '&f→{#e55039} Обмен отменен.'
+  cannot-afford: '&f→{#e55039} Вы не можете позволить себе эту сделку!'
+  exceeds-max-level: '&f→{#e55039} Ваш комбинированный уровень превышает максимальный
+    уровень зачарования!'
+
+gkits:
+  no-permission: '&f→{#e55039} У вас нет прав на использование &e%gkit%&6 набора.'
+  cooldown: '&f→{#e55039} Вы не можете использовать этот набор еще, набор &6%gkit%&e
+    на перезарядке &7(%cooldown%)'
+  used-kit: '&f→{#00d52a} Вы использовали набор &6%gkit%.'
+  missing-permission: '&f→{#e55039} Разрешение на Gkit %gkit% недействительно или
+    не существует'
+  unknown-gkit: '&f→{#e55039} GKit %gkit% не существует!'
+  unknown-enchant: '&f→{#e55039} Зачарование %enchant% не может быть разрешено.'
+
+heroic:
+  cannot-apply: '&f→{#e55039} Вы не можете применить улучшение кристалла к этому предмету.'
+  upgrade-failed: '&f→{#e55039} Улучшение кристалла &nне удалось{#e55039}!'
+
+orbs:
+  cannot-apply: '&f→{#e55039} Нельзя применить орб к этому предмету!'
+  failed: '&f→{#e55039} Применение орба не удалось!'
+  incompatible: '&f→{#e55039} Нельзя применить орб с меньшим количеством слотов, чем
+    доступные слоты!'
+
+sets:
+  commands:
+    unknown-command: '&f→{#e55039} Команда не найдена! Введите "/asets", чтобы увидеть
+      список всех доступных команд.'
+    invalid-usage: '&f→{#e55039} Неправильное использование! Пожалуйста, обратитесь
+      к /asets для правильного использования.'
+    invalid-set: '&f→{#e55039} Набор недействителен.'
+    invalid-set-piece: "&f→{#e55039} Недействительная часть набора, вы можете испо\
+      льзовать одну из этих: \n%set pieces%"
+    invalid-weapon: '&f→{#e55039} Недействительное оружие.'
+    offline-player: '&f→{#e55039} Игрок не в сети.'
+    invalid-chances: '&f→{#e55039} Недействительные шансы.'
+    list:
+      header: '&eСписок всех доступных наборов &7[%size%]'
+      set: ' &8>> &f%set%'
+    listweapons:
+      header: '&eСписок всех доступных видов оружия &7[%size%]'
+      weapon: ' &8>> &f%weapon%'
+    give:
+      success: '&f→{#00d52a} Выдан &f%set% &eНабор игроку &f %player%'
+    givepiece:
+      success: '&f→{#00d52a} Выдана &f%piece% &eиз &f%set% &eигроку &f %player%'
+    weapon:
+      success: '&f→{#00d52a} Выдано &f%weapon% &eоружие игроку &f %player%'
+
+items:
+  randomization-scroll:
+    cannot-apply: '&f→{#e55039} Вы не можете применить рандомайзер к этому!'
+    single-items-only: '&f→{#e55039} Вы можете использовать это только на отдельных
+      предметах!'
+  black-scroll:
+    full-inventory: '&f→{#e55039} Ваш инвентарь полон!'
+    no-enchants: '&f→{#e55039} У этого предмета нет зачарований!'
+    invalid-enchant: '&f→{#e55039} Невозможно удалить зачарование, так как оно недействительно!'
+    cannot-remove: '&f→{#e55039} Зачарование %enchant% нельзя удалить!'
+  soul-tracker:
+    disabled: '&f→{#e55039} Отслеживание душ отключено на этом сервере!'
+    apply-successful: '&7Вы успешно применили &f&lSoul Tracker &7к вашему предмету!'
+  magic-dust:
+    full-inventory: '&f→{#e55039} Ваш инвентарь полон!'
+    single-items-only: '&f→{#e55039} Вы можете использовать это только на отдельных
+      предметах!'
+  white-scroll:
+    full-inventory: '&f→{#e55039} Ваш инвентарь полон!'
+    apply-successful: '&f→{#00d52a} Белый свиток был применен к вашему предмету!'
+    item-saved: '&f→{#00d52a} Белый свиток спас предмет!'
+
+combining:
+  already-max-level: '&f→{#e55039} Это зачарование уже на максимальном уровне!'
+  success: '&f→{#00d52a} Успешно! &7%enchant% теперь уровня %level%!'
+  failure: '&f→{#e55039} Объединение не удалось!'
+  something-went-wrong: '&f→{#e55039} Что-то пошло не так при объединении.'
+
+enchant-limitations:
+  cannot-be-modified: '&f→{#e55039} Этот предмет нельзя изменить!'
+
+applying:
+  not-applicable-with: '&f→{#e55039} Зачарование &4%enchant1% {#e55039} не может быть
+    применено вместе с зачарованием &4%enchant2%&7 {#e55039}!'
+  requires-enchant: '&f→{#e55039} Зачарование &4%enchant1% {#e55039} требует наличия
+    зачарования &4%enchant2%&7 {#e55039}!'
+  already-applied: '&f→{#e55039} Этот предмет уже имеет это зачарование.'
+  applied: '&f→{#00d52a} Зачарование было применено к вашему предмету.'
+  max-level: '&f→{#e55039} Это зачарование уже на максимальном уровне!'
+  wrong-material: '&f→{#e55039} Это зачарование не может быть применено к этому предмету.'
+
+slots:
+  limit-reached: '&f→{#e55039} Вы не можете применить это зачарование! Нет свободных
+    слотов.'
+
+chances:
+  book-failed: '&f→{#e55039} Ваша книга не сработала, но предмет не был уничтожен!'
+
+destroy:
+  book-failed: '&f→{#e55039} Зачарование не удалось!'

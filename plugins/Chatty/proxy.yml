@@ -1,0 +1,39 @@
+################################################################
+#
+#    Chatty (version 3.0.0-SNAPSHOT)
+#    Author: Brikster
+#
+################################################################
+
+# Enable support for cross-server messaging?
+# This feature supports any proxy (BungeeCord, Velocity), 
+# including multi-proxy networks.
+# You need to setup Redis and shared database to use it.
+
+# Note: relational placeholders will not be parsed for cross-server messages.
+# Some placeholders of message target (in PM) also may not work (if plugin doesn't support
+# placeholders for offline players)
+enable: false
+
+# Basic Redis configuration.
+redis-config:
+  address: redis://localhost:6379
+  username: ''
+  password: ''
+
+# Enable external Redis configuration for advanced setup.
+# File with name "redis_config.json" will be created.
+# See "Redisson" library documentation for details
+use-external-redis-config: false
+
+# Shared database configuration
+# (database should be the same for every server).
+# Possible types: POSTGRESQL, MYSQL.
+# Default port for PostgreSQL: 5432, for MySQL: 3306
+database-config:
+  type: MYSQL
+  hostname: localhost
+  port: 3306
+  database: app
+  username: app
+  password: '12345'

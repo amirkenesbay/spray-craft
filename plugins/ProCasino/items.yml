@@ -1,0 +1,126 @@
+items:
+  fill-empty-slots: # Заполнение пустых слотов серым стеклом
+    material: GRAY_STAINED_GLASS_PANE
+    amount: 1
+    custom-model-data: 0
+    displayname: "&f"
+    lore: []
+
+  roulette: # Настройки рулетки
+    column-1: # Первая колонка
+      material: CYAN_STAINED_GLASS_PANE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&eКолонка 1"
+      lore:
+        - "&7Шанс увеличить ставку в &a%multiplier%\u00D7 &7раз."
+        - ""
+        - "&eНажмите, чтобы сделать ставку"
+    column-2: # Вторая колонка
+      material: YELLOW_STAINED_GLASS_PANE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&eКолонка 2"
+      lore:
+        - "&7Шанс увеличить ставку в &a%multiplier%\u00D7 &7раз."
+        - ""
+        - "&eНажмите, чтобы сделать ставку"
+    column-3: # Третья колонка
+      material: MAGENTA_STAINED_GLASS_PANE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&eКолонка 3"
+      lore:
+        - "&7Шанс увеличить ставку в &a%multiplier%\u00D7 &7раз."
+        - ""
+        - "&eНажмите, чтобы сделать ставку"
+    green-color: # Зеленый цвет
+      material: LIME_CONCRETE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&aЗеленый"
+      lore:
+        - "&7Шанс увеличить ставку в &a%multiplier%\u00D7 &7раз."
+        - ""
+        - "&eНажмите, чтобы сделать ставку"
+    red-color: # Красный цвет
+      material: RED_CONCRETE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&cКрасный"
+      lore:
+        - "&7Шанс увеличить ставку в &a%multiplier%\u00D7 &7раз."
+        - ""
+        - "&eНажмите, чтобы сделать ставку"
+    black-color: # Черный цвет
+      material: BLACK_CONCRETE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&8Черный"
+      lore:
+        - "&7Шанс увеличить ставку в &a%multiplier%\u00D7 &7раз."
+        - ""
+        - "&eНажмите, чтобы сделать ставку"
+    red-number: # Красный номер
+      material: RED_CONCRETE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&e%number%"
+      lore:
+        - "&7Шанс увеличить ставку в &a%multiplier%\u00D7 &7раз."
+        - ""
+        - "&eНажмите, чтобы сделать ставку"
+    black-number: # Черный номер
+      material: BLACK_CONCRETE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&e%number%"
+      lore:
+        - "&7Шанс увеличить ставку в &a%multiplier%\u00D7 &7раз."
+        - ""
+        - "&eНажмите, чтобы сделать ставку"
+    statistics: # Статистика игрока
+      material: BOOK
+      amount: 1
+      slot: 53
+      custom-model-data: 0
+      displayname: "&aВаша статистика"
+      lore:
+        - ""
+        - "&7Всего ставок: &e%bets%"
+        - "&7Выигрышей: &e%wins%"
+        - "&7Проигрышей: &e%losses%"
+        - "&7Потрачено: &e%spent% монет"
+        - "&7Профит: &e%profit% монет"
+        - "&7Потеряно: &e%lost% монет"
+
+  age-confirmation: # Подтверждение возраста
+    information: # Информация
+      material: PAPER
+      amount: 1
+      slot: 13
+      custom-model-data: 0
+      displayname: "&aПодтверждение возраста"
+      lore:
+        - ""
+        - "&eМы требуем, чтобы пользователи были"
+        - "&eсовершеннолетними для участия в игре."
+        - "&eПожалуйста, подтвердите ваш возраст."
+    accept: # Подтвердить
+      material: LIME_CONCRETE
+      amount: 1
+      slot: 15
+      custom-model-data: 0
+      displayname: "§aПодтвердить"
+      lore:
+        - ""
+        - "&eНажмите здесь, чтобы подтвердить!"
+    deny: # Отменить
+      material: RED_CONCRETE
+      amount: 1
+      slot: 11
+      custom-model-data: 0
+      displayname: "§cОтменить"
+      lore:
+        - ""
+        - "&eНажмите здесь, чтобы отменить!"

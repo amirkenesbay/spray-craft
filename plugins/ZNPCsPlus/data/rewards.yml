@@ -1,0 +1,34 @@
+id: rewards
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 97b2691b-b69b-47dc-9471-5f4dfcf9dfe9
+world: spawn
+location:
+  x: -74.52032388378088
+  y: 61.0
+  z: -889.5045112674298
+  yaw: -69.10071
+  pitch: -5.454713
+type: player
+properties:
+  skin_left_leg: 'true'
+  look: CLOSEST_PLAYER
+  skin_cape: 'true'
+  skin_hat: 'true'
+  skin_jacket: 'true'
+  skin: prefetched;textures;ewogICJ0aW1lc3RhbXAiIDogMTY4NjUzMTY5NjQ2MiwKICAicHJvZmlsZUlkIiA6ICJmNzk3Zjg5ZGVkMjM0YTE4YjAxOGQ2ZmZhMDQ2MGJmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbHBhY2FMZWU2MjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTkxZTliMmVhNmU2MzE3ZDRjNTNjMzcyZTc5ZjI5OGZmNTkxODBjNDdkZTE1NzE2NGMwMGJkMWMxNDNiZDE4MCIKICAgIH0KICB9Cn0=;eWPrfyt9M4sTUx7iC4bZeoVGV/1LSsr7yhEKemrWH3ptRFSgcdPOnoburpsblPtX+AAkolydCQO4YFrDZBa3nNwNBXepzCXVk4T2rpmg/mw/0Hwq1OnPRQuTzvWBiTwpTeaMnWgbvN6quoC9vZNeAUmfwJVxByjQE592GA23VheYZiBMh8PYSKzJyyeNjRmZVVp/woMEBOB7OOSmsLyvZNryKmB/YbjYd8p4aOa+O6MG6EcwbisGU5EXY0V64hYdn6RErik0xpTqlxgpqyfBtkU9YqEGr9ZfLoC7SiaDSQ8CStEEEoRZIYBTvhw6UyUMkY+O8CtHAa0gn9kWporN9dO06eLfJb8f29XmqQSa+CxOc7n0Q84hjq87qLdajukqJ2NedbIT40ZMBOxcy/LxDnC4SeHmRtKCN1ftqDZb/Od/zlWsi3efps7A7nEngI5kXVCdJ0hirspsenGdbuXjauhVdwT3otj1lJaet0xJ0Zh6gJt+7EORFJzpPgo94P1q81PaH9JONPu0PZ0t76bt9SuKy5hBXN+D5CEDTZ3m/v4b2NAjlu57Nf4hLK930qlnTfsgDdj2Ml/FYs8VjFLrWDSy51RFXmCFcrJqx6phCn0qcm2M7axg4c9lbQuNViYeiQwZxxMUDpGnIrgZQ1y+sYoXqo1WYCP8GE3knZh40Z0=;
+  skin_left_sleeve: 'true'
+  skin_right_leg: 'true'
+  skin_right_sleeve: 'true'
+hologram:
+  lines:
+  - '&a&lЕЖЕДНЕВНЫЕ НАГРАДЫ'
+  - '&7Заходи каждый день'
+  - ''
+  - '&fЗаходи каждый день'
+  - '&fи забирай награды'
+  - ''
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;cmV3YXJkcw==;1000;ANY_CLICK;0

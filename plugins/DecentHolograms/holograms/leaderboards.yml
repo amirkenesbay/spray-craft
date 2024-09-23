@@ -1,0 +1,114 @@
+location: spawn:-39,492:68,112:-865,935
+enabled: true
+display-range: 30
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#FBA67C>&lТОП ПО ВРЕМЕНИ
+    height: 0.3
+  - content: <#EBEBEB>Обновление топа каждые 5 минут
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: <#FBA67C>➊ &f%ajlb_lb_statistic_time_played_1_alltime_prefix% &f%ajlb_lb_statistic_time_played_1_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_1_alltime_value% ⌚
+    height: 0.3
+  - content: <#FBA67C>➋ &f%ajlb_lb_statistic_time_played_2_alltime_prefix% &f%ajlb_lb_statistic_time_played_2_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_2_alltime_value% ⌚
+    height: 0.3
+  - content: <#FBA67C>➌ &f%ajlb_lb_statistic_time_played_3_alltime_prefix% &f%ajlb_lb_statistic_time_played_3_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_3_alltime_value% ⌚
+    height: 0.3
+  - content: <#FBA67C>➍ &f%ajlb_lb_statistic_time_played_4_alltime_prefix% &f%ajlb_lb_statistic_time_played_4_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_4_alltime_value% ⌚
+    height: 0.3
+  - content: <#FBA67C>➎ &f%ajlb_lb_statistic_time_played_5_alltime_prefix% &f%ajlb_lb_statistic_time_played_5_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_5_alltime_value% ⌚
+    height: 0.3
+  - content: <#FBA67C>➏ &f%ajlb_lb_statistic_time_played_6_alltime_prefix% &f%ajlb_lb_statistic_time_played_6_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_6_alltime_value% ⌚
+    height: 0.3
+  - content: <#FBA67C>➐ &f%ajlb_lb_statistic_time_played_7_alltime_prefix% &f%ajlb_lb_statistic_time_played_7_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_7_alltime_value% ⌚
+    height: 0.3
+  - content: <#FBA67C>➑ &f%ajlb_lb_statistic_time_played_8_alltime_prefix% &f%ajlb_lb_statistic_time_played_8_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_8_alltime_value% ⌚
+    height: 0.3
+  - content: <#FBA67C>➒ &f%ajlb_lb_statistic_time_played_9_alltime_prefix% &f%ajlb_lb_statistic_time_played_9_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_9_alltime_value% ⌚
+    height: 0.3
+  - content: <#FBA67C>➓ &f%ajlb_lb_statistic_time_played_10_alltime_prefix% &f%ajlb_lb_statistic_time_played_10_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_10_alltime_value% ⌚
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: <#FBA67C>#%ajlb_position_statistic_time_played_alltime% &f%luckperms_prefix% &f%player_name%
+      &#6C6C6C- <#FBA67C>%ajlb_value_statistic_time_played_alltime% ⌚
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fНажмите, чтобы изменить'
+    height: 0.3
+  actions:
+    LEFT:
+    - NEXT_PAGE
+    - SOUND:UI_STONECUTTER_SELECT_RECIPE
+    RIGHT:
+    - NEXT_PAGE
+    - SOUND:UI_STONECUTTER_SELECT_RECIPE
+- lines:
+  - content: <#DAFB3B>&lТОП ПО МОНЕТАМ
+    height: 0.3
+  - content: <#EBEBEB>Обновление топа каждые 5 минут
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: <#FFDC00>➊ &f%ajlb_lb_cmi_user_balance_formatted_1_alltime_prefix% &f%ajlb_lb_cmi_user_balance_formatted_1_alltime_name%
+      &8- <#FFDC00>%ajlb_lb_cmi_user_balance_formatted_1_alltime_value% ⛁
+    height: 0.3
+  - content: <#FFDC00>➋ &f%ajlb_lb_cmi_user_balance_formatted_2_alltime_prefix% &f%ajlb_lb_cmi_user_balance_formatted_2_alltime_name%
+      &8- <#FFDC00>%ajlb_lb_cmi_user_balance_formatted_2_alltime_value% ⛁
+    height: 0.3
+  - content: <#FFDC00>➌ &f%ajlb_lb_cmi_user_balance_formatted_3_alltime_prefix% &f%ajlb_lb_cmi_user_balance_formatted_3_alltime_name%
+      &8- <#FFDC00>%ajlb_lb_cmi_user_balance_formatted_3_alltime_value% ⛁
+    height: 0.3
+  - content: <#FFDC00>➍ &f%ajlb_lb_cmi_user_balance_formatted_4_alltime_prefix% &f%ajlb_lb_cmi_user_balance_formatted_4_alltime_name%
+      &8- <#FFDC00>%ajlb_lb_cmi_user_balance_formatted_4_alltime_value% ⛁
+    height: 0.3
+  - content: <#FFDC00>➎ &f%ajlb_lb_cmi_user_balance_formatted_5_alltime_prefix% &f%ajlb_lb_cmi_user_balance_formatted_5_alltime_name%
+      &8- <#FFDC00>%ajlb_lb_cmi_user_balance_formatted_5_alltime_value% ⛁
+    height: 0.3
+  - content: <#FFDC00>➏ &f%ajlb_lb_cmi_user_balance_formatted_6_alltime_prefix% &f%ajlb_lb_cmi_user_balance_formatted_6_alltime_name%
+      &8- <#FFDC00>%ajlb_lb_cmi_user_balance_formatted_6_alltime_value% ⛁
+    height: 0.3
+  - content: <#FFDC00>➐ &f%ajlb_lb_cmi_user_balance_formatted_7_alltime_prefix% &f%ajlb_lb_cmi_user_balance_formatted_7_alltime_name%
+      &8- <#FFDC00>%ajlb_lb_cmi_user_balance_formatted_7_alltime_value% ⛁
+    height: 0.3
+  - content: <#FFDC00>➑ &f%ajlb_lb_cmi_user_balance_formatted_8_alltime_prefix% &f%ajlb_lb_cmi_user_balance_formatted_8_alltime_name%
+      &8- <#FFDC00>%ajlb_lb_cmi_user_balance_formatted_8_alltime_value% ⛁
+    height: 0.3
+  - content: <#FFDC00>➒ &f%ajlb_lb_cmi_user_balance_formatted_9_alltime_prefix% &f%ajlb_lb_cmi_user_balance_formatted_9_alltime_name%
+      &8- <#FFDC00>%ajlb_lb_cmi_user_balance_formatted_9_alltime_value% ⛁
+    height: 0.3
+  - content: <#FFDC00>➓ &f%ajlb_lb_cmi_user_balance_formatted_10_alltime_prefix% &f%ajlb_lb_cmi_user_balance_formatted_10_alltime_name%
+      &8- <#FFDC00>%ajlb_lb_cmi_user_balance_formatted_10_alltime_value% ⛁
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: <#FFDC00>#%ajlb_position_cmi_user_balance_formatted_alltime% &f%luckperms_prefix% &f%player_name%
+      &#6C6C6C- <#FFDC00>%ajlb_value_cmi_user_balance_formatted_alltime% ⛁
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fНажмите, чтобы изменить'
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE
+    - SOUND:UI_STONECUTTER_SELECT_RECIPE
+    RIGHT:
+    - PREV_PAGE
+    - SOUND:UI_STONECUTTER_SELECT_RECIPE

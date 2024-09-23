@@ -1,0 +1,159 @@
+No_Permissions: '&fУ вас нет разрешения на это действие!'
+Only_for_Player: '&fТолько для игроков!'
+No_Money: '&fУ вас нет монет!'
+Enter_Correct_Amount: '&fПожалуйста, введите правильную сумму.'
+Only_X_Amount: '&fУ вас есть только &#FF2B2B%amount% %type%&f!'
+Trade_Was_Cancelled: '&fСделка была отменена.'
+Trade_Was_Finished: '&fТорговля велась &#05E520закончена&f.'
+Cannot_Trade_With_Yourself: '&fВы не можете торговать с самим собой.'
+Player_Not_Online: '&fЭтот игрок не находится в сети.'
+Want_To_Trade: '&fИгрок &#4CC2E2%player% &fхочет торговать с вами: &8[%accept% &8|
+  %deny%&8]'
+Want_To_Trade_Bedrock: '&7The player &c%player% &7wants to trade with you. &8[&7/trade
+  &8<&aaccept&8, &cdeny&8> &7%player%&8]'
+Want_To_Trade_Accept: '&aПринять'
+Want_To_Trade_Deny: '&cОтказать'
+Want_To_Trade_Hover: '&f» Нажмите « &f'
+Player_Is_Invited: '&fИгрок &#05E520%player% &fбыл приглашен.'
+Command_How_To: '&fИспользуйте: &e/trade &7[никнейм, accept, deny, toggle]'
+Command_How_To_Accept: '&fИспользуйте: &e/trade accept &7[Никнейм]'
+Command_How_To_Deny: '&fИспользуйте: &e/trade deny &7[Никнейм]'
+Player_Of_Request_Not_Online: '&fИгрок, подавший торговый запрос, больше не онлайне!'
+Request_Accepted: '&fВы &#05E520приняли &fторговый запрос&f.'
+Request_Was_Accepted: '&fВаш торговый запрос &#4CC2E2%player% &fбыл &#05E520принят&f.'
+Request_Denied: '&fВы &#FF2B2Bотклонили &fзапрос на торговлю.'
+Request_Was_Denied: '&fВаш торговый запрос для &#4CC2E2%player% &fбыл &#FF2B2Bотклонен&f.'
+No_Request_Found: '&fВы не получили ни одного торгового запроса от этого игрока!'
+No_Requests_Found: '&fВы не получили ни одного запроса на торговлю!'
+Too_many_requests: '&fУ вас есть несколько запросов, пожалуйста, укажите имя игрока.'
+GUI_Title: '&#272727Торговля с %player%'
+Money_Amount: Количество денежных средств
+Coin: Монета
+Coins: Монет
+PlayerPoint: PlayerPoint
+PlayerPoints: PlayerPoints
+Token: Token
+Tokens: Tokens
+ClaimBlock: ClaimBlock
+ClaimBlocks: ClaimBlocks
+Status: Статус
+Ready: Готово
+Not_Ready: Не готово
+Wait_For_Other_Player: Подождите другого игрока...
+Trade_Only_With_Objects: Вы должны предложить что-то, чтобы завершить торговлю.
+Click_To_Change: Нажмите, чтобы изменить
+Cancel_Trade: Нажмите, чтобы отменить
+Not_Able_To_Trade: Вам не разрешается торговать.
+Player_Is_Not_Able_Trade: Этому игроку запрещено торговать.
+TRADE_EDITOR: Редактор - Торговое меню
+TRADE_EDITOR_FUNCTIONS: Редактор - Функции
+EDITOR_RESET: Ваше временно сохраненное руководство было сброшено.
+Editor_Command_How_To: '&7Используйте: /tradeEditor [reset]'
+Editor_Not_Empty: Нет пустого места!
+Editor_No_Item: Нет предмета!
+Layout_Name: Название макета
+Layout_Name_Already_Exists: Это название макета уже занято!
+Layout_Finished: Макет был создан &aуспешно&7.
+Layout_Edited: Макет был отредактирован &aуспешно&7.
+Layout_Editor: '&9Макет &8- &9Редактор'
+Save: Сохранить
+Not_Ready_For_Saving: '&cЭтот макет пока не может быть сохранен'
+Items: Предметы
+Set: Установите
+Not_Set: Не установлена
+Functions: Функции
+Name: Имя
+Ambiguous_Functions: Неоднозначные функции
+Layout_Set_Items: Заполнить стандартное торговое руководство
+Layout_Set_Functions: Установить функции
+Layout_Set_Name: Установить имя макета
+Layout_Set_Ambiguous_Functions: Установить неоднозначные функции
+Layout_Editor_Set_Items: '&cЗакрыть продолжения'
+Back: Back
+Trader: Trader
+Other: Other
+Layout_Set_Own_Slots: Установить собственные торговые слоты
+Layout_Set_Other_Slots: Установить торговые слоты от партнера
+Layout_Set_Cancel: Установить значок отмены
+Layout_Set_Other_Not_Ready: Установить иконку "Не готов" от партнера
+Layout_Set_Status: Установить значок собственного статуса
+Layout_Set_Money: Установить значок собственных денег
+Layout_Set_Other_Money: Установить значок денег от партнера
+Help_TradeSystem: '&fИспользуйте &e/%label% <layout, reload>'
+Help_TradeSystem_Layout: '&fИспользуйте &e/%label% layout <create, edit, delete, activate>'
+Help_TradeSystem_Layout_Create: '&fИспользуйте &e/%label% layout create <name>'
+Help_TradeSystem_Layout_Activate: '&fИспользуйте &e/%label% layout activate <name>'
+Help_TradeSystem_Layout_Delete: '&fИспользуйте &e/%label% layout delete <name>'
+Help_TradeSystem_Layout_Edit: '&fИспользуйте &e/%label% layout edit <name>'
+Layout_Does_Not_Exist: '&fЭтого макета не существует!'
+Layout_Activated: '&fМакет  ''&b%name%&f'' был &#05E520активирован&f.'
+Layout_Deleted: '&fМакет  ''&b%name%&f'' был &#FF2B2Bудален&f.'
+Enter_Correct_Name_Space: '&fПожалуйста, не используйте пробелы.'
+Sure_That_You_Want_To_Loose_Your_Data: '&fВы уверены, &#FF2B2Bdon''t &fчто не хотите
+  &#FF2B2Bсохранить &fизменения?'
+Close: Close
+Layout_Already_Activated: '&fЭтот макет &#FF2B2Bуже был активированX&E&B&E&B&E&B!'
+Layout_Set_Replacement_For_Money: '&fИкона, которая &#E8FB0Eзаменяет значок денегX&E&B&E&B&E&B,
+  если &#E8FB0Eне обнаружен плагин  X&E&B&E&B&E&Bэкономики.'
+Layout_Hint_Same_Slot_Amount: '&fОба трейдераs &#FF2B2Bдолжны  X&E&B&E&B&E&Bиметь
+  &#FF2B2Bодинаковое количество слотовX&E&B&E&B&E&B!'
+Current_Amount: Текущая сумма
+Trade_Spam: '&fЭтот игрок уже &#FF2B2Bполучил торговый запросX&E&B&E&B&E&B!'
+Plugin_Reloading: '&fТеперь плагин будет перезагружен...'
+Success_Plugin_Reloaded: '&fПлагин был перезагружен.'
+Player_is_not_in_range: '&fИгрок &#4CC2E2%player% X&E&B&E&B&E&Bнаходится &#FF2B2Bне
+  зоны доступаX&E&B&E&B&E&B!'
+Cannot_trade_in_that_GameMode: '&fВЫ &#FF2B2Bне можете торговать &fв режиме креатив!'
+Other_cannot_trade_in_that_GameMode: '&fЭтот игрок &#FF2B2Bне может торговать &fв
+  своем режиме игры!'
+Trade_cancelled_by_attack: '&fТорговля была отменена из-за нападения.'
+Trade_Partner_No_Space: '&fУ вашего торгового партнера &#FF2B2Bнет места &fинвенторе!'
+Trade_Offline: '&fТеперь вы &#FF2B2Bнедоступны &fдля торговых запросов!'
+Trade_Online: '&fТеперь вы &#05E520доступны &fдля торговых запросов!'
+Trade_Partner_is_Offline: '&fЭтот игрок &#FF2B2Bне доступен &fдля торговые запросы!'
+Trade_You_are_Offline: '&fИспользуйте "%command%&#E8FB0E/trade toggle%command%&f"
+  чтобы снова торговать.'
+Trade_Placed_Blocked_Item: '&fЭтот товар &#FF2B2Bне подлежит &fобмену!'
+Cannot_trade_in_bed: '&#FF2B2BВы не можете торговать&f, лежа в постели.'
+Cannot_trade_in_world: '&fВы &#FF2B2Bне можете торговать &fв этом мире!'
+Other_cannot_trade_in_world: '&fЭтот игрок §cне может торговать &fв своем мире!'
+Cannot_trade_while_invisible: '&fВы &#FF2B2Bне можете торговать &fпока вы &#FF2B2Bневидимы&f!'
+Cannot_trade_in_region: '&7You &ccannot trade &7in this region!'
+Other_cannot_trade_in_region: '&7This player &ccannot trade &7in their region!'
+Other_is_already_trading: '&fЭтот игрок уже &#FF2B2Bуже торгуется &fв данный момент!'
+Online: Онлайн
+Offline: Не в сети
+Your_request_expired: '&fСрок действия вашего торгового &#4CC2E2%player% &fзапроса
+  истек.'
+Request_expired: '&fВаш запрос на торговлю с &#05E520%player% &fистек.'
+Fancy_Countdown: ''
+Economy_Error: '&fТорговля была &#FF2B2Bотменена &fиз-за &#FF2B2Bэкономической ошибка&f.'
+Items_Dropped: '&fВаш инвентарь был &#FF2B2Bполон&f, некоторые предметы были &#FF2B2Bсброшены
+  на землю&f!'
+Sign_Enter_Amount: |-
+  ^^^^^^^^
+  Enter amount
+  above
+Leftclick: Нажмите ЛКМ
+Rightclick: Нажмите ПКМ
+Shift_Leftclick: Shift-Leftclick
+Shift_Rightclick: Shift-Rightclick
+Select: Выберите
+Select_Foreign_Preview: Выберите иностранный предварительный просмотр
+Edit: Редактировать
+Edit_Variant: Вариант редактирования
+Variant: Вариант
+Cancel: Отмена
+Finish: Финиш
+Levels: Уровни
+Level: Уровень
+Too_Little_Exp: '&fУ вас &#FF2B2Bнет уровня &fдля торговли.'
+Exp_Points: Уровни пойнтов
+Exp_Point: Уровень пойнта
+Reset: Сброс
+Balance_limit_reached: '&7Your balance is &cnot sufficient&7.'
+Economy_Offer_Title: 'Your offer:'
+Shulker_Box: Shulker Box
+Trade_Finish_Report_Receive: '  &a+ &7%object%'
+Trade_Finish_Report_Give: '  &c- &7%object%'
+Trade_Finish_Report_Object_Item: '%amount%x %item%'

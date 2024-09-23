@@ -1,0 +1,42 @@
+location: spawn:15,491:82,000:-28,477
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&l<#ANIM:wave:#90C0F9&l,&f&l>СОЦИАЛЬНЫЕ СЕТИ</#ANIM>'
+    height: 0.3
+  - content: '&7(Клик, чтобы получить ссылки)'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: Присоединяйтесь к нашим
+    height: 0.3
+  - content: социальным сетям, чтобы
+    height: 0.3
+  - content: узнавать новости первыми
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '#SMALLHEAD: PLAYER_HEAD (eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg3M2MxMmJmZmI1MjUxYTBiODhkNWFlNzVjNzI0N2NiMzlhNzVmZjFhODFjYmU0YzhhMzliMzExZGRlZGEifX19)'
+    height: 0.3
+  actions:
+    LEFT:
+    - MESSAGE:&f
+    - MESSAGE:&f <#90C0F9>&lСоциальные сети
+    - MESSAGE:&f
+    - MESSAGE:&f  Дискорд &8- &9ds.astronex.su
+    - MESSAGE:&f  Вконтакте &8 - &bvk.astronex.su
+    - MESSAGE:&f  Телеграм &8- <#6EF2F9>tg.astronex.su
+    - MESSAGE:&f
+    RIGHT:
+    - MESSAGE:&f
+    - MESSAGE:&f <#90C0F9>&lСоциальные сети
+    - MESSAGE:&f
+    - MESSAGE:&f  Дискорд &8- &9ds.astronex.su
+    - MESSAGE:&f  Вконтакте &8 - &bvk.astronex.su
+    - MESSAGE:&f  Телеграм &8- <#6EF2F9>tg.astronex.su
+    - MESSAGE:&f

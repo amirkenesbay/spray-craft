@@ -1,0 +1,147 @@
+menu_title: '&#272727Меню профиля'
+size: 35
+open_command:
+- profile
+- stats
+items:
+  'player_statistics':
+    material: head-%player_name%
+    slots:
+    - 13
+    update: true
+    display_name: '&#6A6A6A● &#EBEBEBСтатистика &#01B9EB%player_name%'
+    lore:
+    - '&#6A6A6AИнформация'
+    - ''
+    - '  &#EBEBEBЗдесь вы можете посмотреть всю'
+    - '  &#EBEBEBинформацию о вашем аккаунте'
+    - ''
+    - '  &#01B9EB| &#EBEBEBРанг: %luckperms_prefix%'
+    - '  &#01B9EB| &#EBEBEBМонет: &e%cmi_user_balance_formatted%'   
+    - '  &#01B9EB| &#EBEBEBРубинов: &#FA3A78%playerpoints_points_formatted%'   
+    - '  &#01B9EB| &#EBEBEBУровень: &b%clv_player_level% &7[%clv_player_exp_percent%%]'     
+    - '  &#01B9EB| &#EBEBEBУбийств: &c%statistic_player_kills% ⚔'
+    - '  &#01B9EB| &#EBEBEBСмертей: &d%statistic_deaths% ☠'
+    - '  &#01B9EB| &#EBEBEBНаигранное время: &a%statistic_time_played% ⌚'
+    - ''
+  'scoreboard_toggle_off':
+    material: LIME_DYE
+    slots:
+    - 11
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.scoreboard.on
+    update: true
+    display_name: '&a&lТаблица'
+    lore:
+    - '&#6A6A6AИнформация'
+    - ''
+    - '  &#EBEBEBИнформационная таблица'
+    - '  &#EBEBEBсправа.'
+    - ''
+    - '  &#05E520| &#EBEBEBСтатус: &aВключено'
+    - ''
+    - '&#1DF516▸ Нажмите, чтобы отключить'
+    left_click_commands:
+    - '[player] sb'
+    - '[console] lp user %player_name% permission set deluxemenus.scoreboard.on true'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[refresh]'    
+  'scoreboard_toggle_on':
+    material: GRAY_DYE
+    slots:
+    - 11
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: deluxemenus.scoreboard.on
+    update: true
+    display_name: '&c&lТаблица'
+    lore:
+    - '&#6A6A6AИнформация'
+    - ''
+    - '  &#EBEBEBИнформационная таблица'
+    - '  &#EBEBEBсправа.'
+    - ''
+    - '  &#FF2B2B| &#EBEBEBСтатус: &cВыключено'
+    - ''
+    - '&#1DF516▸ Нажмите, чтобы включить'
+    left_click_commands:
+    - '[player] sb'
+    - '[console] lp user %player_name% permission set deluxemenus.scoreboard.on false'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[refresh]'       
+  'timber_toggle_off':
+    material: LIME_DYE
+    slots:
+    - 15
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.timber.on
+    update: true
+    display_name: '&a&lВизуализация'
+    lore:
+    - '&#6A6A6AИнформация'
+    - ''
+    - '  &#EBEBEBОтоброжение прогресс плавки,'
+    - '  &#EBEBEBкрафт вещей и другое..'
+    - ''
+    - '  &#05E520| &#EBEBEBСтатус: &aВключено'
+    - ''
+    - '&#1DF516▸ Нажмите, чтобы отключить'
+    left_click_commands:
+    - '[player] iv toggle all all'
+    - '[console] lp user %player_name% permission set deluxemenus.timber.on true'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[refresh]'    
+  'timber_toggle_on':
+    material: GRAY_DYE
+    slots:
+    - 15
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: deluxemenus.timber.on
+    update: true
+    display_name: '&c&lВизуализация'
+    lore:
+    - '&#6A6A6AИнформация'
+    - ''
+    - '  &#EBEBEBОтоброжение прогресс плавки,'
+    - '  &#EBEBEBкрафт вещей и другое..'
+    - ''
+    - '  &#FF2B2B| &#EBEBEBСтатус: &cВыключено'
+    - ''
+    - '&#52d797▸ Нажмите, чтобы включить'
+    left_click_commands:
+    - '[player] iv toggle all all'
+    - '[console] lp user %player_name% permission set deluxemenus.timber.on false'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[refresh]'   
+
+  'back':
+    material: ARROW
+    slots:
+    - 31
+    display_name: '&#FBF386&lНазад'
+    lore:
+    - '&#838a87Предыдущая страница'    
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfВернуться на предыдущую'
+    - '  &#cfcfcfстраницу где Вы были'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[openguimenu] main_menu'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'            

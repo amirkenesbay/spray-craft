@@ -1,0 +1,30 @@
+#
+#     _     _ _       _                            ______                               _
+#    (_)   (_) |  _  (_)              _           (_____ \                             | |
+#    | |   | |_| |_|_| |___  _____ _| |_ _____    _____) )_____ _ _  _ _ _____  ____ __| |  ___
+#    | |   | | (_   _) |    \(____ (_   _) ___ |  |  __  /| ___ |  |  | (____ |/ ___) _  |/___)
+#    | |___| | | | |_| | | | / /_\_ | | |_| ____| | |  \ \|____|  |  | / /_\ | |  ( (_| |___ |
+#    \_____/ \_) \__)_|_|_|_\_|  |_|  \__)_____)  |_|   |_|_____)\___/\_|  |_|_|   \____(___/
+#
+#   Referral Configuration
+#
+# How much time (in minutes) a player must have played
+# on the server to be able to create his referral.
+referral-create-required-play-time: 600
+
+# How long (in minutes) does the player have to claim
+# the referral (counted from the first connection).
+# Set to 0 to disable it.
+maximum-playtime-for-referred-player: 60
+
+# Commands that will be executed when a player activates a referral
+referral-activated-rewards:
+  default:
+    permission: ultimaterewards.referral.default
+    required-slots: 2
+    actions:
+    - '[console] give %player% diamond 1'
+    - '[console] give %player% golden_apple 1'
+
+input-item: LEATHER_HELMET
+# YMl7w7nvdkw+Af4UJzFTeZobB2pJ6YHHt2VuLOEydTJxSRVHhT+qjWCLMOqlkOm6K0xE6f7orJS0P06xkRheI5GPETtVDdGOU6GJ1rzbaVQ=

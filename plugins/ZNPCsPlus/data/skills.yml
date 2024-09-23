@@ -1,0 +1,36 @@
+id: skills
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: b8404411-6667-4ef3-8856-5d297ac9db30
+world: spawn
+location:
+  x: 2.0153502763887037
+  y: 79.0
+  z: -45.158096257474845
+  yaw: 0.5069845
+  pitch: -1.9553871
+type: player
+properties:
+  skin_left_leg: 'true'
+  look: CLOSEST_PLAYER
+  skin_cape: 'true'
+  skin_hat: 'true'
+  skin_jacket: 'true'
+  skin: fetching;eziolink
+  skin_left_sleeve: 'true'
+  offhand: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAD3F0ABFFWFBFUklFTkNFX0JPVFRMRQ==
+  skin_right_leg: 'true'
+  skin_right_sleeve: 'true'
+  hand: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA9xdAADQk9Xc3EAfgAAc3EAfgADdXEAfgAGAAAAA3EAfgAIdAAJbWV0YS10eXBldAAGY3VzdG9tdXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAMEg0c0lBQUFBQUFBQS8rTmlZR0JtWUhOSnpFMU1UMlVBQVFDb2dXNlhFUUFBQUE9PQ==
+hologram:
+  lines:
+  - '&a&lНАВЫКИ'
+  - '&7Улучшай свои навыки'
+  - ''
+  - '&fРазвивай полезные навыки для'
+  - '&fулучшения выживания на острове'
+  - ''
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;c2tpbGxz;1000;ANY_CLICK;0

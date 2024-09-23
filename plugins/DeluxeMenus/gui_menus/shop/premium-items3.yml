@@ -1,0 +1,789 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&0Предметы [3/3]'
+size: 54
+# as always, only cool people can open this menu :)
+items:
+  1:
+    material: white_shulker_box
+    slot: 10
+    display_name: '&#FBCD65Белый шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% white_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% white_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  2:
+    material: magenta_shulker_box
+    slot: 11
+    display_name: '&#FBCD65Пурпурный шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% magenta_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% magenta_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  3:
+    material: light_blue_shulker_box
+    slot: 12
+    display_name: '&#FBCD65Голубой шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% light_blue_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% light_blue_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  4:
+    material: yellow_shulker_box
+    slot: 13
+    display_name: '&#FBCD65Жёлтый шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% yellow_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% yellow_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  5:
+    material: pink_shulker_box
+    slot: 14
+    display_name: '&#FBCD65Розовый шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% pink_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% pink_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  6:
+    material: gray_shulker_box
+    slot: 15
+    display_name: '&#FBCD65Серый шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% gray_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% gray_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  7:
+    material: lime_shulker_box
+    slot: 16
+    display_name: '&#FBCD65Лаймовый шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% lime_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% lime_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  8:
+    material: light_gray_shulker_box
+    slot: 19
+    display_name: '&#FBCD65Светло-серый шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% light_gray_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% light_gray_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  9:
+    material: cyan_shulker_box
+    slot: 20
+    display_name: '&#FBCD65Циановый шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% cyan_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% cyan_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  10:
+    material: purple_shulker_box
+    slot: 21
+    display_name: '&#FBCD65Фиолетовый шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% purple_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% purple_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  11:
+    material: blue_shulker_box
+    slot: 22
+    display_name: '&#FBCD65Синий шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% blue_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% blue_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  12:
+    material: brown_shulker_box
+    slot: 23
+    display_name: '&#FBCD65Коричневый шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% brown_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% brown_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  13:
+    material: green_shulker_box
+    slot: 24
+    display_name: '&#FBCD65Зелный шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% green_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% green_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  14:
+    material: red_shulker_box
+    slot: 25
+    display_name: '&#FBCD65Красный шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% red_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% red_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  15:
+    material: black_shulker_box
+    slot: 28
+    display_name: '&#FBCD65Чёрный шалкер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7835'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% black_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '35'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 35'
+    - '[console] give %player_name% black_shulker_box 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  16:
+    material: ink_sac
+    amount: 64
+    slot: 29
+    display_name: '&#FBCD65Чернильный мешок'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7811'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% ink_sac 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% ink_sac 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  17:
+    material: pufferfish_bucket
+    slot: 30
+    display_name: '&#FBCD65Иглобрюх в ведре'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A784'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '4'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 4'
+    - '[console] give %player_name% pufferfish_bucket 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '4'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 4'
+    - '[console] give %player_name% pufferfish_bucket 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  18:
+    material: salmon_bucket
+    slot: 31
+    display_name: '&#FBCD65Лосось в ведре'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A784'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '4'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 4'
+    - '[console] give %player_name% salmon_bucket 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '4'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 4'
+    - '[console] give %player_name% salmon_bucket 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  19:
+    material: tropical_fish_bucket
+    slot: 32
+    display_name: '&#FBCD65Тропическая рыба в ведре'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A784'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '4'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 4'
+    - '[console] give %player_name% tropical_fish_bucket 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '4'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 4'
+    - '[console] give %player_name% tropical_fish_bucket 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  20:
+    material: cod_bucket
+    slot: 33
+    display_name: '&#FBCD65Треска в ведре'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A784'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '4'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 4'
+    - '[console] give %player_name% cod_bucket 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '4'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 4'
+    - '[console] give %player_name% cod_bucket 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  21:
+    material: netherite_ingot
+    amount: 16
+    slot: 34
+    display_name: '&#FBCD65Незеритовый слиток'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7859'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '59'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 59'
+    - '[console] give %player_name% netherite_ingot 16'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '59'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 59'
+    - '[console] give %player_name% netherite_ingot 16'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  'back':
+    material: ARROW
+    slots:
+    - 49
+    display_name: '&#FBF386&lНазад'
+    lore:
+    - '&#838a87Предыдущая страница'    
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfВернуться на предыдущую'
+    - '  &#cfcfcfстраницу где Вы были'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[openguimenu] shop-don'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'     
+  previus:
+    material: arrow
+    slot: 48
+    display_name: '&#FBCD65Предыдущая страница'
+    lore:
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти'
+    left_click_commands:
+      - '[openguimenu] premium-items2'

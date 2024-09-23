@@ -1,0 +1,78 @@
+################################################################
+#
+#    Chatty (version 3.0.0-SNAPSHOT)
+#    Author: Brikster
+#
+#    Optional dependencies: PlaceholderAPI, Vault
+#
+################################################################
+
+# Supported languages: en-US, ru-RU.
+# You can create own language file and put it into "lang/<language>.yml"
+language: en-US
+
+# Chat listener priority
+# May be useful if Chatty conflicts with another plugin
+# See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/EventPriority.html
+listener-priority: LOW
+
+# Should Chatty keep modified recipients list, 
+# got after previous event handlers? 
+# For example: Essentials event handler called earlier 
+# and removed some players due to ignore list
+respect-foreign-recipients: true
+
+# Should Chatty ignore vanished recipients?
+# This setting only affects "no recipients" message:
+# if true, and everybody is vanished, Chatty will send it.
+# Supports vanished players from Essentials and many others plugins, 
+# that hides players with native Bukkit mechanism
+hide-vanished-recipients: true
+
+# Order for handling relational placeholders
+# from PlaceholderAPI (%rel_<placeholder>%).
+# Values: SENDER_AND_TARGET, TARGET_AND_SENDER
+relational-placeholders-order: SENDER_AND_TARGET
+
+# Settings for parsing links from player messages.
+# See chats.yml for per-chat enabling
+links-parsing:
+  # Pattern (regexp) for URLs parsing
+  pattern: (?i)\bhttps?://\S+\b
+  
+  # Hover message for parsed links
+  hover-message: '&bClick to follow the link'
+  
+  # Permission check (chatty.parselinks)
+  permission-required: false
+
+# Send unsigned chat messages with sender's UUID.
+# Helpful for enabling in-game ignore feature, but may cause newer client CRASHES
+send-identified-messages: false
+
+# Enable debug messages
+debug: false
+
+# Enable bStats metrics (anonymous)
+send-metrics: true
+
+# Settings for mentions
+mentions:
+  enable: true
+  
+  # Pattern (regexp) for searching mentioned username
+  pattern: (?i)@{username}
+  
+  # Format of mentioned username for others
+  others-format: "<hover:show_text:'&aНаписать в ЛС {username}'><click:suggest_command:'/msg {username} '>&a@{username}</click></hover>"
+  
+  # Format of mentioned username for it's owner
+  target-format: '&e&l@{username}&f'
+  
+  # Play sound on mention?
+  play-sound: true
+  sound:
+    name: minecraft:entity.experience_orb.pickup
+    source: MASTER
+    volume: 1.0
+    pitch: 1.0

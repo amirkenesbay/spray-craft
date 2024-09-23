@@ -1,0 +1,40 @@
+################################################################
+#
+#    Chatty (version 3.0.0-SNAPSHOT)
+#    Author: Brikster
+#
+################################################################
+
+# Enable private messages?
+enable: true
+
+# Allow private messages from/to console?
+# Not recommended (placeholders won't parse for console)
+allow-console: false
+
+# Private messages format.
+# Supports PlaceholderAPI with special placeholders format: 
+# %from:<placeholder>% and %to:<placeholder>%.
+# For example, %player_health% should be %from:player_health% to display health of sender player.
+from-format: '&aЛС &8| {from-prefix} &7{from-name}{from-suffix} &8- {to-prefix} &7{to-name}{to-suffix} &8▸ &f{message}'
+
+# Same format, but displayed for receiver
+to-format: '&aЛС &8| {from-prefix} &7{from-name}{from-suffix} &8- {to-prefix} &7{to-name}{to-suffix} &8▸ &f{message}'
+
+# Disable this, if you don't want to specify sound for private messages
+play-sound: false
+sound:
+  name: minecraft:entity.experience_orb.pickup
+  source: MASTER
+  volume: 1.0
+  pitch: 1.0
+
+# Parse links in private messages?
+parse-links: true
+
+# Permission for spy: chatty.spy.pm
+spy:
+  # Enable spy for private messages?
+  enable: false
+  # Custom format for spy message
+  format: '&8[&eSPY&8] &r{from-prefix}{from-name}{from-suffix} &8-> &r{to-prefix}{to-name}{to-suffix}&8: &f{message}'

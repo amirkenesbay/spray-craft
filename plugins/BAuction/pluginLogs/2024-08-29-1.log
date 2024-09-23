@@ -1,0 +1,101 @@
+[04:40:01] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[04:40:54] [Server thread/INFO]: Enabling BAuction v1.3.3
+[04:40:54] [Server thread/INFO]: [DEBUG] enable checkUpdate
+[04:40:54] [Server thread/INFO]: [DEBUG] enable enable BMenuApi
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load MenuLoader
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load db cfg
+[04:40:54] [Server thread/INFO]: [DEBUG] enable registerAdapters
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load UniqueNameGenerator
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load cfg
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load assetsManager
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load lang
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load logger
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load event manager
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load time util
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load TrieManager
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load econ
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load PAPI hook
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load black list
+[04:40:54] [Server thread/INFO]: [DEBUG] enable load db
+[04:40:54] [Server thread/INFO]: [DEBUG] enable check version
+[04:40:54] [Server thread/INFO]: [DEBUG] enable init commands
+[04:40:54] [bauc File Db loader/INFO]: Успешно загружено 9 предметов за 26 мс.
+[05:38:28] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[05:39:07] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 120
+[05:39:20] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[05:42:49] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[05:53:20] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[05:53:45] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 100
+[06:09:24] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[06:27:29] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[06:33:06] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[07:01:45] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[07:02:00] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 45
+[07:57:07] [Server thread/INFO]: [DEBUG] CraftPlayer{name=zhenya_pro1026} use command ah sell 30
+[07:59:37] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[07:59:54] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah sell 1010
+[08:00:00] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[08:00:47] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah sell 20p
+[08:00:54] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah sell 200
+[08:07:53] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[08:09:54] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[08:11:30] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[08:18:37] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[08:19:29] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[08:20:58] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Andreytskhe} use command ah 
+[08:28:40] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[08:32:54] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[09:05:36] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Andreytskhe} use command ah 
+[09:08:37] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[09:08:48] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah sell 800
+[09:30:02] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[09:30:35] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 120
+[09:58:29] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah 
+[10:02:53] [Server thread/INFO]: [DEBUG] CraftPlayer{name=AAIgumnov14} use command ah sell 150
+[10:03:07] [Server thread/INFO]: [DEBUG] CraftPlayer{name=AAIgumnov14} use command ah 
+[10:25:43] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[10:41:33] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[11:00:39] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 150 full
+[11:00:51] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[11:01:51] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[11:02:19] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 120
+[11:02:58] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[11:07:23] [Server thread/INFO]: [DEBUG] CraftPlayer{name=AAIgumnov14} use command ah 
+[11:17:33] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 200 full
+[11:18:20] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[11:30:06] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[11:46:51] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[12:00:13] [Server thread/INFO]: [DEBUG] CraftPlayer{name=GON4IK} use command ah 
+[12:07:44] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[12:21:12] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 300 full
+[12:21:40] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[12:21:41] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[12:23:52] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[12:28:45] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[12:36:53] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[12:36:57] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[13:08:04] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[13:08:32] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[13:57:51] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[14:06:09] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[15:24:00] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[15:31:24] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[15:59:01] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[16:02:26] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Glebushka64} use command ah 
+[16:02:55] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Glebushka64} use command ah 
+[16:11:55] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[16:17:21] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[16:18:12] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 120
+[16:18:18] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[16:19:36] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Glebushka64} use command ah 
+[17:15:18] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Shahmar2011} use command ah 
+[18:09:20] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Red26ninja} use command ah 
+[18:09:45] [Server thread/INFO]: [DEBUG] CraftPlayer{name=AAIgumnov14} use command ah 
+[18:11:23] [Server thread/INFO]: [DEBUG] CraftPlayer{name=AAIgumnov14} use command ah sell 150
+[18:35:28] [Server thread/INFO]: Disabling BAuction v1.3.3
+[18:35:28] [Server thread/INFO]: [DEBUG] disable disable PAPI hook
+[18:35:28] [Server thread/INFO]: [DEBUG] disable disable logger
+[18:35:28] [Server thread/INFO]: [DEBUG] disable disable BMenuApi
+[18:35:28] [Server thread/INFO]: [DEBUG] disable disable db
+[18:35:28] [Server thread/INFO]: saved 11 items, 134 users and 4 unsold items in 1 ms
+[18:35:28] [Server thread/INFO]: [DEBUG] disable unregisterAdapters

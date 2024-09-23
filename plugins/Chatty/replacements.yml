@@ -1,0 +1,11 @@
+################################################################
+#
+#    Chatty (version 3.0.0-SNAPSHOT)
+#    Author: Brikster
+#
+################################################################
+
+# List of useful components for replacements.
+# You can use it as placeholder in any config with {r_key}, e.g. {r_player_info}.
+replacements:
+  player_info: "<hover:'&2Click here to PM %player%'><click:'suggest_command':'/msg %player% '>%player%</click></hover>"

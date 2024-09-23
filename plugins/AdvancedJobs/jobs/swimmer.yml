@@ -1,0 +1,61 @@
+type: swim
+
+variable:
+  root: none
+
+name: Пловец
+
+# Требуемый прогресс
+required-progress: 500 * %level%
+
+# Очки, выдаваемые после выполнения задачи
+points-rewarded: 1 * %level%
+
+# Требуемые очки для доступа к этому делу
+required-points: 0
+
+# Является ли это премиум-делом?
+premium: false
+
+# Награды берутся из файла rewards.yml
+default-rewards:
+- 1
+
+# Когда в level-rewards содержится уровень, выдавать и обычные, и уровневые награды или только уровневые?
+both-rewards: false
+
+# Информация о уровнях
+level-rewards: []
+
+# Уведомлять при достижении определенного процента прогресса
+notify-at-percentages:
+- 10
+- 25
+- 50
+- 75
+- 100
+
+# Разрешенные и запрещенные миры, регионы
+whitelisted-worlds: []
+blacklisted-worlds: []
+blacklisted-regions: []
+whitelisted-regions: []
+
+# Предмет
+item:
+  material: WATER_BUCKET
+  name: '&a&lРабота пловца &7[Ур %level%] '
+  lore:
+  - ''
+  - ' &8Описание'
+  - '&f  Чтобы повысить уровень в этом деле, вы должны'
+  - '&f  проплыть &a%required_progress% &fблоков.'
+  - ''
+  - ' &2• &7Текущий уровень: &e%level% '
+  - ' &2• &7Активен: %active%'
+  - ''
+  - '&8 Прогресс работы'
+  - '&2• &a%progress_bar% &7(&f%total_progress%&7/&f%required_progress%&7)'
+  - ''
+  - '&2• %action%'
+actions-version: 2

@@ -1,0 +1,366 @@
+# | =================================================== |
+# |      Thank you for downloading and trying out       |
+# |                       Quests                        |
+# |      https://www.spigotmc.org/resources/23696/      |
+# |         https://github.com/LMBishop/Quests/         |
+# |                                                     |
+# |                         =x=                         |
+# |                                                     |
+# |              Trying to add new quests?              |
+# |                                                     |
+# |                 Go to the 'quests'                  |
+# |               subdirectory to edit the              |
+# |                        quests                       |
+# |                                                     |
+# |                 The example quests                  |
+# |              are commented to help you              |
+# |             learn how to use the plugin             |
+# |                                                     |
+# |                         =x=                         |
+# |                                                     |
+# |              Have Discord & need help?              |
+# |       Head to the GitHub page and click on the      |
+# |           Discord link, or create an issue          |
+# | =================================================== |
+
+# Trying to add new categories? This has been moved to categories.yml
+
+# The items listed below are placeholder items for quests which the player cannot start.
+# You should change these for 1.8
+gui:
+  back-button:
+    name: ""
+    lore:
+    - ""
+    type: "ARROW"
+  page-prev:
+    name: ""
+    lore:
+    - ""
+    type: "FEATHER"
+  page-next:
+    name: ""
+    lore:
+    - ""
+    type: "FEATHER"
+  page-desc:
+    name: ""
+    lore:
+    - ""
+    type: "PAPER"
+  quest-locked-display:
+    name: "&#FF0000&lЗадание заблокировано"
+    lore:
+    - "&#6C6C6CЗадание недоступно"
+    - ""
+    - " &#DFDFDFВы не выполнили"
+    - " &#DFDFDFтребования"
+    - ""
+    - " &#FF2525✘ Требования:"
+    - "    &#DFDFDFВы должны выполнить"
+    - "    &#DFDFDFпредыдущее задание"
+    - "    &#DFDFDFдля разблокировки этого задания"
+    - ""
+    type: "RED_STAINED_GLASS_PANE"
+  quest-permission-display:
+    name: ""
+    lore:
+    - ""
+    type: "BROWN_STAINED_GLASS_PANE"
+  quest-cooldown-display:
+    name: ""
+    lore:
+    - ""
+    type: "ORANGE_STAINED_GLASS_PANE"
+  quest-completed-display:
+    name: " &#00FF0C&lЗадание завершено"
+    lore:
+    - "&#6C6C6CЗадание выполнено"
+    - ""
+    - " &#DFDFDFВы завершили"
+    - " &#DFDFDFэто задание."
+    - ""
+    type: "LIME_STAINED_GLASS_PANE"
+  no-started-quests:
+    name: ""
+    lore:
+    - ""
+    type: "FEATHER"
+  quest-cancel-yes:
+    name: ""
+    lore:
+    - ""
+    type: "LIME_STAINED_GLASS_PANE"
+  quest-cancel-no:
+    name: ""
+    lore:
+    - ""
+    type: "RED_STAINED_GLASS_PANE"
+  quest-cancel-background:
+    type: "GRAY_STAINED_GLASS_PANE"
+
+# Here you can add custom items to the quest menu
+# Categories & quests will fill empty slots
+#custom-elements:
+#  "categories": # apply to the categories menu (the main menu by default)
+#    0:   # <--- slot 1, note the slots start from 0! so 0 = slot 1 in this case
+#      display:
+#        name: "&cExample Custom Item (slot 1)"
+#        lore:
+#          - "&7This is a custom item which can be added"
+#          - "&7to your menus. This is purely cosmetic."
+#          - ""
+#          - "&7Two empty slots should follow."
+#        type: "DIAMOND_BLOCK"
+#    1:   # <--- start from slot 2
+#      spacer: true # empty slot in GUI
+#      repeat: 2 # repeats for 2 slots
+#    3:   # <--- start from slot 4
+#      display:
+#        name: "&cExample Custom Item (slots 4 - 7)"
+#        lore:
+#          - "&7This is a custom item which can be added"
+#          - "&7to your menus, but in slot 4 and repeated"
+#          - "&73 times."
+#          - "&7"
+#          - "&7This will come after 2 empty slots."
+#          - "&7"
+#          - "&7This is purely cosmetic."
+#        type: "NETHERRACK"
+#      repeat: 3 # repeats for 3 more slots
+#  "c:examples": # apply to the category "examples"
+#    0:
+#      display:
+#        name: "&cExample Custom Item (slot 1)"
+#        lore:
+#          - "&7This is a custom item which can be added"
+#          - "&7to your menus. This is purely cosmetic."
+#        type: "EMERALD_BLOCK"
+#  "quests": # apply to the general quests menu IF categories are disabled
+#    0:
+#      display:
+#        name: "&cExample Custom Item (slot 1)"
+#        lore:
+#          - "&7This is a custom item which can be added"
+#          - "&7to your menus. This is purely cosmetic."
+#        type: "EMERALD_BLOCK"
+
+options:
+  # If categories are disabled, quests will be put into one big gui.
+  categories-enabled: true
+  # If true, the gui size will automatically change based on the amount of quests inside it.
+  trim-gui-size: true
+  # Enable/disable titles
+  titles-enabled: true
+  # Allow players to have multiple active quests.
+  # You can set the default number of quests using the 'default' rank below.
+  # To grant different quest limits to different people, you can define a 'quest-rank'
+  # Create the 'quest-rank' below, and give the matching permission: quests.limit.<quest-rank>
+  quest-limit:
+    default: 1
+  # Allow players to cancel a quest (you may want to remove the cancel instructions in the global item lore)
+  allow-quest-cancel: true
+  # Allow players to track a quest (you may want to remove the tracking instructions in the global item lore)
+  allow-quest-track: true
+  # Task type exclusions - include task IDs in this list which you don't want registering
+  task-type-exclusions: []
+  # Titles for the GUIs
+  guinames:
+    quests-category: ""
+    quests-menu: "Квесты"
+    quests-started-menu: ""
+    daily-quests: ""
+    quest-cancel: ""
+  # See https://github.com/LMBishop/Quests/wiki/Basic-Options#sounds
+  sounds:
+    quest-start: "ENTITY_PLAYER_LEVELUP:2:3"
+    quest-cancel: "UI_TOAST_OUT:2:3"
+    quest-complete: "UI_TOAST_CHALLENGE_COMPLETE:1.25:3"
+    gui:
+      open: "ITEM_BOOK_PAGE_TURN:1:3"
+      interact: ""
+  # Hide locked quests, quests on cooldown and completed (but not repeatable) quests
+  gui-hide-locked: false
+  # Confirm quest cancellation with a separate menu
+  gui-confirm-cancel: false
+  # Hide quests which a player cannot start due to permissions.
+  gui-hide-quests-nopermission: false
+  # Hide categories which a player cannot open due to permissions.
+  gui-hide-categories-nopermission: false
+  # Replace placeholders from PlaceholderAPI in Quests GUI items
+  gui-use-placeholderapi: false
+  # Truncate quest requirements when there are multiple requirements to prevent enormous display items
+  gui-truncate-requirements: true
+  # Close the UI automatically when a quest is accepted
+  gui-close-after-accept: true
+  # Set the action buttons for the GUI
+  gui-actions:
+    start-quest: "LEFT"
+    track-quest: "MIDDLE"
+    cancel-quest: "RIGHT"
+  # Make it so players do not have to start quest themselves
+  quest-autostart: false
+  # Automatically track quests on start, and stop tracking on completion
+  quest-autotrack: true
+  # How much quests should log, 0 = errors only, 1 = warnings, 2 = info, 3 = debug
+  verbose-logging-level: 2
+  # Record Quests log history for /q a debug
+  record-log-history: true
+  # Replace placeholders from PlaceholderAPI in rewards, rewardstrings and start strings
+  quests-use-placeholderapi: false
+  # Verify quests exist when a player's data is loaded - inconsistencies may arise when
+  # players progress on specific quests and those quests are later removed. The problem is that their progress
+  # is still kept in the quest progress file, which may lead to issues such as players reaching a quest started
+  # limit when the quests they had active no longer exist - having this option enabled prevents
+  # non-existent quests from being loaded
+  verify-quest-exists-on-load: true
+  performance-tweaking: # The following are measured in server ticks, multiply SECONDS by 20 to get the number of ticks.
+    quest-queue-executor-interval: 1      # how frequently Quests should execute the next check in the completion queue (def=1 - 0.05s) - increase this value if you are struggling with performance
+    quest-autosave-interval: 12000        # how frequently online players data will be autosaved (def=12000 - 10 minutes)
+  tab-completion:
+    enabled: true
+  error-checking:
+    # Allow quests to be loaded if they contain errors
+    # This may lead to errors in the console!
+    override-errors: false
+  # How much time (in seconds) that plugin will cache placeholders
+  placeholder-cache-time: 10
+  # Whether or not the global task configuration will override per-task configuration settings
+  global-task-configuration-override: false
+  # Whether or not the global display configuration will override per-quest display settins
+  global-quest-display-configuration-override: false
+  # Storage options - please see the following: https://github.com/LMBishop/Quests/wiki/Storage-Providers
+  storage:
+    # Either 'yaml' (flatfile) or 'mysql' (network)
+    # Please read the following before using MySQL https://github.com/LMBishop/Quests/wiki/Storage-Providers#network
+    provider: "yaml"
+    # See: https://github.com/LMBishop/Quests/wiki/Storage-Providers#Data-synchronisiation
+    #      https://github.com/LMBishop/Quests/issues/180
+    synchronisation:
+      delay-loading: 0 # (ticks)
+    # The following is only applicable for database storage providers (e.g. mysql)
+    database-settings:
+      network:
+        # The name of the database. This database should already exist!
+        database: "minecraft"
+        username: "root"
+        password: ""
+        # Address should be in the format ip:port (just like the game itself)
+        address: "localhost:3306"
+      # This plugin uses 'HikariCP' for connection management, the pooling configuration can be changed here
+      connection-pool-settings:
+        # The maximum number of connections to keep open with the database (def=8)
+        maximum-pool-size: 8
+        # The minimum number of connections to keep open with the database (def=8)
+        minimum-idle: 8
+        # The maximum time (in milliseconds) to keep a single connection open (def=1800000 - 30 min)
+        maximum-lifetime: 1800000
+        # The time (in milliseconds) the plugin will wait for a response by the database (def=500)
+        connection-timeout: 5000
+      # The prefix each table will use
+      table-prefix: "quests_"
+
+
+quest-mode:
+  mode: "NORMAL" # More modes are a work in progress
+
+# The global task configuration will apply to the config of each task of a specified type in each quest.
+# In the example below, every task with a type of "inventory" will have the config option "update-progress"
+# set to true. This is useful if you do not want to go through each quest if you want to update the configuration
+# for every task of a specific type.
+#
+# You must uncomment all below lines for the example to have any effect
+# vvvvvvvvvvvvvvvvvvvvvvvvv
+#global-task-configuration:
+#  types:
+#    inventory:
+#      update-progress: true
+
+global-quest-display:
+  lore:
+    append-not-started:
+      - ""
+      - "&#00FF2E▸ Левый клик, чтобы начать"
+    append-started:
+      - ""
+      - "&#FF0000▸ Правый клик, чтобы отменить"
+    append-tracked:
+      - ""
+      - "&#FF0000▸ Правый клик, чтобы отменить"
+
+# Macros for faster quests configuration without having to repeat
+# yourself.
+# See wiki for more information.
+global-macros:
+  bar: "&6---&7---&6---"
+
+# Configure titles
+titles:
+  quest-start:
+    title: "&#FFD100⌚ Квест начат ⌚"
+    subtitle: "&#DFDFDF{quest}"
+  quest-complete:
+    title: "&#00FF17✔ Квест завершен ✔"
+    subtitle: "&#DFDFDF{quest}"
+
+# Configure messages
+messages:
+  time-format: "{hours}ч {minutes}м"
+  quest-start: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест &#13FF00{quest} &#DFDFDFначат!"
+  quest-complete: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест &#13FF00{quest} &#DFDFDFзавершен!"
+  quest-cancel: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест &#13FF00{quest} &#DFDFDFотменен!"
+  quest-expire: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест &#13FF00{quest} &#DFDFDFистек срок."
+  quest-track: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFВы выполняете квест: &#13FF00{quest}&#DFDFDF."
+  quest-track-stop: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFБольше не отслеживается квест &#13FF00{quest}&#DFDFDF."
+  quest-random-none: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFУ вас нет квестов, которые вы можете начать."
+  quest-start-limit: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFИгрокам разрешено начать только &#FF0000{limit} &#DFDFDFквестов одновременно."
+  quest-start-disabled: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFВы не можете повторить этот квест."
+  quest-start-locked: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFВы еще не разблокировали этот квест."
+  quest-start-cooldown: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFВы недавно завершили этот квест. Вы должны подождать &#FF0000{time} &#DFDFDFпрежде чем снова начать его."
+  quest-start-started: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFВы уже начали этот квест."
+  quest-start-permission: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFУ вас нет разрешения на начало этого квеста."
+  quest-category-permission: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFУ вас нет разрешения на просмотр этой категории."
+  quest-category-quest-permission: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFУ вас нет разрешения на начало этого квеста, так как он находится в категории, которую вы не имеете права просматривать."
+  quest-cancel-notstarted: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFВы не начинали этот квест."
+  quest-cancel-notcancellable: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFВы не можете отменить этот квест."
+  quest-updater: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFНайдена новая версия &#13FF00{newver} &#DFDFDFна Spigot (ваша версия: &#13FF00{oldver}&#DFDFDF). Пожалуйста, обновите меня! - Ссылка: {link}"
+  command-data-not-loaded: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFВаш файл прогресса квестов не загружен; вы не можете использовать квесты. Если проблема повторится, свяжитесь с администратором."
+  command-sub-doesntexist: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFУказанная подкоманда '&#13FF00{sub}' &#DFDFDFне существует."
+  command-no-permission: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFУ вас нет разрешения на использование этой команды."
+  command-quest-cancel-specify: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFВы должны указать квест для отмены."
+  command-quest-start-doesntexist: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFУказанный квест '&#13FF00{quest}&#DFDFDF' не существует."
+  command-quest-general-doesntexist: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFУказанный квест '&#13FF00{quest}&#DFDFDF' не существует."
+  command-category-open-disabled: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКатегории отключены."
+  command-category-open-doesntexist: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFУказанная категория '&#13FF00{category}&#DFDFDF' не существует."
+  command-quest-admin-playernotfound: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFИгрок '&#13FF00{player}&#DFDFDF' не найден."
+  command-quest-openquests-admin-success: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFОткрыт интерфейс квестов для игрока &#13FF00{player}&#DFDFDF."
+  command-quest-openstarted-admin-success: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFОткрыт интерфейс запущенных квестов для игрока &#13FF00{player}&#DFDFDF."
+  command-quest-opencategory-admin-success: ""
+  command-taskview-admin-fail: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFТип задания '&#FF0000{task}&#DFDFDF' не существует."
+  beta-reminder: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFНапоминание: вы в настоящее время используете бета-версию Quests. Пожалуйста, отправляйте отчеты об ошибках на https://github.com/LMBishop/Quests/issues и регулярно проверяйте наличие обновлений с помощью &#13FF00/quests admin update&#DFDFDF!"
+  command-quest-admin-loaddata: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFДанные о квестах для '&#13FF00{player}&#DFDFDF' загружаются."
+  command-quest-admin-nodata: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFДанные для игрока &#13FF00{player}&#DFDFDF не найдены."
+  command-quest-admin-fullreset: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFДанные для игрока &#13FF00{player}&#DFDFDF были полностью сброшены."
+  command-quest-admin-start-faillocked: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест '&#13FF00{quest}&#DFDFDF' не может быть начат для игрока &#13FF00{player}&#DFDFDF. Он еще не разблокирован."
+  command-quest-admin-start-failcooldown: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест '&#13FF00{quest}&#DFDFDF' не может быть начат для игрока &#13FF00{player}&#DFDFDF. Он все еще на кулдауне."
+  command-quest-admin-start-failcomplete: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест '&#13FF00{quest}&#DFDFDF' не может быть начат для игрока &#13FF00{player}&#DFDFDF. Он уже завершен."
+  command-quest-admin-start-faillimit: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест '&#13FF00{quest}&#DFDFDF' не может быть начат для игрока &#13FF00{player}&#DFDFDF. Он достиг своего лимита на начало квестов."
+  command-quest-admin-start-failstarted: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест '&#13FF00{quest}&#DFDFDF' не может быть начат для игрока &#13FF00{player}&#DFDFDF. Он уже начат."
+  command-quest-admin-start-failpermission: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест '&#13FF00{quest}&#DFDFDF' не может быть начат для игрока &#13FF00{player}&#DFDFDF. У него нет разрешения."
+  command-quest-admin-start-failcategorypermission: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест '&#13FF00{quest}&#DFDFDF' не может быть начат для игрока &#13FF00{player}&#DFDFDF. У него нет разрешения на категорию, в которой находится этот квест."
+  command-quest-admin-start-failother: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест '&#13FF00{quest}&#DFDFDF' не может быть начат для игрока &#13FF00{player}&#DFDFDF."
+  command-quest-admin-start-success: "&#757575[&#FFE400Квесты&#757575] &#DFDFDFКвест &#13FF00{quest} &#DFDFDFначат для игрока &#13FF00{player}&#DFDFDF."
+  command-quest-admin-category-permission: "&#FFE400・&lQUESTS &#6D6D6D▶ &#DFDFDFCategory &#13FF00{category} &#DFDFDF could not be opened for player &#13FF00{player}&#DFDFDF. They do not have permission to view it."
+  command-quest-admin-complete-success: "&#FFE400・&lQUESTS &#6D6D6D▶ &#DFDFDFQuest &#13FF00{quest} &#DFDFDFcompleted for player &#13FF00{player}&#DFDFDF."
+  command-quest-admin-reset-success: "&#FFE400・&lQUESTS &#6D6D6D▶ &#DFDFDFSuccessfully reset quest '&#13FF00{quest}&#DFDFDF' for player &#13FF00{player}&#DFDFDF."
+  command-quest-admin-random-none: "&#FFE400・&lQUESTS &#6D6D6D▶ &#DFDFDFPlayer &#13FF00{player}&#DFDFDF has no quests which they can start."
+  command-quest-admin-random-success: "&#FFE400・&lQUESTS &#6D6D6D▶ &#DFDFDFSuccessfully started random quest '&#13FF00{quest}&#DFDFDF' for player &#13FF00{player}&#DFDFDF."
+  command-quest-admin-random-category-none: "&#FFE400・&lQUESTS &#6D6D6D▶ &#DFDFDFPlayer &#13FF00{player}&#DFDFDF has no quests in category '&#13FF00{category}&#DFDFDF' which they can start."
+  command-quest-admin-random-category-success: "&#FFE400・&lQUESTS &#6D6D6D▶ &#DFDFDFSuccessfully started random quest '&#13FF00{quest}&#DFDFDF' from category '&#13FF00{category}&#DFDFDF' for player &#13FF00{player}&#DFDFDF."
+  ui-placeholder-completed-true: "true"
+  ui-placeholder-completed-false: "false"
+  ui-placeholder-truncated: " +{amount} more"
+  placeholderapi-true: "true"
+  placeholderapi-false: "false"
+  placeholderapi-no-tracked-quest: "No tracked quest"
+  placeholderapi-data-not-loaded: "Data not loaded"

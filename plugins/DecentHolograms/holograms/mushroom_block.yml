@@ -1,0 +1,21 @@
+location: spawn:-96,514:63,000:-891,450
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7▫ <#ANIM:wave:&#E5D9E7,&#FF9191&n>ᴏгᴘᴏмʜый пᴘиʙᴀт</#ANIM> &7▫'
+    height: 0.3
+  - content: '&7▫ &fпᴏᴋупᴀᴇтᴄя ʙ /torg &7▫'
+    height: 0.3
+  - content: '&7150x150'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '#HEAD: PLAYER_HEAD (eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlMGEyMzBhY2Q2NDM2YWJjODZmMTNiZTcyZTliYTk0NTM3ZWU1NGYwMzI1YmI4NjI1NzdhMWUwNjJmMzcifX19)'
+    height: 0.3
+  actions: {}
+

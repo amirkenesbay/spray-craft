@@ -1,0 +1,44 @@
+Sounds:
+  Enabled: true
+  ProtocolLibSound: false
+  Delay: block_note_block_xylophone
+  Success: block_amethyst_block_fall
+Titles:
+  Enabled: true
+  NoDelay:
+    Title: '#CE99EEопачки, запросик!'
+    Subtitle: '#D4BCE3Телепортируем..'
+    SendMessage: true
+  Teleport:
+    Title: '#CE99EEуспех!'
+    Subtitle: '#D4BCE3x=%x% y=%y% z=%z%'
+    SendMessage: true
+  Delay:
+    Title: '#CE99EEзадержечка!'
+    Subtitle: '#D4BCE3Телепортируем через %time% сек.'
+    SendMessage: true
+  Cancelled:
+    Title: '#CE99EEвы сдвинулись!'
+    Subtitle: '#D4BCE3Телепорт был отменён!'
+    SendMessage: true
+  Loading:
+    Title: '#CE99EEзагружаемся..'
+    Subtitle: '#D4BCE3Пожалуйста, подождите!'
+    SendMessage: true
+  Failed:
+    Title: '#CE99EEошибочка вышла..'
+    Subtitle: '#D4BCE3Безопасное место не найдено!'
+    SendMessage: true
+Particles:
+  Enabled: true
+  Type:
+  - DRAGON_BREATH
+  Shape: TELEPORT
+Invincible:
+  Enabled: true
+  Seconds: 2
+Potions:
+  Enabled: false
+  Types:
+  - Blindness:60:1
+  - Invisibility:60:1

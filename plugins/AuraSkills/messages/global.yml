@@ -1,0 +1,147 @@
+# -----------------------------------
+# Aurelium Skills global message file
+# 
+# This file defines formats and styles
+# common across all languages
+# -----------------------------------
+
+action_bar:
+  idle: '{{action_bar.hp_display}}                 {{action_bar.mana_display}}'
+  hp_display: <red>{hp}/{max_hp} ❤
+  mana_display: <aqua>{mana}/{max_mana} 🌟
+  xp: '{{action_bar.hp_display}}  <gold>{xp_gained} {skill} {{units.xp}} <gray>({current_xp}/{level_xp}
+    {{units.xp}})  {{action_bar.mana_display}}'
+  maxed: '{{action_bar.hp_display}}  <gold>{xp_gained} {skill} {{units.xp}} <gray>({{ui.maxed}})  {{action_bar.mana_display}}'
+  ability: '{message}'
+  boss_bar_xp: <gold>{xp_gained} {skill} {{units.xp}} <gray>({percent}%)
+  boss_bar_maxed: <gold>{xp_gained} {skill} {{units.xp}} <gray>({{ui.maxed}})
+  boss_bar_income: <gold>{xp_gained} {skill} {{units.xp}} <gray>({percent}%) <green>(+${income})
+  boss_bar_income_maxed: <gold>{xp_gained} {skill} {{units.xp}} <gray>({{ui.maxed}})
+    <green>(+${income})
+commands:
+  preset:
+    load:
+      appended_entry: <aqua>(+) <white>{file}
+      merged_entry: <yellow>(*) <white>{file}
+      replaced_entry: <red>(±) <white>{file}
+      deleted_entry: <dark_red>(-) <white>{file}
+  armor:
+    modifier:
+      add:
+        lore: '<gray>{stat}: {color}+{value}'
+        lore_subtract: '<gray>{stat}: {color}-{value}'
+      list:
+        entry: '  {color}{stat}<white> - {value}'
+    multiplier:
+      list:
+        entry: '  <aqua>{target}<white> - {value}'
+    requirement:
+      list:
+        entry: '  <dark_aqua>{skill} <white>- <aqua>{level}'
+      entry: '<aqua>{skill} {level}<gray>, '
+  item:
+    modifier:
+      add:
+        lore: '<gray>{stat}: {color}+{value}'
+        lore_subtract: '<gray>{stat}: {color}-{value}'
+      list:
+        entry: '  {color}{stat}<white> - {value}'
+    multiplier:
+      list:
+        entry: '  <aqua>{target}<white> - {value}'
+    requirement:
+      list:
+        entry: '  <dark_aqua>{skill} <white>- <aqua>{level}'
+      entry: '<aqua>{skill} {level}<gray>, '
+  top:
+    power_entry: <white>{rank}. <aqua>{player} <white>- {level}
+    skill_entry: <white>{rank}. <aqua>{player} <white>- {level}
+    average_entry: <white>{rank}. <aqua>{player} <white>- {level}
+leveler_format:
+  title: <b><#93ff26>{{leveler.level_up}}
+  subtitle: <#9bea4c>{old} <dark_gray>➠ <#9bea4c>{new}
+  chat: |-
+    <reset>
+    <reset> <b><color:#93ff26>{{leveler.skill_level_up}}
+    <reset> <color:#94ff70>{skill} {new}
+
+    <reset>  <color:#93ff26>| <gray>{{leveler.rewards}}:{stat_level}{ability_unlock}{ability_level_up}{mana_ability_unlock}{mana_ability_level_up}{money_reward}<reset>
+    <reset>
+  stat_level: |2-
+
+        &8• {color}+{num}{symbol} {stat}
+  ability_unlock: |2-
+
+        &8• <color:#dde254>{ability}
+          <white>{desc}
+  ability_level_up: |2-
+
+        &8• <color:#dde254>{ability} {previous} <dark_gray>➠ <color:#dde254>{level}
+          <white>{desc}
+  mana_ability_unlock: |2-
+
+        &8• <#9bea4c>{mana_ability}
+          <white>{desc}
+  mana_ability_level_up: |2-
+
+        &8• <#9bea4c>{mana_ability} {previous} <dark_gray>➠ <#9bea4c>{level}
+          <white>{desc}
+  money_reward: |2-
+
+        &8• <green>${amount}
+  desc_upgrade_value: <white>{next}
+  desc_wrap: '<white>      '
+rewards:
+  item:
+    default_menu_message: |2-
+
+        {display_name}
+    default_menu_message_multiple: |2-
+
+        {display_name} {amount}x
+    default_chat_message: |2-
+
+        {display_name}
+    default_chat_message_multiple: |2-
+
+        {display_name} {amount}x
+stats:
+  strength:
+    color: <#e22e24>
+    symbol: ➽
+  health:
+    color: <#6fe217>
+    symbol: ❤
+  regeneration:
+    color: <#e24222>
+    symbol: 🔄
+  luck:
+    color: <#0aa62c>
+    symbol: 🍀
+  wisdom:
+    color: <#3051a6>
+    symbol: ✦
+  toughness:
+    color: <#3232c9>
+    symbol: ⚡
+  crit_chance:
+    color: <#ebeb2f>
+    symbol: 🎲
+  crit_damage:
+    color: <#00b37a>
+    symbol: ⚔
+  speed:
+    color: <#42c9c3>
+    symbol: 🏃
+file_version: 2
+abilities:
+  alchemist:
+    lore: <green>(+{duration})
+acf:
+  core:
+    info_message: '{message}'
+    help_format: <aqua>{commandprefix}{command} <green>{parameters} <yellow>{separator}
+      {description}
+    help_detailed_command_format: <aqua>{command} <green>{parameters} <yellow>{separator}
+      {description}
+    help_detailed_parameter_format: '<green>{syntaxorname}: <yellow>{description}'

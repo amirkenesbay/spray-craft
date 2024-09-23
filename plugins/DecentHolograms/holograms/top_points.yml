@@ -1,0 +1,51 @@
+location: spawn:-39,449:67,782:-900,562
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#FA3A78>&lТОП ПО РУБИНАМ
+    height: 0.3
+  - content: <#EBEBEB>Обновление топа каждые 5 минут
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: <#FA3A78>➊ &f%ajlb_lb_playerpoints_points_formatted_1_alltime_prefix% &f%ajlb_lb_playerpoints_points_formatted_1_alltime_name%
+      &8- <#FA3A78>%ajlb_lb_playerpoints_points_formatted_1_alltime_value% ★
+    height: 0.3
+  - content: <#FA3A78>➋ &f%ajlb_lb_playerpoints_points_formatted_2_alltime_prefix% &f%ajlb_lb_playerpoints_points_formatted_2_alltime_name%
+      &8- <#FA3A78>%ajlb_lb_playerpoints_points_formatted_2_alltime_value% ★
+    height: 0.3
+  - content: <#FA3A78>➌ &f%ajlb_lb_playerpoints_points_formatted_3_alltime_prefix% &f%ajlb_lb_playerpoints_points_formatted_3_alltime_name%
+      &8- <#FA3A78>%ajlb_lb_playerpoints_points_formatted_3_alltime_value% ★
+    height: 0.3
+  - content: <#FA3A78>➍ &f%ajlb_lb_playerpoints_points_formatted_4_alltime_prefix% &f%ajlb_lb_playerpoints_points_formatted_4_alltime_name%
+      &8- <#FA3A78>%ajlb_lb_playerpoints_points_formatted_4_alltime_value% ★
+    height: 0.3
+  - content: <#FA3A78>➎ &f%ajlb_lb_playerpoints_points_formatted_5_alltime_prefix% &f%ajlb_lb_playerpoints_points_formatted_5_alltime_name%
+      &8- <#FA3A78>%ajlb_lb_playerpoints_points_formatted_5_alltime_value% ★
+    height: 0.3
+  - content: <#FA3A78>➏ &f%ajlb_lb_playerpoints_points_formatted_6_alltime_prefix% &f%ajlb_lb_playerpoints_points_formatted_6_alltime_name%
+      &8- <#FA3A78>%ajlb_lb_playerpoints_points_formatted_6_alltime_value% ★
+    height: 0.3
+  - content: <#FA3A78>➐ &f%ajlb_lb_playerpoints_points_formatted_7_alltime_prefix% &f%ajlb_lb_playerpoints_points_formatted_7_alltime_name%
+      &8- <#FA3A78>%ajlb_lb_playerpoints_points_formatted_7_alltime_value% ★
+    height: 0.3
+  - content: <#FA3A78>➑ &f%ajlb_lb_playerpoints_points_formatted_8_alltime_prefix% &f%ajlb_lb_playerpoints_points_formatted_8_alltime_name%
+      &8- <#FA3A78>%ajlb_lb_playerpoints_points_formatted_8_alltime_value% ★
+    height: 0.3
+  - content: <#FA3A78>➒ &f%ajlb_lb_playerpoints_points_formatted_9_alltime_prefix% &f%ajlb_lb_playerpoints_points_formatted_9_alltime_name%
+      &8- <#FA3A78>%ajlb_lb_playerpoints_points_formatted_9_alltime_value% ★
+    height: 0.3
+  - content: <#FA3A78>➓ &f%ajlb_lb_playerpoints_points_formatted_10_alltime_prefix% &f%ajlb_lb_playerpoints_points_formatted_10_alltime_name%
+      &8- <#FA3A78>%ajlb_lb_playerpoints_points_formatted_10_alltime_value% ★
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: <#FA3A78>#%ajlb_position_playerpoints_points_formatted_alltime% &f%luckperms_prefix% &f%player_name%
+      &#6C6C6C- <#FA3A78>%ajlb_value_playerpoints_points_formatted_alltime% ★
+    height: 0.3
+  actions: {}

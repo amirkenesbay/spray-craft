@@ -1,0 +1,299 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&0Спавнера [2/2]'
+size: 54
+# as always, only cool people can open this menu :)
+items:
+  info:
+    material: oak_sign
+    slot: 4
+    display_name: '&#FBCD65Как добыть спавнер'
+    lore:
+      - ''
+      - ' &8Информация'      
+      - '  &fИмеется два варината добычи спавнера:'
+      - ''
+      - '  &fПолучение через шёлковое касание'
+      - '   &7Шанс выпадения: 50%'
+      - ''
+      - '  &fПолучение от взрыва крипера'
+      - '   &7Шанс выпадения: 50%'     
+  1:
+    material: spawner
+    hide_attributes: true
+    hide_effects: true
+    slot: 13
+    display_name: '&#FBCD65Спавнер зимогора'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7879'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '79'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 79'
+    - '[console] silkspawners give %player_name% stray'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '79'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 79'
+    - '[console] silkspawners give %player_name% stray'
+  2:
+    material: spawner
+    hide_attributes: true
+    hide_effects: true
+    slot: 10
+    display_name: '&#FBCD65Спавнер лисы'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7839'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '39'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 39'
+    - '[console] silkspawners give %player_name% fox'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '39'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 39'
+    - '[console] silkspawners give %player_name% fox'
+  3:
+    material: spawner
+    hide_attributes: true
+    hide_effects: true
+    slot: 11
+    display_name: '&#FBCD65Спавнер блейза'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7849'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '49'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 49'
+    - '[console] silkspawners give %player_name% blaze'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '49'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 49'
+    - '[console] silkspawners give %player_name% blaze'
+  4:
+    material: spawner
+    hide_attributes: true
+    hide_effects: true
+    slot: 12
+    display_name: '&#FBCD65Спавнер панды'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A78329'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '329'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 329'
+    - '[console] silkspawners give %player_name% panda'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '329'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 329'
+    - '[console] silkspawners give %player_name% panda'
+  5:
+    material: spawner
+    hide_attributes: true
+    hide_effects: true
+    slot: 14
+    display_name: '&#FBCD65Спавнер дельфина'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7839'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '39'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 39'
+    - '[console] silkspawners give %player_name% dolphin'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '39'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 39'
+    - '[console] silkspawners give %player_name% dolphin'
+  # 6:
+    # material: spawner
+    # hide_attributes: true
+    # hide_effects: true
+    # slot: 15
+    # display_name: '&#FBCD65Спавнер разорителя'
+    # lore:
+      # - ''
+      # - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      # - ' &fСтоимость: &#FA3A7869'
+      # - ''
+      # - '&#52d797▸ Нажмите, чтобы купить '
+    # left_click_requirement:
+      # requirements:
+        # playerpoints:
+          # type: '>='
+          # input: '%playerpoints_points%'
+          # output: '69'
+      # deny_commands:
+        # - '[close]'
+        # - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    # left_click_commands:
+    # - '[console] p take %player_name% 69'
+    # - '[console] silkspawners give %player_name% ravager'
+    # right_click_requirement:
+      # requirements:
+        # playerpoints:
+          # type: '>='
+          # input: '%playerpoints_points%'
+          # output: '69'
+      # deny_commands:
+        # - '[close]'
+        # - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    # right_click_commands:
+    # - '[console] p take %player_name% 69'
+    # - '[console] silkspawners give %player_name% ravager'
+  # 7:
+    # material: spawner
+    # hide_attributes: true
+    # hide_effects: true
+    # slot: 16
+    # display_name: '&#FBCD65Спавнер попугая'
+    # lore:
+      # - ''
+      # - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      # - ' &fСтоимость: &#FA3A7829'
+      # - ''
+      # - '&#52d797▸ Нажмите, чтобы купить '
+    # left_click_requirement:
+      # requirements:
+        # playerpoints:
+          # type: '>='
+          # input: '%playerpoints_points%'
+          # output: '29'
+      # deny_commands:
+        # - '[close]'
+        # - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    # left_click_commands:
+    # - '[console] p take %player_name% 29'
+    # - '[console] silkspawners give %player_name% parrot'
+    # right_click_requirement:
+      # requirements:
+        # playerpoints:
+          # type: '>='
+          # input: '%playerpoints_points%'
+          # output: '29'
+      # deny_commands:
+        # - '[close]'
+        # - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    # right_click_commands:
+    # - '[console] p take %player_name% 29'
+    # - '[console] silkspawners give %player_name% parrot'
+
+  
+  'back':
+    material: ARROW
+    slots:
+    - 49
+    display_name: '&#FBF386&lНазад'
+    lore:
+    - '&#838a87Предыдущая страница'    
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfВернуться на предыдущую'
+    - '  &#cfcfcfстраницу где Вы были'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[openguimenu] shop-don'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'     
+  previus:
+    material: arrow
+    slot: 48
+    display_name: '&#FBCD65Предыдущая страница'
+    lore:
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти'
+    left_click_commands:
+      - '[openguimenu] premium-spawners'

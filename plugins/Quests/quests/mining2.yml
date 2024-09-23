@@ -1,0 +1,40 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 250
+    block: STONE
+
+display:
+  name: " &#6D6D6D● &#13FF00Добыча II"
+  lore-normal:
+    - "&#6D6D6DКвест доступен"
+    - ""
+    - " &#DFDFDFНачните этот квест"
+    - " &#DFDFDFчтобы получить награды"
+    - ""
+    - " &#FF2525✘ Требования:"
+    - " &#6C6C6C▶ &#DFDFDFДобыть x250 камня"
+    - ""
+    - " &#6C6C6C| &#DFDFDFНаграды: &#E537FA+250 опыта уровня"
+  lore-started:
+    - ""
+    - " &#51FF00✔ &#DFDFDFТекущий прогресс"
+    - " &#6C6C6C- &#DFDFDF{mining:progress}&#6C6C6C/&#DFDFDF250 блоков сломано."
+  type: "stone"
+
+rewards:
+  - "clv addeXp 250 {player}"
+
+placeholders:
+  description: ""
+  progress: ""
+
+options:
+  category: "blockbreak"
+  requires:
+    - "mining1"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 2

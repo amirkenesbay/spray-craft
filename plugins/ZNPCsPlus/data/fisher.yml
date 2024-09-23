@@ -1,0 +1,36 @@
+id: fisher
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: c335dc10-4f1d-4ac1-9161-cafc10d4b2e0
+world: spawn
+location:
+  x: -133.5243894809409
+  y: 54.0
+  z: -790.4948033429639
+  yaw: -124.61212
+  pitch: -4.58558
+type: player
+properties:
+  skin_left_leg: 'true'
+  look: CLOSEST_PLAYER
+  skin_cape: 'true'
+  skin_hat: 'true'
+  skin_jacket: 'true'
+  skin: fetching;Zeks_777
+  skin_left_sleeve: 'true'
+  offhand: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAD3F0AAZTQUxNT04=
+  skin_right_leg: 'true'
+  skin_right_sleeve: 'true'
+  hand: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAD3F0AAtGSVNISU5HX1JPRA==
+hologram:
+  lines:
+  - '&a&lРЫБАК'
+  - '&7Продай рыбу с ивента'
+  - ''
+  - '&fСдавай пойманную на ивенте'
+  - '&fрыбу рыбаку и зарабатывай монеты'
+  - ''
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;ZW1mc2hvcGVy;1000;ANY_CLICK;0

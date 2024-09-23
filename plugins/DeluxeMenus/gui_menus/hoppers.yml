@@ -1,0 +1,148 @@
+menu_title: "Умные механизмы"
+open_command:
+  - mechanisms
+size: 35
+register_command: true
+update_interval: 1
+open_commands:
+  - "[sound] BLOCK_CHEST_OPEN"
+items:
+  'hopper':
+    material: HOPPER
+    slot: 11
+    display_name: '&#FBC8A0Умная воронка'
+    lore:
+      - '&#727776Быстрая работа'
+      - ''
+      - ' &8Информация '
+      - '   &#cfcfcfУмные воронки сделают'
+      - '   &#cfcfcfрутинную работу полностью'
+      - '   &#cfcfcfавтоматизированной'
+      - ''
+      - '&#727776Функции умной воронки:'
+      - ' &8- &bУмный фильтр предметов'
+      - ' &8- &aБольшой радиус всасывания'
+      - ' &8- &dПередача предметов на'
+      - '    &dрастоянии'
+      - ''
+      - ' &fСтоимость: &e30,000 монет'
+      - ''     
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: '30000'
+      deny_commands:
+        - '[close]'      
+        - '[message] &cУ вас недостаточно монет для покупки.'
+    left_click_commands:
+    - '[console] money take %player_name% 30000'
+    - '[console] upgradeablehoppers admin give %player_name% normal 1'  
+    - '[message] &fВы успешно приобрели &#FBC8A0Умную воронку&f.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: '30000'
+      deny_commands:
+        - '[close]'      
+        - '[message] &cУ вас недостаточно монет для покупки.'
+    right_click_commands:
+    - '[console] money take %player_name% 30000'
+    - '[console] upgradeablehoppers admin give %player_name% normal 1'  
+    - '[message] &fВы успешно приобрели &#FBC8A0Умную воронку&f.'
+
+  'leeft':
+    material: OAK_SIGN
+    slot: 13
+    display_name: '&#E9FB52Лифт'
+    lore:
+      - '&#727776Легкий путь'
+      - ''
+      - ' &8Как создать лифт?'
+      - '   &#cfcfcfДля его создания поставьте'
+      - '   &#cfcfcfтабличку и напишите в первой'
+      - '   &#cfcfcfстроке [Лифт], 2, 3, 4 строки'
+      - '   &#cfcfcfнеобязательны, но там можно'
+      - '   &#cfcfcfнаписать, например, номер этажа.'
+      - '   &#cfcfcfЗатем поставьте вторую табличку'
+      - '   &#cfcfcfвыше или ниже. Таблички должны'
+      - '   &#cfcfcfнаходится друг на другом.'      
+      - ''
+      - ' &#727776Как пользоваться?'
+      - '  &eПКМ &fпо табличке переносит Вас на этаж выше.'
+      - '  &eПКМ &f+ &eSHIFT &fпереместит на этаж ниже.'
+      - ''   
+
+  'furnace':
+    material: furnace
+    slot: 15
+    display_name: '&#9FF562Умная печь'
+    lore:
+      - '&#727776Быстрая плавка'
+      - ''
+      - ' &8Информация '
+      - '   &#cfcfcfУмные печки ускорят'
+      - '   &#cfcfcfпереплавку ресурсов и'
+      - '   &#cfcfcfзаработок в /shop'
+      - ''
+      - '   &#cfcfcfОни позволят вам быстро'
+      - '   &#cfcfcfпереплавлять материалы,'
+      - '   &#cfcfcfэкономить уголь и получать'
+      - '   &#cfcfcfбонус.'
+      - ''      
+      - '&#727776Функции умной печки:'
+      - ' &8- &#D008FBУдаленный доступ'
+      - ' &8- &#ADF3FDДублирование материалов'
+      - ''
+      - ' &fСтоимость: &e50,000 монет'
+      - ''     
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: '50000'
+      deny_commands:
+        - '[close]'      
+        - '[message] &cУ вас недостаточно монет для покупки.'
+    left_click_commands:
+    - '[console] money take %player_name% 50000'
+    - '[console] epicfurnaces give %player_name% 1'  
+    - '[message] &fВы успешно приобрели &#9FF562Умную печь&f.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: '50000'
+      deny_commands:
+        - '[close]'
+        - '[message] &cУ вас недостаточно монет для покупки.'
+    right_click_commands:
+    - '[console] money take %player_name% 50000'
+    - '[console] epicfurnaces give %player_name% 1'  
+    - '[message] &fВы успешно приобрели &#9FF562Умную печь&f.'      
+
+   
+
+  'back':
+    material: ARROW
+    slots:
+    - 31
+    display_name: '&#FBF386&lНазад'
+    lore:
+    - '&#838a87Предыдущая страница'    
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfВернуться на предыдущую'
+    - '  &#cfcfcfстраницу где Вы были'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[openguimenu] main_menu'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'           

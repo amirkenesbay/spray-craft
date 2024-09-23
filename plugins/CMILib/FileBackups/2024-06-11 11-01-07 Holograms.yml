@@ -1,0 +1,31 @@
+tops:
+  Loc: SpawnDragon;-33.89;84.61;-24.17
+  Range: 8
+  RangeExtra: 16
+  NewDisplay: true
+  ND:
+    Bill: VERTICAL
+  Lines:
+  - &#FBA67C&lТОП ПО ВРЕМЕНИ
+  - <#EBEBEB>Обновление топов каждый день
+  - '&r'
+  - <#FBA67C>➊ &f%ajlb_lb_statistic_time_played_1_alltime_prefix%&f%ajlb_lb_statistic_time_played_1_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_1_alltime_value% ⌚
+  - <#FBA67C>➋ &f%ajlb_lb_statistic_time_played_2_alltime_prefix%&f%ajlb_lb_statistic_time_played_2_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_2_alltime_value% ⌚
+  - <#FBA67C>➌ &f%ajlb_lb_statistic_time_played_3_alltime_prefix%&f%ajlb_lb_statistic_time_played_3_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_3_alltime_value% ⌚
+  - <#FBA67C>➍ &f%ajlb_lb_statistic_time_played_4_alltime_prefix%&f%ajlb_lb_statistic_time_played_4_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_4_alltime_value% ⌚
+  - <#FBA67C>➎ &f%ajlb_lb_statistic_time_played_5_alltime_prefix%&f%ajlb_lb_statistic_time_played_5_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_5_alltime_value% ⌚
+  - <#FBA67C>➏ &f%ajlb_lb_statistic_time_played_6_alltime_prefix%&f%ajlb_lb_statistic_time_played_6_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_6_alltime_value% ⌚
+  - <#FBA67C>➐ &f%ajlb_lb_statistic_time_played_7_alltime_prefix%&f%ajlb_lb_statistic_time_played_7_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_7_alltime_value% ⌚
+  - <#FBA67C>➑ &f%ajlb_lb_statistic_time_played_8_alltime_prefix%&f%ajlb_lb_statistic_time_played_8_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_8_alltime_value% ⌚
+  - <#FBA67C>➒ &f%ajlb_lb_statistic_time_played_9_alltime_prefix%&f%ajlb_lb_statistic_time_played_9_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_9_alltime_value% ⌚
+  - <#FBA67C>➓ &f%ajlb_lb_statistic_time_played_10_alltime_prefix%&f%ajlb_lb_statistic_time_played_10_alltime_name%
+      &#6C6C6C- <#FBA67C>%ajlb_lb_statistic_time_played_10_alltime_value% ⌚

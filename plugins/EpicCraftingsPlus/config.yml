@@ -1,0 +1,26 @@
+update_notification: true
+data_auto_save_time: 600
+block_ecraft_command: false
+hide_craftings_with_permissions: false
+hide_one_time_craftings: false
+hide_craftings_with_no_requirements: false
+check_for_color_codes_in_required_items: false
+drop_item_when_full_inventory: false
+main_inventory_type: main
+crafting_place_hologram_height: 1.2
+block_attach:
+  enabled: false
+  blocks:
+    main: CRAFTING_TABLE
+    weapons_armor: ANVIL
+cooldown_notification:
+  on_ready: true
+  on_join: true
+  sound: BLOCK_NOTE_BLOCK_PLING;2;1.5
+  on_join_delay: 0
+one_cooldown_at_the_time: false
+log_file_clear_time: 7
+craftings_default_values:
+  actions_when_crafted:
+  - 'firework: colors:YELLOW,RED type:BALL fade:AQUA power:0'
+new_crafting_default_save_mode_original: true

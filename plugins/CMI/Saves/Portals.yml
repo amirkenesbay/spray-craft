@@ -1,0 +1,19 @@
+# Command section can utilize same custom variables as scheduler. Check Schedules.yml file for all possible variables.
+
+spawn:
+  spawn:
+    Loc: -90.0:53.0:-889.0:-79.0:57.0:-879.0
+    enabled: true
+    effect: FallingSporeBlossom
+    showParticles: true
+    kickBack: true
+    particlesByPermission: false
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 2
+    particleHide: 0
+    activationRange: 32
+    commandsWithoutTp: true
+    commands:
+    - cmi effect [playerName] blindness 2 1 -s
+    - asPlayer! rtp

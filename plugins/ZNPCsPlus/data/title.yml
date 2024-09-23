@@ -1,0 +1,34 @@
+id: title
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 4a28bbc4-a988-4058-80fb-a1d15d33791e
+world: spawn
+location:
+  x: -65.4839243013491
+  y: 61.0
+  z: -906.5403507204007
+  yaw: -1.2536621
+  pitch: -1.7610655
+type: player
+properties:
+  skin_left_leg: 'true'
+  look: CLOSEST_PLAYER
+  skin_cape: 'true'
+  skin_hat: 'true'
+  skin_jacket: 'true'
+  skin: fetching;susanqueue
+  skin_left_sleeve: 'true'
+  skin_right_leg: 'true'
+  skin_right_sleeve: 'true'
+hologram:
+  lines:
+  - '&a&lТИТУЛЫ'
+  - '&7Выбери свой титул'
+  - ''
+  - '&fПокажи свой статус, покупая'
+  - '&fуникальные титулы'
+  - ''
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;dGFncw==;1000;ANY_CLICK;0

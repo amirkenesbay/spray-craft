@@ -1,0 +1,197 @@
+quests:
+  1:
+    name: "&8[#7ed6dfСреднее&8]&f Шахтер"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fОписание:"
+      - " #95afc0Отправляйтесь на остров и"
+      - " #95afc0добудь &f10 аметистовых блоков."
+      - ""
+      - "&fНаграда: &e350 монет"
+    quest_type: BREAK
+    required_item: AMETHYST_BLOCK
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 350
+
+  2:
+    name: "&8[#7ed6dfСреднее&8]&f Шахтер"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fОписание:"
+      - " #95afc0Отправляйтесь на остров и"
+      - " #95afc0добудь &f6 алмазных руд."
+      - ""
+      - "&fНаграда: &e400 монет"
+    quest_type: BREAK
+    required_item: DIAMOND_ORE
+    required_amount: 6
+    reward:
+      reward_type: MONEY
+      amount: 400
+
+  3:
+    name: "&8[#7ed6dfСреднее&8]&f Шахтер"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fОписание:"
+      - " #95afc0Отправляйтесь на остров и"
+      - " #95afc0добудь &f64 скалков."
+      - ""
+      - "&fНаграда: &e350 монет"
+    quest_type: BREAK
+    required_item: SCULK
+    required_amount: 64
+    reward:
+      reward_type: MONEY
+      amount: 350
+
+  4:
+    name: "&8[#7ed6dfСреднее&8]&f Шахтер"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fОписание:"
+      - " #95afc0Отправляйтесь на остров и"
+      - " #95afc0добудь &f64 золотых руд."
+      - ""
+      - "&fНаграда: &e300 монет"
+    quest_type: BREAK
+    required_item: GOLD_ORE
+    required_amount: 64
+    reward:
+      reward_type: MONEY
+      amount: 300
+
+  5:
+    name: "&8[#7ed6dfСреднее&8]&f Шахтер"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fОписание:"
+      - " #95afc0Отправляйтесь на остров и"
+      - " #95afc0добудь &f64 руд редстоуна."
+      - ""
+      - "&fНаграда: &e250 монет"
+    quest_type: BREAK
+    required_item: REDSTONE_ORE
+    required_amount: 64
+    reward:
+      reward_type: MONEY
+      amount: 250
+
+  6:
+    name: "&8[#7ed6dfСреднее&8]&f Охотник"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fОписание:"
+      - " #95afc0Отправляйтесь на остров и"
+      - " #95afc0убей &f8 зомби."
+      - ""
+      - "&fНаграда: &e350 монет"
+    quest_type: KILL
+    required_entity: ZOMBIE
+    required_amount: 8
+    reward:
+      reward_type: MONEY
+      amount: 350
+
+  7:
+    name: "&8[#7ed6dfСреднее&8]&f Охотник"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fОписание:"
+      - " #95afc0Отправляйтесь на остров и"
+      - " #95afc0убей &f8 скелетов."
+      - ""
+      - "&fНаграда: &e350 монет"
+    quest_type: KILL
+    required_entity: SKELETON
+    required_amount: 8
+    reward:
+      reward_type: MONEY
+      amount: 350
+
+  8:
+    name: "&8[#7ed6dfСреднее&8]&f Охотник"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fОписание:"
+      - " #95afc0Отправляйтесь на остров и"
+      - " #95afc0убей &f4 крипера."
+      - ""
+      - "&fНаграда: &e350 монет"
+    quest_type: KILL
+    required_entity: CREEPER
+    required_amount: 4
+    reward:
+      reward_type: MONEY
+      amount: 350
+
+  9:
+    name: "&8[#7ed6dfСреднее&8]&f Охотник"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fОписание:"
+      - " #95afc0Отправляйтесь на остров и"
+      - " #95afc0убей &f10 пауков."
+      - ""
+      - "&fНаграда: &e300 монет"
+    quest_type: KILL
+    required_entity: SPIDER
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 300
+
+  10:
+    name: "&8[#7ed6dfСреднее&8]&f Охотник"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fОписание:"
+      - " #95afc0Отправляйтесь на остров и"
+      - " #95afc0убей &f10 утопленников."
+      - ""
+      - "&fНаграда: &e400 монет"
+    quest_type: KILL
+    required_entity: DROWNED
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 400
+
+  11:
+    name: "&8[#7ed6dfСреднее&8]&f Магистор"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fОписание:"
+      - " #95afc0Зачаруй &f4 предмета#95afc0 на"
+      - " #95afc0своем столе зачарований."
+      - ""
+      - "&fНаграда: &e500 монет"
+    quest_type: ENCHANT
+    required_amount: 4
+    reward:
+      reward_type: MONEY
+      amount: 500

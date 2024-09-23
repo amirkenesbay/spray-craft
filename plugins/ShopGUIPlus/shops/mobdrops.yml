@@ -1,0 +1,160 @@
+mobdrops:
+ name: 'Дроп'
+ size: 54
+ clickActions:
+   LEFT: SELL   
+ fillItem:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ' '
+ items:
+  '1':
+   type: item
+   item:
+    material: ROTTEN_FLESH
+    quantity: 16
+   sellPrice: 4
+   slot: 10
+  '2':
+   type: item
+   item:
+    material: BONE
+    quantity: 16
+   sellPrice: 6
+   slot: 11
+  '3':
+   type: item
+   item:
+    material: GUNPOWDER
+    quantity: 16
+   sellPrice: 10
+   slot: 33
+  '4':
+   type: item
+   item:
+    material: STRING
+    quantity: 16
+   buyPrice: 18
+   sellPrice: 8
+   slot: 12
+  '5':
+   type: item
+   item:
+    material: SPIDER_EYE
+    quantity: 5
+   sellPrice: 8
+   slot: 38
+  '6':
+   type: item
+   item:
+    material: ENDER_PEARL
+    quantity: 4
+   sellPrice: 9
+   slot: 15
+  '7':
+   type: item
+   item:
+    material: SLIME_BALL
+    quantity: 10
+   sellPrice: 12
+   slot: 14
+  '8':
+   type: item
+   item:
+    material: PRISMARINE_CRYSTALS
+    quantity: 16
+   sellPrice: 15
+   slot: 28
+  '9':
+   type: item
+   item:
+    material: PRISMARINE_SHARD
+    quantity: 16
+   sellPrice: 12
+   slot: 19
+  '10':
+   type: item
+   item:
+    material: BLAZE_ROD
+    quantity: 10
+   sellPrice: 12
+   slot: 20
+  '11':
+   type: item
+   item:
+    material: ARROW
+    quantity: 16
+   sellPrice: 8
+   slot: 13
+  '12':
+   type: item
+   item:
+    material: GOLD_NUGGET
+    quantity: 10
+   sellPrice: 12
+   slot: 41
+  '13':
+   type: item
+   item:
+    material: LEATHER
+    quantity: 16
+   sellPrice: 10
+   slot: 34
+  '14':
+   type: item
+   item:
+    material: RABBIT_HIDE
+    quantity: 16
+   sellPrice: 12
+   slot: 40
+  '15':
+   type: item
+   item:
+    material: RABBIT_FOOT
+    quantity: 10
+   sellPrice: 20
+   slot: 25
+  '16':
+   type: item
+   item:
+    material: INK_SAC
+    quantity: 16
+   sellPrice: 8
+   slot: 42
+  '17':
+   type: item
+   item:
+    material: FEATHER
+    quantity: 16
+   sellPrice: 3
+   slot: 39
+  '18':
+   type: item
+   item:
+    material: EGG
+    quantity: 16
+   sellPrice: 6
+   slot: 43
+  sp1:
+   type: special
+   special: BALANCE
+   slot: 21
+  sp2:
+   type: special
+   special: BALANCE
+   slot: 32
+  w1:
+   type: DUMMY
+   item:
+    material: WHITE_STAINED_GLASS_PANE
+    quantity: 1
+   slots: 
+     - 8
+     - 16
+     - 22
+     - 23
+     - 24
+     - 29
+     - 30
+     - 31
+     - 37
+     - 45

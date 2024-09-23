@@ -1,0 +1,102 @@
+menu_title: '&0Набор ярстоуна [1/2]'
+open_command: 
+- jarstone
+size: 54
+items: 
+  '1':
+    material: iron_sword
+    slot: 11
+    amount: 1
+  '2':
+    material: iron_pickaxe
+    slot: 12
+    amount: 1
+  '3':
+    material: iron_axe
+    slot: 13
+    amount: 1
+  '4':
+    material: iron_shovel
+    slot: 14
+    amount: 1
+  '5':
+    material: iron_hoe
+    slot: 15
+    amount: 1
+
+  '6':
+    material: carrot
+    slot: 20
+    amount: 5
+  '7':
+    material: lead
+    slot: 21
+    amount: 1
+  '8':
+    material: iron_helmet
+    slot: 22
+    amount: 1
+  '9':
+    material: iron_chestplate
+    slot: 23
+    amount: 1
+  '10':
+    material: iron_leggings
+    slot: 24
+    amount: 1
+
+  '11':
+    material: iron_boots
+    slot: 29
+    amount: 1
+  '12':
+    material: cooked_beef
+    slot: 30
+    amount: 12
+  '13':
+    material: spyglass
+    slot: 31
+    amount: 1
+  '14':
+    material: respawn_anchor
+    slot: 32
+    amount: 1
+  '15':
+    material: wheat_seeds
+    slot: 33
+    amount: 9
+
+
+
+
+  'next':
+    material: ARROW
+    slots:
+    - 50
+    display_name: '&#FBF386&lСледующая страница'
+    lore: 
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfПерейти на следующию'
+    - '  &#cfcfcfстраницу'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[openguimenu] jarstone2'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'               
+    
+  'give':
+    material: glow_item_frame
+    slots:
+    - 48
+    display_name: '&a&lПолучить набор'
+    lore: 
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfПолучите ваш начальный'
+    - '  &#cfcfcfнабор для выживания'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[player] cmi kit jarstone'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'       

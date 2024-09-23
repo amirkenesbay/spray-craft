@@ -1,0 +1,104 @@
+# Scheduler file where you can set commands to be performed in regular intervals or in particular time
+# Enabled: (true/false) only schedulers which are enabled will be included
+#   There can be 2 types, performed in regular time intervals (in seconds) or on particular time
+# Delay: (number) defines how long to wait between each action, 600 means that actions will be performed every 10 minutes
+# Randomize: (true/false) if set to true, then only one and random of defined commands will be used. Commands will not repeat untill all of them got used up. Usefull for repeating random announcements
+# DuplicateRandomize: (true/false) if set to true, then only one and random of defined commands will be used. Commands might repeat. Usefull for repeating random announcements
+# SingleLinear: (true/false) if set to true, then only one of defined commands will be used in a row without repeating until all of them have been executed. Usefull in cases when it needs to be shown in exact order one by one
+# PerformOn: section will define particular times when perform commands. First of name should be defined and then additional time frames should be given
+#   It can have: Month, Day, Hour, Minute, Second sections. All of them in number format and hours uses 24 hour format
+#   Example
+#   PerformOn:
+#     FirstTimeFrame:
+#       Hour: 4
+#     SecondTimeFrame:
+#       Hour: 22
+#       Minute: 30
+#   You can use week day names to indicate at which day in a week this sheduler should be performed. Example - Day: Monday
+#   This will set commands to be performed on 4 a clock in morning and at 22:30. Good way to control server backups when there is less players online
+# Repeat: (true/false) if set to false, action will be performed only once other wise it will be repeated all the time in intervals or on particular time
+# MinPlayers: (amount) Will limit minimum player amount there should be online when command performe
+# MinPlayersCommands: List of commands to be performed when online player amount is under specified limit
+# MaxPlayers: (amount) Will skip scheduler if there is more than defined amount of players
+# Feedback: (true/false) if set to false will not show feedback message in console in case there is not enough players to perform this schedule
+# Commands: List of commands to be performed when time is correct. 
+#   If command starts with msg! and then player name is given, simple message will be sent to that player if he is online.
+#   If command starts with broadcast! then message will be sent to everyone on server in simple manear
+#   If command starts with actionbar! then all players will get action bar message defined after this variable
+#   If command starts with title! then all players will get title message defined after this variable
+#   If command starts with subtitle! then all players will get subtitle message defined after this variable
+#   If command starts with kickall! then all players will be kicked from server with defined message. Usefull before server stop.
+#   If command starts with perm:[permissionNode]! then command will get performed if player has permission node. This will not work when we dont know who is target player. In example: perm:cmi.announce.vip! broadcast! Hello vip guys
+#   If command starts with moneycost:[amount]! then command will get performed if player has enough money. 
+#   If command starts with expcost:[amount]! then command will get performed if player has enough exp.
+#   If command starts with allPlayers! then command will get performed by using everyones who is online name. Command itself need to contain [allPlayers] to indicate where player name needs to be added
+#   Insert line with 'delay! 5' to perform rest of commands after 5 seconds from scheduler trigger. This allows to create in example counter before server stop. Check example.
+#   [randomPlayer] placeholder can be used to get random online player name who dont have cmi.scheduler.exclude permission node. This can be used to give rewards for random players on particular time. In example: - cmi give [randomPlayer] diamond %rand/1-5% will give rando mamount from 1 to 5 diamonds to random online player
+# Supports PlaceHolderAPI variables
+# More information about specialized commands can be found at https://www.zrips.net/cmi/commands/specialized/
+
+ClearLag:
+  Enabled: true
+  MinPlayers: 10
+  Delay: 600
+  Repeat: true
+  Commands:
+  - actionbar! &x&f&f&9&a&8&3&l✘ &fОчистка мусора через &x&f&f&9&a&8&32 &x&f&f&9&1&7&8м&x&f&f&8&9&6&eи&x&f&f&8&0&6&3ʜ&x&f&f&7&7&5&8у&x&f&f&6&e&4&dт&x&f&f&6&6&4&3ы&x&f&f&5&d&3&8!
+  - delay! 60
+  - actionbar! &x&f&f&9&a&8&3&l✘ &fОчистка мусора через &x&f&f&9&a&8&31 &x&f&f&9&1&7&8м&x&f&f&8&9&6&eи&x&f&f&8&0&6&3ʜ&x&f&f&7&7&5&8у&x&f&f&6&e&4&dт&x&f&f&6&6&4&3у&x&f&f&5&d&3&8!
+  - delay! 30
+  - actionbar! &x&f&f&9&a&8&3&l✘ &fОчистка мусора через &x&f&f&9&a&8&33&x&f&f&9&2&7&a0
+    &x&f&f&8&b&7&0ᴄ&x&f&f&8&3&6&7ᴇ&x&f&f&7&c&5&eᴋ&x&f&f&7&4&5&4у&x&f&f&6&c&4&bʜ&x&f&f&6&5&4&1д&x&f&f&5&d&3&8!
+  - delay! 20
+  - actionbar! &x&f&f&9&a&8&3&l✘ &fОчистка мусора через &x&f&f&9&a&8&31&x&f&f&9&2&7&a0
+    &x&f&f&8&b&7&0ᴄ&x&f&f&8&3&6&7ᴇ&x&f&f&7&c&5&eᴋ&x&f&f&7&4&5&4у&x&f&f&6&c&4&bʜ&x&f&f&6&5&4&1д&x&f&f&5&d&3&8!
+  - delay! 5
+  - actionbar! &x&f&f&9&a&8&3&l✘ &fОчистка мусора через &x&f&f&9&a&8&35 &x&f&f&9&1&7&8ᴄ&x&f&f&8&9&6&eᴇ&x&f&f&8&0&6&3ᴋ&x&f&f&7&7&5&8у&x&f&f&6&e&4&dʜ&x&f&f&6&6&4&3д&x&f&f&5&d&3&8!
+  - delay! 1
+  - actionbar! &x&f&f&9&a&8&3&l✘ &fОчистка мусора через &x&f&f&9&a&8&34 &x&f&f&9&1&7&8ᴄ&x&f&f&8&9&6&eᴇ&x&f&f&8&0&6&3ᴋ&x&f&f&7&7&5&8у&x&f&f&6&e&4&dʜ&x&f&f&6&6&4&3д&x&f&f&5&d&3&8ы!
+  - delay! 1
+  - actionbar! &x&f&f&9&a&8&3&l✘ &fОчистка мусора через &x&f&f&9&a&8&33 &x&f&f&9&1&7&8ᴄ&x&f&f&8&9&6&eᴇ&x&f&f&8&0&6&3ᴋ&x&f&f&7&7&5&8у&x&f&f&6&e&4&dʜ&x&f&f&6&6&4&3д&x&f&f&5&d&3&8ы!
+  - delay! 1
+  - actionbar! &x&f&f&9&a&8&3&l✘ &fОчистка мусора через &x&f&f&9&a&8&32 &x&f&f&9&1&7&8ᴄ&x&f&f&8&9&6&eᴇ&x&f&f&8&0&6&3ᴋ&x&f&f&7&7&5&8у&x&f&f&6&e&4&dʜ&x&f&f&6&6&4&3д&x&f&f&5&d&3&8ы!
+  - delay! 1
+  - actionbar! &x&f&f&9&a&8&3&l✘ &fОчистка мусора через &x&f&f&9&a&8&31 &x&f&f&9&2&7&aᴄ&x&f&f&8&b&7&0ᴇ&x&f&f&8&3&6&7ᴋ&x&f&f&7&c&5&eу&x&f&f&7&4&5&4ʜ&x&f&f&6&c&4&bд&x&f&f&6&5&4&1у&x&f&f&5&d&3&8!
+  - delay! 1
+  - cmi groundclean
+  - farmlimiter check
+  - actionbar! &x&c&9&e&9&b&7&l✔ &fхоба! &x&d&0&e&a&c&0ᴄ&x&c&7&e&c&b&0ᴇ&x&b&d&e&e&a&0ᴘ&x&b&4&f&0&9&1ʙ&x&a&a&f&2&8&1ᴇ&x&a&1&f&5&7&1ᴘ
+    &x&9&8&f&7&6&1ч&x&8&e&f&9&5&1и&x&8&5&f&b&4&2ᴄ&x&7&b&f&d&3&2т&x&7&2&f&f&2&2.
+Announcer:
+  Enabled: true
+  MinPlayers: 2
+  Delay: 900
+  Repeat: true
+  Commands:
+  - broadcast! {#D5D5D5}
+  - broadcast! {#D5D5D5}&l| &x&e&6&c&5&f&f&lи&x&d&f&c&8&f&f&lʜ&x&d&7&c&c&f&f&lȹ&x&d&0&c&f&f&f&lᴏ&x&c&9&d&2&f&f&lᴘ&x&c&b&d&2&f&e&lм&x&d&8&c&f&f&c&lᴀ&x&e&5&c&c&f&a&lц&x&f&2&c&8&f&8&lи&x&f&f&c&5&f&6&lя
+  - broadcast! {#D5D5D5}
+  - broadcast! &f▫{#D5D5D5} Дата последнего вайпа &7&l| {#C5D4FF}13.08.2023.
+  - broadcast! &f▫{#D5D5D5} Следующий вайп &7&l| {#C5D4FF}01.10.2023.
+  - broadcast! {#D5D5D5}
+  - delay! 900
+  - broadcast! {#D5D5D5}
+  - broadcast! {#D5D5D5}&l| &x&e&9&e&9&e&9ʜ&x&e&3&e&a&e&1ᴀ&x&d&c&e&b&d&8б&x&d&6&e&d&d&0ᴏ&x&c&f&e&e&c&8ᴘ
+    &x&c&9&e&f&b&fʙ &x&c&2&f&0&b&7x&x&b&8&e&f&a&cᴇ&x&a&f&e&f&a&0л&x&a&5&e&e&9&5п&x&9&b&e&d&8&9ᴇ&x&9&2&e&d&7&eᴘ&x&8&8&e&c&7&2ы
+  - broadcast! {#D5D5D5}
+  - broadcast! &f▫{#D5D5D5} Желаете встать на стражу порядка?
+  - broadcast! &f▫{#D5D5D5} Скорее подавайте заявочку в тикет!
+  - broadcast! {#D5D5D5}
+  - broadcast! &f▫{#D5D5D5} Ссылка на наш дискорд-сервер
+  - broadcast! &f▫{#B8E2AF} https://tolfy.net/discord
+  - broadcast! {#D5D5D5}
+  - delay! 900
+  - broadcast! {#D5D5D5}
+  - broadcast! {#D5D5D5}&l| &x&c&d&e&6&e&2ʜ&x&b&f&d&f&e&4ᴀ&x&b&1&d&8&e&6ш &x&a&3&d&1&e&8д&x&9&5&c&a&e&aи&x&8&e&c&3&e&bᴄ&x&8&e&b&e&e&bᴋ&x&8&e&b&9&e&bᴏ&x&8&e&b&3&e&bᴘ&x&8&e&a&e&e&bд
+  - broadcast! {#D5D5D5}
+  - broadcast! &f▫{#D5D5D5} Хотите подать жалобу на игрока, сообщить о
+  - broadcast! &f▫{#D5D5D5} серверной недоработке или подать свою идею?
+  - broadcast! {#D5D5D5}
+  - broadcast! &f▫{#D5D5D5} Заходите на наш дискорд-сервер
+  - broadcast! &f▫{#B4B4EB} https://tolfy.net/discord
+  - broadcast! {#D5D5D5}
+  - delay! 900
+0

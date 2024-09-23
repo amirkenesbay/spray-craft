@@ -1,0 +1,5 @@
+Name: '&eКейс с броней'
+Virtual: true
+Item:
+  Material: TRIPWIRE_HOOK
+  Name: '&fArmor Key'

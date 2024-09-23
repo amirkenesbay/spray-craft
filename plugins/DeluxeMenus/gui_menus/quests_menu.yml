@@ -1,0 +1,145 @@
+menu_title: 'Квесты'
+size: 36
+open_command:
+- q
+- quest
+- quests
+- mission
+- missions
+register_command: true
+items:
+  'block_break':
+    material: IRON_PICKAXE
+    slots:
+    - 10
+    display_name: ' &#6D6D6D● &#27FF00Шахтёрские квесты'
+    lore:
+    - '&#6D6D6D Главная категория'
+    - ''
+    - ' &#DFDFDFНачните зарабатывать'
+    - ' &#DFDFDFопыт, выполняя квесты'
+    - ''
+    - ' &#6C6C6C| &#DFDFDFВыполнено квестов: &#00C9FF%quests_category:blockbreak_completed% 🏹'
+    - ' &#6C6C6C| &#DFDFDFВсего квестов: &d%quests_category:blockbreak_all% 🏹'
+    - ' '
+    - '&#58d394▸ Нажмите, чтобы открыть'
+    left_click_commands:
+    - '[player] quests category blockbreak'
+  'breeding':
+    material: PIG_SPAWN_EGG
+    slots:
+    - 11
+    display_name: ' &#6D6D6D● &#27FF00Разведение животных'
+    lore:
+    - '&#6D6D6DГлавная категория'
+    - ''
+    - ' &#DFDFDFНачните зарабатывать'
+    - ' &#DFDFDFопыт, выполняя квесты'
+    - ''
+    - ' &#6C6C6C| &#DFDFDFВыполнено квестов: &#00C9FF%quests_category:breeding_completed% 🏹'
+    - ' &#6C6C6C| &#DFDFDFВсего квестов: &d%quests_category:breeding_all% 🏹'
+    - ' '
+    - '&#58d394▸ Нажмите, чтобы открыть'
+    left_click_commands:
+    - '[player] quests category breeding'
+  'brewing':
+    material: BREWING_STAND
+    slots:
+    - 12
+    display_name: ' &#6D6D6D● &#27FF00Варильные квесты'
+    lore:
+    - '&#6D6D6DГлавная категория'
+    - ''
+    - ' &#DFDFDFНачните зарабатывать'
+    - ' &#DFDFDFопыт, выполняя квесты'
+    - ''
+    - ' &#6C6C6C| &#DFDFDFВыполнено квестов: &#00C9FF%quests_category:brewing_completed% 🏹'
+    - ' &#6C6C6C| &#DFDFDFВсего квестов: &d%quests_category:brewing_all% 🏹'
+    - ' '
+    - '&#58d394▸ Нажмите, чтобы открыть'
+    left_click_commands:
+    - '[player] quests category brewing'
+  'enchanting':
+    material: ENCHANTED_BOOK
+    slots:
+    - 13
+    display_name: ' &#6D6D6D● &#27FF00Зачаровательные квесты'
+    lore:
+    - '&#6D6D6DГлавная категория'
+    - ''
+    - ' &#DFDFDFНачните зарабатывать'
+    - ' &#DFDFDFопыт, выполняя квесты'
+    - ''
+    - ' &#6C6C6C| &#DFDFDFВыполнено квестов: &#00C9FF%quests_category:enchanting_completed% 🏹'
+    - ' &#6C6C6C| &#DFDFDFВсего квестов: &d%quests_category:enchanting_all% 🏹'
+    - ' '
+    - '&#58d394▸ Нажмите, чтобы открыть'
+    left_click_commands:
+    - '[player] quests category enchanting'
+  'walking':
+    material: DIAMOND_BOOTS
+    slots:
+    - 14
+    display_name: ' &#6D6D6D● &#27FF00Прогулочные квесты'
+    lore:
+    - '&#6D6D6DГлавная категория'
+    - ''
+    - ' &#DFDFDFНачните зарабатывать'
+    - ' &#DFDFDFопыт, выполняя квесты'
+    - ''
+    - ' &#6C6C6C| &#DFDFDFВыполнено квестов: &#00C9FF%quests_category:walking_completed% 🏹'
+    - ' &#6C6C6C| &#DFDFDFВсего квестов: &d%quests_category:walking_all% 🏹'
+    - ' '
+    - '&#58d394▸ Нажмите, чтобы открыть'
+    left_click_commands:
+    - '[player] quests category walking'
+  'farming':
+    material: WHEAT
+    slots:
+    - 15
+    display_name: ' &#6D6D6D● &#27FF00Фермерские квесты'
+    lore:
+    - '&#6D6D6DГлавная категория'
+    - ''
+    - ' &#DFDFDFНачните зарабатывать'
+    - ' &#DFDFDFопыт, выполняя квесты'
+    - ''
+    - ' &#6C6C6C| &#DFDFDFВыполнено квестов: &#00C9FF%quests_category:farming_completed% 🏹'
+    - ' &#6C6C6C| &#DFDFDFВсего квестов: &d%quests_category:farming_all% 🏹'
+    - ' '
+    - '&#58d394▸ Нажмите, чтобы открыть'
+    left_click_commands:
+    - '[player] quests category farming'
+  'fishing':
+    material: FISHING_ROD
+    slots:
+    - 16
+    display_name: ' &#6D6D6D● &#27FF00Рыболовные квесты'
+    lore:
+    - '&#6D6D6DГлавная категория'
+    - ''
+    - ' &#DFDFDFНачните зарабатывать'
+    - ' &#DFDFDFопыт, выполняя квесты'
+    - ''
+    - ' &#6C6C6C| &#DFDFDFВыполнено квестов: &#00C9FF%quests_category:fishing_completed% 🏹'
+    - ' &#6C6C6C| &#DFDFDFВсего квестов: &d%quests_category:fishing_all% 🏹'
+    - ' '
+    - '&#58d394▸ Нажмите, чтобы открыть'
+    left_click_commands:
+    - '[player] quests category fishing'
+    
+  'daily_quests':    
+    material: CLOCK
+    slots:
+    - 31
+    display_name: ' &#6D6D6D● &#F68EFBЕжедневные квесты'
+    lore:
+    - '&#6D6D6DГлавная категория'
+    - ''
+    - ' &#DFDFDFВыполняйте каждый день'
+    - ' &#DFDFDFразличные квесты и'
+    - ' &#DFDFDFполучайте награды'    
+    - ' '
+    - '&#58d394▸ Нажмите, чтобы открыть'
+    left_click_commands:
+    - '[player] dq'

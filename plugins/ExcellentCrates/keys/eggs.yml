@@ -1,0 +1,5 @@
+Name: '&aКейс с яйцами'
+Virtual: true
+Item:
+  Material: TRIPWIRE_HOOK
+  Name: '&fEggs Key'

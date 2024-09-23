@@ -1,0 +1,78 @@
+[10:03:15] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[10:04:05] [Server thread/INFO]: Enabling BAuction v1.3.3
+[10:04:05] [Server thread/INFO]: [DEBUG] enable checkUpdate
+[10:04:05] [Server thread/INFO]: [DEBUG] enable enable BMenuApi
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load MenuLoader
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load db cfg
+[10:04:05] [Server thread/INFO]: [DEBUG] enable registerAdapters
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load UniqueNameGenerator
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load cfg
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load assetsManager
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load lang
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load logger
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load event manager
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load time util
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load TrieManager
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load econ
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load PAPI hook
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load black list
+[10:04:05] [Server thread/INFO]: [DEBUG] enable load db
+[10:04:05] [Server thread/INFO]: [DEBUG] enable check version
+[10:04:05] [Server thread/INFO]: [DEBUG] enable init commands
+[10:04:05] [bauc File Db loader/INFO]: Успешно загружено 37 предметов за 23 мс.
+[11:17:10] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah sell 300
+[11:17:14] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[11:30:06] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Sujuya} use command ah 
+[11:31:19] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[11:35:14] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah sell 250
+[11:35:35] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah sell 250
+[11:36:03] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Sujuya} use command ah 
+[11:36:24] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[11:38:05] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[11:38:26] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah sell 10
+[11:38:34] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[11:38:44] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah sell 10
+[11:38:56] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[11:38:57] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah sell 10
+[11:39:06] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Sujuya} use command ah 
+[11:46:36] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah sell 300
+[11:55:02] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[11:55:03] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 50 full
+[11:55:24] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Sujuya} use command ah sell 11
+[11:55:26] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[11:56:55] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah 
+[11:59:50] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:06:33] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:06:41] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:06:48] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:06:52] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 50 full
+[12:07:10] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:07:11] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[12:15:58] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Sujuya} use command ah 
+[12:16:20] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:16:57] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:17:35] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 50 full
+[12:18:11] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:22:28] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Sujuya} use command ah 
+[12:32:11] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Sujuya} use command ah sell 20
+[12:32:20] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:36:11] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Sujuya} use command ah sell 1000
+[12:40:33] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[12:40:58] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Mananakla} use command ah 
+[12:42:53] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:45:13] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Sujuya} use command ah 
+[13:07:32] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[13:08:01] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah sell 4000
+[13:52:52] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Tenikcalmy} use command ah 
+[14:02:29] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah sell 1000
+[14:11:32] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Tenikcalmy} use command ah 
+[14:58:14] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[15:11:27] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[15:11:50] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[15:46:19] [Server thread/INFO]: Disabling BAuction v1.3.3
+[15:46:19] [Server thread/INFO]: [DEBUG] disable disable PAPI hook
+[15:46:19] [Server thread/INFO]: [DEBUG] disable disable logger
+[15:46:19] [Server thread/INFO]: [DEBUG] disable disable BMenuApi
+[15:46:19] [Server thread/INFO]: [DEBUG] disable disable db
+[15:46:19] [Server thread/INFO]: saved 29 items, 170 users and 5 unsold items in 3 ms
+[15:46:19] [Server thread/INFO]: [DEBUG] disable unregisterAdapters

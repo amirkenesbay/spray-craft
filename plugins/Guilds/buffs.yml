@@ -1,0 +1,295 @@
+guild-buffs:
+    # What should the name of the inventory be?
+    gui-name: '               &8| Усилители |'
+    # How often (in seconds) can a guild buy a buff?
+    cooldown: 600
+    # Do we want to allow users to have more than one buff at a time?
+    buff-stacking: false
+    # Set the name and material for the navigation buttons
+    nav:
+        next:
+            material: EMPTY_MAP
+            name: '&7&l| &fСледующая страница'
+        previous:
+            material: EMPTY_MAP
+            name: '&7&l| &fПредыдущая страница'
+    buffs: 
+    - identifier: '1'
+      locked:
+        name: '&7&l| &aВещество "Redmod Graff"'
+        material: GOLDEN_HORSE_ARMOR
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &eСпешка'
+        - ' &7Длительность &8» &e5 минут.'
+        - ' &7Стоимость &8» &e$3600'
+        - ' &7'
+      unlocked:
+        name: '&7&l| &aВещество "Redmod Graff"'
+        material: GOLDEN_HORSE_ARMOR
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &eСпешка'
+        - ' &7Длительность &8» &e5 минут.'
+        - ' &7Стоимость &8» &e$3600'
+        - ' &7'
+      price: 3600.0
+      effects:
+      - FAST_DIGGING;0;300
+      permission: example.perm.here
+      clicker:
+        enabled: false
+        commands:
+        - ''
+      guild:
+        enabled: false
+        commands:
+        - ''
+    - identifier: '2'
+      locked:
+        name: '&7&l| &bБлагословение гепарда'
+        material: SUGAR
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &bСкорость'
+        - ' &7Длительность &8» &b5 минут.'
+        - ' &7Стоимость &8» &b$3600'
+        - ' &7'
+      unlocked:
+        name: '&7&l| &bБлагословение гепарда'
+        material: SUGAR
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &bСкорость'
+        - ' &7Длительность &8» &b5 минут.'
+        - ' &7Стоимость &8» &b$3600'
+        - ' &7'
+      price: 3600.0
+      effects:
+      - SPEED;0;300
+      permission: example.perm.here
+      clicker:
+        enabled: false
+        commands:
+        - ''
+      guild:
+        enabled: false
+        commands:
+        - ''
+    - identifier: '3'
+      locked:
+        name: '&7&l| &6Драконья чешуя'
+        material: BLAZE_POWDER
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &6Огнестойкость'
+        - ' &7Длительность &8» &65 минут.'
+        - ' &7Стоимость &8» &6$3600'
+        - ' &7'
+      unlocked:
+        name: '&7&l| &6Драконья чешуя'
+        material: BLAZE_POWDER
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &6Огнестойкость'
+        - ' &7Длительность &8» &65 минут.'
+        - ' &7Стоимость &8» &6$3600'
+        - ' &7'
+      price: 3600.0
+      effects:
+      - FIRE_RESISTANCE;0;300
+      permission: example.perm.here
+      clicker:
+        enabled: false
+        commands:
+        - ''
+      guild:
+        enabled: false
+        commands:
+        - ''
+    - identifier: '4'
+      locked:
+        name: '&7&l| &9Глаза затаившегося демона'
+        material: RECOVERY_COMPASS
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &9Ночное зрение'
+        - ' &7Длительность &8» &95 минут.'
+        - ' &7Стоимость &8» &9$3600'
+        - ' &7'
+      unlocked:
+        name: '&7&l| &9Глаза затаившегося демона'
+        material: RECOVERY_COMPASS
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &9Ночное зрение'
+        - ' &7Длительность &8» &95 минут.'
+        - ' &7Стоимость &8» &9$3600'
+        - ' &7'
+      price: 3600.0
+      effects:
+      - NIGHT_VISION;0;300
+      permission: example.perm.here
+      clicker:
+        enabled: false
+        commands:
+        - ''
+      guild:
+        enabled: false
+        commands:
+        - ''
+    - identifier: '5'
+      locked:
+        name: '&7&l| &fНоги призрачного ходока'
+        material: FIREWORK_STAR
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &fНевидимость'
+        - ' &7Длительность &8» &f5 минут.'
+        - ' &7Стоимость &8» &f$3600'
+        - ' &7'
+      unlocked:
+        name: '&7&l| &fНоги призрачного ходока'
+        material: FIREWORK_STAR
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &fНевидимость'
+        - ' &7Длительность &8» &f5 минут.'
+        - ' &7Стоимость &8» &f$3600'
+        - ' &7'
+      price: 3600.0
+      effects:
+      - INVISIBILITY;0;300
+      permission: example.perm.here
+      clicker:
+        enabled: false
+        commands:
+        - ''
+      guild:
+        enabled: false
+        commands:
+        - ''
+    - identifier: '6'
+      locked:
+        name: '&7&l| &cМогучая львиная сила'
+        material: REDSTONE
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &cСила'
+        - ' &7Длительность &8» &c5 минут.'
+        - ' &7Стоимость &8» &c$3600'
+        - ' &7'
+      unlocked:
+        name: '&7&l| &cМогучая львиная сила'
+        material: REDSTONE
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &cСила'
+        - ' &7Длительность &8» &c5 минут.'
+        - ' &7Стоимость &8» &c$3600'
+        - ' &7'
+      price: 3600.0
+      effects:
+      - INCREASE_DAMAGE;0;300
+      permission: example.perm.here
+      clicker:
+        enabled: false
+        commands:
+        - ''
+      guild:
+        enabled: false
+        commands:
+        - ''
+    - identifier: '7'
+      locked:
+        name: '&7&l| &aПрыжок находчивого кролика'
+        material: EMERALD
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &aПрыгучесть'
+        - ' &7Длительность &8» &a5 минут.'
+        - ' &7Стоимость &8» &a$3600'
+        - ' &7'
+      unlocked:
+        name: '&7&l| &aПрыжок находчивого кролика'
+        material: EMERALD
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &aПрыгучесть'
+        - ' &7Длительность &8» &a5 минут.'
+        - ' &7Стоимость &8» &a$3600'
+        - ' &7'
+      price: 3600.0
+      effects:
+      - JUMP;0;300
+      permission: example.perm.here
+      clicker:
+        enabled: false
+        commands:
+        - ''
+      guild:
+        enabled: false
+        commands:
+        - ''
+    - identifier: '8'
+      locked:
+        name: '&7&l| &3Великий мореплаватель'
+        material: HEART_OF_THE_SEA
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &3Дыхание под водой'
+        - ' &7Длительность &8» &35 минут.'
+        - ' &7Стоимость &8» &3$3600'
+        - ' &7'
+      unlocked:
+        name: '&7&l| &3Великий мореплаватель'
+        material: HEART_OF_THE_SEA
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &3Дыхание под водой'
+        - ' &7Длительность &8» &35 минут.'
+        - ' &7Стоимость &8» &3$3600'
+        - ' &7'
+      price: 3600.0
+      effects:
+      - WATER_BREATHING;0;300
+      permission: example.perm.here
+      clicker:
+        enabled: false
+        commands:
+        - ''
+      guild:
+        enabled: false
+        commands:
+        - ''
+    - identifier: '9'
+      locked:
+        name: '&7&l| &dДар от мистической ведьмы'
+        material: POPPED_CHORUS_FRUIT
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &dРегенерация'
+        - ' &7Длительность &8» &d5 минут.'
+        - ' &7Стоимость &8» &d$3600'
+        - ' &7'
+      unlocked:
+        name: '&7&l| &dДар от мистической ведьмы'
+        material: POPPED_CHORUS_FRUIT
+        lore:
+        - ' &7'
+        - ' &7Тип &8» &dРегенерация'
+        - ' &7Длительность &8» &d5 минут.'
+        - ' &7Стоимость &8» &d$3600'
+        - ' &7'
+      price: 3600.0
+      effects:
+      - REGENERATION;0;300
+      permission: example.perm.here
+      clicker:
+        enabled: false
+        commands:
+        - ''
+      guild:
+        enabled: false
+        commands:
+        - ''

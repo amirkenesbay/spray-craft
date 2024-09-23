@@ -1,0 +1,51 @@
+menu_title: "Рыбак"
+open_command:
+  - emfshoper
+size: 26
+register_command: true
+update_interval: 1
+open_commands:
+  - "[sound] BLOCK_CHEST_OPEN"
+items:
+  'ROD':
+    material: FISHING_ROD
+    slot: 12
+    display_name: '&#FBC8A0Удочка'
+    lore:
+      - '&#727776Сходим на рыбалку'
+      - ''
+      - ' &8Информация '
+      - '   &#cfcfcfС помощью удочки вы'
+      - '   &#cfcfcfсможете начать рыбачить'
+      - ''
+      - ' &fСтоимость: &e2,000 монет'
+      - ''     
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: '2000'
+      deny_commands:
+        - '[close]'      
+        - '[message] &cУ вас недостаточно монет для покупки.'
+    click_commands:
+    - '[console] money take %player_name% 2000'
+    - '[console] give %player_name% FISHING_ROD 1'  
+    - '[message] &fВы успешно приобрели &#FBC8A0Удочку&f.'
+
+  'SHOP':
+    material: OAK_SIGN
+    slot: 14
+    display_name: '&#E9FB52Продажа рыбы'
+    lore:
+      - '&#727776Заработать на рыбке'
+      - ''
+      - ' &8Информация '
+      - '   &#cfcfcfТут вы сможете продать'
+      - '   &#cfcfcfвсю рыбу пойманую с ивента'      
+      - ''     
+      - '&#52d797▸ Нажмите, чтобы открыть'
+    click_commands:
+    - '[player] emf shop'      

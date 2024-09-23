@@ -1,0 +1,41 @@
+item:
+  original:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"| ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":true},{"text":"Эпический
+        рюкзак ","italic":false,"color":"white","bold":false},{"text":"[36 слотов]","italic":false,"color":"gray"}]}'
+      lore:
+      - '""'
+      - '{"text":"","extra":[" ",{"text":"Этот рюкзак содержит ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"36
+        ","italic":false,"color":"white"},{"text":"слотов,","italic":false,"color":"gray"}]}'
+      - '{"text":"","extra":[" ",{"text":"в которых можно хранить предметы!    ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"","italic":false,"color":"gray"}]}'
+      - '""'
+      - '{"text":"","extra":[" ",{"text":"▫ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"▉▉▉▉▉▉▉▉▉▉
+        ","italic":false,"color":"gray"},{"text":"(0,00% использовано)","italic":false,"color":"gray"}]}'
+      - '""'
+      custom: H4sIAAAAAAAA/+NiYOBg4HFKTM4uAOKQyoJUBvbUgszk+KQCDgYumLinC4OKgYWppWGKUYquRRKQMDFOTtRNSjI30zU2NzYzS7ZMM0xLs+BgEIJpCShKLctMLQ9JTGewq1YqyC8ozUksSU0JzskvKVayio7VUSoGMh1z80vzSpSsjM2A/JL8osT0VJAblKyUnBydvQOAWKmWAQDJb9bYpAAAAA==
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: d9039f27-ec13-4c7b-818b-91bb0b4b85b5
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjE4N2M3MzJhYTM5ZDI5MTM0NjUwYjZhNzJjNmY0MWI5OTA4NWEyNmVjNWU1MTNiYTE4YzQwZDVlY2E5ZTY5YyJ9fX0=
+priority: 4
+no_item: true  
+actions_when_crafted:
+- 'firework: colors:YELLOW,RED type:BALL fade:AQUA power:0'
+- 'console_command: mtbackpack give epic_bp %player%'
+save_original_item: true
+requires:
+- 'id:PLAYER_HEAD;amount:1;name:§7§l| §fРедкий рюкзак §7[27 слотов];lore:| §7Этот
+  рюкзак содержит §f27 §7слотов,| §7в которых можно хранить предметы!    §7|| §8▫
+  §7▉▉▉▉▉▉▉▉▉▉ §7(0,00% использовано)|;skull_texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y4NzUyNWFkODRlZmQxNjgwNmEyNmNhMDE5ODRiMjgwZTViYTY0MDM1MDViNmY2Yzk4MDNjMjQ2NDJhYmZjNyJ9fX0=;skull_owner:'
+- id:CRYING_OBSIDIAN;amount:8
+- id:AMETHYST_SHARD;amount:64
+- id:ENDER_CHEST;amount:1
+- id:NETHERITE_INGOT;amount:3
+category: loots

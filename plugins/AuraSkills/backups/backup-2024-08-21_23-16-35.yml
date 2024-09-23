@@ -1,0 +1,3876 @@
+backup_version: 2
+users:
+    00000000-0000-0000-0009-01f63cc70a2c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f4af617178:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 2.8}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fe647db181:
+        skills:
+            auraskills/excavation: {level: 0, xp: 5.500000000000001}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 89.70000000000003}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 22.0}
+            auraskills/agility: {level: 2, xp: 228.59180000000003}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 2, xp: 182.16000000000008}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 12.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    75d11c81-b5e4-4ade-b2e7-74c087f8ffa8:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    90fd73f4-88b5-3040-a12f-afd07c2d5a8d:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 5.800000000000001}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 0, xp: 16.8}
+            auraskills/foraging: {level: 0, xp: 2.4000000000000004}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f471454b54:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    cb0e19b7-2452-3848-9a60-098e66f4a73d:
+        skills:
+            auraskills/excavation: {level: 0, xp: 78.90000000000008}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 371.9300000000008}
+            auraskills/defense: {level: 0, xp: 88.83999961614609}
+            auraskills/fighting: {level: 0, xp: 11.0}
+            auraskills/agility: {level: 4, xp: 821.98}
+            auraskills/foraging: {level: 1, xp: 102.59999999999992}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 57.25}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f31a8de4e7:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 1, xp: 39.599999999999994}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 1, xp: 50.416}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 18.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    00000000-0000-0000-0009-01fad254a8bc:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 16.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    9496aab0-a469-3145-b4c5-41c73fdb87c8:
+        skills:
+            auraskills/excavation: {level: 0, xp: 6.2}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.8}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 7.0}
+            auraskills/agility: {level: 0, xp: 32.2}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 1, xp: 0.7999999999998835}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f16344b7e4:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.6}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 9.8}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 56.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    d84ac2b5-ff71-404e-b080-3ac866f9c948:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fb437fb26a:
+        skills:
+            auraskills/excavation: {level: 0, xp: 5.799999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 2, xp: 290.0200000000001}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 1, xp: 26.057000000000002}
+            auraskills/foraging: {level: 0, xp: 65.6}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 6.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    7ba8b651-13cf-39c5-98b8-20850f7819cc:
+        skills:
+            auraskills/excavation: {level: 0, xp: 45.800000000000026}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 4, xp: 418.44999999999834}
+            auraskills/defense: {level: 2, xp: 225.5361015081407}
+            auraskills/fighting: {level: 0, xp: 85.0}
+            auraskills/agility: {level: 3, xp: 198.16960000000012}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 1, xp: 122.39999999999999}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    28e4ce40-e8f5-3842-8d36-34657b102da1:
+        skills:
+            auraskills/excavation: {level: 1, xp: 57.29999999999995}
+            auraskills/alchemy: {level: 0, xp: 30.0}
+            auraskills/mining: {level: 6, xp: 2704.400000000004}
+            auraskills/defense: {level: 2, xp: 348.4699555158615}
+            auraskills/fighting: {level: 0, xp: 89.0}
+            auraskills/agility: {level: 5, xp: 827.7545999999999}
+            auraskills/foraging: {level: 5, xp: 349.83999999999446}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 1, xp: 6.5}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 26.0
+        trait_modifiers:
+        - {name: excavation_luck_ability, trait: auraskills/excavation_luck, value: 10.0}
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 10.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+        - {name: farming_luck_ability, trait: auraskills/farming_luck, value: 10.0}
+    00000000-0000-0000-0009-01fef2c347be:
+        skills:
+            auraskills/excavation: {level: 0, xp: 7.299999999999998}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 3.600000000000001}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 6.0}
+            auraskills/agility: {level: 0, xp: 8.4}
+            auraskills/foraging: {level: 4, xp: 8.639999999998322}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 65.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    5032998f-5d07-3510-a49c-c2790631541a:
+        skills:
+            auraskills/excavation: {level: 0, xp: 88.1000000000002}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 28.79999999999995}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 10.0}
+            auraskills/agility: {level: 2, xp: 57.14800000000001}
+            auraskills/foraging: {level: 3, xp: 33.520000000000415}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 16.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f6fa430d9f:
+        skills:
+            auraskills/excavation: {level: 0, xp: 31.89999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 4.400000000000001}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 26.0}
+            auraskills/agility: {level: 1, xp: 60.50479999999999}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 3, xp: 134.64000000000038}
+            auraskills/farming: {level: 0, xp: 4.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    a2d7b219-7221-3c52-8e04-e51694d7bb0c:
+        skills:
+            auraskills/excavation: {level: 1, xp: 67.50000000000043}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 4, xp: 461.78000000014504}
+            auraskills/defense: {level: 0, xp: 63.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 3, xp: 253.11640000000008}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 3, xp: 616.1600000000004}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 7.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: excavation_luck_ability, trait: auraskills/excavation_luck, value: 10.0}
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    5fd74e01-567c-3434-917a-88ae10317cdb:
+        skills:
+            auraskills/excavation: {level: 0, xp: 7.199999999999998}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 37.59999999999999}
+            auraskills/defense: {level: 0, xp: 21.62928032875061}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 2, xp: 118.15300000000002}
+            auraskills/foraging: {level: 2, xp: 102.87999999999994}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 28.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    609d329e-504f-4c1c-a799-744d8d6e5acf:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f65bef8548:
+        skills:
+            auraskills/excavation: {level: 0, xp: 1.5}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 64.39999999999999}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.8}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    f85fc55a-6691-442b-8815-43eb8323cfdb:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fbadbd2f7a:
+        skills:
+            auraskills/excavation: {level: 0, xp: 7.5}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 69.00000000000004}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 28.0}
+            auraskills/agility: {level: 1, xp: 76.154}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 48.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+    3de51a98-725f-4109-8226-30c1604c970e:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    5e91ac8f-3fec-35a9-bf6e-d68b826f163c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 45.90000000000003}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 848.9100000000008}
+            auraskills/defense: {level: 0, xp: 18.0}
+            auraskills/fighting: {level: 0, xp: 64.0}
+            auraskills/agility: {level: 2, xp: 363.44960000000003}
+            auraskills/foraging: {level: 2, xp: 97.91999999999992}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 20.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f2e04145e7:
+        skills:
+            auraskills/excavation: {level: 0, xp: 2.7}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 3.7000000000000006}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 24.0}
+            auraskills/agility: {level: 1, xp: 20.851399999999998}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 2, xp: 6.400000000000006}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 3.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    b291d871-ad62-3248-ae17-fd351ab36b50:
+        skills:
+            auraskills/excavation: {level: 0, xp: 4.7}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 4, xp: 29.83000000000013}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 12.0}
+            auraskills/agility: {level: 2, xp: 301.23520000000013}
+            auraskills/foraging: {level: 3, xp: 477.60000000000076}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        stat_modifiers:
+        - {name: mining-stamina, stat: auraskills/toughness, value: 1.0}
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    fc98a16b-a5c9-35da-a34f-387880a63143:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 88.19999999999999}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 71.5718}
+            auraskills/foraging: {level: 1, xp: 122.39999999999998}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f7869cbcfb:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    9d78e00a-75b4-3bd6-825c-f08f3e966893:
+        skills:
+            auraskills/excavation: {level: 0, xp: 8.2}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 2, xp: 454.88000000000363}
+            auraskills/defense: {level: 1, xp: 2.807039260864258}
+            auraskills/fighting: {level: 0, xp: 14.0}
+            auraskills/agility: {level: 2, xp: 322.6230000000001}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 2, xp: 290.5600000000002}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 20.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    259fb002-b812-45b8-8ab9-e3cb2bccd2d4:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f37ed86de7:
+        skills:
+            auraskills/excavation: {level: 0, xp: 14.200000000000008}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 25.399999999999967}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 16.0}
+            auraskills/agility: {level: 1, xp: 1.9073999999999813}
+            auraskills/foraging: {level: 3, xp: 468.72000000000077}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f91f7efb5d:
+        skills:
+            auraskills/excavation: {level: 0, xp: 84.90000000000002}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 2, xp: 240.82999999999993}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 18.0}
+            auraskills/agility: {level: 2, xp: 5.3770000000000095}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 3, xp: 611.5600000000003}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 63.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f6e8b8c21c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f808fa3c0a:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f03bf6787d:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f9b19be2ad:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 56.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fd18c32853:
+        skills:
+            auraskills/excavation: {level: 0, xp: 51.6}
+            auraskills/alchemy: {level: 1, xp: 0.0}
+            auraskills/mining: {level: 5, xp: 1851.149999999974}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 5.0}
+            auraskills/agility: {level: 3, xp: 174.48180000000002}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 2, xp: 40.800000000000054}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 26.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    4d7ccb8b-9e19-4330-8a86-7b51f0b05bf9:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01ffa85548e9:
+        skills:
+            auraskills/excavation: {level: 0, xp: 1.4}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 2.0}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 1, xp: 117.06859999999998}
+            auraskills/foraging: {level: 0, xp: 19.200000000000006}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 8.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+    6d819bf8-877d-49b7-9a51-27f0a6a0a099:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f05c7f8223:
+        skills:
+            auraskills/excavation: {level: 0, xp: 21.2}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 71.00000000000044}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 76.2952}
+            auraskills/foraging: {level: 2, xp: 176.16000000000003}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f28ec7813f:
+        skills:
+            auraskills/excavation: {level: 0, xp: 5.699999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 234.97000000000034}
+            auraskills/defense: {level: 0, xp: 2.0}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 3, xp: 731.4951999999997}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 96.8}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    00000000-0000-0000-0009-01f6db5c25e7:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    a8d6cc40-c40c-3831-afe4-7437b92b76bf:
+        skills:
+            auraskills/excavation: {level: 0, xp: 13.30000000000001}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 5, xp: 2372.1999999999316}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 28.0}
+            auraskills/agility: {level: 1, xp: 157.8439999999999}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 2, xp: 371.3600000000003}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 19.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f4c4df46fb:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 7.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    f90fd3a3-b59d-4c36-b91b-2a139294ec00:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f9693bc57c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fb0f385889:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 32.19999999999999}
+            auraskills/foraging: {level: 0, xp: 24.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    2c73709d-75de-31fd-a508-9f6647260bcc:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 1, xp: 111.00000000000026}
+            auraskills/defense: {level: 1, xp: 19.66399610042572}
+            auraskills/fighting: {level: 0, xp: 20.0}
+            auraskills/agility: {level: 2, xp: 163.37159999999997}
+            auraskills/foraging: {level: 0, xp: 13.6}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 36.0}
+            auraskills/fishing: {level: 4, xp: 1496.5}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: fishing_luck_ability, trait: auraskills/fishing_luck, value: 5.0}
+    00000000-0000-0000-0009-01fecad49a74:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 4.0}
+            auraskills/agility: {level: 0, xp: 14.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 64.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    724b0c03-38c4-4a68-922a-42e6d3732e84:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    1224441b-f693-3628-9c8e-d29d54ca8631:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    58c1b711-bc9b-4773-beb8-0d7402f555db:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f6754991a8:
+        skills:
+            auraskills/excavation: {level: 1, xp: 25.40000000000003}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 9.599999999999998}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 4.0}
+            auraskills/agility: {level: 2, xp: 81.91060000000003}
+            auraskills/foraging: {level: 1, xp: 12.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: excavation_luck_ability, trait: auraskills/excavation_luck, value: 10.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    21502bfc-d173-3504-9cc3-9b2ad9d1796c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f9c05bb4a3:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 89.6}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    f1693a71-81d9-39b1-b5ce-fe74ddd74f4f:
+        skills:
+            auraskills/excavation: {level: 0, xp: 12.600000000000003}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 40.400000000000105}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 34.29600000000001}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    2d8291ff-879c-39af-a250-c153d8f831d5:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 4.0}
+            auraskills/agility: {level: 0, xp: 14.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    f584d6c7-cd1c-4956-bfe9-e06bab05f9c8:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f905b75096:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    723f3600-9736-30f7-878f-941ed3fa937b:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 5.6}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fabe3489b8:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 9.799999999999999}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f80b6860d6:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 2.8}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    8224aa20-3768-37c3-a02e-942e14e83556:
+        skills:
+            auraskills/excavation: {level: 0, xp: 4.499999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 19.79999999999996}
+            auraskills/defense: {level: 0, xp: 69.17375469207764}
+            auraskills/fighting: {level: 0, xp: 6.0}
+            auraskills/agility: {level: 1, xp: 143.0628}
+            auraskills/foraging: {level: 3, xp: 168.2400000000004}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 6, xp: 970.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+        - {name: fishing_luck_ability, trait: auraskills/fishing_luck, value: 10.0}
+    00000000-0000-0000-0009-01f77d0e8923:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 7.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f387784716:
+        skills:
+            auraskills/excavation: {level: 0, xp: 3.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 52.499999999999986}
+            auraskills/defense: {level: 2, xp: 143.58400003910066}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 2, xp: 186.3302}
+            auraskills/foraging: {level: 0, xp: 41.599999999999994}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 9.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+    170ff945-88a8-3501-a19a-1796b8b4f996:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    5b9de94b-3af1-4b82-a185-b82151b11fc0:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f31a69a83a:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    3e41cd5f-4c57-4178-ad68-5aadc360bd04:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fbb86d8dfe:
+        skills:
+            auraskills/excavation: {level: 0, xp: 2.4}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 3.0}
+            auraskills/agility: {level: 1, xp: 53.99999999999997}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 64.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+    00000000-0000-0000-0009-01f0dfc7f486:
+        skills:
+            auraskills/excavation: {level: 0, xp: 5.099999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 338.58000000000163}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 4.0}
+            auraskills/agility: {level: 1, xp: 181.62}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 72.79999999999997}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    00000000-0000-0000-0009-01fb060721b7:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    f6b1add7-8979-320f-97aa-c79cef5ff64c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 6.799999999999998}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 62.0}
+            auraskills/agility: {level: 0, xp: 7.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f403d96601:
+        skills:
+            auraskills/excavation: {level: 0, xp: 10.100000000000001}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 2, xp: 75.00000000000033}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 4.0}
+            auraskills/agility: {level: 1, xp: 161.874}
+            auraskills/foraging: {level: 0, xp: 0.8}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    837300b2-de1d-4620-93d2-b40dd6137704:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f1a51de3a5:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 2.8}
+            auraskills/foraging: {level: 0, xp: 87.99999999999987}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f0eef7fce3:
+        skills:
+            auraskills/excavation: {level: 0, xp: 1.9999999999999998}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 2.8}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 1, xp: 25.599999999999962}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    626e3043-82fb-4210-b990-c6592c65dd5c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    7bcffce6-37a7-30d2-a032-1ac62038d3d4:
+        skills:
+            auraskills/excavation: {level: 0, xp: 5.099999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.4}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 40.599999999999994}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    2ab1a20a-e6be-46ab-a929-cff5af7156ce:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01faec7d5239:
+        skills:
+            auraskills/excavation: {level: 0, xp: 59.59999999999998}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 1, xp: 98.09999999999997}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 86.5}
+            auraskills/agility: {level: 3, xp: 63.51920000000007}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 3, xp: 187.5600000000003}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 64.5}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    39e465a3-7835-3bbe-bccc-a982ace1c042:
+        skills:
+            auraskills/excavation: {level: 0, xp: 38.7}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 3, xp: 258.16359081268337}
+            auraskills/fighting: {level: 1, xp: 7.0}
+            auraskills/agility: {level: 2, xp: 128.9386}
+            auraskills/foraging: {level: 1, xp: 170.39999999999998}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f896066183:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f91d4adf55:
+        skills:
+            auraskills/excavation: {level: 0, xp: 4.199999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 1, xp: 172.1999999999992}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 1, xp: 58.07119999999999}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 56.8}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    00000000-0000-0000-0009-01f67a8546a0:
+        skills:
+            auraskills/excavation: {level: 0, xp: 64.39999999999985}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 4, xp: 192.9900000000035}
+            auraskills/defense: {level: 0, xp: 18.43999993801117}
+            auraskills/fighting: {level: 0, xp: 3.0}
+            auraskills/agility: {level: 4, xp: 187.9892}
+            auraskills/foraging: {level: 2, xp: 146.0800000000002}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    c8b41d52-1fa3-3feb-bdcf-daaba93a67b6:
+        skills:
+            auraskills/excavation: {level: 0, xp: 7.1}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 2, xp: 68.91999999999997}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 1, xp: 11.0}
+            auraskills/agility: {level: 3, xp: 676.3697999999999}
+            auraskills/foraging: {level: 0, xp: 59.99999999999996}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 2, xp: 38.799999999999976}
+            auraskills/fishing: {level: 6, xp: 770.5}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: fishing_luck_ability, trait: auraskills/fishing_luck, value: 10.0}
+        - {name: farming_luck_ability, trait: auraskills/farming_luck, value: 10.0}
+    d0c42827-405d-3346-8472-e68c98295e28:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f4cf136e96:
+        skills:
+            auraskills/excavation: {level: 0, xp: 2.7}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 19.99999999999999}
+            auraskills/defense: {level: 2, xp: 338.8303351879119}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 2, xp: 37.325199999999995}
+            auraskills/foraging: {level: 0, xp: 8.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+    00000000-0000-0000-0009-01f686b42d07:
+        skills:
+            auraskills/excavation: {level: 0, xp: 5.2}
+            auraskills/alchemy: {level: 2, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 218.6300000000001}
+            auraskills/defense: {level: 0, xp: 14.0}
+            auraskills/fighting: {level: 0, xp: 3.0}
+            auraskills/agility: {level: 3, xp: 180.35760000000025}
+            auraskills/foraging: {level: 2, xp: 19.280000000000015}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 28.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f61a0116eb:
+        skills:
+            auraskills/excavation: {level: 0, xp: 3.6999999999999993}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 52.600000000000065}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 3, xp: 122.18300000000009}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 49.599999999999966}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 28.0}
+        mana: 24.0
+    00000000-0000-0000-0009-01f8ed2b2d2c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 1.2}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 50.19999999999999}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 19.0}
+            auraskills/agility: {level: 1, xp: 159.75820000000002}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 87.99999999999999}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+    11896591-2125-431e-a6ba-4c05bb60e4e7:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f21e865aed:
+        skills:
+            auraskills/excavation: {level: 0, xp: 21.80000000000001}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 4, xp: 305.33000000000186}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 15.0}
+            auraskills/agility: {level: 4, xp: 339.35059999999964}
+            auraskills/foraging: {level: 4, xp: 346.63999999999845}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 1, xp: 18.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+        - {name: farming_luck_ability, trait: auraskills/farming_luck, value: 10.0}
+    00000000-0000-0000-0009-01f396011187:
+        skills:
+            auraskills/excavation: {level: 0, xp: 6.6000000000000005}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 9.0}
+            auraskills/agility: {level: 0, xp: 38.514}
+            auraskills/foraging: {level: 2, xp: 5.839999999999988}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 3, xp: 665.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+        - {name: fishing_luck_ability, trait: auraskills/fishing_luck, value: 5.0}
+    00000000-0000-0000-0009-01fdde0609d3:
+        skills:
+            auraskills/excavation: {level: 1, xp: 58.40000000000005}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 4, xp: 391.9299999999994}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 2.5}
+            auraskills/agility: {level: 2, xp: 32.526400000000045}
+            auraskills/foraging: {level: 4, xp: 1465.6799999999964}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 4.5}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: excavation_luck_ability, trait: auraskills/excavation_luck, value: 10.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01fceafa67c8:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f848ee9660:
+        skills:
+            auraskills/excavation: {level: 0, xp: 8.7}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 3.0000000000000004}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 27.0}
+            auraskills/agility: {level: 1, xp: 44.38419999999999}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 40.8}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+    767f6451-7f2c-3d2d-abf3-ee076be7584f:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    5e8127e5-646b-36d6-9ff7-ace1050597d8:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    afa0b039-5d66-3b21-8889-05e8847eab94:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 1.4000000000000001}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 68.659}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 2.4000000000000004}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 1.5}
+        mana: 20.0
+    da0e1649-d00d-44e2-a0b2-06017775d90c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    53b8d6f7-d4ee-3e69-868e-df126c26fa6d:
+        skills:
+            auraskills/excavation: {level: 0, xp: 3.3999999999999995}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 16.9}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 1, xp: 25.973399999999998}
+            auraskills/foraging: {level: 2, xp: 35.99999999999996}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 65.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    943df0ba-76e0-3c60-b3e0-8dd65a22937c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fa7b4c9162:
+        skills:
+            auraskills/excavation: {level: 1, xp: 47.90000000000022}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 191.09000000000407}
+            auraskills/defense: {level: 1, xp: 21.076799392700195}
+            auraskills/fighting: {level: 0, xp: 36.0}
+            auraskills/agility: {level: 3, xp: 683.1094000000003}
+            auraskills/foraging: {level: 3, xp: 11.600000000000415}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 16.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: excavation_luck_ability, trait: auraskills/excavation_luck, value: 10.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    cc8e1a96-f7cb-48e0-97b0-b9ef6fa8abab:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    63c72701-b8b9-4c44-8c84-6a71f1ddfb85:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    fdf7aab7-7ca5-3b7a-8b00-d4bec9f9b59e:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 39.199999999999996}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fb5187765e:
+        skills:
+            auraskills/excavation: {level: 0, xp: 6.1}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 2, xp: 308.95000000000294}
+            auraskills/defense: {level: 2, xp: 426.3557545661924}
+            auraskills/fighting: {level: 0, xp: 38.0}
+            auraskills/agility: {level: 2, xp: 223.6756000000001}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 2.4000000000000004}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    ff80101e-2b01-342d-958e-c8f3d0ca755c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 5.199999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 26.499999999999968}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 10.0}
+            auraskills/agility: {level: 2, xp: 157.4116}
+            auraskills/foraging: {level: 0, xp: 24.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 10.5}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+    00000000-0000-0000-0009-01fd70c4df4c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    74485c83-64bb-43d9-9cee-e69865694dc6:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f7c699b9fe:
+        skills:
+            auraskills/excavation: {level: 0, xp: 32.699999999999974}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 2, xp: 131.74999999999977}
+            auraskills/defense: {level: 2, xp: 438.970413094759}
+            auraskills/fighting: {level: 0, xp: 52.0}
+            auraskills/agility: {level: 4, xp: 584.3703999999999}
+            auraskills/foraging: {level: 3, xp: 318.8000000000003}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 42.5}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    81490b00-2a8e-3a8b-b5ab-ef5815a5ba53:
+        skills:
+            auraskills/excavation: {level: 0, xp: 3.6000000000000005}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 2, xp: 475.3299999999999}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 3, xp: 62.840999999999994}
+            auraskills/foraging: {level: 1, xp: 125.6}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f52758d203:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.7}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 19.99999999999996}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    b7a34722-1fad-4aa3-8fb5-84ded1f47fb4:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fee264e82b:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01ffcb9aa1a6:
+        skills:
+            auraskills/excavation: {level: 0, xp: 9.5}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 1, xp: 166.60000000000005}
+            auraskills/defense: {level: 0, xp: 32.135040044784546}
+            auraskills/fighting: {level: 0, xp: 9.0}
+            auraskills/agility: {level: 3, xp: 178.9860000000002}
+            auraskills/foraging: {level: 1, xp: 51.19999999999998}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 1, xp: 1.75}
+            auraskills/fishing: {level: 0, xp: 25.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+        - {name: farming_luck_ability, trait: auraskills/farming_luck, value: 10.0}
+    a13202af-e010-3e0a-b3d8-e3b820af04e8:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.4}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 2.8000000000000003}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 7.0}
+            auraskills/foraging: {level: 1, xp: 40.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f2d65d133f:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f949b81a67:
+        skills:
+            auraskills/excavation: {level: 0, xp: 11.500000000000005}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 2, xp: 148.17000000000053}
+            auraskills/defense: {level: 0, xp: 7.583199977874756}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 2, xp: 254.4648000000001}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 3, xp: 73.44000000000042}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    b5033521-6ebf-4113-b734-2d9ffcb72d2f:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f8fc05ee4b:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 15.399999999999999}
+            auraskills/foraging: {level: 1, xp: 184.8}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    214d0b73-d725-4782-aadf-19f9a6f301be:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    a59b1d0b-c8f3-4749-b605-a3af2f290c1a:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    6f89cff6-b85e-3fd1-bfd2-5345274385e7:
+        skills:
+            auraskills/excavation: {level: 0, xp: 81.49999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 4, xp: 142.96000000000825}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 81.0}
+            auraskills/agility: {level: 3, xp: 530.7484000000002}
+            auraskills/foraging: {level: 3, xp: 990.8799999999984}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 28.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    88774fb3-6b2e-4c4b-bb91-d22b1e30ef13:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f2c2baa1d3:
+        skills:
+            auraskills/excavation: {level: 0, xp: 10.000000000000002}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 32.89999999999998}
+            auraskills/defense: {level: 1, xp: 116.37279921770096}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 2, xp: 136.74400000000003}
+            auraskills/foraging: {level: 0, xp: 18.4}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+    02718bd2-7a9f-3f37-91df-ae4144117963:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 33.6}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f6041178fa:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.7}
+            auraskills/alchemy: {level: 1, xp: 170.0}
+            auraskills/mining: {level: 3, xp: 619.5500000000008}
+            auraskills/defense: {level: 3, xp: 296.50692170858383}
+            auraskills/fighting: {level: 1, xp: 78.0}
+            auraskills/agility: {level: 3, xp: 809.9478000000001}
+            auraskills/foraging: {level: 3, xp: 310.6400000000006}
+            auraskills/archery: {level: 0, xp: 23.0}
+            auraskills/enchanting: {level: 0, xp: 60.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 26.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f583afef0e:
+        skills:
+            auraskills/excavation: {level: 0, xp: 1.2}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 1, xp: 143.00000000000026}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 33.479200000000006}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 83.2}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    1b56600b-4aa3-47e7-874c-8296fda7fcbe:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    fd35b160-3900-32a2-932f-a8f33b5bef69:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f0caf17894:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    18c65736-980e-3df9-8403-a00fd27752b3:
+        skills:
+            auraskills/excavation: {level: 0, xp: 35.20000000000005}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 121.6700000000007}
+            auraskills/defense: {level: 1, xp: 91.07775568962097}
+            auraskills/fighting: {level: 0, xp: 50.0}
+            auraskills/agility: {level: 1, xp: 128.8306}
+            auraskills/foraging: {level: 1, xp: 65.6}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 12.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    8adfd722-5027-3ad9-b4d7-729bf24e8ec2:
+        skills:
+            auraskills/excavation: {level: 0, xp: 51.7}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 1, xp: 150.1000000000001}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 1, xp: 89.8426}
+            auraskills/foraging: {level: 0, xp: 96.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    00000000-0000-0000-0009-01f1b9f5a1fa:
+        skills:
+            auraskills/excavation: {level: 0, xp: 3.6000000000000005}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 8.799999999999999}
+            auraskills/defense: {level: 0, xp: 57.801598072052}
+            auraskills/fighting: {level: 0, xp: 8.0}
+            auraskills/agility: {level: 0, xp: 85.59760000000001}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 1, xp: 70.39999999999999}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    d49b055b-87cb-348c-bfda-4318af5dcd17:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    272116c2-6d16-4ef4-a8a9-906d36e3688c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f6f0cfc994:
+        skills:
+            auraskills/excavation: {level: 0, xp: 4.7}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 5.600000000000002}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 6.0}
+            auraskills/agility: {level: 1, xp: 76.44400000000002}
+            auraskills/foraging: {level: 0, xp: 99.19999999999999}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+    00000000-0000-0000-0009-01fd8d5ad0cd:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 5.6}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    c83bdbe3-ed6e-37d3-9aed-5b8f3eba7cd8:
+        skills:
+            auraskills/excavation: {level: 0, xp: 66.80000000000003}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 937.7800000000009}
+            auraskills/defense: {level: 0, xp: 6.0}
+            auraskills/fighting: {level: 0, xp: 46.0}
+            auraskills/agility: {level: 3, xp: 524.3138000000001}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 99.19999999999999}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 20.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    00000000-0000-0000-0009-01fb1f4582a6:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 64.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f7f739e32f:
+        skills:
+            auraskills/excavation: {level: 0, xp: 2.8}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 8.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 1, xp: 137.9538}
+            auraskills/foraging: {level: 0, xp: 7.999999999999999}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+    00000000-0000-0000-0009-01fc91702924:
+        skills:
+            auraskills/excavation: {level: 0, xp: 10.699999999999998}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 2.6}
+            auraskills/defense: {level: 3, xp: 789.5800102770348}
+            auraskills/fighting: {level: 1, xp: 69.0}
+            auraskills/agility: {level: 2, xp: 49.05120000000007}
+            auraskills/foraging: {level: 1, xp: 100.79999999999994}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    66768d94-8977-3a8a-9e1e-c9e47711e3d1:
+        skills:
+            auraskills/excavation: {level: 0, xp: 2.9999999999999996}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 55.800000000000026}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 6.0}
+            auraskills/agility: {level: 1, xp: 54.352999999999994}
+            auraskills/foraging: {level: 2, xp: 282.16000000000014}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    3b823fbc-3afe-4400-8a23-0fa5bd5edfe1:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01ff694220fc:
+        skills:
+            auraskills/excavation: {level: 0, xp: 12.4}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 4.200000000000001}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 18.0}
+            auraskills/agility: {level: 0, xp: 7.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 2, xp: 44.000000000000114}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    8256a369-fb54-4afa-8554-6ba004234975:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f3684a1ff4:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.4}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 52.099999999999994}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 46.19999999999999}
+            auraskills/foraging: {level: 2, xp: 68.07999999999998}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 8.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f85cab94c6:
+        skills:
+            auraskills/excavation: {level: 0, xp: 67.29999999999987}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 12.699999999999994}
+            auraskills/defense: {level: 0, xp: 22.72000002861023}
+            auraskills/fighting: {level: 0, xp: 9.0}
+            auraskills/agility: {level: 2, xp: 98.82860000000002}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 3, xp: 657.9999999999999}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-00000b22053a:
+        skills:
+            auraskills/excavation: {level: 0, xp: 4.2}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 1, xp: 37.599999999999945}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    97df805d-7442-3ff6-b8ea-ae7cddbef383:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.3}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    2495e633-aa4c-3c3c-abe2-f23c704085cb:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 1, xp: 4.799999999999997}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01fb4c300324:
+        skills:
+            auraskills/excavation: {level: 0, xp: 1.7}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 0, xp: 25.199999999999996}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01ffc0021fc5:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    d13654d0-878f-4055-a0a0-afd4957c0c91:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    e070abed-bd1f-381a-9912-a185d4fc6c72:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 1.2}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 24.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    6fbae4b0-7f0a-4f9f-993f-9dc8240869a4:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    382b396c-1cc7-31dd-adf9-34e6364ae6f5:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    9ef6dcfa-27c0-4273-99a2-194b71aecc4d:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f86b183eb6:
+        skills:
+            auraskills/excavation: {level: 0, xp: 6.6000000000000005}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 0, xp: 6.999999999999999}
+            auraskills/foraging: {level: 1, xp: 128.79999999999998}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    673ed20f-5bb9-4a6f-83b9-265c223e0d07:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f1a207d3d4:
+        skills:
+            auraskills/excavation: {level: 1, xp: 6.5}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 4, xp: 491.8500000000021}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 24.0}
+            auraskills/agility: {level: 3, xp: 333.5940000000001}
+            auraskills/foraging: {level: 2, xp: 95.52}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 52.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: excavation_luck_ability, trait: auraskills/excavation_luck, value: 10.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f10f075d3b:
+        skills:
+            auraskills/excavation: {level: 1, xp: 142.70000000000067}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 28.79999999999998}
+            auraskills/defense: {level: 3, xp: 453.2561127126205}
+            auraskills/fighting: {level: 0, xp: 8.0}
+            auraskills/agility: {level: 3, xp: 989.1034}
+            auraskills/foraging: {level: 5, xp: 872.6200000000053}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 9.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: excavation_luck_ability, trait: auraskills/excavation_luck, value: 10.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    31e93aec-8fa9-32c6-91e4-67d995f32030:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    8e77dc3a-c431-463c-9697-ad7ea92e4f79:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    a0c69ba6-f375-378e-8ee3-bae79e46988b:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.7}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 131.59000000000268}
+            auraskills/defense: {level: 0, xp: 5.69599986076355}
+            auraskills/fighting: {level: 0, xp: 6.0}
+            auraskills/agility: {level: 2, xp: 149.60820000000004}
+            auraskills/foraging: {level: 2, xp: 33.599999999999966}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f6c3718e5b:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f69a61c6d2:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    b181030c-de34-462a-9c08-2917ec163925:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f2c979633c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 4.6}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 42.70000000000003}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 0, xp: 67.27259999999998}
+            auraskills/foraging: {level: 1, xp: 13.600000000000001}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    771695cd-37fb-339d-9014-43e0e8c7303c:
+        skills:
+            auraskills/excavation: {level: 1, xp: 27.599999999999866}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 960.6800000000102}
+            auraskills/defense: {level: 0, xp: 4.0665602684021}
+            auraskills/fighting: {level: 0, xp: 8.5}
+            auraskills/agility: {level: 3, xp: 685.4345999999996}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 2, xp: 88.47999999999996}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 87.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: excavation_luck_ability, trait: auraskills/excavation_luck, value: 10.0}
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    09d412e1-0ab6-437d-b6a3-356ca5c28362:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    45e380e1-7531-3471-a678-bb9c71ccd149:
+        skills:
+            auraskills/excavation: {level: 0, xp: 2.0999999999999996}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 14.0}
+            auraskills/agility: {level: 0, xp: 12.6}
+            auraskills/foraging: {level: 0, xp: 35.2}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f713171f2c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 1, xp: 115.90860000000002}
+            auraskills/foraging: {level: 1, xp: 159.2000000000003}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01faf2888122:
+        skills:
+            auraskills/excavation: {level: 0, xp: 1.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 3.800000000000001}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 4.0}
+            auraskills/agility: {level: 0, xp: 16.799999999999997}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 72.8}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    d2a7eb35-2a4d-3ad3-986e-2049beadeebe:
+        skills:
+            auraskills/excavation: {level: 0, xp: 4.099999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 8.200000000000001}
+            auraskills/defense: {level: 0, xp: 12.62719988822937}
+            auraskills/fighting: {level: 0, xp: 7.0}
+            auraskills/agility: {level: 0, xp: 21.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 1, xp: 5.599999999999994}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    585870d0-bfa3-3279-8660-ae092cf1d1ff:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f12d7c4b97:
+        skills:
+            auraskills/excavation: {level: 1, xp: 37.2}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 520.7300000000049}
+            auraskills/defense: {level: 1, xp: 75.6639997959137}
+            auraskills/fighting: {level: 0, xp: 33.0}
+            auraskills/agility: {level: 2, xp: 491.6042}
+            auraskills/foraging: {level: 2, xp: 140.39999999999986}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 9.5}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: excavation_luck_ability, trait: auraskills/excavation_luck, value: 10.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    2036b343-3c00-3986-b0cb-0c56f8401a38:
+        skills:
+            auraskills/excavation: {level: 0, xp: 13.700000000000003}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 9.8}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    aaef7994-a406-3a1a-a88f-b89cd8ec9eab:
+        skills:
+            auraskills/excavation: {level: 0, xp: 14.6}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 89.60000000000018}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 12.0}
+            auraskills/agility: {level: 2, xp: 256.74120000000005}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 1, xp: 188.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    6c8af8a4-9d0f-4085-9821-73b9a57320db:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    fe422e41-e814-33eb-8a36-7b22f29e560b:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fcbb23ab07:
+        skills:
+            auraskills/excavation: {level: 0, xp: 6.700000000000002}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 8.0}
+            auraskills/agility: {level: 2, xp: 42.76519999999999}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 1, xp: 72.7999999999999}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 1, xp: 60.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+        - {name: farming_luck_ability, trait: auraskills/farming_luck, value: 10.0}
+    8f50f75d-8170-3932-9539-9173fd49e3c9:
+        skills:
+            auraskills/excavation: {level: 0, xp: 5.599999999999998}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 760.8800000000011}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 14.0}
+            auraskills/agility: {level: 2, xp: 50.381599999999956}
+            auraskills/foraging: {level: 2, xp: 4.000000000000057}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 48.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    ef4920c5-a083-4547-bee7-2c3e7327d8ca:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    af662b75-aa05-42f7-9f25-3c7682e2a282:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    5a59395a-836c-36ba-8ce5-1bba0b77ebd7:
+        skills:
+            auraskills/excavation: {level: 0, xp: 7.300000000000001}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 1.4}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 2.2}
+            auraskills/agility: {level: 2, xp: 60.162800000000075}
+            auraskills/foraging: {level: 2, xp: 221.32000000000008}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 1, xp: 139.75}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+        - {name: farming_luck_ability, trait: auraskills/farming_luck, value: 10.0}
+    378223e4-79a8-3a5c-bffc-f60b1dfec7f9:
+        skills:
+            auraskills/excavation: {level: 0, xp: 8.999999999999998}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 267.33000000000203}
+            auraskills/defense: {level: 1, xp: 189.84666633605957}
+            auraskills/fighting: {level: 1, xp: 10.0}
+            auraskills/agility: {level: 3, xp: 488.0962000000003}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 3, xp: 361.6800000000007}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 52.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f40ae7bb29:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    7a48d452-3389-3b62-b6fc-bc2930ac71ed:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 4.199999999999999}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 51.999999999999986}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    04cbbbfb-743b-422f-83e7-bf592ebf3278:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    faaec203-3dfe-4b55-8ef1-65be24af8901:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    e6f97b27-2aaf-4bee-958d-17256f5b8a96:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    0ce24fa1-92ba-462f-b7bf-0cae107f1fde:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    8bc3837a-924f-35d7-a713-26b97ad7e16f:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    5abe48f8-2f99-4635-96aa-ce89e609a963:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    57614a3f-aeaf-3ee1-bd40-18dab242ba6f:
+        skills:
+            auraskills/excavation: {level: 0, xp: 1.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 2, xp: 445.6176367700097}
+            auraskills/fighting: {level: 2, xp: 13.0}
+            auraskills/agility: {level: 3, xp: 292.1542}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 37.599999999999994}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 8.5}
+        mana: 24.0
+    56650291-1107-4998-be63-39a59d5e1a72:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    924d1569-87cc-3583-b5ac-cfb0d0358dde:
+        skills:
+            auraskills/excavation: {level: 0, xp: 5.399999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 2.0}
+            auraskills/agility: {level: 1, xp: 112.0506}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 33.6}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+    00000000-0000-0000-0009-01fba0f740a5:
+        skills:
+            auraskills/excavation: {level: 0, xp: 4.199999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 33.19999999999999}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 9.799999999999999}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 96.8}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    9bbc8284-0326-3b6c-882a-954128197e82:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.7}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 7.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f5ee825649:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    50149319-9dad-4016-90bf-94ebb97219cc:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    5a81cc8d-b4ff-42ea-b425-888d3577b0e1:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f85cd92d07:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    035a77d6-a486-3db2-b41d-7258f802c408:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 7.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 1, xp: 84.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    7a5d2d85-e150-49e8-9e7d-12522c929d8e:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f06acc0631:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 14.4}
+            auraskills/defense: {level: 0, xp: 2.800000011920929}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 7.0}
+            auraskills/foraging: {level: 1, xp: 9.999999999999995}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    4a9f8b23-2cae-398f-86a0-5dc3d9a08e20:
+        skills:
+            auraskills/excavation: {level: 0, xp: 7.199999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 1, xp: 103.3000000000003}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 6.0}
+            auraskills/agility: {level: 2, xp: 100.44920000000002}
+            auraskills/foraging: {level: 1, xp: 163.2}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 1, xp: 65.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+        - {name: farming_luck_ability, trait: auraskills/farming_luck, value: 10.0}
+    00000000-0000-0000-0009-01fd0d72367e:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f9fc3459ba:
+        skills:
+            auraskills/excavation: {level: 1, xp: 149.80000000000032}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 4, xp: 1394.1899999999998}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 10.0}
+            auraskills/agility: {level: 2, xp: 389.54339999999996}
+            auraskills/foraging: {level: 5, xp: 1360.3399999999895}
+            auraskills/enchanting: {level: 0, xp: 30.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 1, xp: 13.0}
+            auraskills/fishing: {level: 1, xp: 95.0}
+        mana: 22.0
+        stat_modifiers:
+        - {name: mining-stamina, stat: auraskills/toughness, value: 1.0}
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: excavation_luck_ability, trait: auraskills/excavation_luck, value: 10.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+        - {name: fishing_luck_ability, trait: auraskills/fishing_luck, value: 5.0}
+        - {name: farming_luck_ability, trait: auraskills/farming_luck, value: 10.0}
+    55f62c26-b2cf-43b3-9583-fbfe35db6990:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    05198ebd-ea27-392d-a42d-610118464613:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.7}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 1, xp: 45.39999999999996}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 23.8}
+            auraskills/foraging: {level: 1, xp: 12.8}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01f799b86ef3:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 9.799999999999999}
+            auraskills/foraging: {level: 0, xp: 16.8}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f2822af5dd:
+        skills:
+            auraskills/excavation: {level: 1, xp: 4.000000000000068}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 1, xp: 9.200000000000069}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 1, xp: 62.019400000000005}
+            auraskills/foraging: {level: 0, xp: 8.4}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 4.5}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: excavation_luck_ability, trait: auraskills/excavation_luck, value: 10.0}
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    ff461626-4f57-36ef-b404-0a1ec97f85b7:
+        skills:
+            auraskills/excavation: {level: 0, xp: 3.499999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 9.799999999999997}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 16.8}
+            auraskills/foraging: {level: 0, xp: 57.6}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    0670f788-68c7-3e36-b298-4012a5501c7c:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    c0be510f-7d92-352f-b027-b7404542f0bb:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    2bb90864-a2c1-4963-91f5-ae526486016a:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    748f9c37-066a-3f97-b2a3-b841dcd40349:
+        skills:
+            auraskills/excavation: {level: 0, xp: 16.900000000000002}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 63.50000000000022}
+            auraskills/defense: {level: 0, xp: 41.04031962156296}
+            auraskills/fighting: {level: 0, xp: 8.0}
+            auraskills/agility: {level: 2, xp: 130.58080000000004}
+            auraskills/foraging: {level: 2, xp: 321.6000000000002}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 82.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    ba0a13e6-2794-4cb4-89e1-32c9ed30a8d1:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    3b903b17-b9cf-39c0-89eb-d862acb7c499:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 7.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f57480cf30:
+        skills:
+            auraskills/excavation: {level: 0, xp: 3.5999999999999996}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 54.20000000000011}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 8.0}
+            auraskills/agility: {level: 0, xp: 74.5834}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 2, xp: 358.48000000000025}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    c5502008-635f-3d0a-918a-7643b70a2779:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    bc2f2e2d-eafc-4c56-a713-91b34f35a92e:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    7592b56d-d112-3358-86e0-5371f82356ce:
+        skills:
+            auraskills/excavation: {level: 0, xp: 48.59999999999991}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 16.99999999999997}
+            auraskills/defense: {level: 1, xp: 61.290393710136414}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 1, xp: 86.75200000000001}
+            auraskills/foraging: {level: 0, xp: 95.19999999999997}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 1, xp: 26.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: farming_luck_ability, trait: auraskills/farming_luck, value: 10.0}
+    e4ad2c05-7c37-3161-9de8-dc4afb70330b:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    e3a005f9-8b14-3fdd-a243-b39bea5386d9:
+        skills:
+            auraskills/excavation: {level: 0, xp: 10.000000000000002}
+            auraskills/alchemy: {level: 2, xp: 86.0}
+            auraskills/mining: {level: 2, xp: 157.63999999999996}
+            auraskills/defense: {level: 0, xp: 32.315500140190125}
+            auraskills/fighting: {level: 0, xp: 6.0}
+            auraskills/agility: {level: 3, xp: 33.59940000000007}
+            auraskills/foraging: {level: 0, xp: 24.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 30.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 28.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    19b97726-6fb5-3d5e-b7cd-eb10bad878f1:
+        skills:
+            auraskills/excavation: {level: 0, xp: 15.2}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 4, xp: 263.3400000000067}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 32.0}
+            auraskills/agility: {level: 2, xp: 332.33740000000006}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 24.8}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 40.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    706662cf-024d-3a4d-b69a-49e5d03f9051:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fc238cd321:
+        skills:
+            auraskills/excavation: {level: 0, xp: 1.3}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 2, xp: 46.92000000000007}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 1, xp: 78.32860000000001}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 42.4}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+    5896d11a-55e0-3da3-9140-a17d1c19d467:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 17.6}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    529db795-1394-4168-852b-bc1da7d37e37:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fcb81dbe2e:
+        skills:
+            auraskills/excavation: {level: 0, xp: 13.099999999999998}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 6.0}
+            auraskills/agility: {level: 1, xp: 39.44380000000002}
+            auraskills/foraging: {level: 1, xp: 15.999999999999993}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    0439e751-a2b0-3eed-9e5c-4f5acec58150:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 56.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f8f9b1af67:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f4878a121e:
+        skills:
+            auraskills/excavation: {level: 0, xp: 1.6}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.2}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 8.399999999999999}
+            auraskills/foraging: {level: 1, xp: 38.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    00000000-0000-0000-0009-01fdcea74609:
+        skills:
+            auraskills/excavation: {level: 0, xp: 11.599999999999994}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 1, xp: 47.10000000000004}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 71.0}
+            auraskills/agility: {level: 2, xp: 3.8436000000000945}
+            auraskills/foraging: {level: 3, xp: 82.88000000000034}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 12.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+    a65a8027-748c-3eaa-bfb5-cb2ad6da9a08:
+        skills:
+            auraskills/excavation: {level: 2, xp: 342.7099999999994}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 1, xp: 72.89999999999999}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 10.0}
+            auraskills/agility: {level: 3, xp: 563.5442}
+            auraskills/foraging: {level: 6, xp: 3435.040000000019}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 45.5}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 24.0
+        trait_modifiers:
+        - {name: mining_luck_ability, trait: auraskills/mining_luck, value: 5.0}
+        - {name: excavation_luck_ability, trait: auraskills/excavation_luck, value: 10.0}
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 20.0}
+    00000000-0000-0000-0009-01f15cc046a0:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 2.8}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    c5fd5ce5-0795-4c8d-af11-fd6b9af604df:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    ea223f43-f56f-4114-9741-90a60eb2a623:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fe3a670857:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    e82f0ab5-4154-3327-b23e-667471072e03:
+        skills:
+            auraskills/excavation: {level: 0, xp: 3.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.5}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 10.0}
+            auraskills/agility: {level: 2, xp: 86.76299999999998}
+            auraskills/foraging: {level: 1, xp: 15.200000000000003}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 1, xp: 12.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 22.0
+        trait_modifiers:
+        - {name: foraging_luck_ability, trait: auraskills/foraging_luck, value: 10.0}
+        - {name: farming_luck_ability, trait: auraskills/farming_luck, value: 10.0}
+    00000000-0000-0000-0009-01fd3a83af20:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 16.0}
+            auraskills/agility: {level: 0, xp: 15.399999999999999}
+            auraskills/foraging: {level: 0, xp: 80.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f010a7f17f:
+        skills:
+            auraskills/excavation: {level: 0, xp: 2.4999999999999996}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 4.000000000000001}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 27.999999999999996}
+            auraskills/foraging: {level: 0, xp: 64.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    03a3a182-79e0-32bc-a389-d2865a1b0053:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f6111346be:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 7.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    81c35374-9b7b-3883-b4c7-ffa824e540b2:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fc03d058ba:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01fb483e80a2:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+        mana: 20.0
+    30e34fad-1897-3e0e-8c00-708cb6439a32:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    c60499e9-e067-3464-a464-624a190515d5:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 24.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f3225fb9af:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 1.4}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.8}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 10.0}
+        mana: 20.0
+    00000000-0000-0000-0009-01f17f4805ab:
+        skills:
+            auraskills/excavation: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 4.0}
+            auraskills/agility: {level: 0, xp: 7.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+        mana: 20.0

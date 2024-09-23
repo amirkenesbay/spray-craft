@@ -1,0 +1,76 @@
+admin:
+  tabprefix: "%condition:voicechat% %cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tagprefix: "%cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"    
+moder:
+  tabprefix: "%condition:voicechat% %cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tagprefix: "%cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"    
+helper:
+  tabprefix: "%condition:voicechat% %cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tagprefix: "%cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"    
+tester:
+  tabprefix: "%condition:voicechat% %cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tagprefix: "%cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"    
+sponsor:
+  tabprefix: "%condition:voicechat% %cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tagprefix: "%cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"      
+media:
+  tabprefix: "%condition:voicechat% %cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tagprefix: "%cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"    
+jarstone:
+  tabprefix: "%condition:voicechat% %cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tagprefix: "%cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"   
+finicius:
+  tabprefix: "%condition:voicechat% %cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tagprefix: "%cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"    
+vanderi:
+  tabprefix: "%condition:voicechat% %cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tagprefix: "%cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"    
+brillium:
+  tabprefix: "%condition:voicechat% %cmi_user_afk_symbol%%luckperms_prefix%"
+  tagprefix: "%cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"    
+pluto:
+  tabprefix: "%condition:voicechat% %cmi_user_afk_symbol%%luckperms_prefix% &7"
+  tagprefix: "%cmi_user_afk_symbol%%luckperms_prefix% &7" 
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"    
+default:
+  tabprefix: "%condition:voicechat% %cmi_user_afk_symbol%&8Игрок &7"
+  tagprefix: "%cmi_user_afk_symbol%&8Игрок &7"
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"  
+_DEFAULT_:
+  tabprefix: "%cmi_user_afk_symbol%&7 "
+  tagprefix: "%cmi_user_afk_symbol%&7 "
+  tabsuffix: "%alonsotags_tag_tab%"
+  tagsuffix: "%alonsotags_tag_tab%"   
+example_group:
+  header:
+    - "This is an example of per-group header/footer"
+  footer:
+    - "applied to a group"
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+      tagprefix: "&2&lOwner &a"

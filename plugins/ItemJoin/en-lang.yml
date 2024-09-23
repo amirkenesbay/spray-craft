@@ -1,0 +1,126 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's English Language file, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# If you don't want a message to be sent, fully remove it from below or make it blank.
+
+# Modifying this will cause the file to break and regenerate.
+en-Version: 8
+
+# This is the prefix that will be sent at the beginning of every single message sent in the language file.
+Prefix: ''
+
+# These are simply general messages sent from the plugin item usages.
+general:
+  failedOverwrite: ''
+  failedInventory: '&#EBEBEBFailed to give you &#FF2B2B%fail_count% &#EBEBEBitems, your inventory is full!'
+  econSuccess: '&#EBEBEBSuccessfully ran the command for &#4CC2E2$%cost%&#EBEBEB.'
+  econFailed: '&#EBEBEBYou do not have enough to run this command! \n&#EBEBEBYou have &#FF0000$%balance% &#EBEBEBof the required &#FF0000$%cost%.'
+  itemSuccess: '&#EBEBEBSuccessfully ran the command for &#4CC2E2%cost% %item_type%(s)&#EBEBEB.'
+  itemFailed: '&#EBEBEBYou do not have enough &#FF2B2B%item_type%&#EBEBEB to run this command! \n&#EBEBEBYou have &#FF2B2B%balance% &#EBEBEBof the required &#FF2B2B%cost% %item_type%(s)&#EBEBEB.'
+  warmingUp: '&#EBEBEBThe item &#6A6A6A[&#FF2B2B%item%&#6A6A6A] is warming up...'
+  warmingTime: '&#EBEBEBCommencing &#6A6A6A[%item%&#6A6A6A] execution in &#05E520%time_left% &#EBEBEBseconds.'
+  warmingHalted: '&#EBEBEBCommence of &#6A6A6A[&#FF2B2B%item%&#6A6A6A] &#EBEBEBexecution cancelled!'
+
+# These messages are specific to the plugin commands.
+commands:
+  default:
+    unknownCommand: '&#EBEBEBUnknown command, See &l/ItemJoin Help &#EBEBEBfor a list of commands.'
+    noPermission: '&#EBEBEBYou do not have permission to use that command!'
+    configReload: '&#EBEBEBConfiguration(s) Reloaded!'
+    noPlayer: '&#EBEBEBYou must be a player to execute that command!'
+    noTarget: '&#EBEBEBThe player &#FF2B2B%target_player% &#EBEBEBcould not be found!'
+  menu:
+    openMenu: '&#EBEBEBMenu has been opened.'
+    itemSaved: '&#4CC2E2%item% &#EBEBEBhas been successfully saved.'
+    itemRemoved: '&#4CC2E2%item% &#EBEBEBhas been successfully removed.'
+    noInteger: '&#EBEBEBERROR: &#EBEBEBThe input value &#FF2B2B%input% &#EBEBEBis not an integer value!'
+    noMaterial: '&#EBEBEBERROR: &#EBEBEBThe input value &#FF2B2B%input% &#EBEBEBis not an proper material!'
+    inputType: '&#EBEBEBType the &#4CC2E2%input% &#EBEBEBthat you want to have on your item.'
+    inputSet: '&#EBEBEBThe items &#4CC2E2%input% &#EBEBEBhas been successfully set!'
+    inputExample: '&#EBEBEBExample: %input_example%'
+  item:
+    noItemHeld: '&#EBEBEBYou are not holding an item in your hand!'
+    noItem: '&#EBEBEBThe item &#4CC2E2%item% &#EBEBEBdoes not exist!'
+  info:
+    material: '&#EBEBEBItem ID (Material Type): &#4CC2E2&l%item%'
+    data: '&#EBEBEBItem Value (Data Type): &#4CC2E2&l%item%'
+  query:
+    node: '&#EBEBEBNode: &#4CC2E2&l%item%'
+    material: '&#EBEBEBMaterial: &#4CC2E2&l%item_type%'
+    slot: '&#EBEBEBSlot: &#4CC2E2&l%item_slot%'
+    permission: '&#EBEBEBPermission: %item_permission%'
+    badSyntax: '&#EBEBEBIncorrect usage! Syntax: /itemjoin query <itemname>!'
+  list:
+    worldHeader: '&#EBEBEB&l%world%:'
+    itemRow: '&#EBEBEB&l   &#EBEBEB%item%'
+    noItems: '&#EBEBEB&l   &#EBEBEBNo items are defined for this world.'
+  world:
+    worldFound: '&#EBEBEBFound the world(s):'
+    worldHeader: '&#EBEBEBYou are in the world:'
+    worldRow: '&#4CC2E2- %world%'
+  updates:
+    checkRequest: '&#FF2B2B%player% has requested to check for updates!'
+    updateRequest: '&#FF2B2B%player% has requested to force update the plugin!'
+  get:
+    givenYou: '&#EBEBEBYou were given &#4CC2E2%amount%x &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB.'
+    givenYou_All: '&#EBEBEBYou were given &#4CC2E2all items&#EBEBEB.'
+    givenTarget: '&#EBEBEBYou gave %target_player% &#4CC2E2%amount%x &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB.'
+    givenTarget_All: '&#EBEBEBYou gave %target_player% &#4CC2E2all items&#EBEBEB.'
+    givenOnline: '&#EBEBEBYou have given the item &#4CC2E2%amount%x &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB to the players &#4CC2E2%players%&#EBEBEB.'
+    targetTriedGive: '&#FF2B2B%target_player% &#EBEBEBtried to give you &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB but it already exists in your inventory!'
+    targetTriedGive_All: '&#FF2B2B%target_player% &#EBEBEBtried to give you &#4CC2E2all items &#EBEBEBbut they already exists in your inventory!'
+    failedInventory: '&#EBEBEBYou already have the item &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB!'
+    failedInventory_All: '&#EBEBEBYou already have &#4CC2E2all items&#EBEBEB!'
+    targetFailedInventory: '&#FF2B2B%target_player% &#EBEBEBalready has the item &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB!'
+    targetFailedInventory_All: '&#FF2B2B%target_player% &#EBEBEBalready has &#4CC2E2all the items&#EBEBEB!'
+    onlineFailedInventory: '&#FF0000All Online Players &#EBEBEBalready have the item &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB!'
+    targetNoPermission: '&#FF2B2B%target_player% &#EBEBEBdoes not meet the permission requirement to receive the item &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB.'
+    targetNoPermission_All: '&#FF2B2B%target_player% &#EBEBEBwas missing permissions for an item so &lnot &#4CC2E2all items &#EBEBEBwere given.'
+    noPermission: '&#EBEBEBYou do not meet the permission requirement to receive the item &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB.'
+    noPermission_All: '&#EBEBEBYou were missing permissions for an item so &lnot &#4CC2E2all items &#EBEBEBwere given.'
+    usageSyntax: '&#EBEBEBYou should use /ItemJoin get <itemname> <player> as console.'
+    badSyntax: '&#EBEBEBIncorrect usage! Syntax: /itemjoin get <itemname> &lOR &#FF2B2B/itemjoin get <itemname> <amount>!'
+    badOnlineSyntax: '&#EBEBEBIncorrect usage! Syntax: /itemjoin getOnline <itemname> &lOR &#FF2B2B/itemjoin getOnline <itemname> <amount>!'
+  remove:
+    removedYou: '&#4CC2E2%amount%x &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB was removed from your inventory.'
+    removedYou_All: '&#4CC2E2All items &#EBEBEBwere removed from your inventory.'
+    removedTarget: '&#EBEBEBYou removed &#4CC2E2%amount%x &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB from &#FF2B2B%target_player%&#EBEBEB.'
+    removedTarget_All: '&#EBEBEBYou removed &#4CC2E2all items &#EBEBEBfrom &#4CC2E2%target_player%&#EBEBEB.'
+    removedOnline: '&#EBEBEBYou have removed the item &#4CC2E2%amount%x &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB from the players &#FF2B2B%players%&#EBEBEB.'
+    targetTriedRemoval: '&#FF2B2B%target_player% &#EBEBEBtried to remove &#6A6A6A[&#4CC2E2%item%&#6A6A6A]&#EBEBEB but it does not exist in your inventory!'
+    targetTriedRemoval_All: '&#FF2B2B%target_player% &#EBEBEBtried to remove &#4CC2E2all items &#EBEBEBbut you do not have any in your inventory!'
+    failedInventory: '&#EBEBEBThe item &#6A6A6A[&#4CC2E2%item%&#6A6A6A] &#EBEBEBdoes not exist in your inventory!'
+    failedInventory_All: '&#EBEBEBNo &#4CC2E2defined items &#EBEBEBexist in your inventory!'
+    targetFailedInventory: '&#EBEBEBThe item &#6A6A6A[&#4CC2E2%item%&#6A6A6A] &#EBEBEBdoes not exist in &#FF2B2B%target_player% &#EBEBEBinventory!'
+    targetFailedInventory_All: '&#4CC2E2No defined items &#EBEBEBexist in &#FF2B2B%target_player% &#EBEBEBinventory!'
+    onlineFailedInventory: '&#EBEBEBThe item &#4CC2E2%item% &#EBEBEBdoes not exist in any of the &#FF0000Online Players &#EBEBEBinventories.'
+    usageSyntax: '&#EBEBEBYou should use /ItemJoin remove <itemname> <player> as console.'
+    badSyntax: '&#EBEBEBIncorrect usage! Syntax: /itemjoin remove <itemname>!'
+    badOnlineSyntax: '&#EBEBEBIncorrect usage! Syntax: /itemjoin removeOnline <itemname>!'
+  database:
+    purgeWarn: '&#EBEBEBPurging the database will delete &#EBEBEBALL &#EBEBEB%purge_data% data for &#4CC2E2%target_player%&#EBEBEB.'
+    purgeSuccess: '&#EBEBEBYou have purged the database file of the %purge_data% data for &#4CC2E2%target_player%&#EBEBEB!'
+    purgeConfirm: '&#EBEBEBYou have 5 seconds to type &#4CC2E2%command% &#EBEBEBagain to confirm you wish to purge the database.'
+    purgeTimeOut: '&#EBEBEBYou did not confirm the database purge within &#4CC2E25 seconds&#EBEBEB, purge has been canceled!'
+  enabled:
+    forPlayer: '&#EBEBEBYou have &#4CC2E2enabled &#4CC2E2all items &#EBEBEBfor &#4CC2E2%target_player%&#EBEBEB.'
+    forTarget: '&#EBEBEB%player% has &#4CC2E2enabled &#4CC2E2all items &#EBEBEBfor you.'
+    forPlayerFailed: '&#EBEBEBItems have already been &#4CC2E2enabled &#EBEBEBfor &#4CC2E2%player%&#EBEBEB.'
+    forPlayerWorld: '&#EBEBEBYou have &#4CC2E2enabled &#6A6A6A[&#4CC2E2%world%&#6A6A6A] items &#EBEBEBfor &#4CC2E2%player%&#EBEBEB.'
+    forTargetWorld: '&#EBEBEB%player% has &#4CC2E2enabled &#6A6A6A[&#4CC2E2%world%&#6A6A6A] items for you.'
+    forPlayerWorldFailed: '&#EBEBEBYou have already &#4CC2E2enabled &#6A6A6A[&#4CC2E2%world%&#6A6A6A] items &#EBEBEBfor &#4CC2E2%player%&#EBEBEB.'
+    globalPlayers: '&#EBEBEBYou have &#4CC2E2enabled &#4CC2E2all items &#EBEBEBfor &#4CC2E2all players&#EBEBEB.'
+    globalPlayersFailed: '&#EBEBEBItems have already been &#4CC2E2enabled &#EBEBEBfor &#4CC2E2all players&#EBEBEB.'
+    togglePlayerFailed: '&#EBEBEBYou cannot enable the item %item% as all items are disabled for you globally!'
+  disabled:
+    forPlayer: '&#EBEBEBYou have &#4CC2E2disabled &#4CC2E2all items &#EBEBEBfor &#4CC2E2%player%&#EBEBEB.'
+    forTarget: '&#EBEBEB%player% has &#4CC2E2disabled &#4CC2E2all items &#EBEBEBfor you.'
+    forPlayerFailed: '&#EBEBEBItems have already been &#4CC2E2disabled &#EBEBEBfor &#4CC2E2%player%&#EBEBEB.'
+    forPlayerWorld: '&#EBEBEBYou have &#4CC2E2disabled &#6A6A6A[&#4CC2E2%world%&#6A6A6A] items &#EBEBEBfor &#4CC2E2%player%&#EBEBEB.'
+    forTargetWorld: '&#EBEBEB%player% has &#4CC2E2enabled &#6A6A6A[&#4CC2E2%world%&#6A6A6A] items for you.'
+    forPlayerWorldFailed: '&#EBEBEBYou have already &#4CC2E2disabled &#6A6A6A[&#4CC2E2%world%&#6A6A6A] items &#EBEBEBfor &#4CC2E2%player%&#EBEBEB.'
+    globalPlayers: '&#EBEBEBYou have &#4CC2E2disabled &#4CC2E2all items &#EBEBEBfor &#4CC2E2all players&#EBEBEB.'
+    globalPlayersFailed: '&#EBEBEBItems have already been &#4CC2E2disabled &#EBEBEBfor &#4CC2E2all players&#EBEBEB.'
+    togglePlayerFailed: '&#EBEBEBYou cannot disable the item %item% as all items are disabled for you globally!'
+
+# These placeholders are specific to the plugin messages.
+placeholders:
+  PLAYER_INTERACT: 'Unknown'

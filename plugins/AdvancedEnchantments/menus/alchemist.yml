@@ -1,0 +1,91 @@
+# Общие настройки, связанные с системой инвентаря алхимика.
+general:
+  settings:
+    # Алхимик должен принимать книги.
+    # Если значение false, алхимик не будет принимать книги.
+    combine-books: true
+    # Алхимик должен принимать порошок.
+    # Если значение false, алхимик не будет принимать порошки.
+    combine-dust: true
+    books:
+      # Этот метод складывает шансы и делит на 2 (x+y/2)
+      add-up-chances: true
+      pre-set-chances:
+        enabled: false
+        success: 50
+        destroy: 50
+    dusts:
+      # Этот метод просто складывает шансы
+      add-up: true
+    price:
+      economy: EXP # MONEY, EXP, LEVEL
+      # Если true, плагин будет рассчитывать цену.
+      let-plugin-count: true
+      # Ваша пользовательская цена здесь.
+      # Работает только если let-plugin-count равно false.
+      custom-price: 250
+    other-items-slot:
+      first-item-slot: 3
+      second-item-slot: 5
+
+# Опции для настройки инвентаря алхимика.
+inventory:
+  # Установите "none", чтобы отключить
+  # звук при открытии инвентаря.
+  open-sound: "BLOCK_CHEST_OPEN"
+
+  # Заголовок инвентаря.
+  name: "&8Алхимик"
+
+  # Размер инвентаря.
+  # Должен быть кратным 9. (9, 18, 27, 36, 45, 54)
+  size: 27
+
+  items:
+    preview-item:
+      type: STAINED_GLASS_PANE
+      damage: 0
+      custom-model-data: 0
+      slot: 13
+      name: "&e&lПредпросмотр предмета"
+      lore:
+        - "&7Здесь будет отображаться"
+        - "&7предпросмотр предмета, который"
+        - "&7вы получите от Алхимика."
+    explanation-item:
+      type: STAINED_GLASS_PANE
+      damage: 14
+      custom-model-data: 0
+      slot: 22
+      name: "&e&lАлхимик"
+      lore:
+        - "&7Алхимик обменяет..."
+        - ""
+        - "&b&l* &f2X Книги зачарований"
+        - "&7(одинакового типа и уровня)"
+        - "&d= &f1X Книга зачарований"
+        - "&7(более высокого уровня)"
+        - ""
+        - "&b&l* &f2X Магический порошок"
+        - "&7(одинаковой редкости)"
+        - "&d= &f1X Магический порошок"
+        - "&7(более высоких шансов)"
+    confirm-item:
+      type: STAINED_GLASS_PANE
+      damage: 5
+      custom-model-data: 0
+      slot: 22
+      name: "&b&lНАЖМИТЕ ДЛЯ ОБМЕНА"
+      lore:
+        - "&c&lСТОИМОСТЬ &c%price% EXP"
+        - ""
+        - "&7Нажмите здесь, чтобы подтвердить"
+        - "&7обмен предмета и получить"
+        - "&7ваш эпический новый предмет выше!"
+    filler-item:
+      # Включить или отключить заполняющий предмет.
+      enabled: true
+      type: STAINED_GLASS_PANE
+      damage: 15
+      name: " "
+      lore: [ ]

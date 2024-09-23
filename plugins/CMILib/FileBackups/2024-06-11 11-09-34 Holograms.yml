@@ -1,0 +1,31 @@
+tops:
+  Loc: SpawnDragon;-33.89;84.61;-24.17
+  Range: 8
+  RangeExtra: 16
+  NewDisplay: true
+  ND:
+    Bill: VERTICAL
+  Lines:
+  - '&x&F&B&A&6&7&C&lТоп по времени'
+  - <#EBEBEB>Обновление топов каждый день
+  - '&r'
+  - &e➊ &f%ajlb_lb_statistic_time_played_1_alltime_prefix%&f%ajlb_lb_statistic_time_played_1_alltime_name%
+      &#6C6C6C- &e%ajlb_lb_statistic_time_played_1_alltime_value% ⌚
+  - &e➋ &f%ajlb_lb_statistic_time_played_2_alltime_prefix%&f%ajlb_lb_statistic_time_played_2_alltime_name%
+      &#6C6C6C- &e%ajlb_lb_statistic_time_played_2_alltime_value% ⌚
+  - &e➌ &f%ajlb_lb_statistic_time_played_3_alltime_prefix%&f%ajlb_lb_statistic_time_played_3_alltime_name%
+      &#6C6C6C- &e%ajlb_lb_statistic_time_played_3_alltime_value% ⌚
+  - &e➍ &f%ajlb_lb_statistic_time_played_4_alltime_prefix%&f%ajlb_lb_statistic_time_played_4_alltime_name%
+      &#6C6C6C- &e%ajlb_lb_statistic_time_played_4_alltime_value% ⌚
+  - &e➎ &f%ajlb_lb_statistic_time_played_5_alltime_prefix%&f%ajlb_lb_statistic_time_played_5_alltime_name%
+      &#6C6C6C- &e%ajlb_lb_statistic_time_played_5_alltime_value% ⌚
+  - &e➏ &f%ajlb_lb_statistic_time_played_6_alltime_prefix%&f%ajlb_lb_statistic_time_played_6_alltime_name%
+      &#6C6C6C- &e%ajlb_lb_statistic_time_played_6_alltime_value% ⌚
+  - &e➐ &f%ajlb_lb_statistic_time_played_7_alltime_prefix%&f%ajlb_lb_statistic_time_played_7_alltime_name%
+      &#6C6C6C- &e%ajlb_lb_statistic_time_played_7_alltime_value% ⌚
+  - &e➑ &f%ajlb_lb_statistic_time_played_8_alltime_prefix%&f%ajlb_lb_statistic_time_played_8_alltime_name%
+      &#6C6C6C- &e%ajlb_lb_statistic_time_played_8_alltime_value% ⌚
+  - &e➒ &f%ajlb_lb_statistic_time_played_9_alltime_prefix%&f%ajlb_lb_statistic_time_played_9_alltime_name%
+      &#6C6C6C- &e%ajlb_lb_statistic_time_played_9_alltime_value% ⌚
+  - &e➓ &f%ajlb_lb_statistic_time_played_10_alltime_prefix%&f%ajlb_lb_statistic_time_played_10_alltime_name%
+      &#6C6C6C- &e%ajlb_lb_statistic_time_played_10_alltime_value% ⌚

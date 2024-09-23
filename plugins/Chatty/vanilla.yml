@@ -1,0 +1,115 @@
+################################################################
+#
+#    Chatty (version 3.0.0-SNAPSHOT)
+#    Author: Brikster
+#
+################################################################
+
+join:
+  # Use this, if you want completely disable feature
+  enable: true
+  
+  # Set this to '', if you want to hide join message
+  message: ''
+  
+  # Play sound on join?
+  play-sound: false
+  sound:
+    name: minecraft:entity.experience_orb.pickup
+    source: MASTER
+    volume: 1.0
+    pitch: 1.0
+  
+  # If false, permission is not required to show join message.
+  # Otherwise, add permission: chatty.misc.joinmessage
+  permission-required: false
+
+  first-join:
+    # Disable this, if you don't want to specify first join message
+    enable: true
+    
+    # Set this to '', if you want to hide first join message
+    message: ''
+    
+    # Disable this, if you don't want to specify first join sound
+    play-sound: false
+    sound:
+      name: minecraft:entity.experience_orb.pickup
+      source: MASTER
+      volume: 1.0
+      pitch: 1.0
+
+quit:
+  # Use this, if you want completely disable feature
+  enable: true
+  
+  # Set this to '', if you want to hide quit message
+  message: ''
+  
+  # Play sound on quit?
+  play-sound: false
+  sound:
+    name: minecraft:entity.experience_orb.pickup
+    source: MASTER
+    volume: 1.0
+    pitch: 1.0
+  
+  # If false, permission is not required to show quit message.
+  # Otherwise, add permission: chatty.misc.quitmessage
+  permission-required: false
+
+death:
+  # Use this, if you want completely disable feature
+  enable: true
+  
+  # Use {cause} placeholder and "causes" for custom causes handling.
+  # Set this to '', if you want to hide death message
+  message: ''
+  
+  # Texts for the death causes can be configured.
+  # See keys for "causes" section here: 
+  # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+  fallback-cause: killed by something strange
+  causes:
+    FREEZE: froze to death
+    CONTACT: pricked by cactus, stalagmite, or berry bush
+    LAVA: swam in lava
+    CRAMMING: crammed by too many entities
+    ENTITY_SWEEP_ATTACK: hit by sweep attack
+    FIRE_TICK: suffered from fire burns
+    ENTITY_EXPLOSION: caught in entity explosion
+    WITHER: withered away
+    FIRE: burned in fire
+    MAGIC: hit by a magic potion or spell
+    PROJECTILE: hit by a projectile
+    CUSTOM: killed by something strange
+    FALL: fell from a height
+    SUICIDE: committed suicide
+    DRAGON_BREATH: "harmed by dragon's breath"
+    SONIC_BOOM: "hit by Warden's sonic boom"
+    DROWNING: drowned underwater
+    FALLING_BLOCK: hit by a falling block
+    LIGHTNING: struck by lightning
+    FLY_INTO_WALL: flew into a wall
+    THORNS: harmed by Thorns enchantment
+    ENTITY_ATTACK: attacked by an entity
+    SUFFOCATION: suffocated in a block
+    DRYOUT: dried out outside water
+    MELTING: melted away
+    BLOCK_EXPLOSION: caught in block explosion
+    POISON: poisoned
+    HOT_FLOOR: stepped on a hot floor
+    STARVATION: starved to death
+    VOID: fell into the void
+  
+  # Play sound on death?
+  play-sound: false
+  sound:
+    name: minecraft:entity.experience_orb.pickup
+    source: MASTER
+    volume: 1.0
+    pitch: 1.0
+  
+  # If false, permission is not required to show death message.
+  # Otherwise, add permission: chatty.misc.deathmessage
+  permission-required: false

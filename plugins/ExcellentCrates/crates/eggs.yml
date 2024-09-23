@@ -1,0 +1,928 @@
+Name: Кейс с яйцами
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  Ids:
+  - eggs
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+Block:
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: eggs
+    Y_Offset: 0.0
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: ASH
+  Positions:
+  - -6,65,-889,spawn
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+    яйцо_призыва_заклинателя:
+      Name: '&fЯйцо призыва заклинателя'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i006jdd5n6aoric5j78ej5epnmmpbibtpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05nfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd1dugm38blk5rq2sd1fegm38o5k5lq2tt33p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ej5epnmmpbibtpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05nfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd1dugm38blk5rq2sd1fegm38o5k5lq2tt33p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_разбойника:
+      Name: '&fЯйцо призыва разбойника'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i0073dd5n6aoric5j78ejgd5m6oob7clp5usrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502qnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086hg38b1k5nq2ot1fmgn78brk5oq2td1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - a0000g002d5i0073dd5n6aoric5j78ejgd5m6oob7clp5usrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502qnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086hg38b1k5nq2ot1fmgn78brk5oq2td1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_овцы:
+      Name: '&fЯйцо призыва овцы'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i006bdd5n6aoric5j78ejjd1imas2vedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1abr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1bugn78odk5u438bvkc0q2sd1duhhf8b5k5g438btk5iq63d32p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - a0000g002d5i006bdd5n6aoric5j78ejjd1imas2vedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1abr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1bugn78odk5u438bvkc0q2sd1duhhf8b5k5g438btk5iq63d32p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_кадавра:
+      Name: '&fЯйцо призыва кадавра'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i0063dd5n6aoric5j78ej8elpmmnrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0auup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q2td1c6gmj8b1k5iq60d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - a0000g002d5i0063dd5n6aoric5j78ej8elpmmnrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0auup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q2td1c6gmj8b1k5iq60d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_железного_голема:
+      Name: '&fЯйцо призыва железного голема'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip003pmmirj5cdp62pjk79kn4rrebtjmur35dlfn6s31etn5upb7cs5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80o1ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mglv8bjkc6q2v21k5vq60d1e6gmv8onk5iq2o21k5mq2qt1eugmn8bfk5tq2vd1cugnogd1cugnr8bnk5lq2ud1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 5000080016ip003pmmirj5cdp62pjk79kn4rrebtjmur35dlfn6s31etn5upb7cs5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80o1ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mglv8bjkc6q2v21k5vq60d1e6gmv8onk5iq2o21k5mq2qt1eugmn8bfk5tq2vd1cugnogd1cugnr8bnk5lq2ud1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_свиньи:
+      Name: '&fЯйцо призыва свиньи'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400bmqqbeclhn4ob6egt70qb7btpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05dfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd30egmb8bhk5tq66d1e12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt70qb7btpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05dfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd30egmb8bhk5tq66d1e12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_древнего_стража:
+      Name: '&fЯйцо призыва древнего стража'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i008jdd5n6aoric5j78ej5dhi6asivctqm2sj4d5gmsnrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0bsup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q2qd306gmn8b5k5tq2qt1cugnogd30ehgb8o1k5gq2rd1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - a0000g002d5i008jdd5n6aoric5j78ej5dhi6asivctqm2sj4d5gmsnrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0bsup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q2qd306gmn8b5k5tq2qt1cugnogd30ehgb8o1k5gq2rd1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_муухомора:
+      Name: '&fЯйцо призыва муухомора'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800tdlkmspb3e9gmct1qdlnmusr8e9nmuravedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1crr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1bugn78odk5u438bvkc0q2sd1duhhf8b5k5g438bpkc3q61t31egnr8bpk5uq60d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 1800020009km800tdlkmspb3e9gmct1qdlnmusr8e9nmuravedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1crr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1bugn78odk5u438bvkc0q2sd1duhhf8b5k5g438bpkc3q61t31egnr8bpk5uq60d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_зимогора:
+      Name: '&fЯйцо призыва зимогора'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip0035mmirj5cdp62pjk79pn8sj1f5fn6s31etn5upb7cs5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80m5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mglv8bjkc6q2v21k5vq60d1e6gmv8onk5iq2o21k5nq2sd1f6gnr8b7k5uq60d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 5000080016ip0035mmirj5cdp62pjk79pn8sj1f5fn6s31etn5upb7cs5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80m5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mglv8bjkc6q2v21k5vq60d1e6gmv8onk5iq2o21k5nq2sd1f6gnr8b7k5uq60d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_курицы:
+      Name: '&fЯйцо призыва курицы'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kor8d5hmmpbebtpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05dfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd1emhgf8o1k5oq63d32p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3kor8d5hmmpbebtpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05dfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd1emhgf8o1k5oq63d32p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_зомбифицированного_пиглина:
+      Name: '&fЯйцо призыва зомбифицированного пиглина'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km8014dlkmspb3e9gmct1qf9nmqoj9cpkmap2ve1kmer39dpfn6s31etn5upb7cs5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80qhti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mglv8bjkc6q2v21k5vq60d1e6gmv8onk5iq2o21k5nq2vd1f6gm78bhkc4q2sd31mgn38o1k5uq2pd1c6gnn8brk5uq2pt1fh0q2vt1e6gmf8bnk5oq2ut1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 1800020009km8014dlkmspb3e9gmct1qf9nmqoj9cpkmap2ve1kmer39dpfn6s31etn5upb7cs5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80qhti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mglv8bjkc6q2v21k5vq60d1e6gmv8onk5iq2o21k5nq2vd1f6gm78bhkc4q2sd31mgn38o1k5uq2pd1c6gnn8brk5uq2pt1fh0q2vt1e6gmf8bnk5oq2ut1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_всполоха:
+      Name: '&fЯйцо призыва всполоха'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip0035mmirj5cdp62pjk79h6oobqclfn6s31etn5upb7cs5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80m5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mglv8bjkc6q2v21k5vq60d1e6gmv8onk5iq2o21k5iq60t1fugnr8bnk5uq62t1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 5000080016ip0035mmirj5cdp62pjk79h6oobqclfn6s31etn5upb7cs5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80m5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mglv8bjkc6q2v21k5vq60d1e6gmv8onk5iq2o21k5iq60t1fugnr8bnk5uq62t1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_странствующего_торговца:
+      Name: '&fЯйцо призыва странствующего торговца'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip004hmmirj5cdp62pjk79rm2rj4clp6irj7btq74ob4clp5usrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb50377m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086hg78o5kc0q2od1fehg78o5k5iq61t33mhh78bbk5jq2v21kc2q2vd306gmf8btk5iq63d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 5000080016ip004hmmirj5cdp62pjk79rm2rj4clp6irj7btq74ob4clp5usrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb50377m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086hg78o5kc0q2od1fehg78o5k5iq61t33mhh78bbk5jq2v21kc2q2vd306gmf8btk5iq63d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_снежного_голема:
+      Name: '&fЯйцо призыва снежного голема'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01srb9dpim6sj1cpq3ksredtrluprfdhimqnrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0bsup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q60t1fegmn8bdk5tq2vd1cugnogd1cugnr8bnk5lq2ud1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 2g0004000j9cg01srb9dpim6sj1cpq3ksredtrluprfdhimqnrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0bsup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q60t1fegmn8bdk5tq2vd1cugnogd1cugnr8bnk5lq2ud1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_коровы:
+      Name: '&fЯйцо призыва коровы'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800ndlkmspb3e9gmct1qcdnnenrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0auup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q2td1fmhg38btk5iq65m2op2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 1800020009km800ndlkmspb3e9gmct1qcdnnenrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0auup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q2td1fmhg38btk5iq65m2op2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_утопленника:
+      Name: '&fЯйцо призыва утопленника'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kp3idtrmspb4btpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05nfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd30uhgb8btk5vq2tt1degnn8brk5oq2td1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3kp3idtrmspb4btpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05nfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd30uhgb8btk5vq2tt1degnn8brk5oq2td1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_крестьянина:
+      Name: '&fЯйцо призыва крестьянина'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400e6qqbeclhn4ob6egt7cqbcdhgmepbibtpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05nfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd1emhg38bbkc1q61d336hhv8brk5oq2ut1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt7cqbcdhgmepbibtpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05nfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd1emhg38bbkc1q61d336hhv8brk5oq2ut1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_эндермена:
+      Name: '&fЯйцо призыва эндермена'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip003hmmirj5cdp62pjk79imsp35e9mm2rivedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1crr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1bugn78odk5u438bvkc0q2sd1duhhf8b5k5g438ork5tq2qd1dehg38bpk5lq2ut1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 5000080016ip003hmmirj5cdp62pjk79imsp35e9mm2rivedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1crr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1bugn78odk5u438bvkc0q2sd1duhhf8b5k5g438ork5tq2qd1dehg38bpk5lq2ut1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_паука:
+      Name: '&fЯйцо призыва паука'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip0039mmirj5cdp62pjk79pn0qb4clp5usrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502lnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086gnv8b1kc3q2td1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 5000080016ip0039mmirj5cdp62pjk79pn0qb4clp5usrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502lnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086gnv8b1kc3q2td1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_панды:
+      Name: '&fЯйцо призыва панды'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400cmqqbeclhn4ob6egt70obechglusrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502lnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086gnv8b1k5tq2qd32p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - k00010004qb400cmqqbeclhn4ob6egt70obechglusrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502lnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086gnv8b1k5tq2qd32p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_крестьянина-зомби:
+      Name: '&fЯйцо призыва крестьянина-зомби'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i008rdd5n6aoric5j78ejqdtmm4qb5btr6ir3cc5jmasivedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1gjr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1bugn78odk5u438bvkc0q2sd1duhhf8b5k5g438blkc0q2qt30ehgb8opkcfq2ut1e6gnn8b0begmv8btk5sq2ot1e12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - a0000g002d5i008rdd5n6aoric5j78ejqdtmm4qb5btr6ir3cc5jmasivedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1gjr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1bugn78odk5u438bvkc0q2sd1duhhf8b5k5g438blkc0q2qt30ehgb8opkcfq2ut1e6gnn8b0begmv8btk5sq2ot1e12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_стража:
+      Name: '&fЯйцо призыва стража'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400e6qqbeclhn4ob6egt6etb1e9i6iobebtpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05dfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd30ehgb8o1k5gq2rd1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt6etb1e9i6iobebtpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05dfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd30ehgb8o1k5gq2rd1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_зомби:
+      Name: '&fЯйцо призыва зомби'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip0039mmirj5cdp62pjk79t6urb2d5ilusrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502lnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086gmv8btk5sq2ot1e12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 5000080016ip0039mmirj5cdp62pjk79t6urb2d5ilusrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502lnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086gmv8btk5sq2ot1e12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    Name:
+      Name: Name
+      Chance: 0.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3koj1e9p6ipbi0400agrfeln78080
+      Commands: []
+      Items: []
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    Chance:
+      Name: Chance
+      Chance: 0.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3koj1e9p6ipbi0400agrfeln78080
+      Commands: []
+      Items: []
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    Rarity:
+      Name: Rarity
+      Chance: 0.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3koj1e9p6ipbi0400agrfeln78080
+      Commands: []
+      Items: []
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    Broadcast:
+      Name: Broadcast
+      Chance: 0.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3koj1e9p6ipbi0400agrfeln78080
+      Commands: []
+      Items: []
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    Win_Limits:
+      Name: Win_Limits
+      Chance: 0.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3koj1e9p6ipbi0400agrfeln78080
+      Commands: []
+      Items: []
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    Preview:
+      Name: Preview
+      Chance: 0.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3koj1e9p6ipbi0400agrfeln78080
+      Commands: []
+      Items: []
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    Commands:
+      Name: Commands
+      Chance: 0.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3koj1e9p6ipbi0400agrfeln78080
+      Commands: []
+      Items: []
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    Items:
+      Name: Items
+      Chance: 0.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3koj1e9p6ipbi0400agrfeln78080
+      Commands: []
+      Items: []
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    Ignored_For_Permissions:
+      Name: Ignored_For_Permissions
+      Chance: 0.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3koj1e9p6ipbi0400agrfeln78080
+      Commands: []
+      Items: []
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_хранителя:
+      Name: '&fЯйцо призыва хранителя'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01krb9dpim6sj1cpq3ktr1e9i6arivedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1crr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1bugn78odk5u438bvkc0q2sd1duhhf8b5k5g438obkc0q2od1fegn38o5k5lq2tt33p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 2g0004000j9cg01krb9dpim6sj1cpq3ktr1e9i6arivedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1crr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1bugn78odk5u438bvkc0q2sd1duhhf8b5k5g438obkc0q2od1fegn38o5k5lq2tt33p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_скелета:
+      Name: '&fЯйцо призыва скелета'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800sdlkmspb3e9gmct1qedlmar35ehnmsnrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0auup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q60t1emgmn8bnk5lq61d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 1800020009km800sdlkmspb3e9gmct1qedlmar35ehnmsnrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0auup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q60t1emgmn8bnk5lq61d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_ведьмы:
+      Name: '&fЯйцо призыва ведьмы'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800pdlkmspb3e9gmct1qetkn8or8btpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05dfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd1cmgmn8b9kccq2ud32p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qetkn8or8btpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05dfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd1cmgmn8b9kccq2ud32p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_шалкера:
+      Name: '&fЯйцо призыва шалкера'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip003dmmirj5cdp62pjk79pmgtbcddin4nrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0auup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q64d1c6gnf8blk5lq60d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 5000080016ip003dmmirj5cdp62pjk79pmgtbcddin4nrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0auup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q64d1c6gnf8blk5lq60d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_визер-скелета:
+      Name: '&fЯйцо призыва визер-скелета'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400hmqqbeclhn4ob6egt7eqbkd1in4nrjddimopbkdtn5usrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502t7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086gmb8bhk5nq2qt301dq60t1emgmn8bnk5lq61d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - k00010004qb400hmqqbeclhn4ob6egt7eqbkd1in4nrjddimopbkdtn5usrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502t7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086gmb8bhk5nq2qt301dq60t1emgmn8bnk5lq61d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_гаста:
+      Name: '&fЯйцо призыва гаста'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400cmqqbeclhn4ob6egt6eq31edq5usrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502lnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086gmf8b1kc1q61d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - k00010004qb400cmqqbeclhn4ob6egt6eq31edq5usrgc5rmsnr5ctjgk003ehgme2g00ti6isrgdhgni2000h762rb502lnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2nt1eehgr8bs86gnv8o1k5oq2rt32ugmb8b086gmf8b1kc1q61d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_крипера:
+      Name: '&fЯйцо призыва крипера'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip003dmmirj5cdp62pjk79hn4pb5e1in4nrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0auup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q2td306gn38bvk5lq60d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 5000080016ip003dmmirj5cdp62pjk79hn4pb5e1in4nrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0auup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q2td306gn38bvk5lq60d1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_слизня:
+      Name: '&fЯйцо призыва слизня'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800pdlkmspb3e9gmct1qedm6irb5btpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05dfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd30egnf8bhk5nq2ut33p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qedm6irb5btpn0obndpfmapr718006t31cs5001r4d5pn0r31f440012ec5mma05dfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k5fq2st31mgnogd1fuhg38bhk5nq65t1cmgm0gd30egnf8bhk5nq2ut33p2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_пещерного_паука:
+      Name: '&fЯйцо призыва пещерного паука'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400fmqqbeclhn4ob6egt66obmclfn6s39chin4nrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0bsup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q2vt1dehh78bbkc0q2ut1fmgmf8bs86gnv8b1kc3q2td1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - k00010004qb400fmqqbeclhn4ob6egt66obmclfn6s39chin4nrje1gnerivcljme2g00dq62poa003m8qbje1m62u880024sobdck0bsup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8avk5pq63d1fh0q2vt306gn38bfkcbq2pd1c10q2vt1dehh78bbkc0q2ut1fmgmf8bs86gnv8b1kc3q2td1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_поборника:
+      Name: '&fЯйцо призыва поборника'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i007jdd5n6aoric5j78ejmd5n68qb3c5q6usivedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1crr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1bugn78odk5u438bvkc0q2sd1duhhf8b5k5g438bvk5uq2ot1fmhg38brk5oq2td1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - a0000g002d5i007jdd5n6aoric5j78ejmd5n68qb3c5q6usivedo62trebtimepoa001n8ob71800ep39edo6oobp10008jj1dlig1crr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1bugn78odk5u438bvkc0q2sd1duhhf8b5k5g438bvk5uq2ot1fmhg38brk5oq2td1c12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    яйцо_призыва_черепахи:
+      Name: '&fЯйцо призыва черепахи'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800qdlkmspb3e9gmct1qehqn4t3cclfn6s31etn5upb7cs5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80m5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mglv8bjkc6q2v21k5vq60d1e6gmv8onk5iq2o21kc7q2qt306gmn8bvk5gq62t1e12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 1800020009km800qdlkmspb3e9gmct1qehqn4t3cclfn6s31etn5upb7cs5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80m5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mglv8bjkc6q2v21k5vq60d1e6gmv8onk5iq2o21kc7q2qt306gmn8bvk5gq62t1e12fleio8jkcls788hq48h7q0000400agrfeln78400
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+Animation_Config: enclosing
+Last_Opener: godnayt
+Last_Reward: '&fЯйцо призыва поборника'
+Item:
+  Material: PLAYER_HEAD
+  SkinURL: 56d7fdb50f14c731c727b0e0d189b6a874319fc0d79c8a099acfc77c7b2d9196
+  Name: '#B3FF5D&lEggs Crate'

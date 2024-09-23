@@ -1,0 +1,51 @@
+[07:22:42] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[07:23:23] [Server thread/INFO]: Enabling BAuction v1.3.3
+[07:23:23] [Server thread/INFO]: [DEBUG] enable checkUpdate
+[07:23:23] [Server thread/INFO]: [DEBUG] enable enable BMenuApi
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load MenuLoader
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load db cfg
+[07:23:23] [Server thread/INFO]: [DEBUG] enable registerAdapters
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load UniqueNameGenerator
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load cfg
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load assetsManager
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load lang
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load logger
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load event manager
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load time util
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load TrieManager
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load econ
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load PAPI hook
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load black list
+[07:23:23] [Server thread/INFO]: [DEBUG] enable load db
+[07:23:23] [Server thread/INFO]: [DEBUG] enable check version
+[07:23:23] [Server thread/INFO]: [DEBUG] enable init commands
+[07:23:23] [bauc File Db loader/INFO]: Успешно загружено 1 предметов за 18 мс.
+[10:47:46] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Legion098e} use command ah 
+[10:56:13] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Legion098e} use command ah sell 400
+[10:56:22] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Legion098e} use command ah 
+[11:01:05] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Legion098e} use command ah 
+[11:19:34] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Legion098e} use command ah 
+[11:20:36] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Legion098e} use command ah sell 100
+[11:20:57] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Legion098e} use command ah sell 100
+[11:21:17] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Legion098e} use command ah 
+[11:33:27] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Legion098e} use command ah 
+[11:33:57] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Legion098e} use command ah sell 50
+[11:38:55] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Legion098e} use command ah 
+[12:03:39] [Server thread/INFO]: [DEBUG] CraftPlayer{name=iagodka2} use command ah 
+[12:53:23] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Goly6Y} use command ah 
+[12:54:16] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Goly6Y} use command ah 
+[12:55:09] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Goly6Y} use command ah 
+[12:56:05] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Goly6Y} use command ah sell 50 full
+[12:56:32] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Goly6Y} use command ah sell 50 full
+[12:56:44] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Goly6Y} use command ah 
+[13:07:34] [Server thread/INFO]: [DEBUG] CraftPlayer{name=_EnRaite_} use command ah 
+[14:54:16] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Master_krot} use command ah 
+[16:42:12] [Server thread/INFO]: [DEBUG] CraftPlayer{name=KLauncher_sbpkxl} use command ah 
+[16:43:59] [Server thread/INFO]: [DEBUG] CraftPlayer{name=KLauncher_sbpkxl} use command ah 
+[19:05:54] [Server thread/INFO]: Disabling BAuction v1.3.3
+[19:05:54] [Server thread/INFO]: [DEBUG] disable disable PAPI hook
+[19:05:54] [Server thread/INFO]: [DEBUG] disable disable logger
+[19:05:54] [Server thread/INFO]: [DEBUG] disable disable BMenuApi
+[19:05:54] [Server thread/INFO]: [DEBUG] disable disable db
+[19:05:54] [Server thread/INFO]: saved 3 items, 15 users and 0 unsold items in 8 ms
+[19:05:54] [Server thread/INFO]: [DEBUG] disable unregisterAdapters

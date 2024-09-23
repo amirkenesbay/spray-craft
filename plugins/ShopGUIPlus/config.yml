@@ -1,0 +1,632 @@
+database:
+  # Database backend type, can be set to mysql or sqlite
+  type: sqlite
+  # MySQL database host
+  mySQLHost: localhost
+  # MySQL connection port number
+  mySQLPort: 3306
+  # MySQL database name
+  mySQLDatabase: db
+  # MySQL database user
+  mySQLUser: root
+  # MySQL user's password
+  mySQLPassword: ""
+  # MySQL table names
+  tableNames:
+    players: "players"
+
+#  Type of the economy which will handle all transactions. 
+#  Supported economies:
+#  - EXP (default Minecraft experience points)
+#  - VAULT (requires http://dev.bukkit.org/bukkit-plugins/vault/)
+#  - MYSQL_TOKENS (requires https://www.spigotmc.org/resources/mysql-tokens.7535/)
+#  - PLAYER_POINTS (requires https://dev.bukkit.org/projects/playerpoints)
+#  - TOKEN_MANAGER (requires https://www.spigotmc.org/resources/tokenmanager.8610/)
+economyType: VAULT
+# Name of the main GUI
+shopMenuName: "Магазин"
+# Size of the main GUI, valid values are 9, 18, 27, 36, 45 and 54
+shopMenuSize: 54
+# Choose an item to fill the empty slots of menu with
+shopMenuFillItem:
+  material: BLACK_STAINED_GLASS_PANE
+  damage: 15
+  name: " "
+# Define whether selling all with middle mouse button is enabled
+enableSellAll: true
+# Define whether the buy GUI with option to select quantity is enabled
+enableBuyGUI: false
+# Define whether the sell GUI with option to select quantity is enabled
+enableSellGUI: true
+# Define whether sell all button in SellGUI is enabled (enableSellGUI has to be enabled too)
+enableSellGUISellAll: true
+# Define whether after closing/buying/selling the shop GUI should be opened again
+returnToShop: true
+# Define whether the quick buy/sell option should be enabled (amount selection gui will stay open until player closes it)
+quickBuySell: false
+# Define whether lines containing the %buy% placeholder should be hidden for unbuyable items
+hideBuyPriceForUnbuyable: true
+# Define whether lines containing the %sell% placeholder should be hidden for unsellable items
+hideSellPriceForUnsellable: true
+# Define whether buy and sell buttons should be inverted (false - LMB buy, RMB sell / true - LMB sell, RMB buy)
+invertBuySell: false
+# Maximum amount of enchantments players can add to an item, set to -1 for no limit
+maxEnchantments: 3
+# Choose whether players should be able to buy enchantments only 1 level higher than current (eg. player has sword with Sharpness 1, they could buy only Sharpness 2)
+limitEnchantmentLevelDiff: false
+# Define whether the amount selection double click bug fix should be enabled
+enableAmountSelectionFix: true
+# Define whether players should be able to use sell all option to sell all their items (allowAllSellAllStackSizes = true) or only amount multiplied by the original stack size of the shop item (allowAllSellAllStackSizes = false)
+allowAllSellAllStackSizes: false
+# Define whether all prices should be rounded up, down, to the nearest whole number or not rounded (valid values are UP, DOWN, NEAREST and NONE)
+roundPrices: none
+# Define whether main menu (/shop command) should be disabled. The only way to access shops will be to use /shop <id> when you disable it.
+disableMainMenu: false
+# Choose if different messages should be sent when someone buy/sell items for $0 (MSG_ITEM_BOUGHTFREE, MSG_ITEM_SOLDFREE, MSG_ITEM_SOLDALLFREE)
+useDifferentMessagesForFreeItems: true
+# Choose if item names should have first letters of their names capitalized, for instance nether brick would become Nether Brick
+capitalizeItemNames: true
+# Choose the type of price modifiers. (BOTH (permission modifiers have higher priority than command-ones), COMMAND, PERMISSION)
+priceModifiersType: BOTH
+# Choose if the gui shall be closed after using the Sell All feature
+closeGuiAfterSellAll: false
+# Choose if bulk buy/sell guis should be opened immediately after clicking an item (enableBuyGUI and enableSellGUI have to be enabled as well and players need the bulk buy/sell permissions)
+openBulkGuiImmediately: false
+# Define whether max stack sizes will be native to minecraft defaults (true - Minecraft default stack sizes will be enforced)
+enforceDefaultStackSize: false
+# Choose which items stack size should be capped at 16 inside the amount selection GUI so players can't buy eg. oversized ender pearl stacks
+# Format is same as for regular items in shops.yml
+itemStackSizeCappedAt:
+  1:
+    material: ENDER_PEARL
+    size: 16
+  2:
+    material: SNOWBALL
+    size: 16
+  3:
+    material: EGG
+    size: 16
+  4:
+    material: BUCKET
+    size: 1
+  5:
+    material: ACACIA_SIGN
+    size: 16
+  6:
+    material: BIRCH_SIGN
+    size: 16
+  7:
+    material: DARK_OAK_SIGN
+    size: 16
+  8:
+    material: JUNGLE_SIGN
+    size: 16
+  9:
+    material: OAK_SIGN
+    size: 16
+  10:
+    material: SPRUCE_SIGN
+    size: 16
+  11:
+    material: HONEY_BOTTLE
+    size: 16
+# Choose what gamemodes will prevent players from accessing shops. Valid values: ADVENTURE, CREATIVE, SPECTATOR, SURVIVAL
+disableShopsInGamemodes:
+  - SPECTATOR
+# Choose in which worlds players won't be able to access the shop. Same list format as disableShopsInGamemodes
+disableShopsInWorlds: []
+  
+# Choose whether price modifiers should be displayed in percents instead of decimals (eg. 10% instead of 0.10), remember you will still have to use the decimal way in commands
+displayPriceModifiersInPercents: true
+
+# Choose whether the world-specific permission to access shops should be omitted when player has a shop opened with /shop [player] [shop name]
+disableSudoWorldPermissionCheck: false
+
+# Choose whether the shop-specific permission to access shops should be omitted when player has a shop opened with /shop [player] [shop name]
+disableSudoShopPermissionCheck: false
+
+# Choose whether free items (with sell price of $0) should be excluded from being sold using /sell hand and /sell all
+sellHandAllExcludeFreeItems: true
+
+# Choose predefined settings for all items (will be overriden when set explicitly for an item in shops.yml)
+defaultItemSettings:
+  # Choose whether item meta (name, lore etc.) should be compared when players attempt to sell an item
+  compareMeta: false
+  # Choose whether item meta should be removed from an item when it's purchased by a player from the shop
+  stripItemMeta: false
+
+# Format of item lores in shops, %buy% will be replaced with the buy price and %sell% with sell price
+shopItemLoreFormat:
+  # Это описание будет применено к предметам
+  item:
+    - " &b&lЦена:"
+    - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+    - "&3&l● &fПродать&r &fза&b&l ► &e%sell% монет"
+    - " &7Нажмите средней кнопкой мыши, чтобы продать все."
+  # Это описание будет применено к предметам в интерфейсе покупки (когда enableBuyGUI установлено в true)
+  itemBuyGUI:
+    - " &b&lЦена:"
+    - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+  # Это описание будет применено к предметам в интерфейсе продажи (когда enableSellGUI установлено в true)
+  itemSellGUI:
+    - " &b&lЦена:"
+    - "&3&l● &fПродать&r &fза&b&l ► &e%sell% монет"
+  # Это описание будет применено к кнопке "Продать все" в интерфейсе продажи (когда enableSellGUI и enableSellGUISellAll установлены в true)
+  itemSellGUISellAll:
+    - " &b&lЦена:"
+    - "&3&l● &fПродать&r &fвсе&r &fза&b&l ► &e%sell% монет"
+  # Это описание применяется к правам доступа
+  permission:
+    - " &b&lЦена:"
+    - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+  # А это для зачарований
+  enchantment:
+    - " &b&lЦена:"
+    - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+  # И последнее — для команд
+  command:
+    - " &b&lЦена:"
+    - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+
+# Logging settings
+log:
+  # Define whether transactions will be logged to the console/main server log
+  toConsole: true
+  # Define whether transactions will be logged to a separate log
+  toFile: false
+  # Date format of transactions (http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
+  formatDate: "yyyy/MM/dd HH:mm:ss"
+  # Log message for bought items
+  formatBuy: "%player% bought %amount% x %item% for %price%$ from %shop% shop"
+  # Log message for sold items
+  formatSell: "%player% sold %amount% x %item% for %price%$ to %shop% shop"
+  # Log message for sold all items
+  formatSellAll: "%player% sold all %amount% x %item% for %price%$ to %shop% shop"
+  
+# Sell hand command settings
+sellHand:
+  # When set to true, players will be able to sell any quantity of the item (the price will be calculated from the base price)
+  allowAllQuantites: true
+  # When set to true, /sell hand will work same way as /sell handall does
+  sellsAllItems: false
+
+# Sell all command settings
+sellAll:
+  # When set to true, players will get a detailed summary with prices of each item stack sold
+  detailedSummary: false
+
+buttons:
+  goBack:
+    item:
+      material: ARROW
+      amount: 1 
+      # (необязательно) Значение данных, например, 1 для WOOD:1 означает доски из ели
+      damage: 0 
+      # (необязательно) Пользовательское название
+      name: "&a&lВЕРНУТЬСЯ В ГЛАВНОЕ МЕНЮ"
+      # (необязательно) Описание, может содержать несколько строк
+      lore: 
+        - "&7Нажмите здесь, чтобы вернуться"
+        - "&7в главное меню"
+    # Слот в интерфейсе каждого магазина
+    slot: 49 
+  # Кнопка "Предыдущая страница"
+  previousPage:
+    item:
+      material: PAPER
+      quantity: 1
+      name: "&e&lПредыдущая страница"
+    slot: 54
+  # Кнопка "Следующая страница"
+  nextPage:
+    item:
+      material: PAPER
+      quantity: 1
+      name: "&e&lСледующая страница"
+    slot: 54
+
+amountSelectionGUIBulkBuy:
+  # Размер интерфейса, допустимые значения: 9, 18, 27, 36, 45 и 54
+  size: 18
+  # Выберите, нужно ли заменять тип кнопок на тип покупаемого предмета
+  replaceButtonsType: true
+  # Кнопки
+  buttons:
+    # Кнопка "Купить 1 стак"
+    buy1:
+      item:
+        material: CHEST
+        quantity: 1
+        name: "&aКупить 1 стак"
+        lore:
+         - " &b&lЦена:"
+         - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+      # Значение, указывающее количество стаков
+      value: 1
+      slot: 0
+    # Кнопка "Купить 2 стака"
+    buy2:
+      item:
+        material: CHEST
+        quantity: 2
+        name: "&aКупить 2 стака"
+        lore:
+         - " &b&lЦена:"
+         - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+      value: 2
+      slot: 1
+    # Кнопка "Купить 3 стака"
+    buy3:
+      item:
+        material: CHEST
+        quantity: 3
+        name: "&aКупить 3 стака"
+        lore:
+         - " &b&lЦена:"
+         - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+      value: 3
+      slot: 2
+    # Кнопка "Купить 4 стака"
+    buy4:
+      item:
+        material: CHEST
+        quantity: 4
+        name: "&aКупить 4 стака"
+        lore:
+         - " &b&lЦена:"
+         - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+      value: 4
+      slot: 3
+    # Кнопка "Купить 5 стаков"
+    buy5:
+      item:
+        material: CHEST
+        quantity: 5
+        name: "&aКупить 5 стаков"
+        lore:
+         - " &b&lЦена:"
+         - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+      value: 5
+      slot: 4
+    # Кнопка "Купить 6 стаков"
+    buy6:
+      item:
+        material: CHEST
+        quantity: 6
+        name: "&aКупить 6 стаков"
+        lore:
+         - " &b&lЦена:"
+         - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+      value: 6
+      slot: 5
+    # Кнопка "Купить 7 стаков"
+    buy7:
+      item:
+        material: CHEST
+        quantity: 7
+        name: "&aКупить 7 стаков"
+        lore:
+         - " &b&lЦена:"
+         - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+      value: 7
+      slot: 6
+    # Кнопка "Купить 8 стаков"
+    buy8:
+      item:
+        material: CHEST
+        quantity: 8
+        name: "&aКупить 8 стаков"
+        lore:
+         - " &b&lЦена:"
+         - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+      value: 8
+      slot: 7
+    # Кнопка "Купить 9 стаков"
+    buy9:
+      item:
+        material: CHEST
+        quantity: 9
+        name: "&aКупить 9 стаков"
+        lore:
+         - " &b&lЦена:"
+         - "&3&l● &fКупить&r &fза&b&l ► &2%buy% &b&l◄"
+      value: 9
+      slot: 8
+    # Кнопка "Отмена"
+    cancel:
+      item:
+        material: RED_STAINED_GLASS_PANE
+        quantity: 1
+        name: "&c&lОтмена"
+      slot: 13
+ 
+# Elements of the bulk buy GUI
+amountSelectionGUIBulkSell:
+  # Размер интерфейса, допустимые значения: 9, 18, 27, 36, 45 и 54
+  size: 18
+  # Выберите, нужно ли заменять тип кнопок на тип продаваемого предмета
+  replaceButtonsType: true
+  # Кнопки
+  buttons:
+    # Кнопка "Продать 1 стак"
+    sell1:
+      item:
+        material: CHEST
+        quantity: 1
+        name: "&aПродать 1 стак"
+        lore:
+        - " &b&lЦена:"
+        - "&3&l● &fПродать&r &fза&b&l ► &e%sell% монет"
+      # Значение, указывающее количество стаков
+      value: 1
+      slot: 0
+    # Кнопка "Продать 2 стака"
+    sell2:
+      item:
+        material: CHEST
+        quantity: 2
+        name: "&aПродать 2 стака"
+        lore:
+        - " &b&lЦена:"
+        - "&3&l● &fПродать&r &fза&b&l ► &e%sell% монет"
+      value: 2
+      slot: 1
+    # Кнопка "Продать 3 стака"
+    sell3:
+      item:
+        material: CHEST
+        quantity: 3
+        name: "&aПродать 3 стака"
+        lore:
+        - " &b&lЦена:"
+        - "&3&l● &fПродать&r &fза&b&l ► &e%sell% монет"
+      value: 3
+      slot: 2
+    # Кнопка "Продать 4 стака"
+    sell4:
+      item:
+        material: CHEST
+        quantity: 4
+        name: "&aПродать 4 стака"
+        lore:
+        - " &b&lЦена:"
+        - "&3&l● &fПродать&r &fза&b&l ► &e%sell% монет"
+      value: 4
+      slot: 3
+    # Кнопка "Продать 5 стаков"
+    sell5:
+      item:
+        material: CHEST
+        quantity: 5
+        name: "&aПродать 5 стаков"
+        lore:
+        - " &b&lЦена:"
+        - "&3&l● &fПродать&r &fза&b&l ► &e%sell% монет"
+      value: 5
+      slot: 4
+    # Кнопка "Продать 6 стаков"
+    sell6:
+      item:
+        material: CHEST
+        quantity: 6
+        name: "&aПродать 6 стаков"
+        lore:
+        - " &b&lЦена:"
+        - "&3&l● &fПродать&r &fза&b&l ► &e%sell% монет"
+      value: 6
+      slot: 5
+    # Кнопка "Продать 7 стаков"
+    sell7:
+      item:
+        material: CHEST
+        quantity: 7
+        name: "&aПродать 7 стаков"
+        lore:
+        - " &b&lЦена:"
+        - "&3&l● &fПродать&r &fза&b&l ► &e%sell% монет"
+      value: 7
+      slot: 6
+    # Кнопка "Продать 8 стаков"
+    sell8:
+      item:
+        material: CHEST
+        quantity: 8
+        name: "&aПродать 8 стаков"
+        lore:
+        - " &b&lЦена:"
+        - "&3&l● &fПродать&r &fза&b&l ► &e%sell% монет"
+      value: 8
+      slot: 7
+    # Кнопка "Продать 9 стаков"
+    sell9:
+      item:
+        material: CHEST
+        quantity: 9
+        name: "&aПродать 9 стаков"
+        lore:
+        - " &b&lЦена:"
+        - "&3&l● &fПродать&r &fза&b&l ► &e%sell% монет"
+      value: 9
+      slot: 8
+    # Кнопка "Отмена"
+    cancel:
+      item:
+        material: RED_STAINED_GLASS_PANE
+        quantity: 1
+        name: "&c&lОтмена"
+      slot: 13
+
+# Elements of the regular buy/sell GUI
+amountSelectionGUI:
+  # Размер интерфейса, допустимые значения: 9, 18, 27, 36, 45 и 54
+  size: 45
+  # Слот для предмета, который покупается/продается
+  itemSlot: 22
+  # Кнопки
+  buttons:
+    # Кнопка "Установить на 1"
+    set1:
+      item:
+        material: RED_STAINED_GLASS_PANE
+        quantity: 1
+        name: "&c&lУстановить на 1"
+      slot: 16
+    # Кнопка "Уменьшить на 10"
+    remove10:
+      item:
+        material: RED_STAINED_GLASS_PANE
+        quantity: 10
+        name: "&c&l-10"
+      slot: 34
+    # Кнопка "Уменьшить на 1"
+    remove1:
+      item:
+        material: RED_STAINED_GLASS_PANE
+        quantity: 1
+        name: "&c&l-1"
+      slot: 25
+    # Кнопка "Добавить 1"
+    add1:
+      item:
+        material: LIME_STAINED_GLASS_PANE
+        quantity: 1
+        name: "&a&l+1"
+      slot: 10
+    # Кнопка "Добавить 10"
+    add10:
+      item:
+        material: LIME_STAINED_GLASS_PANE
+        quantity: 10
+        name: "&a&l+10"
+      slot: 19
+    # Кнопка "Установить на 16"
+    set16:
+      item:
+        material: LIME_STAINED_GLASS_PANE
+        quantity: 16
+        name: "&a&lУстановить на 16"
+      slot: 28
+    # Кнопка "Установить на 64"
+    set64:
+      item:
+        material: LIME_STAINED_GLASS_PANE
+        quantity: 64
+        name: "&a&lУстановить на 64"
+      slot: 28
+    # Кнопка "Подтвердить"
+    confirm:
+      item:
+        material: LIME_STAINED_GLASS_PANE
+        quantity: 1
+        name: "&a&lПодтвердить"
+        enchantments:
+          - EFFICIENCY:1
+        flags:
+          - HIDE_ENCHANTS 
+      slot: 21
+    # Кнопка "Продать всё"
+    sellAll:
+      item:
+        material: YELLOW_STAINED_GLASS_PANE
+        quantity: 1
+        name: "&c&lПродать всё"      
+      slot: 13
+    # Кнопка "Купить больше"
+    buyMore:
+      item:
+        material: ORANGE_STAINED_GLASS_PANE
+        quantity: 1
+        name: "&6&lКупить больше"      
+      slot: 31
+    # Кнопка "Продать больше"
+    sellMore:
+      item:
+        material: ORANGE_STAINED_GLASS_PANE
+        quantity: 1
+        name: "&6&lПродать больше"      
+      slot: 31
+    # Кнопка "Отмена"
+    cancel:
+      item:
+        material: RED_STAINED_GLASS_PANE
+        quantity: 1
+        name: "&c&lОтмена"
+        enchantments:
+          - EFFICIENCY:1
+        flags:
+          - HIDE_ENCHANTS
+      slot: 23
+      
+shopMenuItems:
+  4:
+    item:
+      material: WHEAT
+      quantity: 1
+      name: "&2&lФермерство"
+      lore:
+        - "&7О, вижу, ты фермер."
+        - ""
+        - "&2» &7Содержит&2:"
+        - " &2- &7Пшеница"
+        - " &2- &7Семена"
+        - " &2- &7Мёд"
+        - ""
+        - "&2► &fНажмите, чтобы просмотреть"
+    shop: "farming"
+    slot: 22
+  9:
+    item:
+      material: DIAMOND_ORE
+      quantity: 1
+      name: "&a&lРуды"
+      lore:
+        - "&7Блестяще&7&l!!!"
+        - ""
+        - "&a» &7Содержит&a:"
+        - " &a- &7Блестящие алмазы"
+        - " &a- &7Зелёные изумруды"
+        - " &a- &7Жёлтое золото..."
+        - ""
+        - "&a► &fНажмите, чтобы просмотреть"
+    shop: "ores"
+    slot: 20
+  10:
+    item:
+      material: ROTTEN_FLESH
+      quantity: 1
+      name: "&3&lДобыча с мобов"
+      lore:
+        - "&7Ты, должно быть, убийца?!"
+        - ""
+        - "&3» &7Содержит&3:"
+        - " &3- &7Глаза, паучьи глаза"
+        - " &3- &7Добыча с мобов"
+        - " &3- &7И яйца"
+        - ""
+        - "&3► &fНажмите, чтобы просмотреть"
+    shop: "mobdrops"
+    slot: 24
+specialElements:
+  balance:
+    item:
+      material: SUNFLOWER
+      quantity: 1
+      name: "&2Ваш баланс"
+      lore:
+        - "&e%balance% монет"
+sounds:
+  MAIN_MENU_OPEN: UI_BUTTON_CLICK
+  SHOP_OPEN: UI_BUTTON_CLICK
+  SHOP_SELECT_ITEM: UI_BUTTON_CLICK
+  SHOP_SWITCH_PAGE: UI_BUTTON_CLICK
+  SELL_ITEM: ENTITY_EXPERIENCE_ORB_PICKUP
+  SELL_ALL_ITEM: ENTITY_EXPERIENCE_ORB_PICKUP
+  BUY_ITEM: ENTITY_EXPERIENCE_ORB_PICKUP
+numberFormat:
+  decimalSeparator: '.'
+  groupingSeparator: ','
+  minimumIntegerDigits: 1
+  maximumIntegerDigits: 32
+  minimumFractionDigits: 1
+  maximumFractionDigits: 2
+  hideFraction: false

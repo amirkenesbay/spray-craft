@@ -1,0 +1,39 @@
+tasks:
+  enchanting:
+    type: "enchanting"
+    amount: 200
+
+display:
+  name: " &#6D6D6D● &#13FF00Зачарование XX"
+  lore-normal:
+    - "&#6D6D6DКвест доступен"
+    - ""
+    - " &#DFDFDFНачните этот квест"
+    - " &#DFDFDFчтобы получить награды"
+    - ""
+    - " &#FF2525✘ Требования:"
+    - " &#6C6C6C▶ &#DFDFDFЗачаровать x200 предметов"
+    - ""
+    - " &#6C6C6C| &#DFDFDFНаграды: &#E537FA+500 опыта уровня"
+  lore-started:
+    - ""
+    - " &#51FF00✔ &#DFDFDFТекущий прогресс"
+    - " &#6C6C6C- &#DFDFDF{enchanting:progress}&#6C6C6C/&#DFDFDF200 предметов"
+  type: "BOOK"
+
+rewards:
+  - "clv addeXp 500 {player}"
+
+placeholders:
+  description: ""
+  progress: ""
+
+options:
+  category: "enchanting"
+  requires:
+    - "enchanting19"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 20

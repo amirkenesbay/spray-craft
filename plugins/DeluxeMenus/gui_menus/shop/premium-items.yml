@@ -1,0 +1,1105 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&0Предметы [1/3]'
+size: 54
+open_command:
+- itemsss
+items:
+  100:
+    material: red_mushroom_block
+    slot: 4
+    display_name: '&#FBCD65Огромный приват'
+    lore:
+      - ''
+      - ' &8Информация'      
+      - '  &fВозможность заприватить'
+      - '  &fтерриторию на &a150x150x150 &fблоков'
+      - ''      
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7899 рубинов'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '99'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 99'
+    - '[console] ps give 150x150x150 %player_name% '  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили приват.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '99'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 99'
+    - '[console] ps give 150x150x150 %player_name%'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили приват.'
+  1:
+    material: experience_bottle
+    amount: 64
+    slot: 10
+    display_name: '&#FBCD65Пузырёк опыта'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7811'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% experience_bottle 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% experience_bottle 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  2:
+    material: tnt
+    slot: 11
+    amount: 32
+    display_name: '&#FBCD65Динамит'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7818'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '18'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 18'
+    - '[console] give %player_name% tnt 32'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '18'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 18'
+    - '[console] give %player_name% tnt 32'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  3:
+    material: firework_rocket
+    slot: 12
+    amount: 64
+    display_name: '&#FBCD65Фейерверк'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A789'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '9'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 9'
+    - '[console] give %player_name% firework_rocket 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '9'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 9'
+    - '[console] give %player_name% firework_rocket 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  4:
+    material: end_portal_frame
+    slot: 13
+    amount: 4
+    display_name: '&#FBCD65Рамка портала в Энд'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7830'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '30'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 30'
+    - '[console] give %player_name% end_portal_frame 4'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '30'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 30'
+    - '[console] give %player_name% end_portal_frame 4'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  5:
+    material: enchanted_golden_apple
+    slot: 14
+    display_name: '&#FBCD65Зачарованное золотое яблоко'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7813'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '13'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 13'
+    - '[console] give %player_name% enchanted_golden_apple 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '13'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 13'
+    - '[console] give %player_name% enchanted_golden_apple 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  6:
+    material: golden_apple
+    slot: 15
+    amount: 4
+    display_name: '&#FBCD65Золотые яблоки'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A782'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '2'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 2'
+    - '[console] give %player_name% golden_apple 4'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '2'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 2'
+    - '[console] give %player_name% golden_apple 4'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  7:
+    material: ender_pearl
+    slot: 16
+    amount: 16
+    display_name: '&#FBCD65Эндер-жемчуг'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A785'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '5'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 5'
+    - '[console] give %player_name% ender_pearl 16'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '5'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 5'
+    - '[console] give %player_name% ender_pearl 16'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  8:
+    material: elytra
+    slot: 19
+    display_name: '&#FBCD65Элитры'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7849'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '49'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 49'
+    - '[console] give %player_name% elytra 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '49'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 49'
+    - '[console] give %player_name% elytra 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  9:
+    material: water_bucket
+    slot: 20
+    display_name: '&#FBCD65Ведро воды'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A784'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '4'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 4'
+    - '[console] give %player_name% water_bucket 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '4'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 4'
+    - '[console] give %player_name% water_bucket 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  10:
+    material: lava_bucket
+    slot: 21
+    display_name: '&#FBCD65Ведро лавы'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A784'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '4'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 4'
+    - '[console] give %player_name% lava_bucket 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '4'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 4'
+    - '[console] give %player_name% lava_bucket 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  11:
+    material: golden_carrot
+    amount: 64
+    slot: 22
+    display_name: '&#FBCD65Золотая морковка'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7811'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% golden_carrot 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% golden_carrot 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  12:
+    material: gunpowder
+    amount: 64
+    slot: 23
+    display_name: '&#FBCD65Порох'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7813'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '13'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 13'
+    - '[console] give %player_name% gunpowder 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '13'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 13'
+    - '[console] give %player_name% gunpowder 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  13:
+    material: sugar
+    amount: 64
+    slot: 24
+    display_name: '&#FBCD65Сахар'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A789'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '9'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 9'
+    - '[console] give %player_name% sugar 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '9'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 9'
+    - '[console] give %player_name% sugar 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  14:
+    material: magma_cream
+    amount: 64
+    slot: 25
+    display_name: '&#FBCD65Сгусток магмы'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7811'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% magma_cream 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% magma_cream 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  15:
+    material: redstone
+    amount: 64
+    slot: 28
+    display_name: '&#FBCD65Редстоуновая пыль '
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A786'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '6'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 6'
+    - '[console] give %player_name% redstone 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '6'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 6'
+    - '[console] give %player_name% redstone 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  16:
+    material: coal
+    amount: 64
+    slot: 29
+    display_name: '&#FBCD65Уголь'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A785'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '5'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 5'
+    - '[console] give %player_name% coal 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '5'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 5'
+    - '[console] give %player_name% coal 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  17:
+    material: slime_ball
+    amount: 64
+    slot: 30
+    display_name: '&#FBCD65Сгусток слизи'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7813'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '13'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 13'
+    - '[console] give %player_name% slime_ball 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '13'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 13'
+    - '[console] give %player_name% slime_ball 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  18:
+    material: ghast_tear
+    amount: 8
+    slot: 31
+    display_name: '&#FBCD65Слеза гаста'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7830'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '30'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 30'
+    - '[console] give %player_name% ghast_tear 8'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '30'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 30'
+    - '[console] give %player_name% ghast_tear 8'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  19:
+    material: blaze_rod
+    amount: 48
+    slot: 32
+    display_name: '&#FBCD65Огненный стержень'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7814'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '14'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 14'
+    - '[console] give %player_name% blaze_rod 48'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '14'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 14'
+    - '[console] give %player_name% blaze_rod 48'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  20:
+    material: fermented_spider_eye
+    amount: 64
+    slot: 33
+    display_name: '&#FBCD65Маринованный паучий глаз'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7811'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% fermented_spider_eye 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% fermented_spider_eye 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  21:
+    material: nether_wart
+    amount: 64
+    slot: 34
+    display_name: '&#FBCD65Незерский нарост'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7811'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% nether_wart 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% nether_wart 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  22:
+    material: gold_ingot
+    amount: 32
+    slot: 37
+    display_name: '&#FBCD65Слиток золота'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A786'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '6'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 6'
+    - '[console] give %player_name% gold_ingot 32'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '6'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 6'
+    - '[console] give %player_name% gold_ingot 32'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  23:
+    material: diamond
+    amount: 16
+    slot: 38
+    display_name: '&#FBCD65Алмаз'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7811'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% diamond 16'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% diamond 16'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  24:
+    material: emerald
+    amount: 32
+    slot: 39
+    display_name: '&#FBCD65Изумруд'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A7811'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% emerald 32'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '11'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 11'
+    - '[console] give %player_name% emerald 32'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  25:
+    material: iron_ingot
+    amount: 32
+    slot: 40
+    display_name: '&#FBCD65Слиток Железа'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A786'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '6'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 6'
+    - '[console] give %player_name% iron_ingot 32'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '6'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 6'
+    - '[console] give %player_name% iron_ingot 32'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  26:
+    material: lapis_lazuli
+    amount: 64
+    slot: 41
+    display_name: '&#FBCD65Лазурит'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A786'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '6'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 6'
+    - '[console] give %player_name% lapis_lazuli 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '6'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 6'
+    - '[console] give %player_name% lapis_lazuli 64'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  27:
+    material: skeleton_skull
+    amount: 3
+    slot: 42
+    display_name: '&#FBCD65Голова скелета'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A789'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '9'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 9'
+    - '[console] give %player_name% skeleton_skull 3'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '9'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 9'
+    - '[console] give %player_name% skeleton_skull 3'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  28:
+    material: creeper_head
+    amount: 3
+    slot: 43
+    display_name: '&#FBCD65Голова крипера'
+    lore:
+      - ''
+      - ' &fВаш баланс: &#FA3A78%playerpoints_points%'
+      - ' &fСтоимость: &#FA3A789'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    left_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '9'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    left_click_commands:
+    - '[console] p take %player_name% 9'
+    - '[console] give %player_name% creeper_head 3'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+    right_click_requirement:
+      requirements:
+        playerpoints:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '9'
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_commands:
+    - '[console] p take %player_name% 9'
+    - '[console] give %player_name% creeper_head 3'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили предметы.'
+  'back':
+    material: ARROW
+    slots:
+    - 49
+    display_name: '&#FBF386&lНазад'
+    lore:
+    - '&#838a87Предыдущая страница'    
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfВернуться на предыдущую'
+    - '  &#cfcfcfстраницу где Вы были'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[openguimenu] shop-don'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'      
+  next:
+    material: arrow
+    slot: 50
+    display_name: '&#FBCD65Следующая страница'
+    lore:
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти'
+    left_click_commands:
+      - '[openguimenu] premium-items2'
+    

@@ -1,0 +1,32 @@
+location: spawn:-38,465:81,000:-11,502
+enabled: true
+display-range: 30
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&d&lТрейды'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fТоргуйте с другими игроками'
+    height: 0.3
+  - content: '&fс помощью команды &8- &d/trade &7[Никнейм]'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: Сделки можно принять, нажав
+    height: 0.3
+  - content: '&a[&lПринять&a] &fили &c[&lОтклонить&c]'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '#ICON: totem_of_undying'
+    height: 0.3
+  actions:
+    LEFT:
+    - COMMAND:/trade
+    RIGHT:
+    - COMMAND:/trade

@@ -1,0 +1,609 @@
+# Download it here: https://black-minecraft.com/resources/2037/
+################################
+##                            ##
+##     HOOKS CONFIGURATION    ##
+##                            ##
+################################
+
+
+autosell-integration:
+  enabled: false
+  toggle-on-join: false
+
+shopgui-plus-integration:
+  enabled: false
+
+
+################################
+##                            ##
+##    B/WLIST CONFIGURATION   ##
+##                            ##
+################################
+
+
+# Items to be allowed in backpacks
+whitelist:
+  enabled: false # If disabled, this check will be ignored
+  items: # These are the only items which will be allowed the backpacks
+  - DIRT
+  - IRON_INGOT
+
+blacklist:
+  enabled: false # If disabled, this check will be ignored
+  items: # These are the i
+  - DIRT
+  - IRON_INGOT
+
+################################
+##                            ##
+##   BACKPACKS CONFIGURATION  ##
+##                            ##
+################################
+
+# Setting this to true will allow playes to view the contents
+# of their backpacks if they have the preview mod installed.
+# Leaving this as false will disable the preview feature (and can improve performance)
+backpack-preview: true
+backpack-cooldown: 3 # The number of seconds between backpack openings. (can lessen load on server)
+
+# If any of these is set to "false" the player will not be able to open their backpack.
+# If you want to disable this feature, simply leave the list empty, or leave a single line saying "true"
+backpack-open-placeholders:
+- "true"
+# - %world_haspermission_<permission>_<world>%
+
+# If any of these are equal to "true", the player will not be able to open their backpack.
+backpack-prevent-open-placeholders:
+- "false"
+# - "%pvpmanager_is_in_combat%"
+
+
+backpack-progress-bar:
+  character-used: "\u2589"
+  character-empty: "\u2589"
+  character-used-color: "&a"
+  character-empty-color: "&7"
+  bar-length: 10
+
+locked-slot:
+  # If you are on 1.13 or above, you can use the following:
+  type: BLACK_STAINED_GLASS_PANE 
+  # model_data: 2 # Applies the custom model data tag on the locked slot
+
+  # If you are on 1.12 or below, you can use the following:
+  # data: 15
+
+
+backpacks:
+  common_bp: # The name can be anything, but needs to be unique across both backpacks and sacks.
+    size: 9 # The size for a backpack
+    inventory_title: "Рюкзак" # The title you get when opening the inventory
+    # model_data: 2 # OPTIONAL. Sets the CustomModelData for this item, to use with custom texture packs
+    # These are optional
+    # open_sound: 
+    #   sound_type: BLOCK_CHEST_OPEN
+    #   volume: 1.0
+    #   pitch: 1.0
+    #   listener: PLAYER # This means only the player who opened the backpack 
+    #                    # can hear the sound. Can also be ALL, so everyone hears it
+    # close_sound:
+    #   sound_type: BLOCK_CHEST_CLOSE
+    #   volume: 1.0
+    #   pitch: 1.0
+    #   listener: PLAYER
+    item:
+      type: PLAYER_HEAD # The item used to display it as a backpack
+      skull_data: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY4YTJhODg3NWEyNWE3ODEwY2JjNTVmNTlmYWU0YWRmODk4YjQ3Y2Q2YTdkZjQwOWZiZDg4ZWZlOWMxNjYzMCJ9fX0="
+      # model_data: 2 # OPTIONAL. Sets the CustomModelData for this item, to use with custom texture packs
+      name: "&7&l| &fОбычный рюкзак &7[%slots% слотов]" # The item name 
+      lore: # The item lore
+        - ""
+        - " &7Этот рюкзак содержит &f%slots% &7слотов,"
+        - " &7в которых можно хранить предметы!    &7"
+        - ""
+        - " &8▫ &r%capacity_bar% &7(%percentage%% использовано)"
+        - ""
+  uncommon_bp:
+    size: 18
+    inventory_title: "Рюкзак"
+    item:
+      type: PLAYER_HEAD 
+      skull_data: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBiMWI1MzY3NDkxODM5MWEwN2E5ZDAwNTgyYzA1OGY5MjgwYmM1MjZhNzE2Yzc5NmVlNWVhYjRiZTEwYTc2MCJ9fX0="
+      name: "&7&l| &fУлучшенный рюкзак &7[%slots% слотов]"
+      lore:
+      - ""
+      - " &7Этот рюкзак содержит &f%slots% &7слотов,"
+      - " &7в которых можно хранить предметы!    &7"
+      - ""
+      - " &8▫ &r%capacity_bar% &7(%percentage%% использовано)"
+      - ""
+  rare_bp:
+    size: 27
+    inventory_title: "Рюкзак"
+    item:
+      type: PLAYER_HEAD
+      skull_data: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y4NzUyNWFkODRlZmQxNjgwNmEyNmNhMDE5ODRiMjgwZTViYTY0MDM1MDViNmY2Yzk4MDNjMjQ2NDJhYmZjNyJ9fX0="
+      name: "&7&l| &fРедкий рюкзак &7[%slots% слотов]"
+      lore:
+      - ""
+      - " &7Этот рюкзак содержит &f%slots% &7слотов,"
+      - " &7в которых можно хранить предметы!    &7"
+      - ""
+      - " &8▫ &r%capacity_bar% &7(%percentage%% использовано)"
+      - ""
+  epic_bp:
+    size: 36
+    inventory_title: "Рюкзак"
+    item:
+      type: PLAYER_HEAD
+      skull_data: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjE4N2M3MzJhYTM5ZDI5MTM0NjUwYjZhNzJjNmY0MWI5OTA4NWEyNmVjNWU1MTNiYTE4YzQwZDVlY2E5ZTY5YyJ9fX0="
+      name: "&7&l| &fЭпический рюкзак &7[%slots% слотов]"
+      lore:
+      - ""
+      - " &7Этот рюкзак содержит &f%slots% &7слотов,"
+      - " &7в которых можно хранить предметы!    &7"
+      - ""
+      - " &8▫ &r%capacity_bar% &7(%percentage%% использовано)"
+      - ""
+  legendary_bp:
+    size: 54
+    inventory_title: "Рюкзак"
+    item:
+      type: PLAYER_HEAD
+      skull_data: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwYjU2MjJiN2QwNjhmNTc4OGJmMTlhODM5ODM5MzdiMTZjNTk3MmM5MWY1ZWU3YmY1NGJjYzM2MzhmOWEzNiJ9fX0="
+      name: "&7&l| &fЛегендарный рюкзак &7[%slots% слотов]"
+      lore:
+      - ""
+      - " &7Этот рюкзак содержит &f%slots% &7слотов,"
+      - " &7в которых можно хранить предметы!    &7"
+      - ""
+      - " &8▫ &r%capacity_bar% &7(%percentage%% использовано)"
+      - ""
+
+################################
+##                            ##
+##     SACKS CONFIGURATION    ##
+##                            ##
+################################
+
+
+sacks:
+  common_sack: # The name can be anything, but needs to be unique across both backpacks and sacks.
+    size: 20 # This means it can store 150x64 items (9600 items)
+    item:
+      type: PLAYER_HEAD # The item used to display it as a sack
+      skull_data: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFkMThhMGYyM2IxYTJiODcyZWVlZDUxNTUzNmY1NDkyYjU1MzQ1M2YyYmViNGNhODJjOGI2YTEzYzhmNzJmYyJ9fX0="
+      name: "&7&l| &fОбычный мешок &7[%slots% стаков]" # The item name
+    whitelist:
+      enabled: false
+      items: 
+      - DIRT
+      - IRON_INGOT
+    blacklist:
+      enabled: true
+      items:
+      - HEART_OF_THE_SEA
+      - SPAWNER
+      - SPONGE
+      - SUNFLOWER
+      - SLIME_SPAWN_EGG
+      - MOOSHROOM_SPAWN_EGG
+      - HORSE_SPAWN_EGG
+      - SHULKER_SPAWN_EGG
+      - PHANTOM_SPAWN_EGG
+      - OCELOT_SPAWN_EGG
+      - ZOMBIE_SPAWN_EGG
+      - WITCH_SPAWN_EGG
+      - SHULKER_BOX
+      - PLAYER_HEAD
+      - TIPPED_ARROW
+      - CROSSBOW
+      - BOW
+      - FIREWORK_ROCKET
+      - SUSPICIOUS_STEW
+      - POTION
+      - SPLASH_POTION
+      - LINGERING_POTION
+      - ENCHANTED_BOOK
+      - GOAT_HORN
+      - WOODEN_SHOVEL
+      - STONE_SHOVEL
+      - GOLDEN_SHOVEL
+      - IRON_SHOVEL
+      - DIAMOND_SHOVEL
+      - NETHERITE_SHOVEL
+      - WOODEN_AXE
+      - STONE_AXE
+      - GOLDEN_AXE
+      - IRON_AXE
+      - DIAMOND_AXE
+      - NETHERITE_AXE
+      - WOODEN_SWORD
+      - STONE_SWORD
+      - GOLDEN_SWORD
+      - IRON_SWORD
+      - DIAMOND_SWORD
+      - NETHERITE_SWORD
+      - WOODEN_PICKAXE
+      - STONE_PICKAXE
+      - GOLDEN_PICKAXE
+      - IRON_PICKAXE
+      - DIAMOND_PICKAXE
+      - NETHERITE_PICKAXE
+      - WOODEN_HOE
+      - STONE_HOE
+      - GOLDEN_HOE
+      - IRON_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+      - TRIDENT
+      - SHIELD
+      - FLINT_AND_STEEL
+      - SHEARS
+      - FISHING_ROD
+      - TURTLE_HELMET
+      - LEATHER_HELMET
+      - LEATHER_CHESTPLATE
+      - LEATHER_LEGGINGS
+      - LEATHER_BOOTS
+      - CHAINMAIL_HELMET
+      - CHAINMAIL_CHESTPLATE
+      - CHAINMAIL_LEGGINGS
+      - CHAINMAIL_BOOTS
+      - IRON_HELMET
+      - IRON_CHESTPLATE
+      - IRON_LEGGINGS
+      - IRON_BOOTS
+      - GOLDEN_HELMET
+      - GOLDEN_CHESTPLATE
+      - GOLDEN_LEGGINGS
+      - GOLDEN_BOOTS
+      - DIAMOND_HELMET
+      - DIAMOND_CHESTPLATE
+      - DIAMOND_LEGGINGS
+      - DIAMOND_BOOTS
+      - NETHERITE_HELMET
+      - NETHERITE_CHESTPLATE
+      - NETHERITE_LEGGINGS
+      - NETHERITE_BOOTS
+      - NETHERITE_STAR
+      - PAINTING
+      - SPYGLASS
+      - ELYTRA
+      - BRUSH
+      - EXPERIENCE_BOTTLE
+      - NETHERITE_SCRAP
+      - WITHER_SKELETON_SKULL
+      - ZOMBIE_HEAD
+      - CREEPER_HEAD
+      - SKELETON_HEAD
+      - DRAGON_HEAD
+      - PIGLIN_HEAD
+      - STRING
+      - HONEY_BOTTLE
+      - GOLDEN_CARROT
+      lore: #The item lore
+        - ""
+        - " &7Это - мешок. В него можно положить"
+        - " &7много предметов одного типа."
+        - ""
+      lore-full:
+        - ""
+        - " &7Это - мешок. В него можно положить"
+        - " &7много предметов одного типа."
+        - ""
+        - "&7Содержит: &f%amount% &8(&7%item%&8)"
+        - ""
+        - " &8▫ &r%capacity_bar% &7(%percentage%% использовано)"
+        - ""
+  uncommon_sack:
+    size: 60
+    item:
+      type: PLAYER_HEAD
+      skull_data: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU4Y2QzZjU3ZDlmZTFhYzNjZDU0ZmI4NWYzYzk2YTk1NDc5YjE0Zjk5ZDJlNWEwMTE5ZjVhNTJjMjFlYzMyNyJ9fX0="
+      name: "&7&l| &fУлучшенный мешок &7[%slots% стаков]"
+    whitelist:
+      enabled: false
+      items: 
+      - DIRT
+      - IRON_INGOT
+    blacklist:
+      enabled: true
+      items:
+      - HEART_OF_THE_SEA
+      - SPAWNER
+      - SPONGE
+      - SUNFLOWER
+      - SLIME_SPAWN_EGG
+      - MOOSHROOM_SPAWN_EGG
+      - HORSE_SPAWN_EGG
+      - SHULKER_SPAWN_EGG
+      - PHANTOM_SPAWN_EGG
+      - OCELOT_SPAWN_EGG
+      - ZOMBIE_SPAWN_EGG
+      - WITCH_SPAWN_EGG
+      - SHULKER_BOX
+      - PLAYER_HEAD
+      - TIPPED_ARROW
+      - CROSSBOW
+      - BOW
+      - FIREWORK_ROCKET
+      - SUSPICIOUS_STEW
+      - POTION
+      - SPLASH_POTION
+      - LINGERING_POTION
+      - ENCHANTED_BOOK
+      - GOAT_HORN
+      - WOODEN_SHOVEL
+      - STONE_SHOVEL
+      - GOLDEN_SHOVEL
+      - IRON_SHOVEL
+      - DIAMOND_SHOVEL
+      - NETHERITE_SHOVEL
+      - WOODEN_AXE
+      - STONE_AXE
+      - GOLDEN_AXE
+      - IRON_AXE
+      - DIAMOND_AXE
+      - NETHERITE_AXE
+      - WOODEN_SWORD
+      - STONE_SWORD
+      - GOLDEN_SWORD
+      - IRON_SWORD
+      - DIAMOND_SWORD
+      - NETHERITE_SWORD
+      - WOODEN_PICKAXE
+      - STONE_PICKAXE
+      - GOLDEN_PICKAXE
+      - IRON_PICKAXE
+      - DIAMOND_PICKAXE
+      - NETHERITE_PICKAXE
+      - WOODEN_HOE
+      - STONE_HOE
+      - GOLDEN_HOE
+      - IRON_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+      - TRIDENT
+      - SHIELD
+      - FLINT_AND_STEEL
+      - SHEARS
+      - FISHING_ROD
+      - TURTLE_HELMET
+      - LEATHER_HELMET
+      - LEATHER_CHESTPLATE
+      - LEATHER_LEGGINGS
+      - LEATHER_BOOTS
+      - CHAINMAIL_HELMET
+      - CHAINMAIL_CHESTPLATE
+      - CHAINMAIL_LEGGINGS
+      - CHAINMAIL_BOOTS
+      - IRON_HELMET
+      - IRON_CHESTPLATE
+      - IRON_LEGGINGS
+      - IRON_BOOTS
+      - GOLDEN_HELMET
+      - GOLDEN_CHESTPLATE
+      - GOLDEN_LEGGINGS
+      - GOLDEN_BOOTS
+      - DIAMOND_HELMET
+      - DIAMOND_CHESTPLATE
+      - DIAMOND_LEGGINGS
+      - DIAMOND_BOOTS
+      - NETHERITE_HELMET
+      - NETHERITE_CHESTPLATE
+      - NETHERITE_LEGGINGS
+      - NETHERITE_BOOTS
+      - NETHERITE_STAR
+      - PAINTING
+      - SPYGLASS
+      - ELYTRA
+      - BRUSH
+      - EXPERIENCE_BOTTLE
+      - NETHERITE_SCRAP
+      - WITHER_SKELETON_SKULL
+      - ZOMBIE_HEAD
+      - CREEPER_HEAD
+      - SKELETON_HEAD
+      - DRAGON_HEAD
+      - PIGLIN_HEAD
+      - STRING
+      - HONEY_BOTTLE
+      - GOLDEN_CARROT
+      lore:
+        - ""
+        - " &7Это - мешок. В него можно положить"
+        - " &7много предметов одного типа."
+        - ""
+      lore-full:
+        - ""
+        - " &7Это - мешок. В него можно положить"
+        - " &7много предметов одного типа."
+        - ""
+        - "&7Содержит: &f%amount% &8(&7%item%&8)"
+        - ""
+        - " &8▫ &r%capacity_bar% &7(%percentage%% использовано)"
+        - ""
+  rare_sack:
+    size: 100
+    item:
+      type: PLAYER_HEAD
+      skull_data: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg2MGJjOWE1NTQ2ZGQxMDliODYwZDc1NWNmYjNjYWNiYWQ4Y2FjZTcxMGYzZDIwNjE0ZDI2MDRlYmVlNmU2MyJ9fX0="
+      name: "&7&l| &fРаритетный мешок &7[%slots% стаков]"
+      lore:
+        - ""
+        - " &7Это - мешок. В него можно положить"
+        - " &7много предметов одного типа."
+        - ""
+      lore-full:
+        - ""
+        - " &7Это - мешок. В него можно положить"
+        - " &7много предметов одного типа."
+        - ""
+        - "&7Содержит: &f%amount% &8(&7%item%&8)"
+        - ""
+        - " &8▫ &r%capacity_bar% &7(%percentage%% использовано)"
+        - ""
+  epic_sack:
+    size: 150
+    item:
+      type: PLAYER_HEAD
+      skull_data: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZWRjYWVkZjUxYmQ2NTYxZDU2MGFiYTFjZjg0ZDVmNWZiODMyODZkOGYxY2M3NDFjYWYxOWViMjQwMjJjMSJ9fX0="
+      name: "&7&l| &fЭпический мешок &7[%slots% стаков]"
+      lore:
+        - ""
+        - " &7Это - мешок. В него можно положить"
+        - " &7много предметов одного типа."
+        - ""
+      lore-full:
+        - ""
+        - " &7Это - мешок. В него можно положить"
+        - " &7много предметов одного типа."
+        - ""
+        - "&7Содержит: &f%amount% &8(&7%item%&8)"
+        - ""
+        - " &8▫ &r%capacity_bar% &7(%percentage%% использовано)"
+        - ""
+  legendary_sack:
+    size: 250
+    item:
+      type: PLAYER_HEAD
+      skull_data: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGUyNzM4Y2FmNDZjNWEyMDMyOWM0Y2Y4ODBiZGMwY2U1ZjkwOWY3YTgxMmRmOWM1OTFkYmJjNTJjZGM0ODkxNCJ9fX0="
+      name: "&7&l| &fЛегендарный мешок &7[%slots% стаков]"
+      lore:
+        - ""
+        - " &7Это - мешок. В него можно положить"
+        - " &7много предметов одного типа."
+        - ""
+      lore-full:
+        - ""
+        - " &7Это - мешок. В него можно положить"
+        - " &7много предметов одного типа."
+        - ""
+        - "&7Содержит: &f%amount% &8(&7%item%&8)"
+        - ""
+        - " &8▫ &r%capacity_bar% &7(%percentage%% использовано)"
+        - ""
+
+
+################################
+##                            ##
+##   CRAFTING CONFIGURATION   ##
+##                            ##
+################################
+
+
+enable_crafting: disabled # If toggled off, crafting backpacks will not be enabled
+crafting_recipes:
+  recipe_for_common: # This can be named anything, but has to be unique
+    # Recipes for backpacks start here
+
+    result: common_bp
+    # Warning. The pattern always has to be 3x3. If you want to leave empty spaces,
+    # Create a new alias, and set it to AIR
+    pattern: 
+    - "S S S"           #                                          STONE STONE STONE
+    - "S E S"           # This will basically get translated into  STONE CHEST STONE -> common_bp
+    - "S S S"           #                                          STONE STONE STONE
+    aliases:   # What each of the letters mean
+      S: STONE 
+      E: CHEST 
+  recipe_for_uncommon:
+    result: uncommon_bp 
+    pattern:
+    - "I I I"
+    - "I E I"
+    - "I I I"
+    aliases:
+      I: IRON_INGOT  # List of material can be found https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+      E: common_bp # You can use any valid material, or backpack, or sack type
+  recipe_for_rare:
+    result: rare_bp 
+    pattern:
+    - "G G G" # These characters can be any one of a-z, A-Z, 0-9
+    - "G E G"
+    - "G G G"
+    aliases:
+      G: GOLD_INGOT
+      E: uncommon_bp
+  recipe_for_epic:
+    result: epic_bp 
+    pattern:
+    - "A D A"
+    - "D E D"
+    - "A D A"
+    aliases:
+      D: DIAMOND
+      E: rare_bp
+      A: AIR # This can be used for empty slots
+  recipe_for_legendary:
+    result: legendary_bp 
+    pattern:
+    - "A G A"
+    - "G E G"
+    - "A G A"
+    aliases:
+      E: DIAMOND_BLOCK
+      G: epic_bp
+      A: AIR
+
+  # This is a recipe which will allow a player to convert a common bp into a common sack
+  recipe_for_common_sack_from_bps:
+    result: common_sack
+    pattern:
+    - "A G A"
+    - "A E A"
+    - "A A A"
+    aliases:
+      E: common_bp
+      G: DIAMOND
+      A: AIR
+
+  # Recipes for sacks start here
+  recipe_for_common_sack:
+    result: common_sack
+    pattern: 
+    - "S S S"         
+    - "S E S"         
+    - "S S S"         
+    aliases:
+      S: STONE 
+      E: DIAMOND 
+  recipe_for_uncommon_sack:
+    result: uncommon_sack
+    pattern: 
+    - "S S S"         
+    - "S E S"         
+    - "S S S"         
+    aliases:
+      S: IRON_INGOT 
+      E: common_sack
+  recipe_for_rare_sack:
+    result: rare_sack
+    pattern: 
+    - "S S S"         
+    - "S E S"         
+    - "S S S"         
+    aliases:
+      S: GOLD_INGOT 
+      E: uncommon_sack
+  recipe_for_epic_sack:
+    result: epic_sack
+    pattern:
+    - "A D A"
+    - "D E D"
+    - "A D A"
+    aliases:
+      D: DIAMOND
+      E: rare_sack
+      A: AIR
+  recipe_for_legendary_sack:
+    result: legendary_sack
+    pattern:
+    - "A G A"
+    - "G E G"
+    - "A G A"
+    aliases:
+      E: DIAMOND_BLOCK
+      G: epic_sack
+      A: AIR

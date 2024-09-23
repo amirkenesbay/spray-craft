@@ -1,0 +1,10 @@
+backpack_data:
+  classname: teammt.mtbackpack.classes.Sack
+  fields:
+    amount: 0
+    size: 250
+    id:
+      classname: java.util.UUID
+      value: 06606f16-290e-4964-bcc6-a9e98de6d811
+    requiresRerender: false
+    type: legendary_sack

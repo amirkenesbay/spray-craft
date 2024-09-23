@@ -1,0 +1,343 @@
+menu_title: '&0Темный торговец'
+size: 54
+open_command:
+- btorg
+register_command: true
+open_requirement:
+  requirements:
+    player_level:
+      type: '>='
+      input: '%clv_player_level%'
+      output: '2'
+      deny_commands:
+        - '[message] &c'
+        - '[message] &f &x&6&A&7&C&F&0&lТемный торговец'
+        - '[message] &c'
+        - '[message] &f  Чтобы посмотреть мои товары'
+        - '[message] &f  тебе нужно иметь как минимум &a2 уровень&f!'
+        - '[message] &c'     
+        - '[message] &7  Посмотреть уровень &8- &e/level info'     
+        - '[message] &c'             
+        
+items:
+  1:
+    material: spawner
+    slot: 10
+    display_name: '&#FBCD65Спавнер'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e250,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 250000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 250000'
+    - '[console] give %player_name% spawner 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили спавнер.'
+    
+  2:
+    material: nether_star
+    slot: 11
+    display_name: '&#FBCD65Звезда нижнего мира'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e150,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 150000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 150000'
+    - '[console] give %player_name% nether_star 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили Звезду нижнего мира.'
+
+  3:
+    material: elytra
+    slot: 12
+    display_name: '&#FBCD65Элитры'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e300,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 300000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 300000'
+    - '[console] give %player_name% elytra 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили Элитры.'
+
+  4:
+    material: dragon_head
+    slot: 19
+    display_name: '&#FBCD65Голова дракона'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e30,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 30000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 30000'
+    - '[console] give %player_name% dragon_head 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили Голову дракона.'
+
+  5:
+    material: enchanted_golden_apple
+    slot: 20
+    display_name: '&#FBCD65Зачарованное золотое яблоко'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e46,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 46000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 46000'
+    - '[console] give %player_name% enchanted_golden_apple 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили Зачарованное золотое яблоко.'
+
+  6:
+    material: beacon
+    slot: 21
+    display_name: '&#FBCD65Маяк'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e200,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 200000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 200000'
+    - '[console] give %player_name% beacon 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили Маяк.'
+
+  7:
+    material: tripwire_hook
+    slot: 15
+    display_name: '&#FBCD65Ключ от кейса с предметами'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e150,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 150000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 150000'
+    - '[console] case key give %player_name% items 1'    
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили ключ от кейса с предметами.'
+
+  8:
+    material: tripwire_hook
+    slot: 24
+    display_name: '&#FBCD65Ключ от кейса с броней'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e200,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 200000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 200000'
+    - '[console] case key give %player_name% armor 1'        
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили ключ от кейса с броней.'
+
+  9:
+    material: tripwire_hook
+    slot: 33
+    display_name: '&#FBCD65Ключ от кейса с яйцами призыва'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e250,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 250000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 250000'
+    - '[console] case key give %player_name% eggs 1'      
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили ключ от кейса с яйцами призыва.'
+
+  10:
+    material: trident
+    slot: 30
+    display_name: '&#FBCD65Трезубец'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e80,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 80000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 80000'
+    - '[console] give %player_name% trident 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили Трезубец.'
+
+  11:
+    material: heart_of_the_sea
+    slot: 28
+    display_name: '&#FBCD65Сердце моря'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e60,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 60000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 60000'
+    - '[console] give %player_name% heart_of_the_sea 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили Сердце моря.'
+
+  12:
+    material: shulker_shell
+    slot: 29
+    display_name: '&#FBCD65Панцирь шалкера'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e40,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 40000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 40000'
+    - '[console] give %player_name% shulker_shell 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили Панцирь шалкера.'
+
+  13:
+    material: totem_of_undying
+    slot: 37
+    display_name: '&#FBCD65Тотем бессмертия'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e70,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 70000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 70000'
+    - '[console] give %player_name% totem_of_undying 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили Тотем бессмертия.'    
+
+  14:
+    material: END_PORTAL_FRAME
+    slot: 38
+    display_name: '&#FBCD65Рамка портала в Энд'
+    lore:
+      - ''
+      - ' &fВаш баланс: &e%cmi_user_balance_formatted%'
+      - ' &fСтоимость: &e300,000 монет'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы купить '
+    click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 300000
+      deny_commands:
+        - '[close]'
+        - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fмонет для покупки.'  
+    click_commands:
+    - '[console] cmi money take %player_name% 300000'
+    - '[console] give %player_name% END_PORTAL_FRAME 1'  
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили рамку портала в энд.'        

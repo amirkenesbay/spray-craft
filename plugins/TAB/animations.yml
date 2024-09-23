@@ -1,0 +1,28 @@
+info:
+  change-interval: 120000
+  texts:
+    - '   &7%localtime_timezone_Europe/Moscow,d MMM% 2024'
+    
+discord:
+  change-interval: 100
+  texts:
+    - ''  
+    - 'Присоединяйся в Discord'
+    - 'сообщество: discord.newera.com'
+    - ''
+
+vk:
+  change-interval: 100
+  texts:
+    - ''  
+    - ' Вступайте в наше сообщество'
+    - ' ВКонтакте: vk.newera.com'
+    - ''      
+    
+website:
+  change-interval: 100
+  texts:
+    - ''  
+    - ' Прямо сейчас действует скидка!'
+    - ' www.newera.com'
+    - ''    

@@ -1,0 +1,40 @@
+tasks:
+  farming:
+    type: "farming"
+    amount: 30
+    block: WHEAT
+
+display:
+  name: " &#6D6D6D● &#13FF00Фермерство III"
+  lore-normal:
+    - "&#6D6D6DКвест доступен"
+    - ""
+    - " &#DFDFDFНачните этот квест"
+    - " &#DFDFDFчтобы получить награды"
+    - ""
+    - " &#FF2525✘ Требования:"
+    - " &#6C6C6C▶ &#DFDFDFВырастить и добыть x30 пшеницы "
+    - ""
+    - " &#6C6C6C| &#DFDFDFНаграды: &#E537FA+500 опыта уровня"
+  lore-started:
+    - ""
+    - " &#51FF00✔ &#DFDFDFТекущий прогресс"
+    - " &#6C6C6C- &#DFDFDF{farming:progress}&#6C6C6C/&#DFDFDF30 добыто пшеницы"
+  type: "WHEAT_SEEDS"
+
+rewards:
+  - "clv addeXp 500 {player}"
+
+placeholders:
+  description: ""
+  progress: ""
+
+options:
+  category: "farming"
+  requires:
+    - "farming2"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 3

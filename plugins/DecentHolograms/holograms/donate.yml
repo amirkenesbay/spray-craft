@@ -1,0 +1,38 @@
+location: spawn:-90,964:63,618:-867,019
+enabled: true
+display-range: 25
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&a&lREALMS NETWORK'
+    height: 0.3
+  - content: '&fЦена за привилегии'
+    height: 0.3
+  - content: '&7на 1 месяц'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&r<#7fd4c9>&lPLUTO &8- &f50 руб'
+    height: 0.3
+  - content: '&r<#b87ece>&lBRILLIUM &8- &f100 руб'
+    height: 0.3
+  - content: '&r<#7c786a>&lVANDERI &8- &f150 руб'
+    height: 0.3
+  - content: '&r<#52d797>&lFINICIUS &8- &f250 руб'
+    height: 0.3
+  - content: '&r<#e03fa0>&lJARSTONE &8- &f350 руб'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fПокупка на сайте:'
+    height: 0.3
+  - content: '&awww.realmsmc.ru'
+    height: 0.3
+  actions:
+    LEFT:
+    - COMMAND:/donate
+    RIGHT:
+    - COMMAND:/donate

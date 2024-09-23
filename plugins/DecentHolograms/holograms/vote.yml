@@ -1,0 +1,41 @@
+location: spawn:-267,479:122,000:-72,506
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&l<#ANIM:wave:#5BF066&l,&f&l>ГОЛОСУЙ ЗА СЕРВЕР</#ANIM>'
+    height: 0.3
+  - content: '&7(Клик, чтобы получить ссылки)'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: Голосуйте за наш проект
+    height: 0.3
+  - content: в мониторинге, ведь это
+    height: 0.3
+  - content: займет всего 1 минуту
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '#SMALLHEAD: PLAYER_HEAD (eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVkN2I0YjI4YjY1ZTNlM2Q0YWRhNDQ4YmRjYjFiNDc5ZGNlYmY3OTU4NTU5NjE3OGNhZTBjODljMmI2YWY1In19fQ==)'
+    height: 0.3
+  actions:
+    LEFT:
+    - MESSAGE:&f
+    - MESSAGE:&f <#5BF066>&lГолосование за сервер
+    - MESSAGE:&f
+    - MESSAGE:&f  Ссылка 1 &8- &ahttps://minecraftrating.ru/vote/191230/
+    - MESSAGE:&f  Ссылка 2 &8 - &ehttps://hotmc.ru/vote-192889
+    - MESSAGE:&f
+    RIGHT:
+    - MESSAGE:&f
+    - MESSAGE:&f <#5BF066>&lГолосование за сервер
+    - MESSAGE:&f
+    - MESSAGE:&f  Ссылка 1 &8- &ahttps://minecraftrating.ru/vote/191230/
+    - MESSAGE:&f  Ссылка 2 &8 - &ehttps://hotmc.ru/vote-192889
+    - MESSAGE:&f
+

@@ -1,0 +1,14 @@
+hourly3:
+  DisplayName: "&a&lНаграда за игру"
+  AutoClaim: true
+  Description:
+  - "&f"
+  - " &a&lНаграда на игру"
+  - "  &fНаиграйте 3 часа на сервере и"
+  - "  &fполучите &e1 кейс &fс предметами"
+  - "&f"
+  - "  &7Открыть кейсы &8- &a/warp case"
+  - "&f"  
+  PayEvery: 10800
+  Commands:
+  - asConsole! excellentcrates key give [playerName] free 1

@@ -1,0 +1,39 @@
+ban:
+  cooldowns:
+    '*': 2m
+  aliases:
+  - tempban
+  - lban
+  - ltempban
+mute:
+  cooldowns:
+    '*': 1m
+  aliases:
+  - tempmute
+  - lmute
+  - ltempmute
+cmi:
+  cooldowns:
+    '*': 5.0
+    heal: 300.0
+    feed: 120.0
+    near: 120.0
+    back: 180.0
+    dback: 180.0
+    warp: 20.0
+    tpa: 25.0
+    spawn: 30.0
+    day: 1800.0
+    night: 1800.0
+    time: 1800.0
+    msg: 10.0
+    reply: 10.0
+    shoot: 600.0
+    suicide: 600.0
+    jump: 30.0
+    head: 600.0
+    repair: 300.0
+    ext: 300.0
+    sethome: 60.0
+  aliases: []
+

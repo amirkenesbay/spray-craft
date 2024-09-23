@@ -1,0 +1,28 @@
+location: spawn:-97,532:63,000:-852,450
+enabled: true
+display-range: 30
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: pufferfish_bucket'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&b&lРыбный ивент'
+    height: 0.3
+  - content: Соревнуйтесь с другими игроками
+    height: 0.3
+  - content: за лучшую пойманую рыбу
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: 'Начало ивента через:'
+    height: 0.3
+  - content: '%emf_competition_time_left%'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  actions: {}

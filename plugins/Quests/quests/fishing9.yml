@@ -1,0 +1,39 @@
+tasks:
+  fishing:
+    type: "fishing"
+    amount: 90
+
+display:
+  name: " &#6D6D6D● &#13FF00Рыбалка IX"
+  lore-normal:
+    - "&#6D6D6DКвест доступен"
+    - ""
+    - " &#DFDFDFНачните этот квест"
+    - " &#DFDFDFчтобы получить награды"
+    - ""
+    - " &#FF2525✘ Требования:"
+    - " &#6C6C6C▶ &#DFDFDFПоймать x90 рыб"
+    - ""
+    - " &#6C6C6C| &#DFDFDFНаграды: &#E537FA+2000 опыта уровня"
+  lore-started:
+    - ""
+    - " &#51FF00✔ &#DFDFDFТекущий прогресс"
+    - " &#6C6C6C- &#DFDFDF{fishing:progress}&#6C6C6C/&#DFDFDF90 пойманных рыб"
+  type: "COOKED_COD"
+
+rewards:
+  - "clv addeXp 2000 {player}"
+
+placeholders:
+  description: ""
+  progress: ""
+
+options:
+  category: "fishing"
+  requires:
+    - "fishing8"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 9

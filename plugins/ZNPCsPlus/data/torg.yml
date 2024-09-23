@@ -1,0 +1,35 @@
+id: torg
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 304028e1-0e3b-4bd3-a808-d05812cd97de
+world: spawn
+location:
+  x: -77.4989985820609
+  y: 61.0
+  z: -903.4613943435337
+  yaw: -35.128418
+  pitch: -2.1955984
+type: player
+properties:
+  skin_left_leg: 'true'
+  look: CLOSEST_PLAYER
+  skin_cape: 'true'
+  skin_hat: 'true'
+  skin_jacket: 'true'
+  skin: fetching;poisonouspen
+  skin_left_sleeve: 'true'
+  skin_right_leg: 'true'
+  skin_right_sleeve: 'true'
+  hand: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAABdnQABHR5cGV0AAZhbW91bnR1cQB+AAYAAAAEdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAD3F0AA5BTUVUSFlTVF9TSEFSRHNxAH4ADgAAAAI=
+hologram:
+  lines:
+  - '&a&lТОРГОВЕЦ'
+  - '&7Приобретай донат вещи'
+  - ''
+  - '&fКупи полезные предметы'
+  - '&fспавнеры и монеты и другое'
+  - ''
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;dG9yZw==;1000;ANY_CLICK;0

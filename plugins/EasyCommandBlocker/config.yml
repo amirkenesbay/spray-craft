@@ -1,0 +1,122 @@
+tab:
+  default:
+    priority: 0
+    commands:
+      - "/unical"
+      - "/spawn"      
+      - "/torg"
+      - "/tpa"
+      - "/tpaccept"
+      - "/is"
+      - "/menu"
+      - "/ah sell"
+      - "/donate"
+      - "/btorg"
+      - "/help"
+      - "/kits"
+      - "/kit"
+      - "/skills"
+      - "/sk"
+      - "/skill"
+      - "/seasons"
+      - "/rewards"
+      - "/reward"
+      - "/mechanisms"
+      - "/minions"
+      - "/torg"
+      - "/tags"
+      - "/warp"
+      - "/warps"
+      - "/level"
+      - "/shop"      
+      - "/ah" 
+      - "/emf shop" 
+      - "/uranvil" 
+      - "/exp" 
+      - "/quests" 
+      - "/jobs" 
+      - "/trade"       
+      - "/sit"
+      - "/lay"
+      - "/ds qsell"
+      - "/pay"
+      - "/balance"
+      - "/baltop"      
+      - "/prewards"   
+      - "/guild"
+      - "/elist"      
+  pluto:
+    priority: 1
+    extends: default
+    commands:
+      - "/feed"
+      - "/realname"
+      - "/book"    
+  brillium:
+    priority: 2
+    extends: pluto
+    commands:
+      - "/hat"
+      - "/iteminfo"
+      - "/loom"  
+      - "/stonecutter"
+      - "/home"
+      - "/home"        
+  vanderi:
+    priority: 3
+    extends: brillium
+    commands:
+      - "/ext"
+      - "/ptime"
+      - "/heal"  
+  finicius:
+    priority: 4
+    extends: vanderi
+    commands:
+      - "/grindstone"
+      - "/trash"
+      - "/pweather"  
+      - "/cartographytable"
+      - "/repair"  
+  jarstone:
+    priority: 5
+    extends: finicius
+    commands:
+      - "/join"    
+      - "/tempmute"  
+      - "/ender"  
+      - "/ec"        
+      - "/repair all"  
+      - "/glow"  
+      - "/broadcast"
+      - "/bc"
+      - "/invsee"
+      - "/inv"      
+blocked_command_default_actions:
+  - "message: &cДанной команды не существует."
+use_commands_as_whitelist: false
+commands:
+  - "/?"
+  - "/bukkit:?"
+  - "/bukkit:ver"
+  - "/bukkit:version"
+  - "/bukkit:pl"
+  - "/bukkit:plugins"
+  - "/bukkit:help"
+  - "/bukkit:about"
+  - "/ver"
+  - "/version"
+  - "/plugins"
+  - "/pl"
+  - "/minecraft:me"
+  - "/about"
+  - "/icanhasbukkit"
+  - "/op"
+custom_commands_actions:
+  example1:
+    commands:
+      - "/ver"
+      - "/version"
+      - "/about"
+    actions:
+      - "console_command: kick %player% You can't see the version of the server!"

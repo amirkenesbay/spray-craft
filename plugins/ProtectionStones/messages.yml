@@ -1,0 +1,414 @@
+cooldown: '&8[&aРегион&8] &fПодождите &x&f&3&c&e&9&9%time% &fсек, чтобы ещё раз поставить
+  блок!'
+no_such_command: '&8[&aРегион&8] &fДанной команды не существует.'
+no_access: '&8[&aРегион&8] &fВам не разрешено делать это здесь.'
+no_room_in_inventory: '&8[&aРегион&8] &fВ вашем инвентаре недостаточно места.'
+no_room_dropping_on_floor: '&8[&aРегион&8] &fВ вашем инвентаре недостаточно места.'
+invalid_block: '&8[&aРегион&8] &fНекорректный защитный блок.'
+not_enough_money: '&8[&aРегион&8] &fДенег недостаточно! Цена &x&f&3&c&e&9&9%price%'
+paid_money: '&8[&aРегион&8] &fВы заплатили &x&f&3&c&e&9&9%price% &fмонет.'
+invalid_world: '&8[&aРегион&8] &fНекорректный мир.'
+must_be_player: '&8[&aРегион&8] &fВы должны быть игроком, чтобы ввести данную команду.'
+go_back_page: Вернуться на предыдущую страницу.
+go_next_page: Перейти на следующую страницу.
+help: |-
+  &f◌ &fПриватные блоки: &7/base
+  &f
+help_next: '&f◌ &f/base help %page% &f- следующая страница.'
+command_requires_player_name: '&8[&aРегион&8] &fЭта команда требует никнейм игрока.'
+no_permission_toggle: '&8[&aРегион&8] &fУ вас нет разрешения на использование команды
+  переключения.'
+no_permission_create: '&8[&aРегион&8] &fУ вас нет разрешения на установку защитного
+  блока.'
+no_permission_create_specific: '&8[&aРегион&8] &fУ вас нет разрешения на установку
+  этого типа блока защиты.'
+no_permission_destroy: '&8[&aРегион&8] &fУ вас нет разрешения на уничтожение защитного
+  блока.'
+no_permission_members: '&8[&aРегион&8] &fУ вас нет разрешения использовать команды
+  участников.'
+no_permission_owners: '&8[&aРегион&8] &fУ вас нет разрешения использовать команды
+  владельца.'
+no_permission_admin: '&8[&aРегион&8] &fУ Вас нет прав на использование данной команды.'
+no_permission_count: '&8[&aРегион&8] &fУ Вас нет прав на использование данной команды.'
+no_permission_count_others: '&8[&aРегион&8] &fУ Вас нет прав на использование данной
+  команды.'
+no_permission_flags: '&8[&aРегион&8] &fУ вас нет разрешения на использование флаговых
+  команд.'
+no_permission_per_flag: '&8[&aРегион&8] &fУ вас нет разрешения на использование этого
+  флага.'
+no_permission_rent: '&8[&aРегион&8] &fУ вас нет разрешения к командам аренды.'
+no_permission_tax: '&8[&aРегион&8] &fУ вас нет разрешения на использование налоговых
+  команд.'
+no_permission_buysell: '&8[&aРегион&8] &fУ вас нет разрешения покупать и продавать
+  регионы.'
+no_permission_unhide: '&8[&aРегион&8] &fУ вас нет разрешения показывание блоки защиты.'
+no_permission_hide: '&8[&aРегион&8] &fУ вас нет разрешения на скрытие блоков защиты.'
+no_permission_info: '&8[&aРегион&8] &fУ вас нет разрешения на использование команды
+  информации о регионе.'
+no_permission_priority: '&8[&aРегион&8] &fУ вас нет разрешения на использование команд
+  приоритета.'
+no_permission_region: '&8[&aРегион&8] &fУ вас нет разрешения на использование региональных
+  команд.'
+no_permission_tp: '&8[&aРегион&8] &fУ вас нет разрешения телепортироваться к блокам
+  защиты других игроков.'
+no_permission_home: '&8[&aРегион&8] &fУ вас нет разрешения телепортироваться к вашим
+  защитным блокам.'
+no_permission_unclaim: '&8[&aРегион&8] &fУ вас нет разрешения на использование команды
+  отказа.'
+no_permission_view: '&8[&aРегион&8] &fУ вас нет разрешения на использование команды
+  просмотра.'
+no_permission_give: '&8[&aРегион&8] &fУ вас нет разрешения на использование команды
+  выдачи.'
+no_permission_get: '&8[&aРегион&8] &fУ вас нет разрешения на использование команды
+  получения.'
+no_permission_sethome: '&8[&aРегион&8] &fУ вас нет разрешения на использование команды
+  сетхома.'
+no_permission_list: '&8[&aРегион&8] &fУ вас нет разрешения на использование команды
+  списка.'
+no_permission_list_others: '&8[&aРегион&8] &fУ вас нет разрешения использовать команду
+  списка для других.'
+no_permission_name: '&8[&aРегион&8] &fУ вас нет разрешения на использование команды
+  названия.'
+no_permission_setparent: '&8[&aРегион&8] &fУ вас нет разрешения на использование команды
+  "setparent".'
+no_permission_setparent_others: '&8[&aРегион&8] &fУ вас нет разрешения на регионы,
+  которые вам не принадлежат.'
+no_permission_merge: '&8[&aРегион&8] &fУ Вас нет прав на использование данной команды.'
+psregion:
+  added_to_region: '&8[&aРегион&8] &fИгрок &x&f&3&c&e&9&9%player% &fбыл добавлен в
+    регион.'
+  added_to_region_specific: '&8[&aРегион&8] &fИгрок &x&f&3&c&e&9&9%player% &fбыл добавлен
+    в регион &x&f&3&c&e&9&9%region%'
+  removed_from_region: '&8[&aРегион&8] &fИгрок &x&f&3&c&e&9&9%player% &fбыл удалён
+    из региона.'
+  removed_from_region_specific: '&8[&aРегион&8] &fИгрок &x&f&3&c&e&9&9%player% &fбыл
+    удалён из региона &x&f&3&c&e&9&9%region%'
+  not_in_region: '&8[&aРегион&8] &fЗдесь нет регионов!'
+  player_not_found: '&8[&aРегион&8] &fИгрок не найден.'
+  not_ps_region: '&8[&aРегион&8] &fЭто не регион защитных блоков.'
+  region_does_not_exist: '&8[&aРегион&8] &fРегион не найден.'
+  no_regions_owned: '&8[&aРегион&8] &fУ вас нет ни одного заприваченного региона в
+    этом мире!'
+  no_region_permission: '&8[&aРегион&8] &fУ вас нет разрешения на это в этом регионе.'
+  protected: '&8[&aРегион&8] &fТерритория запривачена, уу-урааа!'
+  no_longer_protected: '&8[&aРегион&8] &fЭта территория больше не запривачена.'
+  cant_protect_that: '&8[&aРегион&8] &fВы не можете заприватить эту территорию.'
+  reached_region_limit: '&8[&aРегион&8] &fВы достигли лимита по приватам. &8(&x&f&3&c&e&9&9%limit%&8)'
+  reached_per_block_region_limit: '&8[&aРегион&8] &fВы достигли лимита по приватам.
+    &8(&x&f&3&c&e&9&9%limit%&8)'
+  world_denied_create: '&8[&aРегион&8] &fВы не можете создать регион в этом мире.'
+  region_overlap: '&8[&aРегион&8] &fВы не можете разместить здесь блок привата, так
+    как он перекрывает другой регион.'
+  region_too_close: '&8[&aРегион&8] &fВаш блок защиты должен составлять минимум &x&f&3&c&e&9&9%num%
+    блоков &fот края других регионов!'
+  cant_teleport: '&8[&aРегион&8] &fВаша телепортация была заблокирована областью привата!'
+  specify_id_instead_of_alias: |-
+    &fБыло найдено несколько регионов с таким названием! Вместо этого используйте ID.
+     Регионов с таким названием: &x&f&3&c&e&9&9%regions%
+  region_not_adjacent: '&8[&aРегион&8] &fВы превысили лимит несмежных регионов! Попробуйте
+    поставить блок защиты ближе к другим регионам, которые у вас уже есть.'
+  not_overlapping: '&8[&aРегион&8] &fЭти регионы не перекрывают друг-друга!'
+  multi_region_does_not_exist: Одного из этих регионов не существует!
+  no_region_holes: '&8[&aРегион&8] &fВнутри региона обнаружена незащищенная зона!
+    Это не разрешено!'
+  delete_region_prevented: '&fЭта область не может быть удалена, возможно, потому
+    что она создает дыру в существующей области.'
+  not_owner: '&8[&aРегион&8] &fВы не являетесь владельцем этого региона!'
+  cannot_merge_rented_region: '&8[&aРегион&8] &fНевозможно объединить регионы, потому
+    что &fрегион %region% &fнаходится в процессе сдачи в аренду!'
+  no_permission_region_type: '&8[&aРегион&8] &fУ вас нет разрешения на использование
+    этого типа региона.'
+  hidden: '&fБлок привата исчез.'
+  must_be_placed_in_existing_region: '&8[&aРегион&8] &fЭто должно быть размещено внутри
+    существующего региона!'
+  already_in_location_is_hidden: '&8[&aРегион&8] &fВ этом месте уже существует регион.'
+  cannot_remove_yourself_last_owner: '&8[&aРегион&8] &fВы не можете удалить себя,
+    поскольку являетесь последним владельцем.'
+  cannot_remove_yourself_all_regions: '&8[&aРегион&8] &fВы не можете удалить себя
+    из всех своих регионов сразу по соображениям безопасности.'
+toggle:
+  help: '&8[&aРегион&8] &f/base toggle|on|off'
+  help_desc: Use this command to turn on or off placement of protection blocks.
+  toggle_on: '&bProtection block placement turned on.'
+  toggle_off: '&bProtection block placement turned off.'
+count:
+  count_help: '&8[&aРегион&8] &f/base count &f- наведите..'
+  count_help_desc: Подсчитайте количество регионов, которыми владеете Вы.
+  personal_region_count: '&fВаших регионов в этом мире: &x&f&3&c&e&9&9%num% шт.'
+  personal_region_count_merged: '&f- Включая каждый объединенный регион: &x&f&3&c&e&9&9%num%
+    шт.'
+  other_region_count: '&f%%player%''s region count in this world: &b%num%'
+  other_region_count_merged: '&f- Including each merged region: &b%num%'
+flag:
+  help: '&8[&aРегион&8] &f/base flag [flagname] [value|null|default]'
+  help_desc: Use this command to set a flag in your protected region.
+  flag_set: '&b%flag%&f flag has been set.'
+  flag_not_set: '&b%flag%&f flag has &8[&aРегион&8] &fnot&f been set. Check your values
+    again.'
+  flag_prevent_exploit: '&8[&aРегион&8] &fThis has been disabled to prevent exploits.'
+  flag_prevent_exploit_hover: '&8[&aРегион&8] &fDisabled for security reasons.'
+  gui_header: '&8&m=====&r Flags (click to change) &8&m====='
+  gui_hover_set: '&bClick to set.'
+  gui_hover_set_text: |-
+    &bClick to change.&f
+    Current value:
+    %value%
+  hover_change_group: Click to set this flag to apply to only %group%.
+  hover_change_group_null: '&8[&aРегион&8] &fYou must set this flag to a value before
+    changing the group.'
+rent:
+  help: '&8[&aРегион&8] &f/base rent'
+  help_desc: Use this command to manage rents (buying and selling).
+  help_header: '&8&m=====&r Rent Help &8&m====='
+  already_renting: '&8[&aРегион&8] &fThe region is already being rented out! You must
+    stop leasing the region first.'
+  not_rented: '&8[&aРегион&8] &fThis region is not being rented.'
+  lease_success: |-
+    &bRegion leasing terms set:
+    &bPrice: &f%price%
+    &bPayment Term: &f%period%
+  stopped: '&bLeasing stopped.'
+  evicted: '&fEvicted tenant %tenant%.'
+  not_renting: '&8[&aРегион&8] &fThis region is not being rented out to tenants.'
+  paid_landlord: '&b%tenant%&f has paid &b$%price%&f for renting out &b%region%&f.'
+  paid_tenant: '&fPaid &b$%price%&f to &b%landlord%&f for region &b%region%&f.'
+  renting_landlord: '&b%%player%&f is now renting out region &b%region%&f.'
+  renting_tenant: '&fYou are now renting out region &b%region%&f for &b%price%&f per
+    &b%period%&f.'
+  not_tenant: '&8[&aРегион&8] &fYou are not the tenant of this region!'
+  tenant_stopped_landlord: '&b%%player%&f has stopped renting out region &b%region%&f.
+    It is now available for others to rent.'
+  tenant_stopped_tenant: '&bYou have stopped renting out region %region%.'
+  being_sold: '&8[&aРегион&8] &fThe region is being sold! Do /base sell stop first.'
+  evict_no_money_tenant: '&fYou have been &8[&aРегион&8] &fevicted&f from region &b%region%&f
+    because you do not have enough money (%price%) to pay for rent.'
+  evict_no_money_landlord: '&b%tenant%&f has been &8[&aРегион&8] &fevicted&f from
+    region &b%region%&f because they are unable to afford rent.'
+  cannot_rent_own_region: '&8[&aРегион&8] &fYou cannot rent your own region!'
+  reached_limit: '&8[&aРегион&8] &fYou''ve reached the limit of regions you are allowed
+    to rent!'
+  price_too_low: '&8[&aРегион&8] &fThe rent price is too low (must be larger than
+    %price%).'
+  price_too_high: '&8[&aРегион&8] &fThe rent price is too high (must be lower than
+    %price%).'
+  period_too_short: '&8[&aРегион&8] &fThe rent period is too short (must be longer
+    than %period% seconds).'
+  period_too_long: '&8[&aРегион&8] &fThe rent period is too long (must be shorter
+    than %period% seconds).'
+  period_invalid: '&8[&aРегион&8] &fInvalid period format! Example: 24h for once a
+    day.'
+  cannot_break_while_renting: '&8[&aРегион&8] &fYou cannot break the region when it
+    is being rented out.'
+tax:
+  help: '&8[&aРегион&8] &f/base tax'
+  help_desc: Use this command to manage and pay taxes.
+  help_header: '&8&m=====&r Taxes Help &8&m====='
+  disabled_region: '&8[&aРегион&8] &fTaxes are disabled for this region.'
+  set_as_autopayer: '&fTaxes for region &b%region%&f will now be automatically paid
+    by you.'
+  set_no_autopayer: '&fTaxes for region &b%region%&f now have to be manually paid
+    for.'
+  paid: '&fPaid &b$%amount%&f in taxes for region &b%region%&f.'
+  info_header: '&8&m=====&r Tax Info (click for more info) &8&m====='
+  join_msg_pending_payments: |-
+    &fYou have &b$%money%&f in tax payments due on your regions!
+    View them with /base tax info.
+  player_region_info: '&f> &b%region%&f - &3$%money% due'
+  player_region_info_autopayer: '&f> &b%region%&f - &3$%money% due&f (you autopay)'
+  click_to_show_more_info: Click to show more information.
+  region_info_header: '&8&m=====&r %region% Tax Info &8&m====='
+  region_info: |-
+    &9Tax Rate: &f$%taxrate% (sum of all merged regions)
+    &9Time between tax cycles: &f%taxperiod%
+    &9Time to pay taxes after cycle: &f%taxpaymentperiod%
+    &9Tax Autopayer: &f%taxautopayer%
+    &9Taxes Owed: &f$%taxowed%
+  next_page: '&fDo /base tax info -p %page% to go to the next page!'
+buy:
+  help: '&8[&aРегион&8] &f/base buy'
+  help_desc: Buy the region you are currently in.
+  not_for_sale: '&8[&aРегион&8] &fThis region is not for sale.'
+  stop_sell: '&fThe region is now not for sale.'
+  sold_buyer: '&fBought region &b%region%&f for &b$%price%&f from &b%%player%&f.'
+  sold_seller: '&fSold region &b%region%&f for &b$%price%&f to &b%%player%&f.'
+sell:
+  help: '&8[&aРегион&8] &f/base sell [price|stop]'
+  help_desc: Sell the region you are currently in.
+  rented_out: '&8[&aРегион&8] &fThe region is being rented out! You must stop renting
+    it out to sell.'
+  for_sale: '&fThe region is now for sale for &b$%price%&f.'
+visibility:
+  hide_help: '&8[&aРегион&8] &f/base hide'
+  hide_help_desc: Use this command to hide or unhide your protection block.
+  unhide_help: '&8[&aРегион&8] &f/base unhide'
+  unhide_help_desc: Use this command to hide or unhide your protection block.
+  already_not_hidden: '&fThe protection stone doesn''t appear hidden...'
+  already_hidden: '&fThe protection stone appears to already be hidden...'
+info:
+  help: '&8[&aРегион&8] &f/base info &f- наведите..'
+  help_desc: '&fУвидеть информацию о регионе. Нужно стоять в привате.'
+  header: '&8&m=====&f Информация о регионе &8&m====='
+  type2: '&fТип: &f%type%'
+  may_be_merged: (may be merged with other types)
+  merged2: '&fMerged regions: &f%merged%'
+  members2: '&fУчастники: &f%members%'
+  no_members: '&8[&aРегион&8] &f(нет участников)'
+  owners2: '&fВладельцы: &f%owners%'
+  no_owners: '&8[&aРегион&8] &f(нет владельцев)'
+  flags2: '&fФлаги: &fнет доступа.'
+  no_flags: (none)
+  region2: '&fРегион: &f%region%'
+  priority2: '&fПриоритет: &f%priority%'
+  parent2: '&9Parent: &b%parentregion%'
+  bounds2: '§7Границы: §6%bounds%'
+  seller2: '&9Seller: &f%seller%'
+  price2: '&9Price: &f%price%'
+  tenant2: '&9Tenant: &f%tenant%'
+  landlord2: '&9Landlord: &f%landlord%'
+  rent2: '&9Rent: &f%rent%'
+  available_for_sale: '&bRegion available for sale!'
+  available_for_rent: '&bRegion available for rent!'
+  bounds_xyz: '&9Bounds: &b(%minx%,%miny%,%minz%) -> (%maxx%,%maxy%,%maxz%)'
+  bounds_xz: '&9Bounds: &b(%minx%, %minz%) -> (%maxx%, %maxz%)'
+priority:
+  help: '&8[&aРегион&8] &f/base priority [number|null]'
+  help_desc: Use this command to set your region's priority.
+  info: '&fPriority: %priority%'
+  set: '&ePriority has been set.'
+  error: '&8[&aРегион&8] &fError parsing input, check it again?'
+region:
+  help: '&8[&aРегион&8] &f/base region [list|remove|disown] [playername]'
+  help_desc: Use this command to find information or edit other players' (or your
+    own) protected regions.
+  not_found_for_player: '&fNo regions found for %%player% in this world.'
+  list: '&f%%player%''s regions in this world: &b%regions%'
+  remove: '&e%%player%''s regions have been removed in this world, and removed from
+    regions %%player% partially owned.'
+  error_search: '&8[&aРегион&8] &fError while searching for %%player%''s regions.
+    Please make sure you have entered the correct name.'
+  disown: '&e%%player% has been removed as owner from all regions on this world.'
+tp:
+  help: '&8[&aРегион&8] &f/base tp [id/player] [num (optional)]'
+  help_desc: Teleports you to one of a given player's regions.
+  number_above_zero: '&8[&aРегион&8] &fPlease enter a number above 0.'
+  valid_number: '&8[&aРегион&8] &fPlease enter a valid number.'
+  only_has_regions: '&8[&aРегион&8] &f%%player% only has %num% protected regions in
+    this world!'
+  tping: '&aTeleporting...'
+  error_name: '&8[&aРегион&8] &fError in teleporting to protected region! (parsing
+    WG region name error)'
+  error_tp: '&8[&aРегион&8] &fError in finding the region to teleport to!'
+  in_seconds: '&fTeleporting in &b%seconds%&f seconds.'
+  cancelled_moved: '&8[&aРегион&8] &fTeleport cancelled. You moved!'
+home:
+  help: '&8[&aРегион&8] &f/base home [name/id]'
+  help_desc: Teleports you to one of your protected regions.
+  header: '&8&m=====&r Homes (click to teleport) &8&m====='
+  click_to_tp: Click to teleport!
+  next_page: '&fDo /base home -p %page% to go to the next page!'
+unclaim:
+  help: '&8[&aРегион&8] &f/base unclaim'
+  help_desc: Use this command to pickup a placed protection stone and remove the region.
+  header: '&8&m=====&r Unclaim (click to unclaim) &8&m====='
+view:
+  help: '&8[&aРегион&8] &f/base view'
+  help_desc: Use this command to view the borders of a protected region.
+  cooldown: '&8[&aРегион&8] &fPlease wait a while before using /base view again.'
+  generating: '&fGenerating border...'
+  generate_done: '&aDone! The border will disappear after 30 seconds!'
+  removing: |-
+    &bRemoving border...
+    &aIf you still see ghost blocks, relog!
+admin:
+  help: '&8[&aРегион&8] &f/base admin'
+  help_desc: Do /base admin help for more information.
+  cleanup_header: |-
+    &eCleanup %arg% %days% days
+    ================
+  cleanup_footer: |-
+    &e================
+    Completed %arg% cleanup.
+  hide_toggled: '&eAll protection stones have been %message% in this world.'
+  last_logon: '&e%%player% last played %days% days ago.'
+  is_banned: '&e%%player% is banned.'
+  error_parsing: '&8[&aРегион&8] &fError parsing days, are you sure it is a number?'
+  console_world: '&8[&aРегион&8] &fPlease specify the world as the last parameter.'
+  lastlogons_header: |-
+    &e%days% Days Plus:
+    ================
+  lastlogons_line: '&e%%player% %time% days'
+  lastlogons_footer: |-
+    &e================
+    %count% Total Players Shown
+    %checked% Total Players Checked
+reload:
+  help: '&8[&aРегион&8] &f/base reload'
+  help_desc: Reload settings from the config.
+  start: '&8[&aРегион&8] &fПерезагружаем конфигурацию..'
+  complete: '&8[&aРегион&8] &fПерезагрузка конфигурации прошла успешно!'
+addremove:
+  help: '&8[&aРегион&8] &f/base add|remove &f- наведите..'
+  help_desc: '&fДобавить/удалить участника из привата. Нужно стоять в привате.'
+  owner_help: '&8[&aРегион&8] &f/base addowner|removeowner &f- наведите..'
+  owner_help_desc: '&fДобавить/удалить владельца из привата. Нужно стоять в привате.'
+  player_reached_limit: '&8[&aРегион&8] &fЭтот игрок достиг лимита по своим регионам.'
+  player_needs_to_be_online: '&8[&aРегион&8] &fИгрок должен быть в сети.'
+get:
+  help: '&8[&aРегион&8] &f/base get [block]'
+  help_desc: Use this command to get or purchase a protection block.
+  gotten: '&bAdded protection block to inventory!'
+  no_permission_block: '&8[&aРегион&8] &fYou don''t have permission to get this block.'
+  header: '&8&m=====&r Protect Blocks (click to get) &8&m====='
+  gui_block: '&f> &b%alias% &f- %description% (&f$%price%&f)'
+  gui_hover: Click to buy a %alias%!
+give:
+  help: '&8[&aРегион&8] &f/base give [block] [player] [amount (optional)]'
+  help_desc: Use this command to give a player a protection block.
+  given: '&fGave &b%block%&f to &b%%player%&f.'
+  no_inventory_room: '&8[&aРегион&8] &fThe player does not have enough inventory room.'
+sethome:
+  help: '&8[&aРегион&8] &f/base sethome'
+  help_desc: Use this command to set the home of a region to where you are right now.
+  set: '&fThe home for &b%psid%&f has been set to your location.'
+list:
+  help: '&8[&aРегион&8] &f/base list &f- наведите..'
+  help_desc: '&fИспользуйте эту команду, чтобы узнать в каких регионах вы прописаны.'
+  header: '&8&m=====&r Регионы &8&m====='
+  owner: '&fВладелец в:'
+  member: '&fУчастник в:'
+  no_regions: '&8[&aРегион&8] &fВ данный момент Вы не являетесь владельцем и не состоите
+    ни в одном регионе.'
+  no_regions_player: '&fИгрок &x&f&3&c&e&9&9%%player% &fне владеет и не состоит ни
+    в каких регионах.'
+name:
+  help: '&8[&aРегион&8] &f/base name [name|none]'
+  help_desc: Use this command to give a nickname to your region, to make identifying
+    your region easier.
+  removed: '&fRemoved the name for %id%.'
+  set_name: '&fSet the name of %id% to &b%name%&f.'
+  taken: '&fThe region name &b%name%&f has already been taken! Try another one.'
+setparent:
+  help: '&8[&aРегион&8] &f/base setparent [region|none]'
+  help_desc: Use this command to allow this region to inherit properties from another
+    region (owners, members, flags, etc.).
+  success: '&fSuccessfully set the parent of &b%id%&f to &b%parent%&f.'
+  success_remove: '&fSuccessfully removed the parent of &b%id%&f.'
+  circular_inheritance: '&8[&aРегион&8] &fDetected circular inheritance (the parent
+    already inherits from this region?). Parent not set.'
+merge:
+  help: '&8[&aРегион&8] &f/base merge'
+  help_desc: Use this command to merge the region you are in with other overlapping
+    regions.
+  disabled: Merging regions is disabled in the config!
+  merged: '&bRegions were successfully merged!'
+  header: '&8&m=====&r Merge %region% (click to merge) &8&m====='
+  warning: '&fNote: This will delete all of the settings for the current region!'
+  not_allowed: '&8[&aРегион&8] &fYou are not allowed to merge this protection region
+    type.'
+  into: '&bThis region overlaps other regions you can merge into!'
+  no_region: '&fThere are no overlapping regions to merge into.'
+  click_to_merge: Click to merge with %region%!
+  auto_merged: '&fRegion automatically merged with &b%region%&f.'
+no_permission_unclaim_remote: '&cYou do not have permission to use the unclaim remote
+  command.'
+page_does_not_exist: '&cPage does not exist.'

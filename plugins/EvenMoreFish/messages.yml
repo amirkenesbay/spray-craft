@@ -1,0 +1,237 @@
+# If a message contains EvenMoreFish placeholders, e.g. {player} or {rarity} it also supports placeholderapi placeholders.
+
+fish-caught: '&l{player} &rпоймал {rarity_colour}{length}см &l{rarity} {rarity_colour}{fish}!'
+lengthless-fish-caught: '&l{player} &rпоймал {rarity_colour}&l{rarity} {rarity_colour}{fish}!'
+no-permission: '&cУ вас нет прав на выполнение этой команды.'
+
+contest-start: '&rСоревнование по рыбалке для {type} началось. Ивент проходит на &8-
+  &e/warp fish'
+contest-end: '&rСоревнование по рыбалке завершилось.'
+contest-join: '&rСоревнование по рыбалке для {type} проходит сейчас. Ивент проходит
+  на &8- &e/warp fish'
+
+new-first: '&r{player} теперь #1'
+action-bar-message: true
+action-bar-types:
+- MOST_FISH
+
+competition-types:
+  most: наибольшее количество рыбы
+  largest: самая большая рыба
+  largest-total: наибольшая общая длина рыбы
+  specific: '{amount} {rarity_colour}&l{rarity} {rarity_colour}{fish}&r'
+  specific-rarity: '{amount} {rarity_colour}&l{rarity}&r рыба'
+
+bossbar:
+  hour-color: '&r'
+  hour: ч
+  minute-color: '&r'
+  minute: м
+  second-color: '&r'
+  second: с
+  remaining: осталось
+
+prefix: '&#84FBDAРыбная ловля &8| '
+prefix-regular: '&a'
+prefix-admin: '&c'
+prefix-error: '&c'
+
+fish-lore:
+- '{fisherman_lore}'
+- '{length_lore}'
+- ''
+- '{fish_lore}'
+- '{rarity_colour}&l{rarity}'
+
+fisherman-lore:
+- '&fПоймал: &b{player}'
+length-lore:
+- '&fРазмер: &d{length}см.'
+
+help: /{command} - {description}
+
+leaderboard-largest-fish: '&r#{position} | {pos_colour}{player} &r({rarity_colour}&l{rarity}
+  {rarity_colour}{fish}&r, {length}см&r)'
+leaderboard-largest-total: '&r#{position} | {pos_colour}{player} &r({pos_colour}{amount}см&r)'
+leaderboard-most-fish: '&r#{position} | {pos_colour}{player} &r({pos_colour}{amount}
+  &rрыбы)'
+single-winner: '&r{player} выиграл соревнование по {type}. Поздравляем!'
+total-players: '&rВсего в таблице лидеров {amount} игрок(ов).'
+leaderboard-count: 5
+always-show-pos: true
+no-winners: '&rНе было установлено ни одного рекорда по рыбалке.'
+no-record: '&rВы не поймали ни одной рыбы.'
+invalid-type: '&rЭто не является типом соревнования, доступные типы: MOST_FISH, LARGEST_FISH,
+  SPECIFIC_FISH'
+not-enough-players: '&rНедостаточно игроков онлайн для начала запланированного соревнования
+  по рыбалке.'
+time-alert: '&rДо конца соревнования осталось {time_formatted} для {type}'
+
+worth-gui-name: Скупщик рыбы
+sell-gui-name: '&a&lПродать всю рыбу &8[Меню]'
+sell-all-name: '&a&lПродать всю рыбу &8[Инвентарь]'
+confirm-gui-name: ' &8● Подтвердить продажу'
+confirm-sell-all-gui-name: ' &8● Подтвердить продажу'
+error-gui-name: '&#FF0000&lНельзя продать'
+error-sell-all-gui-name: '&#FF0000&lНельзя продать'
+sell-price-format: '#,##0.0'
+
+sell-gui-lore:
+- '&8Магазин рыбака'
+- ' &b '
+- ' &8Информация'
+- '  &7Продайте свою рыбу здесь,'
+- '  &7чтобы заработать дополнительные деньги.'
+- ' &4 '
+- ' &8● &fОбщая стоимость: &#FFE800{sell-price} монет'
+- ' &3 '
+- '&#52d797▸ Нажмите, чтобы продать'
+
+sell-all-lore:
+- '&8Инвентарь'
+- ' &b '
+- ' &8Информация'
+- '  &7Нажмите кнопку, чтобы продать'
+- '  &7всю рыбу в вашем инвентаре,'
+- '  &7и заработать дополнительные монетки.'
+- ' &4 '
+- ' &8● &fОбщая стоимость: &#FFE800{sell-price} монет'
+- ' &3 '
+- '&#52d797▸ Нажмите, чтобы продать'
+
+error-gui-lore:
+- '&8Магазин рыбака'
+- ' &b '
+- ' &8Информация'
+- '  &7Продайте свою рыбу здесь,'
+- '  &7чтобы заработать дополнительные деньги.'
+- ' &4 '
+- ' &8● &fОбщая стоимость: &#FFE800{sell-price} монет'
+- ' &3 '
+- '&#52d797▸ Нажмите, чтобы продать'
+
+error-sell-all-gui-lore:
+- '&8Инвентарь'
+- ' &b '
+- ' &8Информация'
+- '  &7Нажмите кнопку, чтобы продать'
+- '  &7всю рыбу в вашем инвентаре,'
+- '  &7и заработать дополнительные монетки.'
+- ' &4 '
+- ' &8● &fОбщая стоимость: &#FFE800{sell-price} монет'
+- ' &3 '
+- '&#52d797▸ Нажмите, чтобы продать'
+
+fish-sale: '&fВы продали &#fff501{amount} &fрыбы за &#fff501{sell-price} монет&f.'
+
+help-general:
+  title: '[noPrefix]&f&m &#f1ffed&m &#e2ffdb&m &#d3ffc9&m &#c3ffb7&m &#b2ffa5&m &#9fff92&m
+    &8ff7f&m &73ff6b&m &a&m &f &a&lEvenMoreFish &a&m &#73ff6b&m&m &#8ff7f&m &#9fff92&m
+    &#b2ffa5&m &#c3ffb7&m &#d3ffc9&m &#e2ffdb&m &#f1ffed&m &f&m &f'
+  top: '[noPrefix]Показывает таблицу лидеров текущего соревнования.'
+  help: '[noPrefix]Показывает эту страницу.'
+  shop: '[noPrefix]Открывает магазин для продажи рыбы.'
+  toggle: '[noPrefix]Переключает возможность ловли уникальной рыбы.'
+  admin: '[noPrefix]Страница помощи администратора.'
+  sellall: '[noPrefix]Продать всю рыбу в инвентаре.'
+  next: '[noPrefix]Показать, сколько времени осталось до следующего соревнования.'
+
+help-list:
+  fish: '[noPrefix]Показать всю рыбу в определенной редкости.'
+  rarities: '[noPrefix]Показать все редкости.'
+
+help-competition:
+  start: '[noPrefix]Начинает соревнование на указанное время.'
+  end: '[noPrefix]Завершает текущее соревнование (если оно есть).'
+
+help-admin:
+  bait: '[noPrefix]Выдает наживку игроку.'
+  competition: '[noPrefix]Начинает или завершает соревнование.'
+  clearbaits: '[noPrefix]Удаляет все установленные наживки с удочки.'
+  fish: '[noPrefix]Выдает рыбу игроку.'
+  nbt-rod: '[noPrefix]Выдает игроку удочку с пользовательскими NBT, необходимую для
+    ловли рыбы EMF.'
+  reload: '[noPrefix]Перезагружает файлы конфигурации плагина.'
+  migrate: '[noPrefix]Мигрирует базу данных с Legacy (V2) на V3.'
+  addons: '[noPrefix]Показать все дополнения.'
+  rewardtypes: '[noPrefix]Показать все типы наград.'
+  version: '[noPrefix]Показать информацию о плагине.'
+
+no-player-in-place: Начните рыбачить, чтобы занять это место
+no-fish-in-place: Начните рыбачить, чтобы занять это место
+no-size-in-place: Начните рыбачить, чтобы занять это место
+no-competition-running: В данный момент соревнования нет.
+no-competition-running-fish: В данный момент соревнования нет.
+no-competition-running-size: В данный момент соревнования нет.
+
+emf-competition-fish-format: '{rarity_colour}{length}см &l{rarity} {fish}'
+emf-lengthless-fish-format: '{rarity_colour}&l{rarity} {fish}'
+emf-most-fish-format: '{amount} рыбы'
+emf-size-during-most-fish: Н/Д
+emf-time-remaining: '&e{days}д, {hours}ч, {minutes}м.'
+emf-time-remaining-during-comp: В данный момент идет соревнование.
+
+max-baits-reached: '&rВы достигли максимального количества типов наживок для этой
+  удочки.'
+max-bait-reached: '&rВы достигли максимального количества наживок {bait_theme}{bait},
+  которые могут быть установлены на одну удочку.'
+bait-catch: '&r&l{player} &rпоймал наживку {bait_theme}&l{bait}&r!'
+bait-use: '&rВы использовали одну из ваших наживок {bait_theme}&l{bait}&r.'
+bait-survival-limited: '&rВы должны быть в режиме выживания, чтобы установить наживку
+  на удочку.'
+bait-rod-protection: '&rНельзя использовать наживку, так как удочка защищена NBT.'
+
+# Shown when /emf toggle is run, to turn off and on respectively.
+toggle-off: '&rВы больше не будете ловить уникальную рыбу.'
+toggle-on: '&rТеперь вы будете ловить уникальную рыбу.'
+
+# When trying to place a skull-fish when this is blocked in config.yml
+place-fish-blocked: '&rВы не можете разместить эту рыбу.'
+
+admin:
+  # Opens an /emf shop for another player
+  open-fish-shop: '&rОткрыт магазин для {player}.'
+  # When a fish is given to a player
+  given-player-fish: '&rВы дали {player} рыбу {fish}.'
+  # When a bait is given to a player
+  given-player-bait: '&rВы дали {player} наживку {bait}.'
+  # When an admin runs /emf admin bait without a bait name.
+  no-bait-specified: '&rВы должны указать имя наживки.'
+  # When the admin tries the command /emf admin clearbaits when not holding a fishing rod.
+  must-be-holding-rod: '&rВы должны держать удочку, чтобы выполнить эту команду.'
+  # When /emf admin clearbaits command is run.
+  all-baits-cleared: '&rВы удалили все {amount} наживки с вашей удочки.'
+  # /emf admin clearbaits is run, but there are no baits on the rod.
+  no-baits-on-rod: '&rНа этой удочке нет установленных наживок.'
+  
+  # When economy is disabled for the plugin
+  economy-disabled: '&rФункции экономики EvenMoreFish отключены.'
+  
+  # When the specified player can't be found when using -p: parameter.
+  player-not-found: '&rИгрок {player} не найден.'
+  # When the specified number in -q: is not a number.
+  number-format-error: '&r{amount} не является допустимым числом.'
+  # When the specified number in -q: is not within the minecraft stack range (1-64)
+  number-range-error: '&r{amount} не является числом в диапазоне от 1 до 64.'
+  # When a command cannot be run from the console
+  cannot-run-on-console: '&rЭту команду нельзя выполнить из консоли.'
+  
+  # Sent when a competition is already running when using /emf admin competition start
+  competition-already-running: '&rСоревнование уже идет.'
+  # When an invalid competition type is tried to be started
+  competition-type-invalid: '&rЭто не является допустимым типом соревнования, доступные
+    типы: MOST_FISH, LARGEST_FISH, SPECIFIC_FISH'
+  
+  # When the command /emf admin nbt-rod is run.
+  nbt-rod-given: '&rВы дали {player} удочку с NBT, убедитесь, что "require-nbt-rod"
+    установлен в &atrue&r, чтобы это отличалось от любой другой удочки.'
+  # When the command /emf admin nbt-rod is run but require-rod-nbt is false in the config.yml file.
+  nbt-not-required: '&rИзмените "require-nbt-rod" на true, чтобы использовать эту
+    функцию.'
+  
+  # When there's a spigot update available, don't translate the URL otherwise it won't direct to the correct page.
+  update-available: '&rДоступно обновление: https://www.spigotmc.org/resources/evenmorefish.91310/updates'
+  # When the plugin is reloaded
+  reload: '&rПлагин успешно перезагружен.'
+  # When checking the list of RewardTypes. The actual list is added to the end of this message.
+  list-reward-types: '&rЗарегистрированные типы наград: '

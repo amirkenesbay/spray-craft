@@ -1,0 +1,267 @@
+#
+# Example config of a streak fixed reward.
+#
+# Decides if rewards will be claimable.
+enabled: true
+#
+# Each type of reward has different specifications.
+# All currently supported types can be found on:
+# https://revivalo.gitbook.io/ultimaterewards/
+#
+type: streak_fixed_reward
+#
+# Reward tag
+#
+tag: Streak Fixed Reward
+# What time of the day to reset the reward.
+# (18:00 -> 6:00 PM)
+reset-time: '18:00'
+# You can set the numbering type. Available types:
+#   - NORMAL
+#   - ROMAN
+numbering-type: NORMAL
+#
+# (Optional) Permission which player must have to be
+# able to obtain this reward.
+#
+permission: ultimaterewards.exampleStreakFixedReward
+#
+# Format which will be used to show the
+# general cooldown of this reward.
+#
+cooldown-general-format: "%hours% hours"
+#
+# Format of the cooldown that will be displayed
+# on the usage of the %cooldown% placeholder in reward GUIs.
+#
+cooldown-format: '%hours%:%minutes%:%seconds%'
+#
+# If set to true, the streak progress will reset if
+# the player misses the claim schedule.
+#
+resetting: true
+# Notifies players that the reward is currently available
+live-reminder-enabled: false
+# Make the reward available for the player
+# after their first join on the server.
+available-after-first-join: true
+#
+# Sets the number of items in the GUI menu
+# according to the corresponding streak.
+#
+show-amount-of-the-streaks: true
+#
+# NOTE THAT ITEM & SOUND NAMES ARE SLIGHTLY DIFFERENT BETWEEN <1.12 & 1.13< VERSIONS!
+# SO MAKE SURE YOU ARE USING VALID ITEM NAMES (DEFAULT ONES ARE USED FROM 1.13+ VERSIONS)
+# OTHERWISE, THEY WILL BE REPLACED BY STONE IF AN INVALID NAME IS USED.
+#
+# When the player can claim this reward,
+# it will be shown as this:
+#
+# %lore% will be replaced with each streak's lore
+# defined at the bottom of the page.
+available-item: CHEST_MINECART
+available-display-name: '&a&lНаграда &8- &e#%number%'
+available-lore:
+  - ' '
+  - '%lore%'
+  - ' '
+  - '&b▸ Готово к получению'
+
+unavailable-item: TNT_MINECART
+unavailable-display-name: '&c&lНаграда &8- &e#%number%'
+unavailable-lore:
+  - ' '
+  - ' &7Награда сбрасывается'
+  - ' &7каждый день в 18:00'
+  - ' '
+  - '%lore%'
+  - ' '
+  - '&c ▸ Доступно через:'
+  - '&4   %cooldown%'
+
+upcoming-item: HOPPER_MINECART
+upcoming-display-name: '&8&lНаграда &8- &e%number%'
+upcoming-lore:
+  - ' '
+  - '%lore%'
+  - ' '
+  - '&7▸ Получите предыдущие награды'
+  - '&7  чтобы получить эту награду!'
+
+claimed-item: MINECART
+claimed-display-name: '&7&lНаграда &8- &e#%number%'
+claimed-lore:
+  - '&7 Получено'
+
+no-permission-item: BARRIER
+no-permission-display-name: "&c&l&mНаграда &8- &e#%number%"
+no-permission-lore:
+  - "&c ✕ Заблокировано, требуется"
+  - "&c   %permission% разрешение"
+#
+# A streak can have an optional length,
+# generally, when creating a streak, you should follow
+# this pattern:
+#
+# 1: # first streak
+#   use-firework: <true/false> # optional value
+#   actions: # List of actions executed after claiming a reward
+#     - <| list of actions |>
+# 2: # second streak
+#    <| another streak reward configurations |>
+#
+streaks:
+streaks:
+  1:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f1x уголь'
+      - ' &8- &f100 монет'
+    actions:
+      - "[console] give %player% coal 1"
+      - "[console] cmi money give %player% 100"
+      - "[title] &a&lВы забрали награду!"      
+      - "[subtitle] &fПолучена 1-я серия!"
+  2:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f2x железный слиток'
+      - ' &8- &f200 монет'
+    actions:
+      - "[console] give %player% iron_ingot 2"
+      - "[console] cmi money give %player% 200"
+      - "[title] &a&lВы забрали награду!"            
+      - "[subtitle] &fПолучена 2-я серия!"
+  3:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f1x золотой слиток'
+      - ' &8- &f300 монет'
+    actions:
+      - "[console] give %player% gold_ingot 1"
+      - "[console] cmi money give %player% 300"
+      - "[title] &a&lВы забрали награду!"            
+      - "[subtitle] &fПолучена 3-я серия!"
+  4:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f1x алмаз'
+      - ' &8- &f400 монет'
+    actions:
+      - "[console] give %player% diamond 1"
+      - "[console] cmi money give %player% 400"
+      - "[title] &a&lВы забрали награду!"            
+      - "[subtitle] &fПолучена 4-я серия!"
+  5:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f1x незеритовый слиток'
+      - ' &8- &f500 монет'
+    actions:
+      - "[console] give %player% netherite_ingot 1"
+      - "[console] cmi money give %player% 500"
+      - "[title] &a&lВы забрали награду!"      
+      - "[subtitle] &fПолучена 5-я серия!"
+  6:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f1x изумруд'
+      - ' &8- &f600 монет'
+    actions:
+      - "[console] give %player% emerald 1"
+      - "[console] cmi money give %player% 600"
+      - "[title] &a&lВы забрали награду!"      
+      - "[subtitle] &fПолучена 6-я серия!"
+  7:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f1x обсидиан'
+      - ' &8- &f700 монет'
+    actions:
+      - "[console] give %player% obsidian 1"
+      - "[console] cmi money give %player% 700"
+      - "[title] &a&lВы забрали награду!"      
+      - "[subtitle] &fПолучена 7-я серия!"
+  8:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f2x эндер-жемчуг'
+      - ' &8- &f800 монет'
+    actions:
+      - "[console] give %player% ender_pearl 2"
+      - "[console] cmi money give %player% 800"
+      - "[title] &a&lВы забрали награду!"      
+      - "[subtitle] &fПолучена 8-я серия!"
+  9:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f3x алмаз'
+      - ' &8- &f900 монет'
+    actions:
+      - "[console] give %player% diamond 3"
+      - "[console] cmi money give %player% 900"
+      - "[title] &a&lВы забрали награду!"      
+      - "[subtitle] &fПолучена 9-я серия!"
+  10:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f1x тотем бессмертия'
+      - ' &8- &f1000 монет'
+    actions:
+      - "[console] give %player% totem_of_undying 1"
+      - "[console] cmi money give %player% 1000"
+      - "[title] &a&lВы забрали награду!"      
+      - "[subtitle] &fПолучена 10-я серия!"
+  11:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f1x алмазный меч'
+      - ' &8- &f1100 монет'
+    actions:
+      - "[console] give %player% diamond_sword 1"
+      - "[console] cmi money give %player% 1100"
+      - "[title] &a&lВы забрали награду!"      
+      - "[subtitle] &fПолучена 11-я серия!"
+  12:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f1x лук'
+      - ' &8- &f1200 монет'
+    actions:
+      - "[console] give %player% bow 1"
+      - "[console] cmi money give %player% 1200"
+      - "[title] &a&lВы забрали награду!"      
+      - "[subtitle] &fПолучена 12-я серия!"
+  13:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f4x золотое яблоко'
+      - ' &8- &f1300 монет'
+    actions:
+      - "[console] give %player% golden_apple 4"
+      - "[console] cmi money give %player% 1300"
+      - "[title] &a&lВы забрали награду!"      
+      - "[subtitle] &fПолучена 13-я серия!"
+  14:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f16x стрелы'
+      - ' &8- &f1400 монет'
+    actions:
+      - "[console] give %player% arrow 16"
+      - "[console] cmi money give %player% 1400"
+      - "[title] &a&lВы забрали награду!"      
+      - "[subtitle] &fПолучена 14-я серия!"
+  15:
+    lore:
+      - ' &aСодержит:'
+      - ' &8- &f1x маяк'
+      - ' &8- &f1500 монет'
+    actions:
+      - "[console] give %player% beacon 1"
+      - "[console] cmi money give %player% 1500"
+      - "[title] &a&lВы забрали награду!"      
+      - "[subtitle] &fПолучена 15-я серия!"
+
+

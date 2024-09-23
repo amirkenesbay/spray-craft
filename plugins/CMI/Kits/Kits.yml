@@ -1,0 +1,1520 @@
+default:
+  CommandName: start
+  Weight: 1
+  DropOnGround: false
+  Delay: 86400
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LIGHT_GRAY_SHULKER_BOX
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LIGHT_GRAY_SHULKER_BOX
+  Items:
+    '1':
+      v: 3953
+      type: OAK_LOG
+      amount: 16
+    '2':
+      v: 3953
+      type: CRAFTING_TABLE
+    '3':
+      v: 3953
+      type: COAL
+      amount: 4
+    '4':
+      v: 3953
+      type: CHARCOAL
+      amount: 2
+    '9':
+      v: 3953
+      type: CAKE
+    '10':
+      v: 3953
+      type: FURNACE
+    '11':
+      v: 3953
+      type: CHEST
+    '28':
+      v: 3953
+      type: STONE_SWORD
+    '29':
+      v: 3953
+      type: SPYGLASS
+    '30':
+      v: 3953
+      type: STONE_PICKAXE
+    '31':
+      v: 3953
+      type: STONE_AXE
+    '32':
+      v: 3953
+      type: STONE_SHOVEL
+    '35':
+      v: 3953
+      type: BREAD
+      amount: 16
+    Helmet:
+      v: 3953
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 213
+          BLUE: 198
+          GREEN: 105
+    Chest:
+      v: 3953
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 213
+          BLUE: 198
+          GREEN: 105
+    Legs:
+      v: 3953
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 213
+          BLUE: 198
+          GREEN: 105
+    Boots:
+      v: 3953
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 213
+          BLUE: 198
+          GREEN: 105
+pluto:
+  CommandName: pluto
+  Weight: 2
+  Delay: 259200
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GRAY_SHULKER_BOX
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GRAY_SHULKER_BOX
+  Items:
+    '1':
+      v: 3953
+      type: COAL
+      amount: 12
+    '2':
+      v: 3953
+      type: BONE_MEAL
+      amount: 16
+    '3':
+      v: 3953
+      type: IRON_BLOCK
+    '5':
+      v: 3953
+      type: CHEST
+      amount: 2
+    '6':
+      v: 3953
+      type: FURNACE
+      amount: 2
+    '9':
+      v: 3953
+      type: ARROW
+      amount: 16
+    '10':
+      v: 3953
+      type: WHITE_CONCRETE
+      amount: 16
+    '11':
+      v: 3953
+      type: WHITE_STAINED_GLASS
+      amount: 16
+    '12':
+      v: 3953
+      type: WHITE_WOOL
+      amount: 8
+    '14':
+      v: 3953
+      type: CRAFTING_TABLE
+    '15':
+      v: 3953
+      type: BARREL
+    '27':
+      v: 3953
+      type: MILK_BUCKET
+    '28':
+      v: 3953
+      type: IRON_SWORD
+    '29':
+      v: 3953
+      type: BOW
+    '30':
+      v: 3953
+      type: GOLDEN_PICKAXE
+    '31':
+      v: 3953
+      type: IRON_AXE
+    '32':
+      v: 3953
+      type: IRON_SHOVEL
+    '35':
+      v: 3953
+      type: COOKED_BEEF
+      amount: 16
+    Helmet:
+      v: 3953
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 137
+          BLUE: 184
+          GREEN: 50
+    Chest:
+      v: 3953
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 1
+          minecraft:unbreaking: 1
+    Legs:
+      v: 3953
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 137
+          BLUE: 184
+          GREEN: 50
+    Boots:
+      v: 3953
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 1
+          minecraft:unbreaking: 1
+    OffHand:
+      v: 3953
+      type: SHIELD
+brillium:
+  CommandName: brillium
+  Weight: 3
+  Delay: 259200
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: CYAN_SHULKER_BOX
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: CYAN_SHULKER_BOX
+  Items:
+    '1':
+      v: 3953
+      type: SLIME_BALL
+      amount: 4
+    '2':
+      v: 3953
+      type: EXPERIENCE_BOTTLE
+      amount: 8
+    '4':
+      v: 3953
+      type: GLOWSTONE
+      amount: 16
+    '5':
+      v: 3953
+      type: BRICKS
+      amount: 16
+    '6':
+      v: 3953
+      type: BOOKSHELF
+      amount: 6
+    '7':
+      v: 3953
+      type: BLAST_FURNACE
+    '9':
+      v: 3953
+      type: ARROW
+      amount: 24
+    '10':
+      v: 3953
+      type: FIREWORK_ROCKET
+      amount: 16
+    '11':
+      v: 3953
+      type: LAPIS_LAZULI
+      amount: 48
+    '13':
+      v: 3953
+      type: CHEST
+      amount: 4
+    '14':
+      v: 3953
+      type: FURNACE
+      amount: 3
+    '15':
+      v: 3953
+      type: BARREL
+      amount: 2
+    '16':
+      v: 3953
+      type: CRAFTING_TABLE
+    '28':
+      v: 3953
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:sharpness: 1
+          minecraft:unbreaking: 2
+    '29':
+      v: 3953
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:power: 1
+          minecraft:unbreaking: 2
+    '30':
+      v: 3953
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 1
+          minecraft:unbreaking: 1
+    '31':
+      v: 3953
+      type: IRON_AXE
+    '32':
+      v: 3953
+      type: IRON_SHOVEL
+    '33':
+      v: 3953
+      type: SHEARS
+    '35':
+      v: 3953
+      type: COOKED_CHICKEN
+      amount: 16
+    Helmet:
+      v: 3953
+      type: CHAINMAIL_HELMET
+    Chest:
+      v: 3953
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 2
+          minecraft:unbreaking: 1
+    Legs:
+      v: 3953
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 2
+          minecraft:unbreaking: 1
+    Boots:
+      v: 3953
+      type: CHAINMAIL_BOOTS
+    OffHand:
+      v: 3953
+      type: SHIELD
+vanderi:
+  CommandName: vanderi
+  Weight: 4
+  Delay: 259200
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: WHITE_SHULKER_BOX
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: WHITE_SHULKER_BOX
+  Items:
+    '1':
+      v: 3953
+      type: IRON_INGOT
+      amount: 16
+    '2':
+      v: 3953
+      type: GLOW_INK_SAC
+      amount: 16
+    '3':
+      v: 3953
+      type: PHANTOM_MEMBRANE
+      amount: 8
+    '5':
+      v: 3953
+      type: CHEST
+      amount: 6
+    '6':
+      v: 3953
+      type: BOOKSHELF
+      amount: 10
+    '7':
+      v: 3953
+      type: PRISMARINE_BRICKS
+      amount: 24
+    '8':
+      v: 3953
+      type: JUKEBOX
+    '9':
+      v: 3953
+      type: ARROW
+      amount: 32
+    '10':
+      v: 3953
+      type: LANTERN
+      amount: 8
+    '11':
+      v: 3953
+      type: GHAST_TEAR
+      amount: 4
+    '12':
+      v: 3953
+      type: NAME_TAG
+    '14':
+      v: 3953
+      type: FURNACE
+      amount: 3
+    '15':
+      v: 3953
+      type: BARREL
+      amount: 3
+    '16':
+      v: 3953
+      type: BLAST_FURNACE
+      amount: 2
+    '17':
+      v: 3953
+      type: CRAFTING_TABLE
+    '28':
+      v: 3953
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:sharpness: 2
+          minecraft:unbreaking: 1
+    '29':
+      v: 3953
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:power: 2
+          minecraft:unbreaking: 2
+    '30':
+      v: 3953
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 2
+          minecraft:unbreaking: 1
+    '31':
+      v: 3953
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 1
+          minecraft:unbreaking: 1
+    '32':
+      v: 3953
+      type: IRON_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 1
+          minecraft:unbreaking: 1
+    '33':
+      v: 3953
+      type: FLINT_AND_STEEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:unbreaking: 2
+    '34':
+      v: 3953
+      type: GOLDEN_APPLE
+    '35':
+      v: 3953
+      type: COOKED_PORKCHOP
+      amount: 16
+    Helmet:
+      v: 3953
+      type: IRON_HELMET
+    Chest:
+      v: 3953
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:projectile_protection: 1
+          minecraft:protection: 2
+          minecraft:unbreaking: 2
+    Legs:
+      v: 3953
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:projectile_protection: 1
+          minecraft:protection: 2
+          minecraft:unbreaking: 2
+    Boots:
+      v: 3953
+      type: IRON_BOOTS
+    OffHand:
+      v: 3953
+      type: SHIELD
+finicius:
+  CommandName: finicius
+  Weight: 5
+  Delay: 259200
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ORANGE_SHULKER_BOX
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ORANGE_SHULKER_BOX
+  Items:
+    '1':
+      v: 3953
+      type: GOLD_INGOT
+      amount: 16
+    '2':
+      v: 3953
+      type: PHANTOM_MEMBRANE
+      amount: 10
+    '3':
+      v: 3953
+      type: GHAST_TEAR
+      amount: 6
+    '4':
+      v: 3953
+      type: ENDER_PEARL
+      amount: 4
+    '6':
+      v: 3953
+      type: CHEST
+      amount: 8
+    '7':
+      v: 3953
+      type: FURNACE
+      amount: 4
+    '8':
+      v: 3953
+      type: BLAST_FURNACE
+      amount: 3
+    '9':
+      v: 3953
+      type: ARROW
+      amount: 32
+    '10':
+      v: 3953
+      type: BOOKSHELF
+      amount: 12
+    '11':
+      v: 3953
+      type: BONE_BLOCK
+      amount: 8
+    '12':
+      v: 3953
+      type: GOLD_BLOCK
+    '13':
+      v: 3953
+      type: NAME_TAG
+      amount: 2
+    '15':
+      v: 3953
+      type: ENDER_CHEST
+    '16':
+      v: 3953
+      type: CRAFTING_TABLE
+    '18':
+      v: 3953
+      type: POWDER_SNOW_BUCKET
+    '28':
+      v: 3953
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:bane_of_arthropods: 1
+          minecraft:sharpness: 2
+          minecraft:smite: 2
+          minecraft:unbreaking: 2
+    '29':
+      v: 3953
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Запутанные стрелы I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+        enchants:
+          minecraft:power: 2
+          minecraft:unbreaking: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+    '30':
+      v: 3953
+      type: DIAMOND_PICKAXE
+    '31':
+      v: 3953
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 2
+          minecraft:unbreaking: 2
+    '32':
+      v: 3953
+      type: IRON_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 2
+          minecraft:unbreaking: 2
+    '33':
+      v: 3953
+      type: GOLDEN_APPLE
+    '34':
+      v: 3953
+      type: GOLDEN_CARROT
+      amount: 12
+    '35':
+      v: 3953
+      type: COOKED_PORKCHOP
+      amount: 20
+    Helmet:
+      v: 3953
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:projectile_protection: 1
+          minecraft:protection: 1
+          minecraft:respiration: 2
+          minecraft:unbreaking: 3
+    Chest:
+      v: 3953
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:projectile_protection: 2
+          minecraft:protection: 2
+          minecraft:thorns: 1
+          minecraft:unbreaking: 3
+    Legs:
+      v: 3953
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:projectile_protection: 2
+          minecraft:protection: 2
+          minecraft:unbreaking: 3
+    Boots:
+      v: 3953
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:feather_falling: 2
+          minecraft:projectile_protection: 1
+          minecraft:protection: 1
+          minecraft:unbreaking: 3
+    OffHand:
+      v: 3953
+      type: SHIELD
+jarstone:
+  CommandName: jarstone
+  Weight: 7
+  Delay: 259200
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LIME_SHULKER_BOX
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LIME_SHULKER_BOX
+  Items:
+    '1':
+      v: 3953
+      type: DIAMOND
+      amount: 12
+    '2':
+      v: 3953
+      type: EMERALD
+      amount: 16
+    '3':
+      v: 3953
+      type: GOLD_INGOT
+      amount: 16
+    '4':
+      v: 3953
+      type: IRON_INGOT
+      amount: 16
+    '5':
+      v: 3953
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_leaping
+        custom-effects: []
+    '6':
+      v: 3953
+      type: CHEST
+      amount: 12
+    '7':
+      v: 3953
+      type: FURNACE
+      amount: 8
+    '8':
+      v: 3953
+      type: TNT
+      amount: 16
+    '9':
+      v: 3953
+      type: ARROW
+      amount: 64
+    '10':
+      v: 3953
+      type: QUARTZ
+      amount: 32
+    '11':
+      v: 3953
+      type: REDSTONE
+      amount: 32
+    '12':
+      v: 3953
+      type: LAPIS_LAZULI
+      amount: 32
+    '13':
+      v: 3953
+      type: COAL
+      amount: 32
+    '14':
+      v: 3953
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_swiftness
+        custom-effects: []
+    '15':
+      v: 3953
+      type: BLAST_FURNACE
+      amount: 5
+    '16':
+      v: 3953
+      type: CRAFTING_TABLE
+    '17':
+      v: 3953
+      type: OBSIDIAN
+      amount: 16
+    '18':
+      v: 3953
+      type: FIREWORK_ROCKET
+      amount: 24
+    '19':
+      v: 3953
+      type: BOOKSHELF
+      amount: 16
+    '20':
+      v: 3953
+      type: END_CRYSTAL
+      amount: 4
+    '21':
+      v: 3953
+      type: CHORUS_FLOWER
+      amount: 4
+    '22':
+      v: 3953
+      type: ENCHANTING_TABLE
+    '27':
+      v: 3953
+      type: CHORUS_FRUIT
+      amount: 16
+    '28':
+      v: 3953
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Иссушение II","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A2FF9D","bold":false}]}'
+        enchants:
+          minecraft:bane_of_arthropods: 3
+          minecraft:fire_aspect: 2
+          minecraft:looting: 3
+          minecraft:sharpness: 4
+          minecraft:smite: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+    '29':
+      v: 3953
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Электризованность III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A2FF9D","bold":false}]}'
+        enchants:
+          minecraft:flame: 1
+          minecraft:power: 4
+          minecraft:unbreaking: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+    '30':
+      v: 3953
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Туннель I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FFDB9D","bold":false}]}'
+        enchants:
+          minecraft:efficiency: 3
+          minecraft:unbreaking: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+    '31':
+      v: 3953
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 3
+          minecraft:sharpness: 3
+          minecraft:unbreaking: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+    '32':
+      v: 3953
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Переплавка III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A2FF9D","bold":false}]}'
+        enchants:
+          minecraft:efficiency: 3
+          minecraft:unbreaking: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+    '34':
+      v: 3953
+      type: GOLDEN_APPLE
+      amount: 2
+    '35':
+      v: 3953
+      type: COOKED_BEEF
+      amount: 64
+    Helmet:
+      v: 3953
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:aqua_affinity: 1
+          minecraft:projectile_protection: 3
+          minecraft:protection: 3
+          minecraft:respiration: 3
+          minecraft:unbreaking: 3
+    Chest:
+      v: 3953
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:blast_protection: 2
+          minecraft:projectile_protection: 2
+          minecraft:protection: 2
+          minecraft:thorns: 2
+          minecraft:unbreaking: 3
+    Legs:
+      v: 3953
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:blast_protection: 3
+          minecraft:projectile_protection: 2
+          minecraft:protection: 2
+          minecraft:thorns: 2
+          minecraft:unbreaking: 3
+    Boots:
+      v: 3953
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:depth_strider: 2
+          minecraft:feather_falling: 3
+          minecraft:projectile_protection: 3
+          minecraft:protection: 3
+          minecraft:unbreaking: 3
+    OffHand:
+      v: 3953
+      type: SHIELD
+sponsor:
+  CommandName: sponsor
+  Weight: 8
+  Delay: 259200
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: MAGENTA_SHULKER_BOX
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: MAGENTA_SHULKER_BOX
+  Items:
+    '1':
+      v: 3953
+      type: DIAMOND
+      amount: 16
+    '2':
+      v: 3953
+      type: EMERALD
+      amount: 16
+    '3':
+      v: 3953
+      type: GOLD_INGOT
+      amount: 16
+    '4':
+      v: 3953
+      type: IRON_INGOT
+      amount: 24
+    '6':
+      v: 3953
+      type: CHEST
+      amount: 16
+    '7':
+      v: 3953
+      type: FURNACE
+      amount: 10
+    '8':
+      v: 3953
+      type: TNT
+      amount: 16
+    '9':
+      v: 3953
+      type: ARROW
+      amount: 64
+    '10':
+      v: 3953
+      type: QUARTZ
+      amount: 32
+    '11':
+      v: 3953
+      type: REDSTONE
+      amount: 64
+    '12':
+      v: 3953
+      type: LAPIS_LAZULI
+      amount: 64
+    '13':
+      v: 3953
+      type: COAL
+      amount: 64
+    '15':
+      v: 3953
+      type: BLAST_FURNACE
+      amount: 6
+    '16':
+      v: 3953
+      type: CRAFTING_TABLE
+    '17':
+      v: 3953
+      type: OBSIDIAN
+      amount: 24
+    '18':
+      v: 3953
+      type: ARROW
+      amount: 64
+    '19':
+      v: 3953
+      type: BOOKSHELF
+      amount: 16
+    '20':
+      v: 3953
+      type: END_CRYSTAL
+      amount: 6
+    '21':
+      v: 3953
+      type: CHORUS_FLOWER
+      amount: 6
+    '22':
+      v: 3953
+      type: ENCHANTING_TABLE
+    '26':
+      v: 3953
+      type: FIREWORK_ROCKET
+      amount: 64
+    '27':
+      v: 3953
+      type: CHORUS_FRUIT
+      amount: 24
+    '28':
+      v: 3953
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Отравление II","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A2FF9D","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Двойной удар I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FFDB9D","bold":false}]}'
+        enchants:
+          minecraft:bane_of_arthropods: 3
+          minecraft:fire_aspect: 2
+          minecraft:looting: 3
+          minecraft:sharpness: 5
+          minecraft:smite: 4
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 2
+          }
+    '29':
+      v: 3953
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Взрывные стрелы II","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FFF69D","bold":false}]}'
+        enchants:
+          minecraft:flame: 1
+          minecraft:power: 5
+          minecraft:unbreaking: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+    '30':
+      v: 3953
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Туннель II","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FFDB9D","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Шахтёр I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A2FF9D","bold":false}]}'
+        enchants:
+          minecraft:efficiency: 5
+          minecraft:unbreaking: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 2
+          }
+    '31':
+      v: 3953
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 2
+          minecraft:sharpness: 2
+          minecraft:unbreaking: 3
+    '32':
+      v: 3953
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Туннель I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FFDB9D","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Сокровищная добыча III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+        enchants:
+          minecraft:efficiency: 4
+          minecraft:unbreaking: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 2
+          }
+    '34':
+      v: 3953
+      type: GOLDEN_APPLE
+      amount: 6
+    '35':
+      v: 3953
+      type: COOKED_PORKCHOP
+      amount: 64
+    Helmet:
+      v: 3953
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 2
+          minecraft:unbreaking: 1
+    Chest:
+      v: 3953
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 1
+          minecraft:unbreaking: 2
+    Legs:
+      v: 3953
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 2
+          minecraft:unbreaking: 1
+    Boots:
+      v: 3953
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 2
+          minecraft:unbreaking: 1
+    OffHand:
+      v: 3953
+      type: SHIELD
+diamond:
+  CommandName: diamond
+  Weight: 6
+  Delay: 259200
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LIGHT_BLUE_SHULKER_BOX
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LIGHT_BLUE_SHULKER_BOX
+  Items:
+    '1':
+      v: 3953
+      type: EMERALD
+      amount: 8
+    '2':
+      v: 3953
+      type: DIAMOND
+      amount: 4
+    '3':
+      v: 3953
+      type: GOLD_INGOT
+      amount: 12
+    '4':
+      v: 3953
+      type: IRON_INGOT
+      amount: 16
+    '6':
+      v: 3953
+      type: CHEST
+      amount: 10
+    '7':
+      v: 3953
+      type: FURNACE
+      amount: 6
+    '8':
+      v: 3953
+      type: BLAST_FURNACE
+      amount: 4
+    '9':
+      v: 3953
+      type: ARROW
+      amount: 48
+    '10':
+      v: 3953
+      type: BOOKSHELF
+      amount: 16
+    '11':
+      v: 3953
+      type: MELON
+      amount: 16
+    '12':
+      v: 3953
+      type: GLOWSTONE
+      amount: 24
+    '13':
+      v: 3953
+      type: BIRCH_LOG
+      amount: 32
+    '15':
+      v: 3953
+      type: END_CRYSTAL
+      amount: 2
+    '16':
+      v: 3953
+      type: CRAFTING_TABLE
+    '17':
+      v: 3953
+      type: ENCHANTING_TABLE
+    '18':
+      v: 3953
+      type: FIREWORK_ROCKET
+      amount: 16
+    '19':
+      v: 3953
+      type: QUARTZ
+      amount: 24
+    '20':
+      v: 3953
+      type: REDSTONE
+      amount: 32
+    '21':
+      v: 3953
+      type: COAL
+      amount: 16
+    '22':
+      v: 3953
+      type: LAPIS_LAZULI
+      amount: 12
+    '25':
+      v: 3953
+      type: OBSIDIAN
+      amount: 8
+    '26':
+      v: 3953
+      type: TNT
+      amount: 8
+    '27':
+      v: 3953
+      type: CHORUS_FRUIT
+      amount: 8
+    '28':
+      v: 3953
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:bane_of_arthropods: 2
+          minecraft:fire_aspect: 1
+          minecraft:looting: 2
+          minecraft:sharpness: 2
+          minecraft:smite: 2
+    '29':
+      v: 3953
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Электризованность II","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A2FF9D","bold":false}]}'
+        enchants:
+          minecraft:flame: 1
+          minecraft:power: 3
+          minecraft:unbreaking: 3
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+    '30':
+      v: 3953
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Сокровищная добыча II","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+        enchants:
+          minecraft:efficiency: 2
+          minecraft:unbreaking: 2
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+    '31':
+      v: 3953
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Резак I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FFF69D","bold":false}]}'
+        enchants:
+          minecraft:efficiency: 2
+          minecraft:unbreaking: 2
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+    '32':
+      v: 3953
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"text":"","extra":[{"text":"Ускорение I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A2FF9D","bold":false}]}'
+        enchants:
+          minecraft:efficiency: 2
+          minecraft:unbreaking: 2
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }
+    '33':
+      v: 3953
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_swiftness
+        custom-effects: []
+    '34':
+      v: 3953
+      type: GOLDEN_APPLE
+      amount: 2
+    '35':
+      v: 3953
+      type: COOKED_PORKCHOP
+      amount: 24
+    Helmet:
+      v: 3953
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:projectile_protection: 2
+          minecraft:protection: 2
+          minecraft:respiration: 2
+          minecraft:unbreaking: 3
+    Chest:
+      v: 3953
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:blast_protection: 1
+          minecraft:projectile_protection: 1
+          minecraft:protection: 1
+          minecraft:thorns: 2
+          minecraft:unbreaking: 3
+    Legs:
+      v: 3953
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:projectile_protection: 2
+          minecraft:protection: 2
+          minecraft:unbreaking: 3
+    Boots:
+      v: 3953
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:depth_strider: 1
+          minecraft:feather_falling: 2
+          minecraft:projectile_protection: 2
+          minecraft:protection: 2
+          minecraft:unbreaking: 3
+    OffHand:
+      v: 3953
+      type: SHIELD
+mastertnt:
+  CommandName: mastertnt
+  DropOnGround: false
+  Items:
+    '28':
+      v: 3953
+      type: TNT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"* ","extra":[{"text":"Мастерская взрывчатка","color":"#FFC488"}],"italic":false,"color":"#D5D5D5"}'
+        lore:
+        - '{"text":"","color":"#DDDDDD"}'
+        - '{"text":" ▫ Увеличенный радиус взрыва.   ","italic":false,"color":"#DDDDDD"}'
+        - '{"text":"","color":"#DDDDDD"}'
+        PublicBukkitValues: |-
+          {
+              "dynaminator:custom_tnt": "WITH_CUSTOM_POWER"
+          }
+nucleartnt:
+  CommandName: nucleartnt
+  DropOnGround: false
+  Items:
+    '28':
+      v: 3953
+      type: TNT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"* ","extra":[{"text":"Ядрёная бомба","color":"#FFC488"}],"italic":false,"color":"#D5D5D5"}'
+        lore:
+        - '{"text":"","color":"#DDDDDD"}'
+        - '{"text":" ▫ Огромный радиус взрыва.   ","italic":false,"color":"#DDDDDD"}'
+        - '{"text":"","color":"#DDDDDD"}'
+        PublicBukkitValues: |-
+          {
+              "dynaminator:custom_tnt": "REGION_BLOCKS_DESTROYER"
+          }
+minidragontnt:
+  CommandName: minidragontnt
+  DropOnGround: false
+  Items:
+    '28':
+      v: 3953
+      type: TNT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"* ","extra":[{"text":"Малый драконий динамит","color":"#FFC488"}],"italic":false,"color":"#D5D5D5"}'
+        lore:
+        - '{"text":"","color":"#DDDDDD"}'
+        - '{"text":" ▫ Ломает обсидиан с третьего взрыва.   ","italic":false,"color":"#DDDDDD"}'
+        - '{"text":"","color":"#DDDDDD"}'
+        PublicBukkitValues: |-
+          {
+              "dynaminator:custom_tnt": "OBSIDIAN_DESTROYER_WITH_THREE_TRIES"
+          }
+dragontnt:
+  CommandName: dragontnt
+  DropOnGround: false
+  Items:
+    '28':
+      v: 3953
+      type: TNT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"* ","extra":[{"text":"Драконий динамит","color":"#FFC488"}],"italic":false,"color":"#D5D5D5"}'
+        lore:
+        - '{"text":"","color":"#DDDDDD"}'
+        - '{"text":" ▫ Ломает обсидиан с первого взрыва.   ","italic":false,"color":"#DDDDDD"}'
+        - '{"text":"","color":"#DDDDDD"}'
+        PublicBukkitValues: |-
+          {
+              "dynaminator:custom_tnt": "OBSIDIAN_DESTROYER_INSTANT"
+          }
+godelytra:
+  CommandName: godelytra
+  DropOnGround: false
+  Items:
+    '28':
+      v: 3953
+      type: ELYTRA
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"▪ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"бᴏжᴇᴄтʙᴇʜʜыᴇ
+          ᴋᴘылья","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#F0D799","bold":true}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"Стихийная защита I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Огненный щит II","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A2FF9D","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Укрепление III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A2FF9D","bold":false}]}'
+        enchants:
+          minecraft:protection: 5
+        Unbreakable: true
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 3
+          }
+lootsword:
+  CommandName: lootsword
+  DropOnGround: false
+  Items:
+    '28':
+      v: 3953
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"▪ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"ᴏxᴏтʜичьᴇ
+          лᴇзʙиᴇ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#BA98FF","bold":true}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"Опытный охотник V","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A2FF9D","bold":false}]}'
+        enchants:
+          minecraft:looting: 5
+          minecraft:sharpness: 5
+          minecraft:smite: 5
+        PublicBukkitValues: |-
+          {
+              "excellentenchants:lore_size": 1
+          }

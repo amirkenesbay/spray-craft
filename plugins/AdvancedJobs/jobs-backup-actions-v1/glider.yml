@@ -1,0 +1,51 @@
+type: glide
+
+variable:
+  root: none
+
+name: 'Планёр'
+
+# Требуемый прогресс
+required-progress: "500 * %level%"
+
+# Очки, выдаваемые после выполнения задачи
+points-rewarded: "1 * %level%"
+
+# Требуемые очки для доступа к этой работе
+required-points: 0
+
+# Это премиум работа?
+premium: false
+
+# Награды берутся из файла rewards.yml
+default-rewards: [ 1 ]
+
+# Когда level-rewards содержит уровень, давать стандартные и уровневые награды или только уровневые награды
+both-rewards: false
+
+# Информация об уровнях
+level-rewards: []
+
+notify-at-percentages: [ 10, 25, 50, 75, 100 ]
+
+whitelisted-worlds: []
+blacklisted-worlds: []
+blacklisted-regions: []
+whitelisted-regions: []
+
+item:
+  material: ELYTRA
+  name: '&a&lРабота планёра&a &7[Ур. %level%] '
+  lore:
+    - ''
+    - ' &8Описание'
+    - '&f  Чтобы повысить уровень в этой работе,'
+    - '&f  необходимо пролететь на &a%required_progress% &fблоков на планёре.'
+    - ''
+    - ' &2• &7Текущий уровень: &e%level%'
+    - ' &2• &7Активен: %active%'
+    - ''
+    - '&8 Прогресс работы'
+    - '&2• &a%progress_bar% &7(&f%total_progress%&7/&f%required_progress%&7)'
+    - ''
+    - '&2• %action%'

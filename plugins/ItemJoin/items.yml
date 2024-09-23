@@ -1,0 +1,63 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+
+# General options that apply to the custom items functionality.
+items-Delay: 0
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+
+# This is the section that the custom created items will be stored.
+# All created items should be saved under the 'items' section for each 'custom-item' subsection.
+items:
+  main-menu:
+    id: book
+    slot: 0
+    name: '&#FBD277Главное меню &7[ПКМ]'
+    lore:
+    - '&#6A6A6AИнформация'
+    - '&r'
+    - ' &#DCDCDCИспользование этого предмета'
+    - ' &#DCDCDCоткрывает главно меню'
+    interact:
+    - 'player: menu'
+    commands-sound: BLOCK_NOTE_BLOCK_PLING    
+    itemflags: death-drops, unbreakable, hide-attributes
+    triggers: join, first-join
+    enabled-worlds: spawn, Island, Island_nether, Island_the_end
+
+  donate:
+    id: sunflower
+    slot: 4
+    name: '&#27F65FПривилегии &7[ПКМ]'
+    lore:
+    - '&#6A6A6AИнформация'
+    - '&r'
+    - ' &#DCDCDCИспользование этого предмета'
+    - ' &#DCDCDCоткрывает привелии'
+    interact:
+    - 'player: donate'
+    commands-sound: BLOCK_NOTE_BLOCK_PLING    
+    itemflags: death-drops, unbreakable, hide-attributes
+    triggers: join, first-join
+    enabled-worlds: spawn, Island, Island_nether, Island_the_end
+    
+  is-menu:
+    id: FLOWER_BANNER_PATTERN
+    slot: 8
+    name: '&#15BFFFКоманды &7[ПКМ]'
+    lore:
+    - '&#6A6A6AИнформация'
+    - '&r'
+    - ' &#DCDCDCИспользование этого предмета'
+    - ' &#DCDCDCоткрывает помощь по режиму'
+    interact:
+    - 'player: help'
+    commands-sound: BLOCK_NOTE_BLOCK_PLING    
+    itemflags: death-drops, unbreakable, hide-attributes
+    triggers: join, first-join
+    enabled-worlds: spawn, Island, Island_nether, Island_the_end

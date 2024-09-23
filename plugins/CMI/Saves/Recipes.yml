@@ -1,0 +1,401 @@
+Disabled:
+  lodestone: minecraft
+  end_crystal: minecraft
+  coarse_dirt: minecraft
+CRecipes:
+  48aaf7f1-3c7b-3297-8a9c-dad979a6bfcd:
+    Type: Shaped
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: END_CRYSTAL
+    Recipe:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: TINTED_GLASS
+        byItem: true
+      '1':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: TINTED_GLASS
+        byItem: true
+      '2':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: TINTED_GLASS
+        byItem: true
+      '3':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: TINTED_GLASS
+        byItem: true
+      '4':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: ENDER_EYE
+        byItem: true
+      '5':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: TINTED_GLASS
+        byItem: true
+      '6':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: TINTED_GLASS
+        byItem: true
+      '7':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GHAST_TEAR
+        byItem: true
+      '8':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: TINTED_GLASS
+        byItem: true
+  b41beb3f-8db1-30bf-8c8a-06f7a6c7ae30:
+    Type: Shaped
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: EXPERIENCE_BOTTLE
+    Recipe:
+      '1':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GOLD_INGOT
+        byItem: true
+      '3':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GOLD_INGOT
+        byItem: true
+      '4':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: DIAMOND
+        byItem: true
+      '5':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GOLD_INGOT
+        byItem: true
+      '6':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GLASS
+        byItem: true
+      '7':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GLASS
+        byItem: true
+      '8':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GLASS
+        byItem: true
+  21954334-0057-3e61-945a-6b52f211dcb1:
+    Type: Shaped
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: ENCHANTED_GOLDEN_APPLE
+    Recipe:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GOLD_BLOCK
+        byItem: true
+      '1':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GOLD_INGOT
+        byItem: true
+      '2':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GOLD_BLOCK
+        byItem: true
+      '3':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GOLD_BLOCK
+        byItem: true
+      '4':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GOLDEN_APPLE
+        byItem: true
+      '5':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GOLD_BLOCK
+        byItem: true
+      '6':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GOLD_BLOCK
+        byItem: true
+      '7':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: EXPERIENCE_BOTTLE
+        byItem: true
+      '8':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: GOLD_BLOCK
+        byItem: true
+  e0cb1bba-cbd4-3983-8dc1-4fe524b42ffd:
+    Type: Shaped
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: NETHERITE_SCRAP
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Незеритовая
+          пластина"}],"text":""}'
+        custom-model-data: 100
+    Recipe:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_BLOCK
+        byItem: true
+      '1':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_BLOCK
+        byItem: true
+      '2':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_BLOCK
+        byItem: true
+      '3':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_BLOCK
+        byItem: true
+      '4':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_INGOT
+        byItem: true
+      '5':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_BLOCK
+        byItem: true
+      '6':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_BLOCK
+        byItem: true
+      '7':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_BLOCK
+        byItem: true
+      '8':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_BLOCK
+        byItem: true
+  2815d564-05e0-39ba-b95d-273bee7cfb4e:
+    Type: Shaped
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: SPAWNER
+    Recipe:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_SCRAP
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Незеритовая
+              пластина"}],"text":""}'
+            custom-model-data: 100
+        byItem: true
+      '1':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: ENDERMAN_SPAWN_EGG
+        byItem: true
+      '2':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_SCRAP
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Незеритовая
+              пластина"}],"text":""}'
+            custom-model-data: 100
+        byItem: true
+      '3':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_SCRAP
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Незеритовая
+              пластина"}],"text":""}'
+            custom-model-data: 100
+        byItem: true
+      '4':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: HEART_OF_THE_SEA
+        byItem: true
+      '5':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_SCRAP
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Незеритовая
+              пластина"}],"text":""}'
+            custom-model-data: 100
+        byItem: true
+      '6':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_SCRAP
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Незеритовая
+              пластина"}],"text":""}'
+            custom-model-data: 100
+        byItem: true
+      '7':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: ZOMBIE_SPAWN_EGG
+        byItem: true
+      '8':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_SCRAP
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Незеритовая
+              пластина"}],"text":""}'
+            custom-model-data: 100
+        byItem: true
+  6413d759-2d72-39b8-aa58-612595bf2d29:
+    Type: Shaped
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LODESTONE
+    Recipe:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: END_CRYSTAL
+        byItem: true
+      '1':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: END_CRYSTAL
+        byItem: true
+      '2':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: END_CRYSTAL
+        byItem: true
+      '3':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_BLOCK
+        byItem: true
+      '4':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: CHAINMAIL_CHESTPLATE
+        byItem: true
+      '5':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: NETHERITE_INGOT
+        byItem: true
+      '6':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: CRYING_OBSIDIAN
+        byItem: true
+      '7':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: CRYING_OBSIDIAN
+        byItem: true
+      '8':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3337
+          type: CRYING_OBSIDIAN
+        byItem: true

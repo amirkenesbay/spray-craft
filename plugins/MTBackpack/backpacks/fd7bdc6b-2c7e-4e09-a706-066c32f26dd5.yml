@@ -1,0 +1,10 @@
+backpack_data:
+  classname: teammt.mtbackpack.classes.Sack
+  fields:
+    amount: 0
+    size: 150
+    id:
+      classname: java.util.UUID
+      value: fd7bdc6b-2c7e-4e09-a706-066c32f26dd5
+    requiresRerender: false
+    type: common_sack

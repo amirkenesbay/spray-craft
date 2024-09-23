@@ -1,0 +1,41 @@
+menu_title: 'Выбор пола'
+size: 26
+open_command:
+- gender
+register_command: true
+items:
+  'ah':
+    material: LIGHT_BLUE_CONCRETE
+    slots:
+    - 11
+    display_name: '&b&lМужской'
+    click_commands:
+    - '[close]'
+    - '[player] marry gender male'    
+
+  'shop':
+    material: PINK_CONCRETE
+    slots:
+    - 15
+    display_name: '&d&lЖенский'
+    click_commands:
+    - '[close]'
+    - '[player] marry gender female'        
+
+  'fish':
+    material: OAK_SIGN
+    slots:
+    - 13
+    display_name: '&a&lКоманды'
+    lore:
+    - '&#727776Информация о командах '
+    - ''
+    - '   &#fc6abc/marry &7[Никнейм] &8- &fЖениться на игроке'
+    - '   &#fc6abc/marry gift &8- &fПодарить подарок партнеру'
+    - '   &#fc6abc/marry divorce &8- &fРазвестись с текущем партнером'
+    - '   &#fc6abc/marry seen &8- &fУзнать когдма был(а) в сети'    
+    - ''
+    - '&#52d797▸ Нажмите, чтобы перейти '
+    click_commands:
+    - '[close]'
+    - '[player] marry help'            

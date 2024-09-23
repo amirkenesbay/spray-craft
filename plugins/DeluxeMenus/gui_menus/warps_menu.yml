@@ -1,0 +1,77 @@
+menu_title: '&#272727Меню варпов'
+size: 35
+open_command:
+- warps
+register_command: true
+items:
+  'ah':
+    material: COMPASS
+    slots:
+    - 11
+    display_name: '&6&lАукцион'
+    lore:
+    - '&#727776Покупка и продажа '
+    - ''
+    - ' &8Информация '
+    - '   &#cfcfcfМесто, где игроки могут продавать '
+    - '   &#cfcfcfи покупать предметы. Продавайте свои '
+    - '   &#cfcfcfвещи и установите цену, или посмотрите '
+    - '   &#cfcfcfна доступные предметы. '  
+    - ''
+    - '&#52d797▸ Нажмите, чтобы перейти '
+    click_commands:
+    - '[close]'
+    - '[player] warp ah'    
+
+  'shop':
+    material: spyglass
+    slots:
+    - 13
+    display_name: '&a&lМагазин'
+    lore:
+    - '&#727776Наш магазин'
+    - ''
+    - ' &8Информация '
+    - '   &7Посетите наш магазин, чтобы'
+    - '   &7приобрести различные предметы'
+    - '   &7для хорошего выживания.'   
+    - ''
+    - '&#52d797▸ Нажмите, чтобы перейти '
+    click_commands:
+    - '[close]'
+    - '[player] warp shop'        
+
+  'fish':
+    material: axolotl_bucket
+    slots:
+    - 15
+    display_name: '&a&lИвент рыбалка'
+    lore:
+    - '&#727776Рыболовство '
+    - ''
+    - ' &8Информация '
+    - '   &7Присоединяйтесь к рыболовству'
+    - '   &7и получайте награды за первые'    
+    - '   &7места в ивенте или продажу рыбы!'     
+    - ''
+    - '&#52d797▸ Нажмите, чтобы перейти '
+    click_commands:
+    - '[close]'
+    - '[player] warp fish'            
+
+  'back':
+    material: ARROW
+    slots:
+    - 31
+    display_name: '&#FBF386&lНазад'
+    lore:
+    - '&#838a87Предыдущая страница'    
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfВернуться на предыдущую'
+    - '  &#cfcfcfстраницу где Вы были'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[openguimenu] main_menu'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'         

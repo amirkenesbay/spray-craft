@@ -1,0 +1,43 @@
+menu_title: '&0Начальный набор [2/2]'
+size: 54
+items: 
+  '1':
+    material: lead
+    slot: 11
+    amount: 1
+
+
+
+
+  'next':
+    material: ARROW
+    slots:
+    - 50
+    display_name: '&#FBF386&lНазад'
+    lore:
+    - '&#838a87Предыдущая страница'    
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfВернуться на предыдущую'
+    - '  &#cfcfcfстраницу где Вы были'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[openguimenu] start'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'               
+    
+  'give':
+    material: glow_item_frame
+    slots:
+    - 48
+    display_name: '&a&lПолучить набор'
+    lore: 
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfПолучите ваш начальный'
+    - '  &#cfcfcfнабор для выживания'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[player] cmi kit start'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'       

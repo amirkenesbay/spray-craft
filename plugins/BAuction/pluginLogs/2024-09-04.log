@@ -1,0 +1,107 @@
+[21:51:56] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[21:52:45] [Server thread/INFO]: Enabling BAuction v1.3.3
+[21:52:45] [Server thread/INFO]: [DEBUG] enable checkUpdate
+[21:52:45] [Server thread/INFO]: [DEBUG] enable enable BMenuApi
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load MenuLoader
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load db cfg
+[21:52:45] [Server thread/INFO]: [DEBUG] enable registerAdapters
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load UniqueNameGenerator
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load cfg
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load assetsManager
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load lang
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load logger
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load event manager
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load time util
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load TrieManager
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load econ
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load PAPI hook
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load black list
+[21:52:45] [Server thread/INFO]: [DEBUG] enable load db
+[21:52:45] [Server thread/INFO]: [DEBUG] enable check version
+[21:52:45] [Server thread/INFO]: [DEBUG] enable init commands
+[21:52:45] [bauc File Db loader/INFO]: Успешно загружено 0 предметов за 19 мс.
+[22:12:39] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Lord__xemnas} use command ah 
+[06:26:30] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MisKotikUwU} use command ah 
+[08:03:31] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[08:03:31] [Server thread/INFO]: [DEBUG] CraftPlayer{name=bebri019} use command ah sell 100
+[09:33:52] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Tenikcalmy} use command ah 
+[09:43:11] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Tenikcalmy} use command ah sell 60
+[09:43:27] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[10:01:30] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah sell 5000
+[10:42:31] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah sell 4000
+[10:53:04] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Lord__xemnas} use command ah 
+[10:57:55] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[10:58:16] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah sell 50000
+[11:29:02] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah 
+[12:25:18] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:25:44] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:41:02] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 150 full
+[12:41:29] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 1000 full
+[12:41:32] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah 
+[12:53:54] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:54:45] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:54:50] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:56:03] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah 
+[12:56:14] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:56:36] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 70 full
+[12:56:43] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[12:57:21] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 150 full
+[13:00:27] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[13:00:42] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[13:01:44] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 100
+[13:01:49] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[13:02:36] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah 
+[13:03:46] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[13:03:54] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[13:04:17] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[13:04:22] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 100 full
+[13:04:30] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 100 full
+[13:04:38] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[13:04:46] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 100 full
+[13:05:08] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 150 full
+[13:05:14] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 1000
+[13:09:10] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 200
+[13:09:15] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[13:12:41] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 150
+[13:18:05] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[14:03:15] [Server thread/INFO]: [DEBUG] CraftPlayer{name=GeoShur} use command ah 
+[14:05:20] [Server thread/INFO]: [DEBUG] CraftPlayer{name=GeoShur} use command ah 
+[15:10:04] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[15:14:53] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 120
+[15:15:00] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Tenikcalmy} use command ah 
+[15:38:22] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Tenikcalmy} use command ah sell 25000
+[15:44:54] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Tenikcalmy} use command ah sell 300 full
+[15:45:10] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Tenikcalmy} use command ah sell 300 full
+[16:09:31] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[16:19:08] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[16:19:23] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 120
+[17:22:56] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Fenix123321} use command ah 
+[17:23:08] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Fenix123321} use command ah 
+[18:09:05] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[18:44:49] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[18:45:04] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 12
+[18:45:09] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[18:45:30] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah sell 110
+[18:45:34] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Maho993} use command ah 
+[19:01:30] [Server thread/INFO]: [DEBUG] CraftPlayer{name=OneMaksKill} use command ah sell 50 1
+[19:01:34] [Server thread/INFO]: [DEBUG] CraftPlayer{name=OneMaksKill} use command ah sell 50 1
+[19:01:39] [Server thread/INFO]: [DEBUG] CraftPlayer{name=OneMaksKill} use command ah sell 50 1
+[19:01:44] [Server thread/INFO]: [DEBUG] CraftPlayer{name=OneMaksKill} use command ah sell 50 1
+[21:27:37] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Karokyu908} use command ah 
+[22:00:29] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Lord__xemnas} use command ah 
+[22:00:39] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Lord__xemnas} use command ah 
+[22:00:47] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Lord__xemnas} use command ah 
+[22:00:52] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Lord__xemnas} use command ah 
+[22:23:09] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Lord__xemnas} use command ah 
+[03:59:34] [Server thread/INFO]: [DEBUG] CraftPlayer{name=Tenikcalmy} use command ah 
+[06:14:49] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah 
+[06:15:20] [Server thread/INFO]: [DEBUG] CraftPlayer{name=ASIgumnov83} use command ah sell 10 full
+[06:15:38] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[06:15:47] [Server thread/INFO]: [DEBUG] CraftPlayer{name=MuxaBall} use command ah 
+[08:10:52] [Server thread/INFO]: Disabling BAuction v1.3.3
+[08:10:52] [Server thread/INFO]: [DEBUG] disable disable PAPI hook
+[08:10:52] [Server thread/INFO]: [DEBUG] disable disable logger
+[08:10:52] [Server thread/INFO]: [DEBUG] disable disable BMenuApi
+[08:10:52] [Server thread/INFO]: [DEBUG] disable disable db
+[08:10:52] [Server thread/INFO]: saved 5 items, 147 users and 2 unsold items in 2 ms
+[08:10:52] [Server thread/INFO]: [DEBUG] disable unregisterAdapters

@@ -1,0 +1,37 @@
+menu_title: 'Кастомные зачарования'
+size: 26
+open_command:
+- elist
+register_command: true
+items:
+  'elist':
+    material: BOOKSHELF
+    slots:
+    - 12
+    display_name: '&d&lСписок зачарований'
+    lore:
+    - '&#727776Полный список'
+    - ''
+    - ' &8Информация '
+    - '   &fПосмотрите весь список'
+    - '   &fкастомных зачарований.'
+    - ''
+    - '&#52d797▸ Нажмите, чтобы перейти '
+    click_commands:
+    - '[player] enchantments'            
+
+  'ebuy':
+    material: ENCHANTED_BOOK
+    slots:
+    - 14
+    display_name: '&a&lКупить книги'
+    lore:
+    - '&#727776Самое время купить'
+    - ''
+    - ' &8Информация '
+    - '   &fПокупайте кастомные зачарования'
+    - '   &fлюбой редкости.'
+    - ''
+    - '&#52d797▸ Нажмите, чтобы перейти '
+    click_commands:
+    - '[player] e'        

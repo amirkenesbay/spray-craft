@@ -1,0 +1,171 @@
+PREFIX: '&x&7&5&7&5&7&5[&x&F&B&9&3&F&FСкупщик&x&7&5&7&5&7&5] &f'
+LANG:
+  CONSOLE: Console
+MSG:
+  AND: ' &aи&f '
+  ERROR: '&cПроизошла ошибка, пожалуйста, свяжитесь с владельцем сервера.'
+  INGAMEONLY: '&cЭта команда может быть использована только в игре.'
+  NOACCESS: '&cУ вас нет доступа для выполнения этого действия.'
+  NOTLOADED: '&cВаши данные еще не загружены.'
+  NOTLOADEDTARGET: '&cДанные об этом игроке еще не загружены.'
+  RELOADED: '&aПлагин перезагружен.'
+  USAGE:
+    SUBCOMMAND: '&aUsage: &f%usage%'
+  CMD:
+    SHOP:
+      ADDMODIFIER:
+        ITEM:
+          USAGE: /shop addmodifier item <player> <shop> <item> <value> [buy|sell]
+          ADDED: '&aYou set &f%player% %type% &aprice modifier for the &f%item%&a
+            item in &f%shop%&a shop to &f%modifier%&a.'
+          ADDEDBY: '&aYour &f%type% price modifier for the &f%item%&a item in &f%shop%&a
+            shop was set to &f%modifier%&a by &f%player%&a.'
+        SHOP:
+          USAGE: /shop addmodifier shop <player> <shop> <value> [buy|sell]
+          ADDED: '&aYou set &f%player% %type% &aprice modifier for all items in &f%shop%&a
+            shop to &f%modifier%&a.'
+          ADDEDBY: '&aYour &f%type%&a price modifier for all items in &f%shop%&a shop
+            was set to &f%modifier%&a by &f%player%&a.'
+        GLOBAL:
+          USAGE: /shop addmodifier global <player> <value> [buy|sell]
+          ADDED: '&aYou set &f%player% %type% &aprice modifier to &f%modifier%&a.'
+          ADDEDBY: '&aYour &f%type% &aprice modifier was set to &f%modifier%&a by
+            &f%player%&a.'
+      CHECKMODIFIERS:
+        VIEW:
+          VIEW: |-
+            &f%player%&a's modifiers:
+            Global modifiers:
+            %global%
+            Shop modifiers:
+            %shop%
+            Item modifiers:
+            %item%
+          ENTRY:
+            ITEM: '&aItem: &f%item%&a, shop: &f%shop%&a, buy: &f%buy%&a, sell: &f%sell%&a'
+            SHOP: '&aShop: &f%shop%&a, buy: &f%buy%&a, sell: &f%sell%&a'
+            GLOBAL: '&aBuy: &f%buy%&a, sell: &f%sell%&a'
+          VIEWPERMISSIONMODIFIERS: |-
+            &c%player%&f's permission modifiers:
+            Global modifiers:
+            %global%Shop modifiers:
+            %shop%
+            Item modifiers:
+            %item%
+      RESETMODIFIER:
+        ITEM:
+          USAGE: /shop resetmodifier item <player> <shop> <item> [buy|sell]
+          RESET: '&aYou reset &f%player% %type%&a price modifier for the &f%item%&a
+            item in &f%shop%&a shop.'
+          RESETBY: '&aYour &f%type%&a price modifier for the &f%item%&a item in &f%shop%&a
+            shop was reset by &f%player%&a.'
+        SHOP:
+          USAGE: /shop resetmodifier shop <player> <shop> [buy|sell]
+          RESET: '&aYou reset &f%player% %type%&a price modifier for all items in
+            &f%shop%&a shop.'
+          RESETBY: '&aYour &f%type%&a price modifier for all items in &f%shop%&a shop
+            was set to by &f%player%&a.'
+        GLOBAL:
+          USAGE: /shop resetmodifier global <player> [buy|sell]
+          RESET: '&aYou reset &f%player% %type%&a price modifier.'
+          RESETBY: '&aYour &f%type%&a price modifier was set to &f%modifier%&a by
+            &f%player%&a.'
+      CHECK:
+        ITEM: '&aThis item type is &l%material%&a with damage &l%damage%&a.'
+        NOITEM: '&cYou have to hold an item in your hand in order to check its type.'
+  MODIFIER:
+    INVALIDAMOUNT: '&cInvalid modifier value specified. Valid values are for instance
+      0.50 which is 50%, 2.0 which is 200% etc.'
+    INVALIDTYPE: '&cInvalid modifier type specified. Valid values are buy, sell and
+      both.'
+    BUY: buy
+    SELL: sell
+    BOTH: buy & sell
+  INVALIDPLAYER: '&cУказано неверное имя игрока.'
+  INVALIDSHOP: '&cКатегория &l%shop%&c не найдена.'
+  INVALIDITEM: '&cПредмет с ID &l%item%&c не найден в магазине &l%shop%&c.'
+  NOACCESSTOSHOP: '&cУ вас нет доступа к этой категории магазина.'
+  NODIRECTACCESSTOSHOP: '&cВы не можете получить доступ к магазину.'
+  MAINMENUDISABLED: '&cВы не можете использовать эту команду. Вместо этого используйте
+    &l/shop <id>&c.'
+  WORLDBLACKLISTED: '&cВы не можете получить доступ к &l%shop%&c в этом мире.'
+  WORLDBANNED: '&cВы не можете получить доступ к магазину в этом мире.'
+  WORLDBANNEDTARGET: '%player% не может получить доступ к магазину в этом мире.'
+  GAMEMODEBANNED: '&cВы не можете получить доступ к магазину в режиме игры &l%gamemode%&c.'
+  GAMEMODEBANNEDTARGET: '%player% не может получить доступ к магазину в режиме игры
+    %gamemode%.'
+  ITEM:
+    FULLINVENTORY: '&fУ вас &cнедостаточно &fсвободного места в инвентаре.'
+    CANNOTAFFORD: '&fВам не хватает &e%price% монет'
+    CANNOTBUY: '&cВы не можете купить этот предмет.'
+    CANNOTSELL: '&cВы не можете продать этот предмет.'
+    BOUGHT: '&fВы купили &ax%amount% %item%&f за &e%price% монет.'
+    BOUGHTFREE: '&aВы получили &f%amount%x %item%&a.'
+    NOTENOUGH: '&fУ вас нет &c%amount%x %item%&f для продажи.'
+    SOLD: '&fВы продали &a%amount%x %item%&f за &e%price%'
+    SOLDFREE: '&aВы подарили &f%amount%x %item%&a.'
+    SOLDALL: '&fВы продали все &a%item% &7[%amount%x %item%]&f за &e%price%'
+    SOLDALLFREE: '&aВы подарили все &f%item%&7 (&f%amount%x %item%&7)'
+    NOACCESS: '&cУ вас нет доступа к этому предмету.'
+  ENCHANT:
+    CANNOTAPPLY: '&cЗачарование &l%enchantment%&c не может быть применено к предмету,
+      который вы держите.'
+    ALREADYAPPLIED: '&cНа этом предмете уже применено зачарование &l%enchantment%&c.'
+    LEVELDIFF: '&cДля этого предмета требуется зачарование &l%enchantment% %level%&c.'
+    CANNOTAFFORD: '&cВам не хватает &l%price%&c, чтобы купить зачарование &l%enchantment%&c.'
+    MAX: '&cНа этом предмете уже максимальное количество зачарований.'
+    TOOMANY: '&cВы не можете зачаровать более чем &l%amount% &cпредметов за раз.'
+    BOUGHT: '&aВы купили зачарование &f%enchantment%&a за &f%price%&a.'
+    BOUGHTFREE: '&aВы получили зачарование &f%enchantment%&a.'
+  PERMISSION:
+    PERMISSIONSDISABLED: '&cPermissions are disabled.'
+    ALREADYHAVE: '&cYou already have the &l%permission%&c permission.'
+    CANNOTAFFORD: '&cYou need &l%price%&c to buy &l%permission%&c.'
+    BOUGHT: '&aYou bought &f%permission%&a permission for &f%price%&a.'
+    BOUGHTFREE: '&aYou received &f%permission%&a.'
+  COMMAND:
+    BOUGHT: '&aYou bought &f%command%&a for &f%price%&a.'
+    CANNOTAFFORD: '&cYou need &l%price%&c to buy this command.'
+    BOUGHTFREE: '&aYou received &f%command%&a.'
+  SELLHAND:
+    NOITEM: '&cYou have to hold an item in your hand in order to sell it.'
+    INVALIDQUANTITY: |-
+      &cInvalid quantity specified.
+      &cMust be between &l1 &cand &l%max%&c.
+    CANNOTSELL: '&cYou cannot sell this item.'
+    MULTIPLEQUANTITYONLY: |-
+      &cYou can't sell that quantity.
+      &cOnly multiples of &l%quantity%&c are allowed for this item.
+  SELLHANDALL:
+    SOLD: '&aYou sold &f%quantity%x %item%&a for a total of &f%price%&a.'
+  SELLALL:
+    NOITEMS: '&cYou do not have any items you can sell.'
+    SOLD: '&aYou sold &f%quantity%x &aitems for a total of &f%price%&a.'
+    INVALIDSHOP: '&cInvalid shop specified.'
+  NUMBERFORMAT:
+    SHORTSCALE:
+      THOUSAND: ' Thousand'
+      MILLION: ' Million'
+      BILLION: ' Billion'
+      TRILLION: ' Trillion'
+      QUADRILLION: ' Quadrillion'
+      QUINTILLION: ' Quintillion'
+      SEXTILLION: ' Sextillion'
+      SEPTILLION: ' Septillion'
+      OCTILLION: ' Octillion'
+      NONILLION: ' Nonillion'
+      DECILLION: ' Decillion'
+DIALOG:
+  AMOUNTSELECTION:
+    BUY:
+      NAME: '&0Покупка: %item%'
+    SELL:
+      NAME: '&0Продажа: %item%'
+    BULKBUY:
+      NAME: '&0Покупка: %item%'
+    BULKSELL:
+      NAME: '&0Продажа: %item%'
+SHOP:
+  PERMISSION:
+    ALREADYOWNED: '&2(Already owned)'
+    NOTOWNED: '&4(Not owned)'

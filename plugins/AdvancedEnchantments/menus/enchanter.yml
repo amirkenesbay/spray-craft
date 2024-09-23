@@ -1,0 +1,150 @@
+open-sound: "ENDERDRAGON_WINGS"
+disabled-in-worlds:
+  - "bad_world"
+messages:
+  sound: LEVEL_UP
+right-click-to-view-enchants: true
+go-back-item:
+  enabled: true
+  item:
+    type: NETHER_STAR
+    id: 0
+    custom-model-data: 0
+  name: "&c&lНазад"
+  lore: [ ]
+keep-open: true
+inventory:
+  size: 35
+  name: "&0Купить зачарования"
+  settings:
+    enchanterBookLevel: "ALL"
+  items:
+    11:
+      item:
+        type: STAINED_GLASS_PANE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+      enchant-group: SIMPLE
+      price: exp:600
+      sound: ANVIL_LAND
+      name: "&f&lПростое зачарование"
+      lore:
+        - ""
+        - " &8Информация"          
+        - "  &fИзучите, чтобы получить"
+        - "  &fслучайную простую"
+        - "  &fкнигу зачарования"
+        - ""
+        - " &7Стоимость: &e%price% опыта"
+        - " &7Вам нужно: &e%left% опыта"   
+    12:
+      item:
+        type: STAINED_GLASS_PANE
+        id: 5
+        custom-model-data: 0
+        force-glow: false
+      enchant-group: UNIQUE
+      sound: ANVIL_LAND
+      price: exp:1000
+      name: "&a&lУникальное зачарование"
+      lore:
+        - ""
+        - " &8Информация"        
+        - "  &fИзучите, чтобы получить"
+        - "  &fуникальную случайную"
+        - "  &fкнигу зачарования"
+        - ""
+        - " &7Стоимость: &e%price% опыта"
+        - " &7Вам нужно: &e%left% опыта"        
+    13:
+      item:
+        type: STAINED_GLASS_PANE
+        id: 3
+        custom-model-data: 0
+        force-glow: false
+      enchant-group: ELITE
+      price: exp:4500
+      sound: ANVIL_LAND
+      name: "&b&lЭлитное зачарование"
+      lore:
+        - ""
+        - " &8Информация"        
+        - "  &fИзучите, чтобы получить"
+        - "  &fслучайную элитную"
+        - "  &fкнигу зачарования"
+        - ""        
+        - " &7Стоимость: &e%price% опыта"
+        - " &7Вам нужно: &e%left% опыта"   
+    14:
+      item:
+        type: STAINED_GLASS_PANE
+        id: 4
+        custom-model-data: 0
+        force-glow: false
+      enchant-group: ULTIMATE
+      price: exp:7000
+      sound: ANVIL_LAND
+      name: "&e&lУльтиматное зачарование"
+      lore:
+        - ""
+        - " &8Информация"        
+        - "  &fИзучите, чтобы получить случайную"
+        - "  &fслучайную ультиматную"
+        - "  &fкнигу зачарования"
+        - ""
+        - " &7Стоимость: &e%price% опыта"
+        - " &7Вам нужно: &e%left% опыта"   
+    15:
+      item:
+        type: STAINED_GLASS_PANE
+        id: 1
+        custom-model-data: 0
+        force-glow: false
+      enchant-group: LEGENDARY
+      price: exp:40000
+      sound: ANVIL_LAND
+      name: "&6&lЛегендарное зачарование"
+      lore:
+        - ""
+        - " &8Информация"        
+        - "  &fИзучите, чтобы получить"
+        - "  &fслучайную легендарную"
+        - "  &fкнигу зачарования"        
+        - ""
+        - " &7Стоимость: &e%price% опыта"
+        - " &7Вам нужно: &e%left% опыта"   
+    22:
+      item:
+        type: STAINED_GLASS_PANE
+        id: 6
+        custom-model-data: 0
+        force-glow: false
+      enchant-group: FABLED
+      price: exp:100000
+      sound: ANVIL_LAND
+      name: "&d&lСказочное зачарование"
+      lore:
+        - ""
+        - " &8Информация"        
+        - "  &fИзучите, чтобы получить"
+        - "  &fслучайную сказочную"
+        - "  &fкнигу зачарования"
+        - ""
+        - " &7Стоимость: &e%price% опыта"
+        - " &7Вам нужно: &e%left% опыта"   
+
+confirmation-inventory:
+  enabled: true
+  name: "&0Подтверждение"
+  accept:
+    material: STAINED_GLASS_PANE
+    damage: 5
+    name: "&a&lПринять транзакцию"
+    lore:
+      - "&fНажмите, чтобы заплатить &e%price% &fс помощью &e%paymentType%"
+  cancel:
+    material: STAINED_GLASS_PANE
+    damage: 14
+    name: "&c&lНажмите, чтобы отменить"
+    lore: [ ]

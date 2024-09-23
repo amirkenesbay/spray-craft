@@ -1,0 +1,140 @@
+prefix: '&8[&aКрафты&8] '
+configReloaded: '&aКонфигурация перезагружена.'
+commandCreateError: '&cВам необходимо использовать: &7/ecraft create <имя>'
+commandEditError: '&cВам необходимо использовать: &7/ecraft edit <имя>'
+commandDeleteError: '&cВам необходимо использовать: &7/ecraft delete <имя>'
+commandGiveError: '&cВам необходимо использовать: &7/ecraft give <игрок> <имя>'
+commandOpenCategoryError: '&cВам необходимо использовать: &7/ecraft opencategory <игрок>
+  <категория> (optional, blocked category)<true/false>'
+commandPermissionsError: '&cУ вас нет прав.'
+mustHaveItemInHand: '&cУ вас должен быть предмет в руке!'
+craftingAlreadyExists: '&cКрафт под названием &7%name% &cуже существует!'
+craftingDoesNotExists: '&cКрафт &7%name% &cне существует!'
+craftError: '&cУ вас недостаточно предметов для создания этого предмета!'
+craftSuccessful: '&bВы успешно создали x%amount% %name%&b!'
+craftWithMoneySuccessful: '&bВы успешно создали x%amount% %name%&b за &a$%money%&b!'
+createCraftingInventoryTitle: '&4&lСоздание крафта'
+createCraftingInventoryInfoCategoryName: '&4&lВЫБЕРИТЕ КАТЕГОРИЮ'
+createCraftingInventoryInfoCategoryLore:
+- '&7Нажмите на категорию, чтобы добавить'
+- '&e%name% &7крафт.'
+createCraftingInventoryInfoRequiredItemsName: '&4&lДОБАВИТЬ НЕОБХОДИМЫЕ ЭЛЕМЕНТЫ'
+createCraftingInventoryInfoRequiredItemsLore:
+- '&7Перетащите необходимые элементы этого крафта.'
+createCraftingInventoryCreateName: '&4&lСОЗДАВАЙТЕ СДЕЛКИ'
+createCraftingInventoryCreateLore:
+- '&7Нажмите, чтобы создать!'
+noRequiredItems: '&cВы должны добавить хотя бы один обязательный элемент!'
+craftingCreationFailed: '&cСоздание крафта не удалось!'
+craftingCreated: '&aКрафт &e%name% &aсозданный! Вы можете изменить его свойства на
+  в &7%name%.yml &aконфигурационный файл или с помощью &7/ecraft edit %name%'
+craftingDeleted: '&aКрафт &e%name% &aудалено!'
+extraRequirementsMessageStatusSymbolTrue: '&a&l✔'
+extraRequirementsMessageStatusSymbolFalse: '&c&l✖'
+craftErrorExtraRequirements: '&cУ вас нет необходимых требований для создания этого!'
+craftErrorNoPermissions: '&cУ вас нет прав на создание этого.'
+craftWithMoneyNoMoney: '&cУ вас недостаточно денег для изготовления этого предмета!'
+craftOneTimeError: '&cВы уже создали этот предмет. Вы не можете сделать это снова!'
+errorPlayerNotOnline: '&cЭтот игрок не в сети!'
+craftGive: '&aВы даете: &7x%amount% %name% &aдля &e%player%&a!'
+craftReceived: '&aВы получили: &7x%amount% %name%&a!'
+craftNoLeftSpaceError: '&cУ вас недостаточно места в инвентаре для создания этого
+  предмета!'
+timeSeconds: с
+timeMinutes: м
+timeHours: ч
+timeDays: д
+craftCooldownCreated: '&bХорошо! Теперь вам нужно подождать &7%time% &bдо %name% &bсоздано!'
+craftCooldownFinishMessage: '&7%name% &bКрафт закончил создание! Вы можете вернуть
+  его сейчас.'
+craftCooldownError: '&cЭтот крафт находится в кулдауне, вы не можете создать его снова!'
+craftCooldownBypassedMessage: '&8[&aПерезарядка пройдена&8]'
+categoryOpenErrorNoPermissions: '&cУ вас нет прав для открытия этой категории!'
+categoryDoesNotExists: '&cКатегория &7%name% &cне существует!'
+notLookingBlock: '&cВы должны смотреть на блок.'
+craftingPlaceAlreadyExists: '&cМесто для крафта в этом месте уже существует!'
+craftingPlaceAdded: '&aДобавлено место для крафта!'
+craftingPlaceCategoryAdded: '&aМесто крафта для категории &7%name% &aдобавлен!'
+craftingPlaceHologram:
+- '&4&n-&c&lМЕСТО ПРОИЗВОДСТВА&4&n-'
+- '&8[&eЩелкните правой кнопкой мыши, чтобы создать&8]'
+craftingPlaceCategoryHologram:
+- '&4&n-&c&lМЕСТО ПРОИЗВОДСТВА&4&n-'
+- '&7[%category_alias%&7]'
+- '&8[&eЩелкните правой кнопкой мыши, чтобы создать&8]'
+craftingPlaceNotLookingError: '&cВы, должно быть, смотрите на место крафта.'
+craftingPlaceRemoved: '&aМесто крафта удалено!'
+craftingPlaceRemoveError: '&cЧтобы удалить это место крафта, используйте &7/ecraft
+  removeplace &cнужно посмотреть на блок.'
+ecraftCommandBlocked: '&cЭта команда заблокирована!'
+cooldownOneAtTheTimeError: '&cВы не можете создать другой предмет, потому что вы уже
+  создаете один.'
+craftCooldownBypassedWithMoneyMessage: '&bПерезарядка пройдена! Расходы: &a$%cost%'
+craftCooldownBypassNoMoney: '&cУ вас недостаточно денег, чтобы обойти время восстановления
+  этого предмета!'
+pluginDisabledError: '&cПлагин обнаружил некоторые ошибки. Проверьте их и исправьте
+  с помощью &7/ecraft verify'
+commandCategoryOpened: '&aВы открыли категорию &7%name% &aдля &e%player%&a.'
+commandResetError: '&cВам нужно использовать: &7/ecraft reset <игрок> (optional)<crafting>'
+playerHasNoData: '&cУ этого игрока нет сохраненных данных.'
+playerDataReset: '&aСброс всех данных игрока &7%player%&a.'
+playerCraftingDataReset: '&7%crafting% &aкрафт сброс данных для игрока &7%player%&a.'
+randomVariableDisplayText: '&a%min%&8-&a%max%'
+commandOpenCraftError: '&cВам нужно использовать: &7/ecraft opencraft <игрок> <crafting>'
+commandCraftingOpened: '&aВы открыли крафт &7%name% &aдля &e%player%&a.'
+craftWithMoneyNoPermissions: '&cУ вас нет разрешения на использование денег для создания
+  этого предмета.'
+commandGiveInvalidAmount: '&cВы должны использовать действительную сумму.'
+editingCraftingInventoryTitle: '&4Редактирование'
+editingCraftingInventoryCategoryItemName: '&6Категория'
+editingCraftingInventoryCategoryItemLore:
+- '&7Все крафты должны принадлежать к категории.'
+- '&7вы можете создавать категории в categories.yml файл.'
+- ''
+- '&7Текущая категория: &a%category%'
+- ''
+- '&e&lНАЖМИТЕ, ЧТОБЫ ИЗМЕНИТЬ'
+editingCraftingInventoryCategoryNone: '&cnone'
+editingCraftingInventoryRequiredItemsItemName: '&6Необходимые предметы'
+editingCraftingInventoryRequiredItemsItemLore:
+- '&7Необходимые предметы для изготовления основного предмета.'
+- ''
+- '&e&lНАЖМИТЕ, ЧТОБЫ ИЗМЕНИТЬ'
+editingCraftingInventoryOptionsItemName: '&6Параметры'
+editingCraftingInventoryOptionsItemLore:
+- '&c[Soon]'
+- '&7Здесь вы можете изменить большинство параметров'
+- '&7для этой поделки.'
+- ''
+- '&e&lНАЖМИТЕ, ЧТОБЫ ИЗМЕНИТЬ'
+editingCraftingGoBack: '&7Вернуться'
+editingCraftingSetCategoryItemLore:
+- ''
+- '&e&lНАЖМИТЕ, ЧТОБЫ УСТАНОВИТЬ КАТЕГОРИЮ'
+editingCraftingCategorySetCorrectly: '&aКатегория &7%category% &aнастроить правильно
+  на крафт &7%crafting%&a!'
+editingCraftingInventorySaveRequiredItemsItemName: '&6Сохранить необходимые элементы'
+editingCraftingInventorySaveRequiredItemsItemLore:
+- '&7После того, как вы поставите нужные требуемые предметы'
+- '&7не забудьте щелкнуть этот элемент, чтобы сохранить их!'
+- ''
+- '&e&lНАЖМИТЕ, ЧТОБЫ СОХРАНИТЬ'
+editingCraftingRequiredItemsSaved: '&aНеобходимые предметы сохранены для крафта &7%crafting%&a!'
+editingCraftingInventoryMainItemLore:
+- ''
+- '&e&lНАЖМИТЕ, ЧТОБЫ ОБНОВИТЬ ГЛАВНЫЙ ПУНКТ'
+- '&e&lВАШ ТОВАР В РУКАХ'
+editingCraftingMainItemUpdated: '&aОбновлен основной предмет для крафта &7%crafting%&a!'
+editingCraftingAllInventoryTitle: '&4Редактирование Крафтов'
+editingCraftingAllSelectCategoryItemLore:
+- ''
+- '&e&lНАЖМИТЕ, ЧТОБЫ ИЗМЕНИТЬ ПОДЕЛКИ'
+editingCraftingAllEditCraftingItemLore:
+- ''
+- '&e&lНАЖМИТЕ ЛКМ ДЛЯ РЕДАКТИРОВАНИЯ'
+- '&a&lSHIFT+LEFT НАЖМИТЕ, ЧТОБЫ ПОВЫШИТЬ ПРИОРИТЕТ'
+- '&c&lSHIFT+RIGHT НАЖМИТЕ, ЧТОБЫ УМЕНЬШИТЬ ПРИОРИТЕТ'
+editingCraftingAllCraftingsPreviousPageItemName: '&7Предыдущая страница'
+editingCraftingAllCraftingsNextPageItemName: '&7Следущая страница'
+successRateChancePermissionReplacement: '&c%original_chance%% &8- &e%new_chance%'
+cooldownPlaceholderReady: '&a&lReady!'

@@ -1,0 +1,588 @@
+menu_title: '        Награды за уровни'
+size: 45
+items:
+  'level_29_progress':
+    material:  YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 10
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.level.29
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 29 &#6D6D6D- &#FFF000В процессе'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#FF2525✘ Требования:'
+    - ' &#6C6C6C▶ &#DFDFDFВам нужно &#FF47F9%clv_player_exp_remaining% опыта'
+    - '    &#6C6C6C[&r%clv_player_exp_progress_bar%&#6C6C6C]'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF3000 монет'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_29_finished':
+    material:  LIME_STAINED_GLASS_PANE
+    slots:
+    - 10
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.level.29
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 29 &#6D6D6D- &#00DE0DЗавершено'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#DFDFDFВы уже имеете'
+    - ' &#DFDFDFданный уровень'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF3000 монет'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_30_progress':
+    material:  YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 11
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.level.30
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 30 &#6D6D6D- &#FFF000В процессе'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#FF2525✘ Требования:'
+    - ' &#6C6C6C▶ &#DFDFDFВам нужно &#FF47F9%clv_player_exp_remaining% опыта'
+    - '    &#6C6C6C[&r%clv_player_exp_progress_bar%&#6C6C6C]'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF+1 кейс с предметами'
+    - ' &#6C6C6C▶ &#DFDFDF+1 кейс с броней'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_30_finished':
+    material:  LIME_STAINED_GLASS_PANE
+    slots:
+    - 11
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.level.30
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 30 &#6D6D6D- &#00DE0DЗавершено'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#DFDFDFВы уже имеете'
+    - ' &#DFDFDFданный уровень'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF+1 кейс с предметами'
+    - ' &#6C6C6C▶ &#DFDFDF+1 кейс с броней'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_31_progress':
+    material:  YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 12
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.level.31
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 31 &#6D6D6D- &#FFF000В процессе'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#FF2525✘ Требования:'
+    - ' &#6C6C6C▶ &#DFDFDFВам нужно &#FF47F9%clv_player_exp_remaining% опыта'
+    - '    &#6C6C6C[&r%clv_player_exp_progress_bar%&#6C6C6C]'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF3250 монет'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_31_finished':
+    material:  LIME_STAINED_GLASS_PANE
+    slots:
+    - 12
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.level.31
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 31 &#6D6D6D- &#00DE0DЗавершено'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#DFDFDFВы уже имеете'
+    - ' &#DFDFDFданный уровень'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF3250 монет'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_32_progress':
+    material:  YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 13
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.level.32
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 32 &#6D6D6D- &#FFF000В процессе'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#FF2525✘ Требования:'
+    - ' &#6C6C6C▶ &#DFDFDFВам нужно &#FF47F9%clv_player_exp_remaining% опыта'
+    - '    &#6C6C6C[&r%clv_player_exp_progress_bar%&#6C6C6C]'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF+1 кейс с броней'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_32_finished':
+    material:  LIME_STAINED_GLASS_PANE
+    slots:
+    - 13
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.level.32
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 32 &#6D6D6D- &#00DE0DЗавершено'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#DFDFDFВы уже имеете'
+    - ' &#DFDFDFданный уровень'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF+1 кейс с броней'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_33_progress':
+    material:  YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 14
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.level.33
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 33 &#6D6D6D- &#FFF000В процессе'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#FF2525✘ Требования:'
+    - ' &#6C6C6C▶ &#DFDFDFВам нужно &#FF47F9%clv_player_exp_remaining% опыта'
+    - '    &#6C6C6C[&r%clv_player_exp_progress_bar%&#6C6C6C]'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF3500 монет'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_33_finished':
+    material:  LIME_STAINED_GLASS_PANE
+    slots:
+    - 14
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.level.33
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 33 &#6D6D6D- &#00DE0DЗавершено'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#DFDFDFВы уже имеете'
+    - ' &#DFDFDFданный уровень'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF3500 монет'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_34_progress':
+    material:  YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 15
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.level.34
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 34 &#6D6D6D- &#FFF000В процессе'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#FF2525✘ Требования:'
+    - ' &#6C6C6C▶ &#DFDFDFВам нужно &#FF47F9%clv_player_exp_remaining% опыта'
+    - '    &#6C6C6C[&r%clv_player_exp_progress_bar%&#6C6C6C]'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF+1 кейс с предметами'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_34_finished':
+    material:  LIME_STAINED_GLASS_PANE
+    slots:
+    - 15
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.level.34
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 34 &#6D6D6D- &#00DE0DЗавершено'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#DFDFDFВы уже имеете'
+    - ' &#DFDFDFданный уровень'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF+1 кейс с предметами'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_35_progress':
+    material:  YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 16
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.level.35
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 35 &#6D6D6D- &#FFF000В процессе'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#FF2525✘ Требования:'
+    - ' &#6C6C6C▶ &#DFDFDFВам нужно &#FF47F9%clv_player_exp_remaining% опыта'
+    - '    &#6C6C6C[&r%clv_player_exp_progress_bar%&#6C6C6C]'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF3750 монет'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_35_finished':
+    material:  LIME_STAINED_GLASS_PANE
+    slots:
+    - 16
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.level.35
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 35 &#6D6D6D- &#00DE0DЗавершено'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#DFDFDFВы уже имеете'
+    - ' &#DFDFDFданный уровень'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF3750 монет'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'    
+  'level_36_progress':
+    material:  YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 19
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.level.36
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 36 &#6D6D6D- &#FFF000В процессе'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#FF2525✘ Требования:'
+    - ' &#6C6C6C▶ &#DFDFDFВам нужно &#FF47F9%clv_player_exp_remaining% опыта'
+    - '    &#6C6C6C[&r%clv_player_exp_progress_bar%&#6C6C6C]'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF+1 кейс с броней'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_36_finished':
+    material:  LIME_STAINED_GLASS_PANE
+    slots:
+    - 19
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.level.36
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 36 &#6D6D6D- &#00DE0DЗавершено'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#DFDFDFВы уже имеете'
+    - ' &#DFDFDFданный уровень'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF+1 кейс с броней'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_37_progress':
+    material:  YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 20
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.level.37
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 37 &#6D6D6D- &#FFF000В процессе'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#FF2525✘ Требования:'
+    - ' &#6C6C6C▶ &#DFDFDFВам нужно &#FF47F9%clv_player_exp_remaining% опыта'
+    - '    &#6C6C6C[&r%clv_player_exp_progress_bar%&#6C6C6C]'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF4000 монет'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_37_finished':
+    material:  LIME_STAINED_GLASS_PANE
+    slots:
+    - 20
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.level.37
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 37 &#6D6D6D- &#00DE0DЗавершено'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#DFDFDFВы уже имеете'
+    - ' &#DFDFDFданный уровень'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF4000 монет'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_38_progress':
+    material:  YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 21
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.level.38
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 38 &#6D6D6D- &#FFF000В процессе'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#FF2525✘ Требования:'
+    - ' &#6C6C6C▶ &#DFDFDFВам нужно &#FF47F9%clv_player_exp_remaining% опыта'
+    - '    &#6C6C6C[&r%clv_player_exp_progress_bar%&#6C6C6C]'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF+1 кейс с предметами'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_38_finished':
+    material:  LIME_STAINED_GLASS_PANE
+    slots:
+    - 21
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.level.38
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 38 &#6D6D6D- &#00DE0DЗавершено'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#DFDFDFВы уже имеете'
+    - ' &#DFDFDFданный уровень'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF+1 кейс с предметами'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_39_progress':
+    material:  YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 22
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.level.39
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 39 &#6D6D6D- &#FFF000В процессе'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#FF2525✘ Требования:'
+    - ' &#6C6C6C▶ &#DFDFDFВам нужно &#FF47F9%clv_player_exp_remaining% опыта'
+    - '    &#6C6C6C[&r%clv_player_exp_progress_bar%&#6C6C6C]'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF5000 монет'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_39_finished':
+    material:  LIME_STAINED_GLASS_PANE
+    slots:
+    - 22
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.level.39
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 39 &#6D6D6D- &#00DE0DЗавершено'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#DFDFDFВы уже имеете'
+    - ' &#DFDFDFданный уровень'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF5000 монет'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_40_progress':
+    material:  YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 23
+    priority: 1
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.level.40
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 40 &#6D6D6D- &#FFF000В процессе'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#FF2525✘ Требования:'
+    - ' &#6C6C6C▶ &#DFDFDFВам нужно &#FF47F9%clv_player_exp_remaining% опыта'
+    - '    &#6C6C6C[&r%clv_player_exp_progress_bar%&#6C6C6C]'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF7000 монет'
+    - ' &#6C6C6C▶ &#DFDFDF+5 кейс с броней'
+    - ' &#6C6C6C▶ &#DFDFDF+5 кейс с предметами'    
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_40_finished':
+    material:  LIME_STAINED_GLASS_PANE
+    slots:
+    - 23
+    priority: 2
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.level.40
+    update: true
+    display_name: ' &#6C6C6C● &#00FF0FУровень 40 &#6D6D6D- &#00DE0DЗавершено'
+    lore:
+    - '&#6C6C6CСистема уровней'
+    - ''
+    - ' &#DFDFDFВы уже имеете'
+    - ' &#DFDFDFданный уровень'
+    - ''
+    - ' &#51FF00✔ Награды:'
+    - ' &#6C6C6C▶ &#DFDFDF7000 монет'
+    - ' &#6C6C6C▶ &#DFDFDF+5 кейс с броней'
+    - ' &#6C6C6C▶ &#DFDFDF+5 кейс с предметами'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'previous_page':
+    material: ARROW
+    slots:
+    - 40
+    display_name: '&#2CF000&lПредыдущая страница'
+    lore:
+    - '&#6C6C6CИзменить страницу'
+    - ''
+    - ' &#DFDFDFНажмите, чтобы перейти'
+    - ' &#DFDFDFна предыдущую страницу'
+    - ''
+    - '&#58d394▸ Нажмите, чтобы открыть'
+    left_click_commands:
+    - '[player] dm open levels_menu_2'
+    - '[sound] ITEM_BOOK_PAGE_TURN'

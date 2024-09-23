@@ -1,0 +1,90 @@
+################################################################
+#
+#    Chatty (version 3.0.0-SNAPSHOT)
+#    Author: Brikster
+#
+################################################################
+
+chat:
+  enable: false
+  lists:
+    default:
+      # Time in seconds for periodically broadcasting
+      period: 60
+      
+      # Messages of chat notifications support MiniMessage format BOTH
+      # legacy color codes with &, various hex-codes formats.
+      # You can use convenient WebUI: https://webui.advntr.dev/
+      messages:
+      - |-
+        &8===================================
+        <gradient:#f3801f:#eb9115>Chatty</gradient> &7- &fawesome chat management system.
+        It supports <yellow>MiniMessage</yellow> format.
+        But you can use also legacy color codes with &b& &fsymbol.
+        Convenient website for preparing <yellow>MiniMessage</yellow>: <click:open_url:'https://webui.advntr.dev/'><hover:show_text:'<green>MiniMessage Viewer'>&2click here</hover></click>.
+        &8===================================
+      - |-
+        &8===================================
+        &eSecond message from default channel
+        &8===================================
+      permission-required: false
+      random-order: false
+    donate:
+      # Time in seconds for periodically broadcasting
+      period: 30
+      
+      # Messages of chat notifications support MiniMessage format BOTH
+      # legacy color codes with &, various hex-codes formats.
+      # You can use convenient WebUI: https://webui.advntr.dev/
+      messages:
+      - "<rainbow>You can check for updates at <click:open_url:'https://www.spigotmc.org/resources/chatty-lightweight-universal-bukkit-chat-system-solution-1-7-10-1-18.59411/'><yellow>spigotmc.org</yellow></click></rainbow>"
+      
+      # Enable this, if you want to restrict channel by permission
+      permission-required: false
+      
+      # Enable this, if you want messages to be sent randomly
+      random-order: false
+
+actionbar:
+  enable: false
+  lists:
+    default:
+      # Time in seconds for periodically broadcasting
+      period: 60
+      
+      # Time in seconds for message stay
+      # Should be equal or lower than period
+      stay: 60
+      
+      # Messages of chat notifications support MiniMessage format BOTH
+      # legacy color codes with &, various hex-codes formats.
+      # You can use convenient WebUI: https://webui.advntr.dev/
+      messages:
+      - '&aFirst message from actionbar'
+      - '&2Second message from actionbar'
+      
+      # Enable this, if you want to restrict channel by permission
+      permission-required: false
+      
+      # Enable this, if you want messages to be sent randomly
+      random-order: false
+
+title:
+  enable: false
+  lists:
+    default:
+      # Time in seconds for periodically broadcasting
+      period: 60
+      
+      # Messages of title notifications support MiniMessage format BOTH
+      # legacy color codes with &, various hex-codes formats.
+      # You can use convenient WebUI: https://webui.advntr.dev/
+      messages:
+      - title: '&aExample title'
+        subtitle: '&2Example subtitle'
+      
+      # Enable this, if you want to restrict channel by permission
+      permission-required: false
+      
+      # Enable this, if you want messages to be sent randomly
+      random-order: false

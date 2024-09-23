@@ -1,0 +1,35 @@
+id: btorg
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: f0d20c28-694f-4d06-b4e3-739167fffac7
+world: spawn
+location:
+  x: -15.499340479696421
+  y: 64.0
+  z: -895.4897674231572
+  yaw: 1.3098145
+  pitch: -0.31269264
+type: player
+properties:
+  skin_left_leg: 'true'
+  look: CLOSEST_PLAYER
+  skin_cape: 'true'
+  skin_hat: 'true'
+  skin_jacket: 'true'
+  skin: fetching;JeiManfret
+  skin_left_sleeve: 'true'
+  offhand: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAD3F0AAtORVRIRVJfU1RBUg==
+  skin_right_leg: 'true'
+  skin_right_sleeve: 'true'
+hologram:
+  lines:
+  - '&a&lТЁМНЫЙ ТОРГОВЕЦ'
+  - '&7Эксклюзивные вещи'
+  - ''
+  - '&fПриобретай уникальные'
+  - '&fи редкие предметы'
+  - ''
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;YnRvcmc=;1000;ANY_CLICK;0

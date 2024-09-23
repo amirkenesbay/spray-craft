@@ -1,0 +1,21 @@
+id: marry
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: ab30e211-21d3-4f74-8be1-49e07ca33411
+world: spawn
+location:
+  x: -18.55220244533379
+  y: 64.0
+  z: -875.4251996841134
+  yaw: -37.48352
+  pitch: 5.264063
+type: fox
+properties:
+  fox_sleeping: 'true'
+hologram:
+  lines:
+  - '&a&lВЫБРАТЬ ПОЛ'
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;Z2VuZGVy;1000;ANY_CLICK;0

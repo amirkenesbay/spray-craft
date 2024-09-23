@@ -1,0 +1,67 @@
+menu_title: '&0Набор ярстоуна [2/2]'
+size: 54
+items: 
+  '1':
+    material: potato
+    slot: 11
+    amount: 4
+  '2':
+    material: pumpkin_seeds
+    slot: 12
+    amount: 5
+  '3':
+    material: oak_sapling
+    slot: 13
+    amount: 7
+  '4':
+    material: melon_seeds
+    slot: 14
+    amount: 3
+  '5':
+    material: compass
+    slot: 15
+    amount: 1
+    
+  '6':
+    material: map
+    slot: 20
+    amount: 1
+  '7':
+    material: beetroot_seeds
+    slot: 21
+    amount: 2
+
+
+
+  'next':
+    material: ARROW
+    slots:
+    - 50
+    display_name: '&#FBF386&lНазад'
+    lore:
+    - '&#838a87Предыдущая страница'    
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfВернуться на предыдущую'
+    - '  &#cfcfcfстраницу где Вы были'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[openguimenu] jarstone'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'               
+    
+  'give':
+    material: glow_item_frame
+    slots:
+    - 48
+    display_name: '&a&lПолучить набор'
+    lore: 
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfПолучите ваш начальный'
+    - '  &#cfcfcfнабор для выживания'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[player] cmi kit jarstone'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'       

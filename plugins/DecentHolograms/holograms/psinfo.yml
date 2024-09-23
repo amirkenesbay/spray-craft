@@ -1,0 +1,28 @@
+location: spawn:-101,533:62,859:-883,488
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON:IRON_BLOCK'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lИНФОРМАЦИЯ О РЕГИОНАХ'
+    height: 0.3
+  - content: Чтобы создать свой регион,
+    height: 0.3
+  - content: вы должны добыть один
+    height: 0.3
+  - content: из этих блоков
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&e/ps add &8- &fДобавить в регион'
+    height: 0.3
+  - content: '&e/ps info &8- &fИнформация о регионе'
+    height: 0.3
+  actions: {}

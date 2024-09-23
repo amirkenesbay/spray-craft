@@ -1,0 +1,254 @@
+backpack_data:
+  classname: teammt.mtbackpack.classes.Backpack
+  fields:
+    items:
+      classname: java.util.HashMap
+      entries:
+        entry0:
+          key: 0
+          value:
+            classname: org.bukkit.inventory.ItemStack
+            properties:
+              classname: java.util.LinkedHashMap
+              entries:
+                entry0:
+                  key: v
+                  value: 3953
+                entry1:
+                  key: type
+                  value: SLIME_BALL
+                entry2:
+                  key: amount
+                  value: 64
+        entry1:
+          key: 1
+          value:
+            classname: org.bukkit.inventory.ItemStack
+            properties:
+              classname: java.util.LinkedHashMap
+              entries:
+                entry0:
+                  key: v
+                  value: 3953
+                entry1:
+                  key: type
+                  value: SLIME_BALL
+                entry2:
+                  key: amount
+                  value: 64
+        entry2:
+          key: 2
+          value:
+            classname: org.bukkit.inventory.ItemStack
+            properties:
+              classname: java.util.LinkedHashMap
+              entries:
+                entry0:
+                  key: v
+                  value: 3953
+                entry1:
+                  key: type
+                  value: SLIME_BALL
+                entry2:
+                  key: amount
+                  value: 40
+        entry3:
+          key: 3
+          value:
+            classname: org.bukkit.inventory.ItemStack
+            properties:
+              classname: java.util.LinkedHashMap
+              entries:
+                entry0:
+                  key: v
+                  value: 3953
+                entry1:
+                  key: type
+                  value: GUNPOWDER
+                entry2:
+                  key: amount
+                  value: 24
+        entry4:
+          key: 4
+          value:
+            classname: org.bukkit.inventory.ItemStack
+            properties:
+              classname: java.util.LinkedHashMap
+              entries:
+                entry0:
+                  key: v
+                  value: 3953
+                entry1:
+                  key: type
+                  value: TIPPED_ARROW
+                entry2:
+                  key: amount
+                  value: 20
+                entry3:
+                  key: meta
+                  value:
+                    classname: org.bukkit.craftbukkit.inventory.SerializableMeta
+                    properties:
+                      classname: java.util.HashMap
+                      entries:
+                        entry0:
+                          key: meta-type
+                          value: POTION
+                        entry1:
+                          key: potion-type
+                          value: minecraft:poison
+                        entry2:
+                          key: custom-effects
+                          value:
+                            classname: java.util.ArrayList
+        entry5:
+          key: 5
+          value:
+            classname: org.bukkit.inventory.ItemStack
+            properties:
+              classname: java.util.LinkedHashMap
+              entries:
+                entry0:
+                  key: v
+                  value: 3953
+                entry1:
+                  key: type
+                  value: BOW
+        entry6:
+          key: 6
+          value:
+            classname: org.bukkit.inventory.ItemStack
+            properties:
+              classname: java.util.LinkedHashMap
+              entries:
+                entry0:
+                  key: v
+                  value: 3953
+                entry1:
+                  key: type
+                  value: BOW
+        entry7:
+          key: 7
+          value:
+            classname: org.bukkit.inventory.ItemStack
+            properties:
+              classname: java.util.LinkedHashMap
+              entries:
+                entry0:
+                  key: v
+                  value: 3953
+                entry1:
+                  key: type
+                  value: BOW
+                entry2:
+                  key: meta
+                  value:
+                    classname: org.bukkit.craftbukkit.inventory.SerializableMeta
+                    properties:
+                      classname: java.util.HashMap
+                      entries:
+                        entry0:
+                          key: meta-type
+                          value: UNSPECIFIC
+                        entry1:
+                          key: lore
+                          value:
+                            classname: java.util.ArrayList
+                            entries:
+                              entry0: '{"text":"","extra":[{"text":"Взрывчатка V","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+                              entry1: '{"text":"","extra":[{"text":"Мастер лука IV","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false}]}'
+                              entry2: '{"text":"","extra":[{"text":"Длинный лук IV","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+                        entry2:
+                          key: enchants
+                          value:
+                            classname: java.util.HashMap
+                            entries:
+                              entry0:
+                                key: minecraft:unbreaking
+                                value: 3
+                        entry3:
+                          key: Damage
+                          value: 7
+                        entry4:
+                          key: PublicBukkitValues
+                          value: |-
+                            {
+                                "advancedenchantments:ae_enchantment-bowmaster": 4,
+                                "advancedenchantments:ae_enchantment-explosive": 5,
+                                "advancedenchantments:ae_enchantment-longbow": 4,
+                                "advancedenchantments:slots": 3
+                            }
+        entry8:
+          key: 8
+          value:
+            classname: org.bukkit.inventory.ItemStack
+            properties:
+              classname: java.util.LinkedHashMap
+              entries:
+                entry0:
+                  key: v
+                  value: 3953
+                entry1:
+                  key: type
+                  value: CROSSBOW
+                entry2:
+                  key: meta
+                  value:
+                    classname: org.bukkit.craftbukkit.inventory.SerializableMeta
+                    properties:
+                      classname: java.util.HashMap
+                      entries:
+                        entry0:
+                          key: meta-type
+                          value: CROSSBOW
+                        entry1:
+                          key: Damage
+                          value: 2
+        entry9:
+          key: 9
+          value:
+            classname: org.bukkit.inventory.ItemStack
+            properties:
+              classname: java.util.LinkedHashMap
+              entries:
+                entry0:
+                  key: v
+                  value: 3953
+                entry1:
+                  key: type
+                  value: KELP
+                entry2:
+                  key: amount
+                  value: 22
+        entry10:
+          key: 10
+          value:
+            classname: org.bukkit.inventory.ItemStack
+            properties:
+              classname: java.util.LinkedHashMap
+              entries:
+                entry0:
+                  key: v
+                  value: 3953
+                entry1:
+                  key: type
+                  value: WHITE_BED
+        entry11:
+          key: 11
+          value:
+            classname: org.bukkit.inventory.ItemStack
+            properties:
+              classname: java.util.LinkedHashMap
+              entries:
+                entry0:
+                  key: v
+                  value: 3953
+                entry1:
+                  key: type
+                  value: WHITE_BED
+    requiresRerender: false
+    type: epic_bp
+    id:
+      classname: java.util.UUID
+      value: 08591d2d-8b2d-43ca-bb76-37366c9f1ff8
+    size: 36

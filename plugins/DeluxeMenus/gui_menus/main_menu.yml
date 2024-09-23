@@ -1,0 +1,203 @@
+menu_title: '&0Меню сервера'
+open_command: menu
+register_command: true
+size: 54
+items:
+  'donate':
+    material: DIAMOND
+    slot: 11
+    display_name: '&#8730dd&lПривилегии'
+    lore:
+      - '&#727776Возможности привилегий'
+      - ''
+      - ' &8Информация '
+      - '   &fОсобые возможности, которые получают'
+      - '   &fдонатеры за покупку привилегии.'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+      - '[openguimenu] donates'
+      - '[sound] BLOCK_LEVER_CLICK'
+
+  'quests':
+    material: OAK_HANGING_SIGN
+    slot: 38
+    display_name: '&#A0FB4F&lКвесты'
+    lore:
+      - '&#727776Приключения ждут'
+      - ''
+      - ' &8Информация '
+      - '   &fИнтересные задания, которые'
+      - '   &fпомогут вам получить'
+      - '   &fуникальные награды'  
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+      - '[openguimenu] quests_menu'
+      - '[sound] BLOCK_LEVER_CLICK'          
+      
+        
+  'jobs':
+    material: CLOCK
+    slot: 30
+    display_name: '&#3DFB4B&lРаботы'
+    lore:
+      - '&#727776Разновидные работы'
+      - ''
+      - ' &8Информация '
+      - '   &fСпособ заработка монет'
+      - '   &fна сервере. Выберите' 
+      - '   &fработу, которая вам понравится'  
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+      - '[player] jobs'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'            
+
+  'ah':
+    material: COMPASS
+    slot: 31
+    display_name: '&#FB6F3B&lАукцион'
+    lore:
+      - '&#727776Покупка и продажа'
+      - ''
+      - ' &8Информация '
+      - '   &fМесто, где игроки могут продавать '
+      - '   &fи покупать предметы. Продавайте свои '
+      - '   &fвещи и установите цену, или посмотрите '
+      - '   &fна доступные предметы. '  
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти '
+    click_commands:
+      - '[player] ah'
+      - '[sound] BLOCK_LEVER_CLICK'      
+
+  'kits':
+    material: chest
+    slot: 32
+    display_name: '&#3667FB&lКиты'
+    lore:
+      - '&#727776Быстрый старт '
+      - ''
+      - ' &8Информация '
+      - '   &fПолучите кит-старт для хорошего начала. '
+      - '   &fС каждый привилегией вам будут доступны '
+      - '   &fвсё более интересные наборы с вещами. '      
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти '
+    click_commands:
+      - '[player] kits'
+      - '[sound] BLOCK_LEVER_CLICK'      
+
+  'skills':
+    material: blade_pottery_sherd   
+    slot: 33
+    display_name: '&#FBD2C7&lНавыки'
+    lore:
+      - '&#727776Прокачка персонажа '
+      - ''
+      - ' &8Информация '
+      - '   &fУникальные умения, развиваемые при '
+      - '   &fвыполнении заданий. Высокий уровень '
+      - '   &fнавыка дает преимущества, такие '      
+      - '   &fкак улучшение боевых навыков '      
+      - '   &fи скорости добычи ресурсов. '            
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+      - '[player] skills'
+      - '[sound] BLOCK_LEVER_CLICK'      
+
+  'enchant':
+    material: enchanted_book
+    slot: 29
+    display_name: '&#FBD2C7&lКастомные зачарования'
+    lore:
+      - '&#727776Новые возможности '
+      - ''
+      - ' &8Информация '
+      - '   &fОткройте для себя новые возможности'
+      - '   &fс помощью кастомных зачарований.'
+      - '   &fДобавьте новые эффекты к своим'      
+      - '   &fпредметам для лучшей игры'              
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+      - '[openguimenu] enchants'
+      - '[sound] BLOCK_LEVER_CLICK'
+            
+  'warp':
+    material: bell
+    slot: 42
+    display_name: '&#3667FB&lВарпы'
+    lore:
+      - '&#727776Быстрый телепорт '
+      - ''
+      - ' &8Информация '
+      - '   &fПутешествуйте по варпам'
+      - '   &fскайблока и иследуйте новые места'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+      - '[openguimenu] warps_menu'
+      - '[sound] BLOCK_LEVER_CLICK'                  
+
+  'upgrade':
+    material: HOPPER
+    slot: 40
+    display_name: '&#CBFB54&lУмные механизмы'
+    lore:
+      - '&#727776Хорошая помощь '
+      - ''
+      - ' &8Информация '
+      - '   &fМеханизмы которые упростят'
+      - '   &fвашу жизнь на острове'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+      - '[openguimenu] hoppers'
+      - '[sound] BLOCK_LEVER_CLICK'    
+
+  'help':
+    material: book
+    slot: 15
+    display_name: '&#EC77FB&lПомощь по режиму'
+    lore:
+      - '&#727776Основная информация '
+      - ''
+      - ' &8Информация '
+      - '   &fТут находится вся необходимая'
+      - '   &fинформация сервера и помощь по командам'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти '
+    click_commands:
+      - '[openguimenu] tutorial'
+      - '[sound] BLOCK_LEVER_CLICK'    
+
+  'profile':
+    material: head-%player_name%
+    slot: 13
+    display_name: '&#FCD05C&lНастройки профиля'
+    lore:
+      - '&#727776Настройки '
+      - ''
+      - ' &8Информация '
+      - '   &fВы сможете посмотреть свою'
+      - '   &fстатистку и отключить функции'
+      - ''
+      - '&#52d797▸ Нажмите, чтобы перейти '
+    click_commands:
+      - '[openguimenu] profile_menu'
+      - '[sound] BLOCK_LEVER_CLICK'    
+
+  'fill':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: 
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+    hide_attributes: true
+    display_name: '&7'            

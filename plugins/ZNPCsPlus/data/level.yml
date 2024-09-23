@@ -1,0 +1,35 @@
+id: level
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: e08f49ff-58e8-4fac-82d1-305b2c0af7ae
+world: spawn
+location:
+  x: -81.47449932621483
+  y: 61.0
+  z: -865.5237470450493
+  yaw: -130.99036
+  pitch: -1.7610883
+type: player
+properties:
+  skin_left_leg: 'true'
+  look: CLOSEST_PLAYER
+  skin_cape: 'true'
+  skin_hat: 'true'
+  skin_jacket: 'true'
+  skin: fetching;Zenineko
+  skin_left_sleeve: 'true'
+  skin_right_leg: 'true'
+  skin_right_sleeve: 'true'
+  hand: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAD3F0ACNORVRIRVJJVEVfVVBHUkFERV9TTUlUSElOR19URU1QTEFURQ==
+hologram:
+  lines:
+  - '&a&lУРОВНИ'
+  - '&7Получи за повышение уровня'
+  - ''
+  - '&fЗабери свои заслуженные'
+  - '&fнаграды за повышение уровня'
+  - ''
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;bGV2ZWw=;1000;ANY_CLICK;0

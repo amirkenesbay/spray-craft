@@ -1,0 +1,98 @@
+Categories:
+  armor:
+    item:
+      id: IRON_CHESTPLATE
+      name: '#FCD05C&lБроня'
+      lore:
+      - '&8Создавайте что-то новое'
+      - ''
+      - ' &8Информация'
+      - '  &fЗдесь вы можете найти'
+      - '  &fкрафты снаряжение, инструментов' 
+      - '  &fи брони на сервере.'
+      - ''
+      - '&a▸ Нажмите, чтобы посмотреть'      
+      item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ARMOR_TRIM
+      - HIDE_ADDITIONAL_TOOLTIP
+      - HIDE_DESTROYS
+      - HIDE_DYE
+      - HIDE_PLACED_ON
+      - HIDE_ENCHANTS
+  weapons:
+    item:
+      id: WOODEN_SWORD
+      name: '#EC7DA0&lОружие'
+      lore:
+      - '&8Создавайте что-то новое'
+      - ''
+      - ' &8Информация'
+      - '  &fЗдесь вы можете найти'
+      - '  &fкрафты снаряжение, инструментов' 
+      - '  &fи брони на сервере.'
+      - ''
+      - '&a▸ Нажмите, чтобы посмотреть'      
+      item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ARMOR_TRIM
+      - HIDE_ADDITIONAL_TOOLTIP
+      - HIDE_DESTROYS
+      - HIDE_DYE
+      - HIDE_PLACED_ON
+      - HIDE_ENCHANTS  
+  tools:
+    item:
+      id: IRON_AXE
+      name: '#ECC27D&lИнструменты'
+      lore:
+      - '&8Создавайте что-то новое'
+      - ''
+      - ' &8Информация'
+      - '  &fЗдесь вы можете найти'
+      - '  &fкрафты снаряжение, инструментов' 
+      - '  &fи брони на сервере.'
+      - ''
+      - '&a▸ Нажмите, чтобы посмотреть'      
+      item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ARMOR_TRIM
+      - HIDE_ADDITIONAL_TOOLTIP
+      - HIDE_DESTROYS
+      - HIDE_DYE
+      - HIDE_PLACED_ON
+      - HIDE_ENCHANTS   
+  pets:
+    item:
+      id: PIGLIN_HEAD
+      name: '#DA7DEC&lПитомцы'
+      lore:
+      - '&8Создавайте что-то новое'
+      - ''
+      - ' &8Информация'
+      - '  &fЗдесь вы можете найти'
+      - '  &fкрафты снаряжение, инструментов' 
+      - '  &fи брони на сервере.'
+      - ''
+      - '&a▸ Нажмите, чтобы посмотреть'      
+      item_flags:
+      - HIDE_ATTRIBUTES             
+
+  loots:
+    item:
+      id: ELYTRA
+      name: '#DA7DEC&lВещи'
+      lore:
+      - '&8Создавайте что-то новое'
+      - ''
+      - ' &8Информация'
+      - '  &fЗдесь вы можете найти'
+      - '  &fкрафты различные вещи' 
+      - '  &fдля выживания.'
+      - ''
+      - '&a▸ Нажмите, чтобы посмотреть'      
+      item_flags:
+      - HIDE_ATTRIBUTES                   

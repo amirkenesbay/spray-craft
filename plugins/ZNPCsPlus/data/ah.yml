@@ -1,0 +1,34 @@
+id: ah
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 1631ac57-b3dc-4ac8-bbf5-14c2b226f82a
+world: spawn
+location:
+  x: -81.57650244624311
+  y: 61.0
+  z: -901.5559410409842
+  yaw: -46.0354
+  pitch: -2.7749841
+type: player
+properties:
+  skin_left_leg: 'true'
+  look: CLOSEST_PLAYER
+  skin_cape: 'true'
+  skin_hat: 'true'
+  skin_jacket: 'true'
+  skin: fetching;Hawk7006535
+  skin_left_sleeve: 'true'
+  skin_right_leg: 'true'
+  skin_right_sleeve: 'true'
+hologram:
+  lines:
+  - '&a&lАУКЦИОН'
+  - '&7Продажа от игроков'
+  - ''
+  - '&fУчаствуй в торгах и приобретай'
+  - '&fредкие предметы на аукционе'
+  - ''
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;YWg=;1000;ANY_CLICK;0

@@ -1,0 +1,105 @@
+menu_title: '&0Набор'
+open_command:
+  - kits
+  - ekits
+  - kit
+  - ekit
+  - cmi kit
+  - cmi kits
+register_command: true  
+size: 35
+items:
+  'start':
+    material: chest
+    slot: 10
+    display_name: '&7Начальный набор'
+    lore:
+    - ''
+    - ' &fЛКМ &8- &#cfcfcfЗабрать набор'
+    - ''    
+    left_click_commands:
+    - '[player] cmi kit start'
+    - '[refresh]'
+  'pluto':
+    material: charcoal
+    slot: 11
+    display_name: '&#7fd4c9Набор &#7fd4c9&lPLUTO'
+    lore:
+    - ''
+    - ' &fЛКМ &8- &#cfcfcfЗабрать набор'
+    - ''    
+    left_click_commands:
+    - '[player] cmi kit pluto'
+    - '[refresh]'
+  'brillium':
+    material: raw_iron
+    slot: 12
+    display_name: '&#b97ecfНабор &#b87ece&lBRILLIUM'
+    lore:
+    - ''
+    - ' &fЛКМ &8- &#cfcfcfЗабрать набор'
+    - ''    
+    left_click_commands:
+    - '[player] cmi kit brillium'
+    - '[refresh]'  
+  'vanderi':
+    material: raw_copper
+    slot: 13
+    display_name: '&#7c786aНабор &#7c786a&lVANDERI'
+    lore:
+    - ''
+    - ' &fЛКМ &8- &#cfcfcfЗабрать набор'
+    - ''    
+    left_click_commands:
+    - '[player] cmi kit vanderi'
+    - '[refresh]'  
+  'finicius':
+    material: raw_gold
+    slot: 14
+    display_name: '&#52d797Набор &#52d797&lFINICIUS'
+    lore:
+    - ''
+    - ' &fЛКМ &8- &#cfcfcfЗабрать набор'
+    - ''    
+    left_click_commands:
+    - '[player] cmi kit finicius'
+    - '[refresh]'   
+  'jarstone':
+    material: AMETHYST_SHARD
+    slot: 15
+    display_name: '&#e03fa0Набор &#e03fa0&lJARSTONE'
+    lore:
+    - ''
+    - ' &fЛКМ &8- &#cfcfcfЗабрать набор'
+    - ''    
+    left_click_commands:
+    - '[player] cmi kit jarstone'
+    - '[refresh]'    
+  'sponsor':
+    material: blaze_powder
+    slot: 16
+    display_name: '&#e03fa0Набор &x&F&F&E&F&5&C&lS&x&F&F&E&A&5&C&lP&x&F&E&E&5&5&C&lO&x&F&E&E&0&5&C&lN&x&F&D&D&A&5&C&lS&x&F&D&D&5&5&C&lO&x&F&C&D&0&5&C&lR'
+    lore:
+    - ''
+    - ' &fЛКМ &8- &#cfcfcfЗабрать набор'
+    - ''    
+    left_click_commands:
+    - '[player] cmi kit sponsor'
+    - '[refresh]'
+
+  'back':
+    material: ARROW
+    slots:
+    - 31
+    display_name: '&#FBF386&lНазад'
+    lore:
+    - '&#838a87Предыдущая страница'    
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfВернуться на предыдущую'
+    - '  &#cfcfcfстраницу где Вы были'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[openguimenu] main_menu'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'         

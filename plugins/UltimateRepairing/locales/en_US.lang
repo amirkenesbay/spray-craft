@@ -1,0 +1,41 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6Кузнец&7]'
+  hologram:
+    click: Левый клик с предметом
+    swapclick: Правый клик с предметом
+    oneclick: Клик с предметом
+    torepair: чтобы &6Починить&r!
+# Interface Messages
+interface:
+  repair:
+    title: '&0Как вы хотите починить?'
+    titleNone: '&0Ничего не нужно чинить...'
+    xpTitle: '&aОпыт'
+    xp: '&aопыта'
+    xplore: '&7Нажмите, чтобы починить с помощью опыта.'
+    ecoTitle: '&eМонетки'
+    eco: '&eмонет'
+    ecolore: '&7Нажмите, чтобы починить с помощью экономики.'
+    itemTitle: '&bПредметов'
+    item: '&9%ITEM%'
+    itemlore: '&fНажмите, чтобы починить с помощью %item%.'
+    swap: '&fНажмите, чтобы сменить тип починки.'
+  yesno:
+    title: '&0Починить за &a%cost%'
+    titleEco: '&0Починить за &e%cost% монет'
+    'yes': '&a&lДа'
+    'no': '&c&lНет'
+# Event Messages
+event:
+  general:
+    nopermission: '&cУ вас нет прав на это.'
+  repair:
+    timeout: '&fВремя &eпочинки &fистекло...'
+    needspace: '&cВам нужно свободное место над наковальней!'
+    notenough: '&fУ вас недостаточно %type% &fдля починки этого предмета.'
+    success: '&fВаш предмет &aуспешно &fпочинен.'
+    cancelled: '&cПочинка отменена.'
+    notfound: '&fПредмет, &cкоторый вы пытались &fпочинить, исчез.'

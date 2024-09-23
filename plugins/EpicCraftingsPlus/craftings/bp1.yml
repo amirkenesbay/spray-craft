@@ -1,0 +1,39 @@
+item:
+  original:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"| ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":true},{"text":"Обычный
+        рюкзак ","italic":false,"color":"white","bold":false},{"text":"[9 слотов]","italic":false,"color":"gray"}]}'
+      lore:
+      - '""'
+      - '{"text":"","extra":[" ",{"text":"Этот рюкзак содержит ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"9
+        ","italic":false,"color":"white"},{"text":"слотов,","italic":false,"color":"gray"}]}'
+      - '{"text":"","extra":[" ",{"text":"в которых можно хранить предметы!    ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"","italic":false,"color":"gray"}]}'
+      - '""'
+      - '{"text":"","extra":[" ",{"text":"▫ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"▉▉▉▉▉▉▉▉▉▉
+        ","italic":false,"color":"gray"},{"text":"(0,00% использовано)","italic":false,"color":"gray"}]}'
+      - '""'
+      custom: H4sIAAAAAAAA/+NiYOBg4HFKTM4uAOKQyoJUBs7k/Nzc/Lz4pAIOBi6YjKcLg0qKSVKysUWyqa6xabKJromFcYquZUqysa6lhbFZkqWpmaV5qgEHgxBMS0BRallmanlIYjqDbbVSQX5BaU5iSWpKcE5+SbGSVXSsjlIxkOmYm1+aV6JkZQnkluQXJaanghyhZKXk5OjsHQDESrUMAHMnhdqlAAAA
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: d9039f27-ec13-4c7b-818b-91bb0b4b85b5
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY4YTJhODg3NWEyNWE3ODEwY2JjNTVmNTlmYWU0YWRmODk4YjQ3Y2Q2YTdkZjQwOWZiZDg4ZWZlOWMxNjYzMCJ9fX0=
+priority: 1
+no_item: true  
+actions_when_crafted:
+- 'firework: colors:YELLOW,RED type:BALL fade:AQUA power:0'
+- 'console_command: mtbackpack give common_bp %player%'
+save_original_item: true
+requires:
+- id:IRON_INGOT;amount:2
+- id:LEATHER;amount:3
+- id:CHEST;amount:1
+- id:STRING;amount:16
+- id:WHITE_WOOL;amount:1
+category: loots

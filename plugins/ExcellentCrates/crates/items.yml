@@ -1,0 +1,1926 @@
+Name: Кейс с вещами
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  Ids:
+  - armor
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+Block:
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: items
+    Y_Offset: 0.0
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: DUST
+      Color: 255,255,255
+      Size: 1.0
+  Positions:
+  - -6,65,-879,spawn
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+    алмазный_нагрудник:
+      Name: '&fАлмазный нагрудник'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i0073dd5n6aoric5j78ej4d5gmqrrechfm6q35edq70r31ehigk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma05cfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4gq2tt1f6gm38bfk5tq65t1e90q2ut1c6gmf8o1kc3q2qd1fegn38bk8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800pdlkmspb3e9gmct1qcpkn4pave1p6ut35cdq6irre08006r3mdg0080000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0073dd5n6aoric5j78ej4d5gmqrrechfm6q35edq70r31ehigk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma05cfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4gq2tt1f6gm38bfk5tq65t1e90q2ut1c6gmf8o1kc3q2qd1fegn38bk8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800pdlkmspb3e9gmct1qcpkn4pave1p6ut35cdq6irre08006r3mdg0080000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовые_поножи:
+      Name: '&fНезеритовые поножи'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01orb9dpim6sj1cpq3krj5ehk6asj9ehilur35ctjmirj7ec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1b3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd17egmn8bfk5lq60d1e6hgb8btk5iq65t1d90q2vt1fmgnn8btk5mq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01orb9dpim6sj1cpq3krj5ehk6asj9ehilur35ctjmirj7ec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1b3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd17egmn8bfk5lq60d1e6hgb8btk5iq65t1d90q2vt1fmgnn8btk5mq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовые_поножи1:
+      Name: '&fНезеритовые поножи'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01orb9dpim6sj1cpq3krj5ehk6asj9ehilur35ctjmirj7ec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1b3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd17egmn8bfk5lq60d1e6hgb8btk5iq65t1d90q2vt1fmgnn8btk5mq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01orb9dpim6sj1cpq3krj5ehk6asj9ehilur35ctjmirj7ec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1b3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd17egmn8bfk5lq60d1e6hgb8btk5iq65t1d90q2vt1fmgnn8btk5mq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотой_нагрудник:
+      Name: '&fЗолотой нагрудник'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400dmqqbeclhn4ob6egt6errcchimsnr3d1in6t3gdhgn8p8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502l7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2bt1fmgnf8btkc2q2vd1e90q2ut1c6gmf8o1kc3q2qd1fegn38bk8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0080000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400dmqqbeclhn4ob6egt6errcchimsnr3d1in6t3gdhgn8p8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502l7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2bt1fmgnf8btkc2q2vd1e90q2ut1c6gmf8o1kc3q2qd1fegn38bk8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0080000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовые_ботинки:
+      Name: '&fНезеритовые ботинки'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i006bdd5n6aoric5j78ejeclq6gpbid5q6anr2dtnn8soa001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502n7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2et1degmv8bbkc0q2sd30mgnr8b5kcbq2qi1k5hq2vd30mgn38brk5qq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006bdd5n6aoric5j78ejeclq6gpbid5q6anr2dtnn8soa001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502n7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2et1degmv8bbkc0q2sd30mgnr8b5kcbq2qi1k5hq2vd30mgn38brk5qq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотые_поножи:
+      Name: '&fЗолотые поножи'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i006bdd5n6aoric5j78ej7dtm68pbebtm6apr7d5n6esoa001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502i7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2bt1fmgnf8btkc2q65t1d90q2vt1fmgnn8btk5mq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006bdd5n6aoric5j78ej7dtm68pbebtm6apr7d5n6esoa001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502i7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2bt1fmgnf8btkc2q65t1d90q2vt1fmgnn8btk5mq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазные_ботинки:
+      Name: '&fАлмазные ботинки'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01erb9dpim6sj1cpq3kp39c5mmurj4bth6urrkec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1a3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fehhf8ba86gm78btkc2q2sd1fegnb8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800pdlkmspb3e9gmct1qcpkn4pave1p6ut35cdq6irre08006r3mdg0080000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01erb9dpim6sj1cpq3kp39c5mmurj4bth6urrkec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1a3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fehhf8ba86gm78btkc2q2sd1fegnb8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800pdlkmspb3e9gmct1qcpkn4pave1p6ut35cdq6irre08006r3mdg0080000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазные_ботинки1:
+      Name: '&fАлмазные ботинки'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01erb9dpim6sj1cpq3kp39c5mmurj4bth6urrkec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1a3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fehhf8ba86gm78btkc2q2sd1fegnb8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000620009km800ndlkmspb3e9gmct1qchin0t38btpn8sj9chin40g00dm7cr000c00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01erb9dpim6sj1cpq3kp39c5mmurj4bth6urrkec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1a3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fehhf8ba86gm78btkc2q2sd1fegnb8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000620009km800ndlkmspb3e9gmct1qchin0t38btpn8sj9chin40g00dm7cr000c00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовые_ботинки1:
+      Name: '&fНезеритовые ботинки'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i006bdd5n6aoric5j78ejeclq6gpbid5q6anr2dtnn8soa001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502n7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2et1degmv8bbkc0q2sd30mgnr8b5kcbq2qi1k5hq2vd30mgn38brk5qq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006bdd5n6aoric5j78ejeclq6gpbid5q6anr2dtnn8soa001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502n7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2et1degmv8bbkc0q2sd30mgnr8b5kcbq2qi1k5hq2vd30mgn38brk5qq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовый_нагрудник:
+      Name: '&fНезеритовый нагрудник'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01srb9dpim6sj1cpq3krj5ehk6asj9ehiluor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80m9ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjn8bbk5nq2qt306gn38o5k5uq2pd32ugn4gd1fegm38b7kc0q61t1d6gnn8bhk5q49ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000310004qb400a6qqbeclhn4ob6egt70sjfehim6t39dtn04003dhr6o003004000j9cg010rb9dpim6sj1cpq3kt38dtp6sso2001motjc0010020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01srb9dpim6sj1cpq3krj5ehk6asj9ehiluor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80m9ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjn8bbk5nq2qt306gn38o5k5uq2pd32ugn4gd1fegm38b7kc0q61t1d6gnn8bhk5q49ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000310004qb400a6qqbeclhn4ob6egt70sjfehim6t39dtn04003dhr6o003004000j9cg010rb9dpim6sj1cpq3kt38dtp6sso2001motjc0010020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовый_нагрудник1:
+      Name: '&fНезеритовый нагрудник'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800udlkmspb3e9gmct1qdpin8q35e9kn8pavcdk6asrke1m62t3518006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0b4up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b89rk5lq2rt1dehg38bhkc2q2vd1cmhhf8bi86gnn8b1k5jq60d30ugmj8brk5oq2t24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qdpin8q35e9kn8pavcdk6asrke1m62t3518006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0b4up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b89rk5lq2rt1dehg38bhkc2q2vd1cmhhf8bi86gnn8b1k5jq60d30ugmj8brk5oq2t24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазные_поножи:
+      Name: '&fАлмазные поножи'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400d6qqbeclhn4ob6egt68qb1dlnmsp2vdhimepr9dpjn62g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgi38bnk5sq2od1dugnn8onk5l438bvk5uq2ut1fmgmr8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400d6qqbeclhn4ob6egt68qb1dlnmsp2vdhimepr9dpjn62g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgi38bnk5sq2od1dugnn8onk5l438bvk5uq2ut1fmgmr8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазный_нагрудник1:
+      Name: '&fАлмазный нагрудник'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400e6qqbeclhn4ob6egt68qb1dlnmsp2vcdk6asrke1m62t3518006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0aoup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b891k5rq2ud1c6gmv8brkcbq2si1k5tq2od1cuhg38o7k5kq2ut1e6gn8h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000084000j9cg018rb9dpim6sj1cpq3ks3idtq6aorkd5nms0g00dm7cr000g00g002d5i0043dd5n6aoric5j78ejkd1nn4rjj08006r3mdg0040000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt68qb1dlnmsp2vcdk6asrke1m62t3518006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0aoup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b891k5rq2ud1c6gmv8brkcbq2si1k5tq2od1cuhg38o7k5kq2ut1e6gn8h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000084000j9cg018rb9dpim6sj1cpq3ks3idtq6aorkd5nms0g00dm7cr000g00g002d5i0043dd5n6aoric5j78ejkd1nn4rjj08006r3mdg0040000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железные_ботинки:
+      Name: '&fЖелезные ботинки'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip002hmmirj5cdp62pjk79kn4rrebth6urrkec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1a3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fehhf8ba86gm78btkc2q2sd1fegnb8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000620009km800ndlkmspb3e9gmct1qchin0t38btpn8sj9chin40g00dm7cr000c00g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002hmmirj5cdp62pjk79kn4rrebth6urrkec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1a3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fehhf8ba86gm78btkc2q2sd1fegnb8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000620009km800ndlkmspb3e9gmct1qchin0t38btpn8sj9chin40g00dm7cr000c00g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железные_поножи:
+      Name: '&fЖелезные поножи'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i005rdd5n6aoric5j78ej9e9nmsnrccljmeqbectpgk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma056fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4mq2qt1eugmn8bfk5tq65t1d90q2vt1fmgnn8btk5mq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005rdd5n6aoric5j78ej9e9nmsnrccljmeqbectpgk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma056fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4mq2qt1eugmn8bfk5tq65t1d90q2vt1fmgnn8btk5mq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железный_нагрудник:
+      Name: '&fЖелезный нагрудник'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i006bdd5n6aoric5j78ej9e9nmsnr3d1in6t3gdhgn8p8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502m7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2bd1degnf8bbk5nq2ut32ugn4gd1fegm38b7kc0q61t1d6gnn8bhk5q49ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000310004qb400cmqqbeclhn4ob6egt6cqbiclfn0sjfehim6t39dtn04003dhr6o003004000j9cg010rb9dpim6sj1cpq3kt38dtp6sso2001motjc0010020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006bdd5n6aoric5j78ej9e9nmsnr3d1in6t3gdhgn8p8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502m7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2bd1degnf8bbk5nq2ut32ugn4gd1fegm38b7kc0q61t1d6gnn8bhk5q49ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000310004qb400cmqqbeclhn4ob6egt6cqbiclfn0sjfehim6t39dtn04003dhr6o003004000j9cg010rb9dpim6sj1cpq3kt38dtp6sso2001motjc0010020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотые_поножи1:
+      Name: '&fЗолотые поножи'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800pdlkmspb3e9gmct1qctnmop35dpfmopb7ctkmsprj18006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0a8up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b89fk5uq2tt1fmhgb8onk5l438bvk5uq2ut1fmgmr8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qctnmop35dpfmopb7ctkmsprj18006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0a8up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b89fk5uq2tt1fmhgb8onk5l438bvk5uq2ut1fmgmr8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотые_ботинки:
+      Name: '&fЗолотые ботинки'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip002pmmirj5cdp62pjk79jmur34cln5uojfdtq762g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgiv8btk5rq2vd30mhhf8ba86gm78btkc2q2sd1fegnb8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000620009km800ndlkmspb3e9gmct1qchin0t38btpn8sj9chin40g00dm7cr000c00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002pmmirj5cdp62pjk79jmur34cln5uojfdtq762g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgiv8btk5rq2vd30mhhf8ba86gm78btkc2q2sd1fegnb8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000620009km800ndlkmspb3e9gmct1qchin0t38btpn8sj9chin40g00dm7cr000c00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотые_ботинки1:
+      Name: '&fЗолотые ботинки'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip002pmmirj5cdp62pjk79jmur34cln5uojfdtq762g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgiv8btk5rq2vd30mhhf8ba86gm78btkc2q2sd1fegnb8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002pmmirj5cdp62pjk79jmur34cln5uojfdtq762g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgiv8btk5rq2vd30mhhf8ba86gm78btkc2q2sd1fegnb8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазные_поножи1:
+      Name: '&fАлмазные поножи'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800qdlkmspb3e9gmct1qchkm2rbfdpi5ur35ctjmirj7ec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig19jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fehhf8ba86gnv8btk5tq2vd1dmgn0h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000084000j9cg01krb9dpim6sj1cpq3kojcc5pn8nrge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800qdlkmspb3e9gmct1qchkm2rbfdpi5ur35ctjmirj7ec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig19jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fehhf8ba86gnv8btk5tq2vd1dmgn0h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000084000j9cg01krb9dpim6sj1cpq3kojcc5pn8nrge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотой_нагрудник1:
+      Name: '&fЗолотой нагрудник'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip003dmmirj5cdp62pjk79jmur34cln5uor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80l9ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgiv8btk5rq2vd30mgnr8bi86gnn8b1k5jq60d30ugmj8brk5oq2t24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003dmmirj5cdp62pjk79jmur34cln5uor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80l9ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgiv8btk5rq2vd30mgnr8bi86gnn8b1k5jq60d30ugmj8brk5oq2t24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железный_нагрудник1:
+      Name: '&fЖелезный нагрудник'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip0035mmirj5cdp62pjk79kn4rrebthmgpbjeho6oobkck5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1b3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fehhf8bi86gnn8b1k5jq60d30ugmj8brk5oq2t24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0035mmirj5cdp62pjk79kn4rrebthmgpbjeho6oobkck5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1b3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fehhf8bi86gnn8b1k5jq60d30ugmj8brk5oq2t24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железные_ботинки1:
+      Name: '&fЖелезные ботинки'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip002hmmirj5cdp62pjk79kn4rrebth6urrkec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1a3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fehhf8ba86gm78btkc2q2sd1fegnb8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000620009km800ndlkmspb3e9gmct1qchin0t38btpn8sj9chin40g00dm7cr000c00g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002hmmirj5cdp62pjk79kn4rrebth6urrkec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1a3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fehhf8ba86gm78btkc2q2sd1fegnb8bg8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000620009km800ndlkmspb3e9gmct1qchin0t38btpn8sj9chin40g00dm7cr000c00g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железные_поножи1:
+      Name: '&fЖелезные поножи'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i005rdd5n6aoric5j78ej9e9nmsnrccljmeqbectpgk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma056fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4mq2qt1eugmn8bfk5tq65t1d90q2vt1fmgnn8btk5mq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005rdd5n6aoric5j78ej9e9nmsnrccljmeqbectpgk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma056fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4mq2qt1eugmn8bfk5tq65t1d90q2vt1fmgnn8btk5mq2s24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазная_кирка:
+      Name: '&fАлмазная кирка'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i006bdd5n6aoric5j78ej4d5gmqrrechfn0qb3ddgngp8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502i7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q28d1eugnj8b1k5nq2ut1c6hhsgd1emgn38o1k5qq2o24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006bdd5n6aoric5j78ej4d5gmqrrechfn0qb3ddgngp8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502i7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q28d1eugnj8b1k5nq2ut1c6hhsgd1emgn38o1k5qq2o24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазная_мотыга:
+      Name: '&fАлмазная мотыга'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400amqqbeclhn4ob6egt68qb1dlnmsp2vd1nma2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgi38bnk5sq2od1dugnn8b1kcf438bpk5uq61d32ugmf8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg0080000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400amqqbeclhn4ob6egt68qb1dlnmsp2vd1nma2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgi38bnk5sq2od1dugnn8b1kcf438bpk5uq61d32ugmf8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg0080000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазный_топор:
+      Name: '&fАлмазный топор'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400amqqbeclhn4ob6egt68qb1dlnmsp2vc5s6a2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80khti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgi38bnk5sq2od1dugnn8onk5p438o5k5uq2vt1fmhg0h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni0g00dm7cr000k00g002d5i0053dd5n6aoric5j78ejjd5m6mnrkdtqm6q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400amqqbeclhn4ob6egt68qb1dlnmsp2vc5s6a2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80khti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgi38bnk5sq2od1dugnn8onk5p438o5k5uq2vt1fmhg0h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni0g00dm7cr000k00g002d5i0053dd5n6aoric5j78ejjd5m6mnrkdtqm6q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазная_кирка1:
+      Name: '&fАлмазная кирка'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800pdlkmspb3e9gmct1qchkm2rbfdpi5us39cdlm2u3518006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0a8up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b891k5rq2ud1c6gmv8brk5gq67i1k5qq2sd306gnb8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qchkm2rbfdpi5us39cdlm2u3518006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0a8up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b891k5rq2ud1c6gmv8brk5gq67i1k5qq2sd306gnb8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазная_лопата:
+      Name: '&fАлмазная лопата'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400c6qqbeclhn4ob6egt68qb1dlnmsp2vedk6utj5dg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig19jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fegm38ou86gnf8btk5vq2od30mgm0h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni0g00dm7cr000g00g002d5i0053dd5n6aoric5j78ejjd5m6mnrkdtqm6q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400c6qqbeclhn4ob6egt68qb1dlnmsp2vedk6utj5dg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig19jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fegm38ou86gnf8btk5vq2od30mgm0h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni0g00dm7cr000g00g002d5i0053dd5n6aoric5j78ejjd5m6mnrkdtqm6q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотая_кирка:
+      Name: '&fЗолотая кирка'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip0031mmirj5cdp62pjk79jmur34cln5us39cdlm2u3518006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0a4up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b89fk5uq2tt1fmhgb8b1kcf438blk5oq60d1emgm0h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni0g00dm7cr000g00g002d5i0053dd5n6aoric5j78ejjd5m6mnrkdtqm6q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79jmur34cln5us39cdlm2u3518006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0a4up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b89fk5uq2tt1fmhgb8b1kcf438blk5oq60d1emgm0h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni0g00dm7cr000g00g002d5i0053dd5n6aoric5j78ejjd5m6mnrkdtqm6q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотой_топор:
+      Name: '&fЗолотой топор'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400a6qqbeclhn4ob6egt6errcchimsnr1f1igk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma052fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4nq2vd1eugnr8o5k5uq2si1kc2q2vd1fugnr8o08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400a6qqbeclhn4ob6egt6errcchimsnr1f1igk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma052fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4nq2vd1eugnr8o5k5uq2si1kc2q2vd1fugnr8o08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотая_лопата:
+      Name: '&fЗолотая лопата'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01erb9dpim6sj1cpq3kprfdhi6arivedk6utj5dg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15ugnr8bnk5uq61d1c6hhsgd1eugnr8bvk5gq61d1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0010010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01erb9dpim6sj1cpq3kprfdhi6arivedk6utj5dg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15ugnr8bnk5uq61d1c6hhsgd1eugnr8bvk5gq61d1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0010010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотая_мотыга:
+      Name: '&fЗолотая мотыга'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip002hmmirj5cdp62pjk79jmur34cln5uq3fck5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15ugnr8bnk5uq61d1c6hhsgd1f6gnr8o5kcbq2pt1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0010010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002hmmirj5cdp62pjk79jmur34cln5uq3fck5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15ugnr8bnk5uq61d1c6hhsgd1f6gnr8o5kcbq2pt1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0010010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазная_мотыга1:
+      Name: '&fАлмазная мотыга'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800ldlkmspb3e9gmct1qchkm2rbfdpi5uq3fck5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig19jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fegm38ou86gnj8btkc2q65t1cugm0h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0040000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800ldlkmspb3e9gmct1qchkm2rbfdpi5uq3fck5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig19jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fegm38ou86gnj8btkc2q65t1cugm0h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0040000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовый_топор:
+      Name: '&fНезеритовый топор'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800ndlkmspb3e9gmct1qdpin8q35e9kn8pavc5s6a2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80l9ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjn8bbk5nq2qt306gn38o5k5uq2pd32ugn4gd30mgnr8bvk5uq6024vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800ndlkmspb3e9gmct1qdpin8q35e9kn8pavc5s6a2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80l9ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjn8bbk5nq2qt306gn38o5k5uq2pd32ugn4gd30mgnr8bvk5uq6024vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовая_мотыга:
+      Name: '&fНезеритовая мотыга'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01erb9dpim6sj1cpq3krj5ehk6asj9ehiluq3fck5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1b3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd17egmn8bfk5lq60d1e6hgb8btk5iq2od33p0q2ud1fmhgb8onk5jq2o24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc002g020009km800kdlkmspb3e9gmct1qedkmoqqvehnnaor808006r3mdg0020000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01erb9dpim6sj1cpq3krj5ehk6asj9ehiluq3fck5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig1b3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd17egmn8bfk5lq60d1e6hgb8btk5iq2od33p0q2ud1fmhgb8onk5jq2o24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc002g020009km800kdlkmspb3e9gmct1qedkmoqqvehnnaor808006r3mdg0020000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовый_меч:
+      Name: '&fНезеритовый меч'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01irb9dpim6sj1cpq3krj5ehk6asj9ehilusrndtp682g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjn8bbk5nq2qt306gn38o5k5uq2pd32ugn4gd1f6gmn8oe8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000420009km800jdlkmspb3e9gmct1qddn6uorbc9gm6qo2001motjc0010020009km800fdlkmspb3e9gmct1qedmmit3508006r3mdg0080000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01irb9dpim6sj1cpq3krj5ehk6asj9ehilusrndtp682g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjn8bbk5nq2qt306gn38o5k5uq2pd32ugn4gd1f6gmn8oe8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000420009km800jdlkmspb3e9gmct1qddn6uorbc9gm6qo2001motjc0010020009km800fdlkmspb3e9gmct1qedmmit3508006r3mdg0080000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотой_меч:
+      Name: '&fЗолотой меч'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivedrmusj418006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck09sup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b89fk5uq2tt1fmhgb8btk5p438bpk5lq63i4vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk000001gg002d5i004rdd5n6aoric5j78ejbdpnm6qr2c5hmm0g00dm7cr000800g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc002g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivedrmusj418006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck09sup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b89fk5uq2tt1fmhgb8btk5p438bpk5lq63i4vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk000001gg002d5i004rdd5n6aoric5j78ejbdpnm6qr2c5hmm0g00dm7cr000800g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc002g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазная_лопата1:
+      Name: '&fАлмазная лопата'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip0031mmirj5cdp62pjk79i6iobddtn68nrjd1nncpbc18006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0acup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b891k5rq2ud1c6gmv8brk5gq67i1k5rq2vd1fugm38o5k5g49ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000210004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79i6iobddtn68nrjd1nncpbc18006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0acup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b891k5rq2ud1c6gmv8brk5gq67i1k5rq2vd1fugm38o5k5g49ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000210004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазный_шлем:
+      Name: '&fАлмазный шлем'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01grb9dpim6sj1cpq3kp39c5mmurj4btk6ar3dclq0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma052fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4gq2tt1f6gm38bfk5tq65t1e90q64d1eugmn8bo8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01grb9dpim6sj1cpq3kp39c5mmurj4btk6ar3dclq0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma052fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4gq2tt1f6gm38bfk5tq65t1e90q64d1eugmn8bo8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотой_шлемa:
+      Name: '&fЗолотой шлемa'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01erb9dpim6sj1cpq3kprfdhi6arivd1imorb5eg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig18br49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15ugnr8bnk5uq61d1fmgn4gd326gnf8bbk5sc4h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000084000j9cg01irb9dpim6sj1cpq3kpj9e9ilus3idtq6aorkd5nms0g00dm7cr000g00g002d5i005bdd5n6aoric5j78ejiclpn0qbic5q6irre08006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01erb9dpim6sj1cpq3kprfdhi6arivd1imorb5eg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig18br49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15ugnr8bnk5uq61d1fmgn4gd326gnf8bbk5sc4h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000084000j9cg01irb9dpim6sj1cpq3kpj9e9ilus3idtq6aorkd5nms0g00dm7cr000g00g002d5i005bdd5n6aoric5j78ejiclpn0qbic5q6irre08006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотая_мотыга1:
+      Name: '&fЗолотая мотыга'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400a6qqbeclhn4ob6egt6errcchimsnr8dtigk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma054fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4nq2vd1eugnr8o5k5gq67i1k5sq2vd30mhhf8b7k5g49ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000210004qb400a6qqbeclhn4ob6egt6apj6d5hmipbecdsg4003dhr6o004004000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400a6qqbeclhn4ob6egt6errcchimsnr8dtigk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma054fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4nq2vd1eugnr8o5k5gq67i1k5sq2vd30mhhf8b7k5g49ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000210004qb400a6qqbeclhn4ob6egt6apj6d5hmipbecdsg4003dhr6o004004000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазный_меч:
+      Name: '&fАлмазный меч'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01erb9dpim6sj1cpq3kp39c5mmurj4btpnerricg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig183r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fehhf8bi86gnj8bbkc749ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000310004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr000800g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01erb9dpim6sj1cpq3kp39c5mmurj4btpnerricg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig183r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fehhf8bi86gnj8bbkc749ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000310004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr000800g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотой_шлем:
+      Name: '&fЗолотой шлем'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800ndlkmspb3e9gmct1qctnmop35dpfmgpbcdlin82g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80k1ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgiv8btk5rq2vd30mgnr8bi86hh38bnk5lq2u24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800ndlkmspb3e9gmct1qctnmop35dpfmgpbcdlin82g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80k1ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgiv8btk5rq2vd30mgnr8bi86hh38bnk5lq2u24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железный_шлем:
+      Name: '&fЖелезный шлем'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip002lmmirj5cdp62pjk79kn4rrebtk6ar3dclq0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma052fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4mq2qt1eugmn8bfk5tq65t1e90q64d1eugmn8bo8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0080000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002lmmirj5cdp62pjk79kn4rrebtk6ar3dclq0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma052fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4mq2qt1eugmn8bfk5tq65t1e90q64d1eugmn8bo8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0080000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железная_мотыга:
+      Name: '&fЖелезная мотыга'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800idlkmspb3e9gmct1qd5p6urivd1nma2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgir8bbk5rq2qt1dugnn8b1kcf438bpk5uq61d32ugmf8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg00a0000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800idlkmspb3e9gmct1qd5p6urivd1nma2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgir8bbk5rq2qt1dugnn8b1kcf438bpk5uq61d32ugmf8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg00a0000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железная_лопата:
+      Name: '&fЖелезная лопата'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400amqqbeclhn4ob6egt6isjfdpfn6q3fepimo2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgir8bbk5rq2qt1dugnn8b1kcf438bnk5uq2vt1c6hgb8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg0080000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400amqqbeclhn4ob6egt6isjfdpfn6q3fepimo2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgir8bbk5rq2qt1dugnn8b1kcf438bnk5uq2vt1c6hgb8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg0080000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железная_мотыга1:
+      Name: '&fЖелезная мотыга'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip0029mmirj5cdp62pjk79kn4rrebtk6up8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502j7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2bd1degnf8bbk5nq2ut1c6hhsgd1f6gnr8o5kcbq2pt1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0010010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0010020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0029mmirj5cdp62pjk79kn4rrebtk6up8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502j7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2bd1degnf8bbk5nq2ut1c6hhsgd1f6gnr8o5kcbq2pt1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0010010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0010020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железный_шлем1:
+      Name: '&fЖелезный шлем'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800ldlkmspb3e9gmct1qd5p6urivd1imorb5eg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig18jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fehhf8bi86hh38bnk5lq2u24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800ldlkmspb3e9gmct1qd5p6urivd1imorb5eg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig18jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fehhf8bi86hh38bnk5lq2u24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железная_лопата1:
+      Name: '&fЖелезная лопата'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400amqqbeclhn4ob6egt6isjfdpfn6q3fepimo2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgir8bbk5rq2qt1dugnn8b1kcf438bnk5uq2vt1c6hgb8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg0080000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400amqqbeclhn4ob6egt6isjfdpfn6q3fepimo2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80kpti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgir8bbk5rq2qt1dugnn8b1kcf438bnk5uq2vt1c6hgb8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg0080000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железный_топор:
+      Name: '&fЖелезный топор'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800idlkmspb3e9gmct1qd5p6urivc5s6a2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80khti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgir8bbk5rq2qt1dugnn8onk5p438o5k5uq2vt1fmhg0h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni0g00dm7cr000k00g002d5i0053dd5n6aoric5j78ejjd5m6mnrkdtqm6q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800idlkmspb3e9gmct1qd5p6urivc5s6a2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80khti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgir8bbk5rq2qt1dugnn8onk5p438o5k5uq2vt1fmhg0h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni0g00dm7cr000k00g002d5i0053dd5n6aoric5j78ejjd5m6mnrkdtqm6q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железный_меч:
+      Name: '&fЖелезный меч'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i0053dd5n6aoric5j78ej9e9nmsnrjetnn4p0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502g7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2bd1degnf8bbk5nq2ut32ugn4gd1f6gmn8oe8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0053dd5n6aoric5j78ej9e9nmsnrjetnn4p0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502g7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2bd1degnf8bbk5nq2ut32ugn4gd1f6gmn8oe8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотая_лопата1:
+      Name: '&fЗолотая лопата'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i005rdd5n6aoric5j78ej7dtm68pbebtpmgrrmclm0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma054fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4nq2vd1eugnr8o5k5gq67i1k5rq2vd1fugm38o5k5g49ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000210004qb400a6qqbeclhn4ob6egt6apj6d5hmipbecdsg4003dhr6o005004000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005rdd5n6aoric5j78ej7dtm68pbebtpmgrrmclm0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma054fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4nq2vd1eugnr8o5k5gq67i1k5rq2vd1fugm38o5k5g49ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000210004qb400a6qqbeclhn4ob6egt6apj6d5hmipbecdsg4003dhr6o005004000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотой_топор1:
+      Name: '&fЗолотой топор'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip002hmmirj5cdp62pjk79jmur34cln5uobock5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig18jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15ugnr8bnk5uq61d1fmgn4gd30mgnr8bvk5uq6024vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002hmmirj5cdp62pjk79jmur34cln5uobock5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig18jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15ugnr8bnk5uq61d1fmgn4gd30mgnr8bvk5uq6024vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотой_меч1:
+      Name: '&fЗолотой меч'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i005jdd5n6aoric5j78ej7dtm68pbebtpnerricg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig17jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15ugnr8bnk5uq61d1fmgn4gd1f6gmn8oe8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000420009km800jdlkmspb3e9gmct1qddn6uorbc9gm6qo2001motjc0010020009km800fdlkmspb3e9gmct1qedmmit3508006r3mdg00a0000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005jdd5n6aoric5j78ej7dtm68pbebtpnerricg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig17jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15ugnr8bnk5uq61d1fmgn4gd1f6gmn8oe8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000420009km800jdlkmspb3e9gmct1qddn6uorbc9gm6qo2001motjc0010020009km800fdlkmspb3e9gmct1qedmmit3508006r3mdg00a0000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотая_кирка1:
+      Name: '&fЗолотая кирка'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400c6qqbeclhn4ob6egt6errcchimsnrgd5hmmobock5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig18jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15ugnr8bnk5uq61d1c6hhsgd1emgn38o1k5qq2o24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400c6qqbeclhn4ob6egt6errcchimsnrgd5hmmobock5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig18jr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15ugnr8bnk5uq61d1c6hhsgd1emgn38o1k5qq2o24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железная_кирка:
+      Name: '&fЖелезная кирка'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i005jdd5n6aoric5j78ej9e9nmsnrgd5hmmobock5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fegm38ou86gnb8bhkc0q2td1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005jdd5n6aoric5j78ej9e9nmsnrgd5hmmobock5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fegm38ou86gnb8bhkc0q2td1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железная_кирка1:
+      Name: '&fЖелезная кирка'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i005jdd5n6aoric5j78ej9e9nmsnrgd5hmmobock5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fegm38ou86gnb8bhkc0q2td1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0010010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005jdd5n6aoric5j78ej9e9nmsnrgd5hmmobock5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fegm38ou86gnb8bhkc0q2td1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0010010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железный_меч1:
+      Name: '&fЖелезный меч'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800kdlkmspb3e9gmct1qd5p6urivedrmusj418006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0a0up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b89dk5lq2tt1degmv8brkcbq2si1k5sq2qt31p2fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000880016ip002dmmirj5cdp62pjk79lmsrr3ddh62orb08006r3mdg0020000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qd5p6urivedrmusj418006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0a0up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b89dk5lq2tt1degmv8brkcbq2si1k5sq2qt31p2fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000880016ip002dmmirj5cdp62pjk79lmsrr3ddh62orb08006r3mdg0020000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железный_топор1:
+      Name: '&fЖелезный топор'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip0029mmirj5cdp62pjk79kn4rrebtgngp8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502i7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2bd1degnf8bbk5nq2ut32ugn4gd30mgnr8bvk5uq6024vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc001g020009km800kdlkmspb3e9gmct1qedkmoqqvehnnaor808006r3mdg0020000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0029mmirj5cdp62pjk79kn4rrebtgngp8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502i7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2bd1degnf8bbk5nq2ut32ugn4gd30mgnr8bvk5uq6024vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc001g020009km800kdlkmspb3e9gmct1qedkmoqqvehnnaor808006r3mdg0020000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    черепаший_панцирь:
+      Name: '&fЧерепаший панцирь'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i005rdd5n6aoric5j78ejkelp78r35btk6ar3dclq0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma05afch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k57q2qt306gmn8bvk5gq64d1e6gn4gd1fugm38brkc6q2sd306hhgh7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000084000j9cg01irb9dpim6sj1cpq3kpj9e9ilus3idtq6aorkd5nms0g00dm7cr000g00g002d5i005bdd5n6aoric5j78ejiclpn0qbic5q6irre08006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005rdd5n6aoric5j78ejkelp78r35btk6ar3dclq0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma05afch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k57q2qt306gmn8bvk5gq64d1e6gn4gd1fugm38brkc6q2sd306hhgh7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000084000j9cg01irb9dpim6sj1cpq3kpj9e9ilus3idtq6aorkd5nms0g00dm7cr000g00g002d5i005bdd5n6aoric5j78ejiclpn0qbic5q6irre08006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    щит:
+      Name: '&fЩит'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800gdlkmspb3e9gmct1qedk6ipbccg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig13rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1aegn38o48jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800gdlkmspb3e9gmct1qedk6ipbccg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig13rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd1aegn38o48jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    щит1:
+      Name: '&fЩит'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg010rb9dpim6sj1cpq3ksr8d5imop0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb5027nm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2kt1e6hg8h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3krb5dpi6irj708006r3mdg0020000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg010rb9dpim6sj1cpq3ksr8d5imop0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb5027nm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2kt1e6hg8h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3krb5dpi6irj708006r3mdg0020000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    железная_конская_броня:
+      Name: '&fЖелезная конская броня'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01krb9dpim6sj1cpq3kqbidtn5uq3fe9pmanr1e9mmusga001n8ob71800ep39edo6oobp10008jj1dlig1crr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fegm38ou86gnb8btk5tq60t1emgm38ou86gm78o1k5uq2ut33p2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01krb9dpim6sj1cpq3kqbidtn5uq3fe9pmanr1e9mmusga001n8ob71800ep39edo6oobp10008jj1dlig1crr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd15mgmn8bnk5lq2rt1fegm38ou86gnb8btk5tq60t1emgm38ou86gm78o1k5uq2ut33p2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    кожаная_конская_броня:
+      Name: '&fКожаная конская броня'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400emqqbeclhn4ob6egt6opb1ehk6asivd1nn4sr5btgn4rbfe85000rkc5jgk007chkn6s3cc5sgg0049pgmqp80m5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjb8btk5mq2od1fegm38ou86gnb8btk5tq60t1emgm38ou86gm78o1k5uq2ut33p2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400emqqbeclhn4ob6egt6opb1ehk6asivd1nn4sr5btgn4rbfe85000rkc5jgk007chkn6s3cc5sgg0049pgmqp80m5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjb8btk5mq2od1fegm38ou86gnb8btk5tq60t1emgm38ou86gm78o1k5uq2ut33p2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    лук:
+      Name: '&fЛук'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip001lmmirj5cdp62pjk79h6utoa001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb5027nm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2dt30ugn8h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg00urb9dpim6sj1cpq3ks3fetin40g00dm7cr000g00g002d5i003rdd5n6aoric5j78ejgeln66q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip001lmmirj5cdp62pjk79h6utoa001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb5027nm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2dt30ugn8h7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg00urb9dpim6sj1cpq3ks3fetin40g00dm7cr000g00g002d5i003rdd5n6aoric5j78ejgeln66q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    лук1:
+      Name: '&fЛук'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg00qrb9dpim6sj1cpq3kojfes5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig13rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd16uhgf8bk8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000620009km800idlkmspb3e9gmct1qd5n6cqbed5q7i0g00dm7cr000400g002d5i003rdd5n6aoric5j78ejgdtrmasg2001motjc002g020009km800fdlkmspb3e9gmct1qe1qmsor808006r3mdg0040000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg00qrb9dpim6sj1cpq3kojfes5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig13rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd16uhgf8bk8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000620009km800idlkmspb3e9gmct1qd5n6cqbed5q7i0g00dm7cr000400g002d5i003rdd5n6aoric5j78ejgdtrmasg2001motjc002g020009km800fdlkmspb3e9gmct1qe1qmsor808006r3mdg0040000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    арбалет:
+      Name: '&fАрбалет'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg014rb9dpim6sj1cpq3koridtpn6ojfes5000rkc5jgi00c8ln66q31dpq6qpbeehpgk0000010g002d5i004jdd5n6aoric5j78ejgd5in4or9dpjg4003dhr6o004004000j9cg01crb9dpim6sj1cpq3ksbld5hmmnr3d1gn4pr508006r3mdg004001003k6q31e9jmap000c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502bnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q28d306gm78b1k5rq2qt30h2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg014rb9dpim6sj1cpq3koridtpn6ojfes5000rkc5jgi00c8ln66q31dpq6qpbeehpgk0000010g002d5i004jdd5n6aoric5j78ejgd5in4or9dpjg4003dhr6o004004000j9cg01crb9dpim6sj1cpq3ksbld5hmmnr3d1gn4pr508006r3mdg004001003k6q31e9jmap000c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502bnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q28d306gm78b1k5rq2qt30h2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    арбалет1:
+      Name: '&fАрбалет'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip0029mmirj5cdp62pjk79hn4rrjedh6utoa001n8ob71400ohbecdk62rjkdlimst3j1800000210004qb400b6qqbeclhn4ob6egt72tb9cdlluor8c5p6ep82001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg006001003k6q31e9jmap000c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502bnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q28d306gm78b1k5rq2qt30h2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0029mmirj5cdp62pjk79hn4rrjedh6utoa001n8ob71400ohbecdk62rjkdlimst3j1800000210004qb400b6qqbeclhn4ob6egt72tb9cdlluor8c5p6ep82001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg006001003k6q31e9jmap000c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502bnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q28d306gm78b1k5rq2qt30h2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    золотая_конская_броня:
+      Name: '&fЗолотая конская броня'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01orb9dpim6sj1cpq3kprfdhi6arivd1nn4sr5btgn4rbfe85000rkc5jgk007chkn6s3cc5sgg0049pgmqp80m5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgiv8btk5rq2vd30mgm38ou86gnb8btk5tq60t1emgm38ou86gm78o1k5uq2ut33p2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01orb9dpim6sj1cpq3kprfdhi6arivd1nn4sr5btgn4rbfe85000rkc5jgk007chkn6s3cc5sgg0049pgmqp80m5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgiv8btk5rq2vd30mgm38ou86gnb8btk5tq60t1emgm38ou86gm78o1k5uq2ut33p2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазная_конская_броня:
+      Name: '&fАлмазная конская броня'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800tdlkmspb3e9gmct1qchkm2rbfdpi5uq3fe9pmanr1e9mmusga001n8ob71800ep39edo6oobp10008jj1dlig1crr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fegm38ou86gnb8btk5tq60t1emgm38ou86gm78o1k5uq2ut33p2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800tdlkmspb3e9gmct1qchkm2rbfdpi5uq3fe9pmanr1e9mmusga001n8ob71800ep39edo6oobp10008jj1dlig1crr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fegm38ou86gnb8btk5tq60t1emgm38ou86gm78o1k5uq2ut33p2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовый_топор1:
+      Name: '&fНезеритовый топор'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip002tmmirj5cdp62pjk79n6at38clp6it35btgngp8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502l7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2et1degmv8bbkc0q2sd30mgnr8b5kcbq2si1kc2q2vd1fugnr8o08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg0080000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002tmmirj5cdp62pjk79n6at38clp6it35btgngp8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502l7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2et1degmv8bbkc0q2sd30mgnr8b5kcbq2si1kc2q2vd1fugnr8o08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg0080000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовая_лопата:
+      Name: '&fНезеритовая лопата'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400d6qqbeclhn4ob6egt6spbkd1in4qbkclfn6q3fepimo2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80lhti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjn8bbk5nq2qt306gn38o5k5uq2pd1c6hhsgd1eugnr8bvk5gq61d1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400d6qqbeclhn4ob6egt6spbkd1in4qbkclfn6q3fepimo2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80lhti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjn8bbk5nq2qt306gn38o5k5uq2pd1c6hhsgd1eugnr8bvk5gq61d1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовая_лопата1:
+      Name: '&fНезеритовая лопата'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400d6qqbeclhn4ob6egt6spbkd1in4qbkclfn6q3fepimo2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80lhti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjn8bbk5nq2qt306gn38o5k5uq2pd1c6hhsgd1eugnr8bvk5gq61d1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0010010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0010020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400d6qqbeclhn4ob6egt6spbkd1in4qbkclfn6q3fepimo2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80lhti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjn8bbk5nq2qt306gn38o5k5uq2pd1c6hhsgd1eugnr8bvk5gq61d1c12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0010010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0010020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    черепаший_панцирь1:
+      Name: '&fЧерепаший панцирь'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800ndlkmspb3e9gmct1qehqn4t3cclfmgpbcdlin82g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80l9ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgkv8bbkc0q2qt1fugm38ohk5oq2si1k5vq2od1fehgr8bhkc0q6624vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800ndlkmspb3e9gmct1qehqn4t3cclfmgpbcdlin82g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80l9ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgkv8bbkc0q2qt1fugm38ohk5oq2si1k5vq2od1fehgr8bhkc0q6624vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i006bdd5n6aoric5j78ej6d5p6anrge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовая_мотыга1:
+      Name: '&fНезеритовая мотыга'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip002tmmirj5cdp62pjk79n6at38clp6it35btk6up8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502m7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2et1degmv8bbkc0q2sd30mgnr8b5k5gq67i1k5sq2vd30mhhf8b7k5g49ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000210004qb400a6qqbeclhn4ob6egt6apj6d5hmipbecdsg4003dhr6o005004000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002tmmirj5cdp62pjk79n6at38clp6it35btk6up8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502m7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2et1degmv8bbkc0q2sd30mgnr8b5k5gq67i1k5sq2vd30mhhf8b7k5g49ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000210004qb400a6qqbeclhn4ob6egt6apj6d5hmipbecdsg4003dhr6o005004000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазный_топор1:
+      Name: '&fАлмазный топор'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800ldlkmspb3e9gmct1qchkm2rbfdpi5uobock5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fehhf8bi86hgb8btk5vq2vd3012fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800ldlkmspb3e9gmct1qchkm2rbfdpi5uobock5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig193r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd146gnf8bpk5gq2rt1fehhf8bi86hgb8btk5vq2vd3012fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазный_меч1:
+      Name: '&fАлмазный меч'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vedrmusj418006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0a0up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b891k5rq2ud1c6gmv8brkcbq2si1k5sq2qt31p2fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000g80016ip002dmmirj5cdp62pjk79lmsrr3ddh62orb08006r3mdg0040080016ip002dmmirj5cdp62pjk79pmgobie1n6asrj08006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vedrmusj418006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0a0up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b891k5rq2ud1c6gmv8brkcbq2si1k5sq2qt31p2fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000g80016ip002dmmirj5cdp62pjk79lmsrr3ddh62orb08006r3mdg0040080016ip002dmmirj5cdp62pjk79pmgobie1n6asrj08006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовый_меч1:
+      Name: '&fНезеритовый меч'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdpin8q35e9kn8pavedrmusj418006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0acup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b89rk5lq2rt1dehg38bhkc2q2vd1cmhhf8bi86gnj8bbkc749ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000210004qb4008mqqbeclhn4ob6egt6orrfehkmspo2001motjc001g020009km800fdlkmspb3e9gmct1qedmmit3508006r3mdg0080000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdpin8q35e9kn8pavedrmusj418006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck0acup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b89rk5lq2rt1dehg38bhkc2q2vd1cmhhf8bi86gnj8bbkc749ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000210004qb4008mqqbeclhn4ob6egt6orrfehkmspo2001motjc001g020009km800fdlkmspb3e9gmct1qedmmit3508006r3mdg0080000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовая_кирка:
+      Name: '&fНезеритовая кирка'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip003dmmirj5cdp62pjk79n6at38clp6it35bto6iorbc5s6a2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80l9ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjn8bbk5nq2qt306gn38o5k5uq2pd1c6hhsgd1emgn38o1k5qq2o24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003dmmirj5cdp62pjk79n6at38clp6it35bto6iorbc5s6a2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80l9ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgjn8bbk5nq2qt306gn38o5k5uq2pd1c6hhsgd1emgn38o1k5qq2o24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    удочка:
+      Name: '&fУдочка'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i005bdd5n6aoric5j78ej6d5pmgqbectfn4rr418006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck09aup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8a7k5kq2vd31ugnb8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ej6d5pmgqbectfn4rr418006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck09aup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq4b8a7k5kq2vd31ugnb8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    удочка1:
+      Name: '&fУдочка'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01arb9dpim6sj1cpq3kpj9edk6irj7btp6up0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502anm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2ht1d6gnr8ofk5qq2o24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk000001gg002d5i006bdd5n6aoric5j78ejcelhmmnrfcpfn8q35btpmao82001motjc001g020009km800edlkmspb3e9gmct1qdhqn4p82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01arb9dpim6sj1cpq3kpj9edk6irj7btp6up0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502anm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2ht1d6gnr8ofk5qq2o24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk000001gg002d5i006bdd5n6aoric5j78ejcelhmmnrfcpfn8q35btpmao82001motjc001g020009km800edlkmspb3e9gmct1qdhqn4p82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    трезубец:
+      Name: '&fТрезубец'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb4008mqqbeclhn4ob6egt78sj9chimst0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502cnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2hd306gmn8bfkc3q2ot1dehgoh7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg014rb9dpim6sj1cpq3kqbde1gmoqbecs1000rcepm0010010004qb4008mqqbeclhn4ob6egt6orrpc5m78u82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb4008mqqbeclhn4ob6egt78sj9chimst0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502cnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2hd306gmn8bfkc3q2ot1dehgoh7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg014rb9dpim6sj1cpq3kqbde1gmoqbecs1000rcepm0010010004qb4008mqqbeclhn4ob6egt6orrpc5m78u82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    удочка2:
+      Name: '&fУдочка'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01arb9dpim6sj1cpq3kpj9edk6irj7btp6up0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502anm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2ht1d6gnr8ofk5qq2o24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i006bdd5n6aoric5j78ejcelhmmnrfcpfn8q35btpmao82001motjc0010020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01arb9dpim6sj1cpq3kpj9edk6irj7btp6up0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502anm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2ht1d6gnr8ofk5qq2o24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i006bdd5n6aoric5j78ejcelhmmnrfcpfn8q35btpmao82001motjc0010020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    трезубец1:
+      Name: '&fТрезубец'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip0025mmirj5cdp62pjk79q74qb4cln782g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80j5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgkb8o1k5lq2rt30ugm78bbkc649ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000210004qb4008mqqbeclhn4ob6egt74qbgehkm8p82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0025mmirj5cdp62pjk79q74qb4cln782g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80j5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8mgkb8o1k5lq2rt30ugm78bbkc649ulqb12ehingt1278h24v801400ohbecdk62rjkdlimst3j1800000210004qb4008mqqbeclhn4ob6egt74qbgehkm8p82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    трезубец2:
+      Name: '&fТрезубец'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000g002d5i004bdd5n6aoric5j78ejke9km8pbeeg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig16br49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd18mhg38bbk5nq61t1cegmn8oc8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i004bdd5n6aoric5j78ejke9km8pbeeg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig16br49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278hd18mhg38bbk5nq61t1cegmn8oc8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовая_кирка1:
+      Name: '&fНезеритовая кирка'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k00010004qb400dmqqbeclhn4ob6egt6spbkd1in4qbkclfn0qb3ddgngp8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502l7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2et1degmv8bbkc0q2sd30mgnr8b5k5gq67i1k5qq2sd306gnb8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg0080000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400dmqqbeclhn4ob6egt6spbkd1in4qbkclfn0qb3ddgngp8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502l7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2et1degmv8bbkc0q2sd30mgnr8b5k5gq67i1k5qq2sd306gnb8b08jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qclj6cqb3d5imsorp08006r3mdg0080000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовый_шлем:
+      Name: '&fНезеритовый шлем'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 5000080016ip0039mmirj5cdp62pjk79n6at38clp6it35btk6ar3dclq0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma058fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4tq2qt1dugmn8o1k5oq61d1fmgmb8onk5p438ohk5rq2qt1f12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000g80016ip002tmmirj5cdp62pjk79gn2tb1btgmcpj9dpkn8u82001motjc000g020009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0039mmirj5cdp62pjk79n6at38clp6it35btk6ar3dclq0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma058fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4tq2qt1dugmn8o1k5oq61d1fmgmb8onk5p438ohk5rq2qt1f12fleio8jkcls788hq48h7q0090064arj3d1gmst3dcln78soa000000g80016ip002tmmirj5cdp62pjk79gn2tb1btgmcpj9dpkn8u82001motjc000g020009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    незеритовый_шлем1:
+      Name: '&fНезеритовый шлем'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01krb9dpim6sj1cpq3krj5ehk6asj9ehiluq35dhmmat0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502k7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2et1degmv8bbkc0q2sd30mgnr8b5kcbq2si1kc8q2tt1degngh7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000084000j9cg01arb9dpim6sj1cpq3ksj5edo6isj1ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01krb9dpim6sj1cpq3krj5ehk6asj9ehiluq35dhmmat0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502k7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2q2et1degmv8bbkc0q2sd30mgnr8b5kcbq2si1kc8q2tt1degngh7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec500000084000j9cg01arb9dpim6sj1cpq3ksj5edo6isj1ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+    алмазный_шлем1:
+      Name: '&fАлмазный шлем'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0004000j9cg01grb9dpim6sj1cpq3kp39c5mmurj4btk6ar3dclq0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma052fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4gq2tt1f6gm38bfk5tq65t1e90q64d1eugmn8bo8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01grb9dpim6sj1cpq3kp39c5mmurj4btk6ar3dclq0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma052fch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49q6au3k48t25k4gq2tt1f6gm38bfk5tq65t1e90q64d1eugmn8bo8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+Animation_Config: enclosing
+Last_Opener: DIMOLL
+Last_Reward: '&fНезеритовый меч'
+Item:
+  Material: PLAYER_HEAD
+  SkinURL: 56d7fdb50f14c731c727b0e0d189b6a874319fc0d79c8a099acfc77c7b2d9196
+  Name: '#B3FF5D&lItems Crate'

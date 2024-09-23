@@ -1,0 +1,38 @@
+menu-title: 'Таблица лидеров'
+menu-rows: 4
+
+leaderboard:
+  slots: '11,12,13,14,15,20,21,22,23,24'
+
+item:
+  material: head:%advancedjobs_top_points_name_%position%%
+  name: '&e✦ &a&l%advancedjobs_top_points_name_%position%% &a#%position% '
+  lore:
+    - '&7Очки: &a%advancedjobs_top_points_value_%position%%'
+
+menu:
+  '27':
+    item:
+      material: arrow:0
+      name: '&eНазад в главное меню'
+      lore: []
+    actions:
+      - '[menu]{portal}' # Если страница 1, перейти на страницу портала
+  '31':
+    item:
+      material: book:0
+      name: '&eМоя статистика'
+      lore:
+        - '&7Мои очки: &e%advancedjobs_top_points_value_me%'
+        - '&7Мое место: &e#%advancedjobs_top_points_place_me%'
+    actions: []
+  filler2:
+    slots: '9...26'
+    item:
+      material: black_stained_glass_pane
+      name: '&r '
+  filler:
+    slots: fill # Это заполнит все пустые слоты. Можно также использовать 'startslot...endslot', например, '2...8' для заполнения слотов со 2 по 8.
+    item:
+      material: gray_stained_glass_pane
+      name: '&r '

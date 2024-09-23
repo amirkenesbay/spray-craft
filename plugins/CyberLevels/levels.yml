@@ -1,0 +1,34 @@
+levels:
+  multipliers:
+    commands: true
+    events: true
+
+  # What level and experience should players start with? This will
+  # also be treated as the minimum level/exp a player can get to.
+  starting:
+    level: 1
+    experience: 0
+
+  # Maximum level a player can achieve.
+  maximum:
+    level: 100
+
+  # {level} {playerEXP} {maxLevel} {minLevel} {minEXP}
+  experience:
+
+    # What general formula should each level's requirements follow?
+    # Can be a formula or just a number. Refer to internal placeholder
+    # mentioned above experience.
+    general-formula: '(({level} ^ 2) + (6250 * {level})) - 7500'
+
+    # Specific level requirements. Overrides general formula for
+    # specific levels. All levels without specific formulas/values
+    # will follow the general formula.
+    level:
+      2: '1549'
+      #2: '{level} * 25'
+
+      # This is an example to show you what you can do with CLV,
+      # please adjust it to your standards as it may produce a
+      # weird output.
+      #3: 'sin(1) + ({minEXP} / {level}) + {maxLevel} * 2'

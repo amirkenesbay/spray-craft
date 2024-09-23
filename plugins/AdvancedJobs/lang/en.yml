@@ -1,0 +1,140 @@
+prefix: '[AdvancedJobs]'
+job-info: '&f&l%name% &7(&f%level%&7) [&f%points%&7/&f%required%&7]'
+jobs-reset: '&eНекоторые задания были обновлены.'
+cant-reset: '&cВы не можете обновить текущие задания, потому что включен режим bungee.'
+jobs-sync: '&aВсе задания успешно синхронизированы.'
+cant-sync: '&cВы не можете синхронизировать задания, потому что режим bungee отключен
+  или задания уже синхронизированы.'
+
+admin-cmd:
+  main: '&aОсновная административная команда'
+  reload: '&aПлагин перезагружен'
+  could-not-find-user: '&cНе удалось найти пользователя с именем %player%'
+  could-not-find-job: '&cНе удалось найти задание с именем %job%'
+  user-data-deleted: '&aВы успешно удалили данные пользователя %player%.'
+  target-user-data-deleted: '&cВаши данные о заданиях были удалены.'
+  gave-points: '&aУспешно начислены очки выбранному пользователю'
+  confirm: '&aВам нужно подтвердить это действие, используя эту команду еще раз'
+  jobs-reset: '&aЗадания сброшены'
+  levelup: '&aУспешно повышен уровень задания пользователя'
+
+jobs-time-format: # The time format used for saying how long until daily quests expire.
+  with-months-weeks: '%dмес %dн %dд %dч %dм %dсек'
+  with-weeks-days: '%dw %dd %dh %dm %ds'
+  with-days-hours: '%dд %dч %dм %dс'
+  with-hours-minutes: '%dч %dм %dс'
+  with-minutes-seconds: '%dмин %dсек'
+  with-seconds: '%dсек'
+
+job-join:
+  only-premium: '&fВыбранная работа &aдоступна &fтолько от привилегии §x§7§F§D§4§C§9&lPLUTO'
+  limit: '&cВы достигли лимита заданий и не можете присоединиться. Ваш лимит: %limit%'
+  already-in: '&cВы уже участвуете в этом задании'
+  joined: '&aВы присоединились к выбранному заданию'
+  points: '&cУ вас нет минимальных %points% очков для присоединения к этому заданию!'
+  no-permission: '&cВы не можете присоединиться к этому заданию!'
+  required-conditions: '&cYou can''t join to a job, because you don''t meet required
+    conditions'
+
+job-leave:
+  already-left: '&cВы уже покинули это задание.'
+  left: '&aВы покинули выбранное задание'
+  required-conditions: '&cYou can''t leave a job, because you don''t meet required
+    conditions'
+
+progress-bar:
+  complete-color: '&a'
+  incomplete-color: '&c'
+  symbol: '|'
+
+job-active:
+  active: '&aДа'
+  not-active: '&cНет'
+
+job-action:
+  join: §x§5§2§D§7§9§7▸ Нажмите, чтобы устроиться
+  leave: §x§D§7§5§2§5§C▸ Нажмите, чтобы уволиться
+  premium: '&cЭта работа доступна от привилегии §x§7§F§D§4§C§9&lPLUTO'
+  points: '&cТребуемые очки: &4%points%'
+  permission: '&cУ вас нет необходимых прав'
+
+leaderboard-command:
+  points-leaderboard:
+  - '&7&m=====&r&7[ &2Таблица лидеров по очкам &7]&m====='
+  - '&7>> &b1. &r&a%advancedjobs_top_points_name_1% &7- &2%advancedjobs_top_points_value_1%'
+  - '&7>> &b2. &r&a%advancedjobs_top_points_name_2% &7- &2%advancedjobs_top_points_value_2%'
+  - '&7>> &b3. &r&a%advancedjobs_top_points_name_3% &7- &2%advancedjobs_top_points_value_3%'
+  - '&7>> &b4. &r&a%advancedjobs_top_points_name_4% &7- &2%advancedjobs_top_points_value_4%'
+  - '&7>> &b5. &r&a%advancedjobs_top_points_name_5% &7- &2%advancedjobs_top_points_value_5%'
+  - '&7>> ...'
+  - '&7>> &aВаш счет: &2%advancedjobs_top_points_value_me% &7(&2&b%advancedjobs_top_points_place_me%&r&7)'
+  levels-leaderboard:
+  - '&7&m=====&r&7[ &2Таблица лидеров по уровням в %job_name% &7]&m====='
+  - '&7>> &b1. &r&a%advancedjobs_top_level_name_1_%job%% &7- &2%advancedjobs_top_level_value_1_%job%%'
+  - '&7>> &b2. &r&a%advancedjobs_top_level_name_2_%job%% &7- &2%advancedjobs_top_level_value_2_%job%%'
+  - '&7>> &b3. &r&a%advancedjobs_top_level_name_3_%job%% &7- &2%advancedjobs_top_level_value_3_%job%%'
+  - '&7>> &b4. &r&a%advancedjobs_top_level_name_4_%job%% &7- &2%advancedjobs_top_level_value_4_%job%%'
+  - '&7>> &b5. &r&a%advancedjobs_top_level_name_5_%job%% &7- &2%advancedjobs_top_level_value_5_%job%%'
+  - '&7>> ...'
+  - '&7>> &aВаш счет: &2%advancedjobs_top_level_value_me_%job%% &7(&2&b%advancedjobs_top_level_place_me_%job%%&r&7)'
+
+quests:
+  # Основное сообщение будет использоваться для всех заданий, если не указано другое сообщение.
+  base-message-progressed: §x§7§5§7§5§7§5[§x§7§2§F§5§7§CРабота§x§7§5§7§5§7§5] &fВы
+    продвинулись в работе &b%job_name% &7[&e%progress%&7/&a%required_progress%&7]
+  base-message-completed: §x§7§5§7§5§7§5[§x§7§2§F§5§7§CРабота§x§7§5§7§5§7§5] &fВы
+    &aзавершили &fзадание в работе &b%job_name%
+  
+  boss-bar-message-progressed: '&7Вы продвинулись в задании &b%job_name% &8(&b%progress%&7/&b%required_progress%&8)'
+  boss-bar-message-completed: '&7Вы завершили задание &b%job_name%'
+  
+  # Сообщение, установленное ниже, перезапишет основное сообщение.
+  # <quest-name>-progressed: "<Ваше сообщение>"
+  # <quest-name>-completed: "<Ваше сообщение>"
+  # Это примеры, вы можете создавать столько сообщений, сколько необходимо.
+  askyblock_createisland-progressed: '&eЗадания >> &7Пользовательское сообщение о
+    прогрессе ASkyblock :D. &8(&e%progress%&7/&8%required_progress%&8)'
+  askyblock_createisland-completed: '&eЗадания >> &7Вы завершили задание на создание
+    острова ASkyblock!'
+last-config-update: 1.4.12
+daily-reset-info: '&aПроизошел ежедневный сброс работ.'
+boosters:
+  points: рубины
+  progress: прогресс
+  rewards: награды
+  serverStarted: |
+    &f
+    &f  &a&lБустер на работы
+    &f
+    &f  Бустер на &6%type% &fактивирован на &d%time%&f.
+    &f  Он увеличивает &6&l%affects% &fна &a&l%percent%%
+    &f
+  playerStarted: |
+    &f
+    &f  &a&lВаш бустер на работы
+    &f
+    &f  Вы активировали бустер на &6%type% &fна &d%time%&f.
+    &f  Он увеличивает &6&l%affects% &fна &a&l%percent%%
+    &f
+  serverEnded: |
+    &f
+    &f  &c&lБустер на работы
+    &f
+    &f  Бустер на &6%type% &fзавершен.
+    &f  Он увеличивал &6&l%affects% &fна &a&l%percent%%
+    &f
+  playerEnded: "&f\n&f  &c&lВаш бустер на работы\n&f\n&f  Ваш бустер на &6%type% &fз\
+    авершен.\n&f  Он увеличивал &6&l%affects% &fна &a&l%percent%%\n&f  \n"
+  updated: '&aБустеры успешно&7 обновлены'
+  command:
+    booster: '&6✰ &2&l+%booster%% &a%type% booster, который влияет на &2&l%affects%
+      &7(&c%time%&7)'
+    server: '&7» &2&lСерверные бустеры'
+    player: '&7» &2&lИгровые бустеры'
+  affects:
+    join: '&r&f, '
+    all: всё
+    free: Бесплатные работы
+    premium: Премиум работы
+  menu: '&6✰ &2&l+%booster%% &a%type% booster'
+job-placeholder-null: '-'

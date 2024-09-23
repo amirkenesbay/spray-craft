@@ -1,0 +1,32 @@
+location: spawn:-57,532:65,913:-883,503
+enabled: true
+display-range: 30
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&a&lПомощь по режиму'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fОзнакомтесь со всеми новыми'
+    height: 0.3
+  - content: '&fмеханиками, &eноввоведениями &fи'
+    height: 0.3
+  - content: '&fпрочим, используя команду ниже'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fПомощь - &x&4&a&c&2&9&a/help'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '#ICON: oak_sign'
+    height: 0.3
+  actions:
+    LEFT:
+    - COMMAND:/help
+    RIGHT:
+    - COMMAND:/help

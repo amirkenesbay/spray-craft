@@ -1,0 +1,27 @@
+id: quest
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: f070eb94-8018-4f03-95ed-54c70ae52f7b
+world: spawn
+location:
+  x: -93.53046030839256
+  y: 61.0
+  z: -916.5498676835135
+  yaw: -38.083252
+  pitch: -0.8919984
+type: villager
+properties:
+  look: CLOSEST_PLAYER
+  villager_profession: CARTOGRAPHER
+hologram:
+  lines:
+  - '&a&lКВЕСТЫ'
+  - '&7Получай награды и опыт'
+  - ''
+  - '&fПроходи квесты и получай'
+  - '&fмонеты и опыт в награду'
+  - ''
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;cQ==;1000;ANY_CLICK;0

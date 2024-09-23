@@ -1,0 +1,329 @@
+menu_title: '&#272727Монеты'
+size: 35
+items:
+  'unical':
+    material: raw_gold
+    slots: 
+    - 10
+    display_name: '&e50 монет'
+    lore:
+    - ''
+    - '  &fСтоимость: &#FA3A781'   
+    - '  &fВаш баланс: &#FA3A78%playerpoints_points%'    
+    - ''
+    - '&#52d797▸ Нажмите, чтобы купить'  
+    left_click_commands:
+    - '[console] p take %player_name% 1'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 50"
+    - "[close]"
+    right_click_commands:
+    - '[console] p take %player_name% 1'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 50"
+    - "[close]"
+    left_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '1'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'
+    right_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '1'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+
+  '250':
+    material: raw_gold
+    slots: 
+    - 11
+    display_name: '&e250 монет'
+    lore:
+    - ''
+    - '  &fСтоимость: &#FA3A785'    
+    - '  &fВаш баланс: &#FA3A78%playerpoints_points%'        
+    - ''
+    - '&#52d797▸ Нажмите, чтобы купить'  
+    left_click_commands:
+    - '[console] p take %player_name% 5'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 250"
+    - "[close]"
+    right_click_commands:
+    - '[console] p take %player_name% 5'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 250"
+    - "[close]"
+    left_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '5'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '5'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+
+  '500':
+    material: raw_gold
+    slots: 
+    - 11
+    display_name: '&e500 монет'
+    lore:
+    - ''
+    - '  &fСтоимость: &#FA3A7810'         
+    - '  &fВаш баланс: &#FA3A78%playerpoints_points%'          
+    - ''
+    - '&#52d797▸ Нажмите, чтобы купить'  
+    left_click_commands:
+    - '[console] p take %player_name% 10'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 500"
+    - "[close]"
+    right_click_commands:
+    - '[console] p take %player_name% 10'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 500"
+    - "[close]"
+    left_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '10'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '10'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+
+  '1000':
+    material: raw_gold
+    slots: 
+    - 12
+    display_name: '&e1000 монет'
+    lore:
+    - ''
+    - '  &fСтоимость: &#FA3A7820'     
+    - '  &fВаш баланс: &#FA3A78%playerpoints_points%'          
+    - ''
+    - '&#52d797▸ Нажмите, чтобы купить'  
+    left_click_commands:
+    - '[console] p take %player_name% 20'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 1000"
+    - "[close]"
+    right_click_commands:
+    - '[console] p take %player_name% 20'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 1000"
+    - "[close]"
+    left_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '20'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '20'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+
+  '2750':
+    material: raw_gold
+    slots: 
+    - 14
+    display_name: '&e2750 монет'
+    lore:
+    - ''
+    - '  &fСтоимость: &#FA3A7850'         
+    - '  &fВаш баланс: &#FA3A78%playerpoints_points%'          
+    - ''
+    - '&#52d797▸ Нажмите, чтобы купить'  
+    left_click_commands:
+    - '[console] p take %player_name% 50'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 2750"
+    - "[close]"
+    right_click_commands:
+    - '[console] p take %player_name% 50'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 2750"
+    - "[close]"
+    left_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '50'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '50'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+
+  '5750':
+    material: raw_gold
+    slots: 
+    - 15
+    display_name: '&e5750 монет'
+    lore:
+    - ''
+    - '  &fСтоимость: &#FA3A78100'  
+    - '  &fВаш баланс: &#FA3A78%playerpoints_points%'          
+    - ''
+    - '&#52d797▸ Нажмите, чтобы купить'  
+    left_click_commands:
+    - '[console] p take %player_name% 100'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 5750"
+    - "[close]"
+    right_click_commands:
+    - '[console] p take %player_name% 100'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 5750"
+    - "[close]"
+    left_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '100'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '100'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+
+  '12500':
+    material: raw_gold
+    slots: 
+    - 16
+    display_name: '&e12500 монет'
+    lore:
+    - ''
+    - '  &fСтоимость: &#FA3A78200'   
+    - '  &fВаш баланс: &#FA3A78%playerpoints_points%'          
+    - ''
+    - '&#52d797▸ Нажмите, чтобы купить'  
+    left_click_commands:
+    - '[console] p take %player_name% 200'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 12500"
+    - "[close]"
+    right_click_commands:
+    - '[console] p take %player_name% 200'
+    - "[sound] ENTITY_CHICKEN_EGG"
+    - '[message] &8[&#ffd700🔔&8] &fВы &7успешно &fкупили монетки.'
+    - "[console] cmi money give %player_name% 12500"
+    - "[close]"
+    left_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '200'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+    right_click_requirement:
+      requirements:
+        amount_coins:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '200'
+      deny_commands:
+      - '[close]'
+      - '[message] &8[&c❌&8] &fУ вас &7недостаточно &fрубинов для покупки.'  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  'back':
+    material: ARROW
+    slots:
+    - 31
+    display_name: '&#FBF386&lНазад'
+    lore:
+    - '&#838a87Предыдущая страница'    
+    - ''
+    - ' &8Информация'    
+    - '  &#cfcfcfВернуться на предыдущую'
+    - '  &#cfcfcfстраницу где Вы были'
+    - ''  
+    - '&#52d797▸ Нажмите, чтобы перейти'
+    click_commands:
+    - '[openguimenu] shop-don'
+    - '[sound] ENTITY_EXPERIENCE_BOTTLE_THROW'      

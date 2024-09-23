@@ -1,0 +1,93 @@
+disable_status: false
+# ======================================================
+# Here you can create your own player quests interface.
+#
+# NEVER DELETE A %variable%
+# %progress% is replaced by the progression of the quest.
+# %required% is replaced by the required amount to complete the quest.
+# %achieved% is replaced by the number of completed quests.
+# %drawIn% is replaced by the time remaining before the next quests draw.
+# ======================================================
+player_interface:
+  disable_status: false
+  size: 45
+  inventory_name: '       &8Ежедневные квесты'
+  progress: '&fСтатус: #50b47e%progress%&7/#50b47e%required%'
+  status: ''
+  achieved: '&fСтатус: #6ab04cВыполнено!'
+  glowing_if_achieved: true
+  complete_get_type: '#FBEEACНажмите, чтобы завершить этот квест!'
+  player_head:
+    enabled: true
+    slot: 5
+    use_placeholders: true
+    item_name: '&fИнформация'
+    item_description:
+    - ''
+    - ' &8Статистика:'
+    - ' #F4D160&l▪ #75C2F6Завершенные квесты: &a%odailyquests_total%'
+    - ''
+    - ' &8Статус:'
+    - ' #F4D160&l▪ #75C2F6Ежедневные квесты: &e%achieved%#FBEEAC/#F4D1603'
+    - ' #F4D160&l▪ #75C2F6Следующие квесты: #F4D160%drawIn%'
+  quests:
+    '1': 21
+    '2': 23
+    '3': 25
+  items:
+    '0':
+      type: CLOSE
+      item:
+        material: BARRIER
+        name: '&c&lЗакрыть'
+        lore:
+        - '&8Close the menu.'
+        slot: 41
+    '1':
+      type: FILL
+      item:
+        name: '&eEasy Quest'
+        material: YELLOW_STAINED_GLASS_PANE
+        lore:
+        - '&8An easy quest can be done by doing simple tasks'
+        slot: 12
+    '2':
+      type: FILL
+      item:
+        name: '&eEasy Quest'
+        material: YELLOW_STAINED_GLASS_PANE
+        lore:
+        - '&8An easy quest can be done by doing simple tasks'
+        slot: 30
+    '3':
+      type: FILL
+      item:
+        name: '#90d8d8Medium Quest'
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        lore:
+        - '&8A medium quest is harder than the easy quest but still doable'
+        slot: 14
+    '4':
+      type: FILL
+      item:
+        name: '#90d8d8Medium Quest'
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        lore:
+        - '&8A medium quest is harder than the easy quest but still doable'
+        slot: 32
+    '5':
+      type: FILL
+      item:
+        name: '#f07818Hard Quest'
+        material: ORANGE_STAINED_GLASS_PANE
+        lore:
+        - '&8A hard quest is the hardest quest.'
+        slot: 16
+    '6':
+      type: FILL
+      item:
+        name: '#f07818Hard Quest'
+        material: ORANGE_STAINED_GLASS_PANE
+        lore:
+        - '&8A hard quest is the hardest quest.'
+        slot: 34

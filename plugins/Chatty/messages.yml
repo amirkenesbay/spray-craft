@@ -1,0 +1,38 @@
+################################################################
+#
+#    Chatty (version 3.0.0-SNAPSHOT)
+#    Author: Brikster
+#
+################################################################
+
+# Common messages
+chat-not-found: <red>Чат не найден. Возможно, у вас недостаточно прав?
+nobody-heard: ''
+wait-cooldown: <red>Подождите {secondsLeft} сек. перед следующим сообщением.
+
+# Messages for moderation
+advertisement-found: <red>В вашем сообщении найдена реклама.
+caps-found: <red>В вашем сообщении найдены нарушения, связанные с использованием заглавных букв.
+swear-found: <red>В вашем сообщении найдена нецензурная лексика.
+
+# Messages for PM
+pm-player-not-found: <red>Игрок не найден.
+pm-nobody-to-reply: <red>Некому ответить.
+pm-cannot-pm-yourself: <red>Вы не можете отправить ЛС себе.
+pm-you-now-ignore: <green>Вы теперь игнорируете этого игрока.
+pm-cannot-ignore-yourself: <red>Вы не можете игнорировать себя.
+pm-you-already-ignore: <red>Вы уже игнорируете этого игрока.
+pm-you-dont-now-ignore: <green>Вы теперь не игнорируете этого игрока.
+pm-you-dont-ignore: <red>Вы не игнорируете этого игрока.
+pm-ignore-list: '<green>Список игнорируемых: {players}.'
+
+# Messages for commands
+cmd-argument-parsing-error: '<red>Недопустимый аргумент команды: {argument}.'
+cmd-usage-error: '<red>Использование: {usage}.'
+cmd-sender-type-error: <red>Вы не можете использовать эту команду.
+cmd-no-permission-error: <red>У вас нет прав.
+cmd-execution-error: <red>Ошибка выполнения команды, сообщите об этом администратору сервера.
+reload-command-success: <green>Плагин успешно перезагружен!
+clearchat-command-success: <green>Чат очищен.
+spy-command-spy-is-now-enabled: <green>Spy mode is now enabled.
+spy-command-spy-is-now-disabled: <red>Spy mode is now disabled.

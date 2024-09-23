@@ -1,0 +1,26 @@
+id: craft
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: a37ee05f-c075-480c-b3e9-0c623c635dcb
+world: spawn
+location:
+  x: -119.50691300401157
+  y: 61.0
+  z: -877.4726593848928
+  yaw: -133.6814
+  pitch: -1.398967
+type: villager
+properties:
+  villager_profession: CARTOGRAPHER
+hologram:
+  lines:
+  - '&a&lКАСТОМНЫЕ КРАФТЫ'
+  - '&7Уникальные предметы'
+  - ''
+  - '&fСоздавай уникальные предметы,'
+  - '&fиспользуя новые рецепты крафта'
+  - ''
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;ZWNyYWZ0;1000;ANY_CLICK;0

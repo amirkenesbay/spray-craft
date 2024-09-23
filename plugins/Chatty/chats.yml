@@ -1,0 +1,188 @@
+################################################################
+#
+#    Chatty (version 3.0.0-SNAPSHOT)
+#    Author: Brikster
+#
+################################################################
+
+# List of chats.
+# You can use declared or add you own chats
+chats:
+  global:
+    # Display name of chat.
+    # Used in commands, messages etc.
+    display-name: Global
+    
+    # Chat messages format.
+    # Supports: 
+    # * PlaceholderAPI (including relational placeholders)
+    # * MiniMessage interactive components (click handlers etc.)
+    # * Vault or LuckPerms prefixes/suffixes ({prefix} and {suffix})
+    # * Legacy color codes format ("&c&lTHAT'S BOLD TEXT")
+    # * Various hex formats (&#ffffff, {#ffffff}, &x&f&f&f&f&f&f etc.)
+    
+    # Use https://webui.advntr.dev/ for convenient format creation.
+    
+    # You can use replacements from "replacements.yml" here.
+    format: '&a[&lG&a] &8[{prefix}&8] &7{player}{suffix} %alonsotags_tag_chat%&8▸ &f{message}'
+    
+    # Player message format ("{message}" part in "format" property).
+    # You can use gradient here to make player messages colorful.
+    # This part renders as if player message were explicitly written in MiniMessage component
+    message-format: '{original-message}'
+    
+    # Custom format styles. Players that have permission
+    # for a style will see all the messages from the chat
+    # with corresponding format.
+    # Permission: chatty.style.<style-name>, for example: chatty.style.red
+    styles:
+      red:
+        # Custom format for the style
+        format: '&a[&lG&a] &8[{prefix}&8] &7{player}{suffix} %alonsotags_tag_chat%&8▸ &f{message}'
+        
+        # Custom message format for the style
+        message-format: '{original-message}'
+        
+        # If player has several permissions, chat with higher priority will be selected
+        priority: 10
+      green:
+        # Custom format for the style
+        format: '&a[&lG&a] &8[{prefix}&8] &7{player}{suffix} %alonsotags_tag_chat%&8▸ &f{message}'
+        
+        # Custom message format for the style
+        message-format: '{original-message}'
+        
+        # If player has several permissions, chat with higher priority will be selected
+        priority: 20
+    
+    # Symbol (or prefix) that should be placed before message
+    # to send message into this that.
+    # Example for symbol: "!":
+    # !Hello world -> send message "Hello world" to this chat
+    
+    # Empty symbol ('') is allowed also
+    symbol: '!'
+    
+    # Range in blocks for chat message recipients.
+    # Possible values: 
+    #  -2 -> message will be sent to all online players
+    #  -1 -> message will be sent to all players of the sender's world
+    #  >= 0 -> message will be sent to all players in this blocks range
+    range: -2
+    
+    # If true, you must add permissions for using chat: 
+    #  - chatty.chat.<chat-name> -> full chat access
+    #  - chatty.chat.<chat-name>.read -> read access only
+    #  - chatty.chat.<chat-name>.write -> write access only
+    
+    # Example: chatty.chat.global -> full access for "global" chat
+    permission-required: false
+    
+    # If true, player will receive a special message, 
+    # when his message has no recipients.
+    # Message can be configured in locale files
+    notify-nobody-heard: false
+    
+    # If true, URLs from player messages will be processed
+    # and made clickable.
+    # Check settings.yml for more parameters
+    parse-links: true
+    
+    # Cooldown in seconds for sending messages in chat.
+    # Bypass permission: chatty.bypass.cooldown.<chat>
+    cooldown: 3
+    
+    # Disable this, if you don't want to specify sound for this chat
+    play-sound: false
+    sound:
+      name: minecraft:entity.experience_orb.pickup
+      source: MASTER
+      volume: 1.0
+      pitch: 1.0
+    
+    # Permission for spy: chatty.spy.<chat>
+    spy:
+      # Enable spy for the chat?
+      enable: false
+      # Custom format for spy message
+      format: ''
+  local:
+    # Display name of chat.
+    # Used in commands, messages etc.
+    display-name: Local
+    
+    # Chat messages format.
+    # Supports: 
+    # * PlaceholderAPI (including relational placeholders)
+    # * MiniMessage interactive components (click handlers etc.)
+    # * Vault or LuckPerms prefixes/suffixes ({prefix} and {suffix})
+    # * Legacy color codes format ("&c&lTHAT'S BOLD TEXT")
+    # * Various hex formats (&#ffffff, {#ffffff}, &x&f&f&f&f&f&f etc.)
+    
+    # Use https://webui.advntr.dev/ for convenient format creation.
+    
+    # You can use replacements from "replacements.yml" here.
+    format: '&e[&lL&e] &8[{prefix}&8] &7{player}{suffix} %alonsotags_tag_chat%&8▸ &7{message}'
+    
+    # Player message format ("{message}" part in "format" property).
+    # You can use gradient here to make player messages colorful.
+    # This part renders as if player message were explicitly written in MiniMessage component
+    message-format: '{original-message}'
+    
+    # Custom format styles. Players that have permission
+    # for a style will see all the messages from the chat
+    # with corresponding format.
+    # Permission: chatty.style.<style-name>, for example: chatty.style.red
+    styles: {}
+    
+    # Symbol (or prefix) that should be placed before message
+    # to send message into this that.
+    # Example for symbol: "!":
+    # !Hello world -> send message "Hello world" to this chat
+    
+    # Empty symbol ('') is allowed also
+    symbol: ''
+    
+    # Range in blocks for chat message recipients.
+    # Possible values: 
+    #  -2 -> message will be sent to all online players
+    #  -1 -> message will be sent to all players of the sender's world
+    #  >= 0 -> message will be sent to all players in this blocks range
+    range: 200
+    
+    # If true, you must add permissions for using chat: 
+    #  - chatty.chat.<chat-name> -> full chat access
+    #  - chatty.chat.<chat-name>.read -> read access only
+    #  - chatty.chat.<chat-name>.write -> write access only
+    
+    # Example: chatty.chat.global -> full access for "global" chat
+    permission-required: false
+    
+    # If true, player will receive a special message, 
+    # when his message has no recipients.
+    # Message can be configured in locale files
+    notify-nobody-heard: false
+    
+    # If true, URLs from player messages will be processed
+    # and made clickable.
+    # Check settings.yml for more parameters
+    parse-links: true
+    
+    # Cooldown in seconds for sending messages in chat.
+    # Bypass permission: chatty.bypass.cooldown.<chat>
+    cooldown: 0
+    
+    # Disable this, if you don't want to specify sound for this chat
+    play-sound: false
+    sound:
+      name: minecraft:entity.experience_orb.pickup
+      source: MASTER
+      volume: 1.0
+      pitch: 1.0
+    
+    # Permission for spy: chatty.spy.<chat>
+    spy:
+      # Enable spy for the chat?
+      enable: true
+      # Custom format for spy message
+      format: '&6[Spy (local)] &8[{prefix}&8] &7{player}{suffix}&8: &f{message}'

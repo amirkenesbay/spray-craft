@@ -1,0 +1,264 @@
+id-counter: 34
+items:
+  '1':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND
+      amount: 8
+  '2':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPYGLASS
+  '3':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: RAW_GOLD
+      amount: 16
+  '4':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_INGOT
+      amount: 16
+  '5':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: RAW_IRON
+      amount: 16
+  '6':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: RAW_COPPER
+      amount: 32
+  '7':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: EMERALD
+      amount: 8
+  '8':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: OAK_LOG
+      amount: 32
+  '9':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: OBSIDIAN
+      amount: 16
+  '10':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: BEETROOT_SEEDS
+      amount: 2
+  '11':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: MAP
+  '12':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: COMPASS
+  '13':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: MELON_SEEDS
+      amount: 3
+  '14':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:long_slow_falling
+        custom-effects: []
+  '15':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: COPPER_INGOT
+      amount: 16
+  '16':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: LAPIS_LAZULI
+      amount: 32
+  '17':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GOLD_INGOT
+      amount: 16
+  '18':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: OAK_SAPLING
+      amount: 7
+  '19':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: PUMPKIN_SEEDS
+      amount: 5
+  '20':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: POTATO
+      amount: 5
+  '21':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: RESPAWN_ANCHOR
+  '22':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: WHEAT_SEEDS
+      amount: 8
+  '23':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: COOKED_BEEF
+      amount: 12
+  '24':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_BOOTS
+  '25':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_PICKAXE
+  '26':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_SWORD
+  '27':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_AXE
+  '28':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_HOE
+  '29':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_SHOVEL
+  '30':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: CARROT
+      amount: 5
+  '31':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: LEAD
+  '32':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_CHESTPLATE
+  '33':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_HELMET
+  '34':
+    chance: 50.0
+    color: '&7'
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_LEGGINGS

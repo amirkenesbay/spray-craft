@@ -1,0 +1,342 @@
+title: '{{skills_title}}'
+size: 6
+fill:
+  enabled: true
+  material: green_stained_glass_pane
+items:
+  fill1:
+    pos: 0,0
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill1111:
+    pos: 0,8
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill3:
+    pos: 1,2
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill4:
+    pos: 1,3
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill5:
+    pos: 1,4
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill6:
+    pos: 1,5
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill7:
+    pos: 1,6
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill9:
+    pos: 4,0
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill10:
+    pos: 4,1
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill11:
+    pos: 4,2
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill12:
+    pos: 4,3
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill13:
+    pos: 4,4
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill14:
+    pos: 4,5
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill15:
+    pos: 4,6
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill166:
+    pos: 4,7
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill16666:
+    pos: 4,8
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill16:
+    pos: 0,1
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill17:
+    pos: 0,2
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill18:
+    pos: 0,3
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill1888:
+    pos: 0,4
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill19:
+    pos: 0,5
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill20:
+    pos: 0,6
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill21:
+    pos: 0,7
+    material: black_stained_glass_pane
+    display_name: ' '
+  fill26:
+    pos: 5,1
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill27:
+    pos: 5,2
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill28:
+    pos: 5,3
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill29:
+    pos: 5,5
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill30:
+    pos: 5,6
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill31:
+    pos: 5,7
+    material: gray_stained_glass_pane
+    display_name: ' '
+  fill32:
+    pos: 1,0
+    material: green_stained_glass_pane
+    display_name: ' '
+  fill33:
+    pos: 2,0
+    material: green_stained_glass_pane
+    display_name: ' '
+  fill34:
+    pos: 3,0
+    material: green_stained_glass_pane
+    display_name: ' '
+  fill36:
+    pos: 1,8
+    material: green_stained_glass_pane
+    display_name: ' '
+  fill37:
+    pos: 2,8
+    material: green_stained_glass_pane
+    display_name: ' '
+  fill38:
+    pos: 3,8
+    material: green_stained_glass_pane
+    display_name: ' '
+  fill39:
+    pos: 1,2
+    material: green_stained_glass_pane
+    display_name: ' '
+  fill40:
+    pos: 1,6
+    material: green_stained_glass_pane
+    display_name: ' '
+  your_skills:
+    pos: 0,8
+    material: writable_book
+    display_name: <#448ee3>{{your_skills}}
+    lore:
+    - ''
+    - text: '{{your_skills_desc}}'
+      wrap: true
+      style: <white>
+  atras:
+    pos: 5,0
+    material: jungle_door
+    display_name: <yellow>Назад
+    on_click:
+    - type: command
+      executor: player
+      command: menu
+  close:
+    pos: 5,8
+    material: barrier
+    display_name: <red>{{close}}
+  stats:
+    pos: 5,4
+    material: player_head
+    display_name: <#448ee3>{{stats}}
+    lore:
+    - '&8Информация'
+    - ''
+    - <white>{{stats_desc}}
+    - ''
+    - <#448ee3>▶ Нажмите, чтобы открыть
+templates:
+  skill:
+    contexts:
+      archery:
+        group: third_row
+        order: 7
+        material: bow
+      fighting:
+        group: first_row
+        order: 2
+        material: iron_sword
+        flags:
+        - hide_attributes
+      defense:
+        group: first_row
+        order: 3
+        material: golden_chestplate
+        flags:
+        - hide_attributes
+      endurance:
+        group: first_row
+        order: 4
+        material: golden_apple
+      farming:
+        group: second_row
+        order: 1
+        material: wheat
+        flags:
+        - hide_attributes
+      foraging:
+        group: second_row
+        order: 2
+        material: oak_log
+        flags:
+        - hide_attributes
+      mining:
+        group: second_row
+        order: 3
+        material: diamond_ore
+        flags:
+        - hide_attributes
+      fishing:
+        group: second_row
+        order: 4
+        material: salmon
+      excavation:
+        group: second_row
+        order: 5
+        material: grass_block
+        flags:
+        - hide_attributes
+      agility:
+        group: first_row
+        order: 5
+        material: leather_boots
+        flags:
+        - hide_attributes
+      alchemy:
+        group: third_row
+        order: 2
+        material: brewing_stand
+      enchanting:
+        group: third_row
+        order: 3
+        material: enchanting_table
+      sorcery:
+        group: third_row
+        order: 4
+        material: blaze_powder
+      healing:
+        group: third_row
+        order: 5
+        material: splash_potion
+        potion_data:
+          type: instant_heal
+        flags:
+        - hide_potion_effects
+      forging:
+        group: third_row
+        order: 6
+        material: anvil
+    groups:
+      first_row:
+        start: 1,0
+        end: 1,8
+        align: center
+      second_row:
+        start: 2,0
+        end: 2,8
+        align: center
+      third_row:
+        start: 3,0
+        end: 3,8
+        align: center
+    display_name: <color:#dde254>{skill} {level}
+    lore:
+    - '&8Информация'
+    - ' '
+    - text: '{desc}'
+      wrap: true
+      style: <white>
+    - component: stats_leveled
+    - component: ability_levels
+    - component: mana_ability_info
+    - ' '
+    - <yellow>{{skill_click}}
+components:
+  stats_leveled:
+    context: Skill
+    lore:
+    - ' '
+    - ' <color:#dde254>| <gray>{{stats_leveled}}: {entries[<white>]}'
+  ability_levels:
+    context: Skill
+    lore:
+    - ' '
+    - ' <color:#dde254>| <gray>{{ability_levels}}: {entries[]}'
+  mana_ability_info:
+    context: Skill
+    lore:
+    - '    &8• <#9bea4c>{name} {level}'
+  progress:
+    context: Skill
+    lore:
+    - '<gray>{{progress_to_level}} {next_level}: <yellow>{percent}%'
+    - '{bar}'
+    - <gray>{current_xp}/{level_xp} {xp_unit}
+  max_level:
+    context: Skill
+    lore:
+    - |2-
+
+      <color:#e22938><bold>{{max_level}}
+  skill_job_active:
+    context: Skill
+    lore:
+    - ' '
+    - <dark_gray>▶ <green>{{active_job}}
+formats:
+  stat_leveled_entry: |2-
+
+        &8• <color:#dde254>{stat}
+  unlocked_ability_entry: \n    &8• <color:#dde254>{name} {level}
+  locked_ability_entry: \n    &8• <color:#64677E><strikethrough>{name}
+  duration_entry: '<gray>{{duration}}: <green>{duration}s '
+  mana_cost_entry: '<gray>{{mana_cost}}: <aqua>{mana_cost} '
+  cooldown_entry: '<gray>{{cooldown}}: <yellow>{cooldown}s '
+  damage_entry: '<gray>{{damage}}: <red>{value} '
+  damage_per_mana_entry: '<gray>{{damage}}: <red>+{value}% / Mana '
+  max_mana_cost_entry: '<gray>{{max_mana_cost}}: <aqua>{mana_cost} '
+  attack_speed_entry: '<gray>{{attack_speed}}: <red>+{value}% '
+  bar_completed: <green>■
+  bar_current: <yellow>■
+  bar_remaining: <gray>■
+options:
+  bar_length: 15
+file_version: 1

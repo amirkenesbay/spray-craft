@@ -1,0 +1,14 @@
+location: spawn:-49,094:65,860:-870,488
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&lМольберт'
+    height: 0.3
+  - content: '&fВведите команду &e/art'
+    height: 0.3
+  actions: {}

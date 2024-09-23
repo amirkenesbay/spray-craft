@@ -1,0 +1,82 @@
+# DeluxeMenus 1.14.0-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: false
+gui_menus:
+  enchants:
+    file: enchants.yml
+  gender:
+    file: gender.yml
+  emf_shoper:
+    file: emf_shoper.yml
+  bottledexp:
+    file: bottledexp.yml
+  tutorial:
+    file: tutorial.yml
+  kits_menu:
+    file: kits_menu.yml
+  profile_menu:
+    file: profile_menu.yml
+  warps_menu:
+    file: warps_menu.yml
+  main_menu:
+    file: main_menu.yml
+  hoppers:
+    file: hoppers.yml
+  
+  donates:
+    file: shop/donate.yml
+  shop-don:
+    file: shop/shop-don.yml
+  money:
+    file: shop/money.yml
+  premium-items:
+    file: shop/premium-items.yml
+  premium-items2:
+    file: shop/premium-items2.yml
+  premium-items3:
+    file: shop/premium-items3.yml
+  premium-spawners:
+    file: shop/premium-spawners.yml
+  premium-spawners2:
+    file: shop/premium-spawners2.yml
+  
+  btorg-1:
+    file: shop/btorg-1.yml
+  
+  start:
+    file: kits/start.yml
+  start2:
+    file: kits/start2.yml
+  pluto:
+    file: kits/pluto.yml
+  pluto2:
+    file: kits/pluto2.yml
+  brillium:
+    file: kits/brillium.yml
+  brillium2:
+    file: kits/brillium2.yml
+  vanderi:
+    file: kits/vanderi.yml
+  vanderi2:
+    file: kits/vanderi2.yml
+  finicius:
+    file: kits/finicius.yml
+  finicius2:
+    file: kits/finicius2.yml
+  jarstone:
+    file: kits/jarstone.yml
+  jarstone2:
+    file: kits/jarstone2.yml
+  
+  levels_menu:
+    file: levels/levels_menu.yml
+  levels_menu_2:
+    file: levels/levels_menu_2.yml
+  levels_menu_3:
+    file: levels/levels_menu_3.yml
+  quests_menu:
+    file: quests_menu.yml

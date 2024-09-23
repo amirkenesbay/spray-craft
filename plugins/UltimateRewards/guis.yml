@@ -1,0 +1,456 @@
+#
+#     _     _ _       _                            ______                               _
+#    (_)   (_) |  _  (_)              _           (_____ \                             | |
+#    | |   | |_| |_|_| |___  _____ _| |_ _____    _____) )_____ _ _  _ _ _____  ____ __| |  ___
+#    | |   | | (_   _) |    \(____ (_   _) ___ |  |  __  /| ___ |  |  | (____ |/ ___) _  |/___)
+#    | |___| | | | |_| | | | / /_\_ | | |_| ____| | |  \ \|____|  |  | / /_\ | |  ( (_| |___ |
+#    \_____/ \_) \__)_|_|_|_\_|  |_|  \__)_____)  |_|   |_|_____)\___/\_|  |_|_|   \____(___/
+#
+#   GUIs Configuration
+#
+# You can create an unlimited number of menus and sub-menus connected to each other,
+# and can also add other items, like vote items, visit store items, or others.
+# PlaceholderAPI placeholders can be used anywhere in the text.
+#
+# Pattern for creating a custom reward menu:
+#   <menuName>:
+#     sound: BLOCK_NOTE_BLOCK_BANJO
+#     command: "commandToOpen"
+#     title: "Menu Title"
+#     rows: 5
+#     inventory-type: CHEST # Available Types: CHEST, WORKBENCH, HOPPER, DISPENSER, BREWING
+#     content:
+#
+#     In the content section, use 2 patterns to place a solid item with its name, lore, and action, or place a reward's item there.
+#
+#     To place a reward's item:
+#       <positionInMenu>: <rewardName>:(<streakNumber>) - will be replaced with the reward's item (use :<streakNumber> only if it's a StreakReward)
+#
+#     To place a solid item:
+#       <positionInMenu>:
+#         item: <| Here comes the item's name, which can also be Oraxen's or ItemAdder's custom models, textured heads (base64), or your own custom model|>
+#         name: <nameOfItem>
+#         lore:
+#           - <firstLineOfLore>
+#           - <secondLineOfLore>
+#           - ...
+#         action: <| Place for the action type which triggers when a player clicks on this item in the menu, available action types are listed below|>
+#                - click actions:
+#                  [open] <menuName> - opens a GUI menu
+#                  [close] - closes the opened GUI
+#                  [message] - closes the menu and sends a message to the player
+#                  [console] - executes input from the console
+#                  [player] - executes input as the player
+#
+# The 'main' menu will be opened by the /rewards command.
+# You can change which menu will be opened in config.yml
+# or use the command /reward open <menuName> (<player>) to force open a specified menu.
+#
+# NOTE THAT ITEM & SOUND NAMES ARE SLIGHTLY DIFFERENT BETWEEN >1.12 & 1.13< VERSIONS!
+# SO MAKE SURE YOU ARE USING VALID ITEM NAMES (DEFAULT ONES ARE USED FROM 1.13+ VERSIONS)
+# OTHERWISE, THEY WILL BE REPLACED BY STONE IF AN INVALID NAME IS USED.
+#
+main:
+  title: Награды
+  rows: 3
+  content:
+    '13':
+      item: CHEST
+      name: '&a&lНаграды'
+      lore:
+      - '&8Бесплатные подарки'
+      - ''
+      - ' &8Информация'
+      - '  &fВ данном разделе'
+      - '  &fвы можете забрать свои'
+      - '  &fежедневные награды'
+      - ''
+      - '&a▸ Нажмите, чтобы открыть'
+      action: '[open] streakFixedRewards'
+    '15':
+      item: BARRIER
+      name: '&c&lЗакрыть'
+      lore:
+      - '&fЗакрывает меню'
+      actions:
+      - '[message] &eВы закрыли главное меню наград'
+      - '[close]'
+    '11':
+      item: REPEATER
+      name: '&e&lНастройки'
+      lore:
+      - '&8Редактируйте настройки'
+      - ''
+      - ' &8Информация'
+      - '  &fТут вы сможете настроить'
+      - '  &fсвои ежедневные награды'
+      - '  &fдля удобства'
+      - ''
+      - '&a▸ Нажмите, чтобы открыть'
+      action: '[open] settings'
+
+streakFixedRewards:
+  title: Список наград
+  rows: 6
+  sound: BLOCK_NOTE_BLOCK_BANJO
+  content:
+    '11': exampleStreakFixedReward:1
+    '12': exampleStreakFixedReward:2
+    '13': exampleStreakFixedReward:3
+    '14': exampleStreakFixedReward:4
+    '15': exampleStreakFixedReward:5
+    '20': exampleStreakFixedReward:6
+    '21': exampleStreakFixedReward:7
+    '22': exampleStreakFixedReward:8
+    '23': exampleStreakFixedReward:9
+    '24': exampleStreakFixedReward:10
+    '29': exampleStreakFixedReward:11
+    '30': exampleStreakFixedReward:12
+    '31': exampleStreakFixedReward:13
+    '32': exampleStreakFixedReward:14
+    '33': exampleStreakFixedReward:15
+    '49':
+      item: arrow
+      name: '&e&lНазад'
+      lore:
+      - '&8Возврат в главное меню'
+      - ''
+      - ' &8Информация'
+      - '  &fВернуться на предыдущую'
+      - '  &fстраницу где Вы были'
+      - ''
+      - '&a▸ Нажмите, чтобы перейти'
+      action: '[open] main'
+
+adventCalendar:
+  title: Advent Calendar
+  rows: 6
+  command: advent
+  sound: BLOCK_NOTE_BLOCK_BANJO
+  content:
+    '10': exampleAdventCalendar:1
+    '11': exampleAdventCalendar:2
+    '12': exampleAdventCalendar:3
+    '13': exampleAdventCalendar:4
+    '14': exampleAdventCalendar:5
+    '15': exampleAdventCalendar:6
+    '16': exampleAdventCalendar:7
+    '19': exampleAdventCalendar:8
+    '20': exampleAdventCalendar:9
+    '21': exampleAdventCalendar:10
+    '22': exampleAdventCalendar:11
+    '23': exampleAdventCalendar:12
+    '24': exampleAdventCalendar:13
+    '25': exampleAdventCalendar:14
+    '28': exampleAdventCalendar:15
+    '29': exampleAdventCalendar:16
+    '30': exampleAdventCalendar:17
+    '31': exampleAdventCalendar:18
+    '32': exampleAdventCalendar:19
+    '33': exampleAdventCalendar:20
+    '34': exampleAdventCalendar:21
+    '39': exampleAdventCalendar:22
+    '40': exampleAdventCalendar:23
+    '41': exampleAdventCalendar:24
+    '45':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+timeFixedRewards:
+  title: Time Fixed Rewards Menu
+  rows: 4
+  sound: BLOCK_NOTE_BLOCK_BANJO
+  content:
+    '13': exampleTimeFixedReward
+    '31':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+customRewards:
+  title: Custom Rewards Menu
+  rows: 4
+  sound: BLOCK_NOTE_BLOCK_BANJO
+  content:
+    '13': exampleCustomReward
+    '22':
+      item: TORCH
+      name: '&eNotice'
+      lore:
+      - '&6See: https://revivalo.gitbook.io/ultimaterewards/configuration/rewards/reward-types/custom-reward'
+      - ''
+      - '&7This reward is disabled'
+      - '&7by default, you can simply enable it'
+      - '&7by setting enabled: true'
+      action: '[open] main'
+    '31':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+purchasableRewards:
+  title: Purchasable Rewards Menu
+  rows: 4
+  sound: BLOCK_NOTE_BLOCK_BANJO
+  content:
+    '12': examplePurchasableReward
+    '14': exampleRePurchasableReward
+    '31':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+referralRewards:
+  title: Referral Rewards Menu
+  rows: 4
+  content:
+    '13': exampleReferralReward
+    '31':
+      item: NAME_TAG
+      name: '&aApply Referral'
+      lore:
+      - '&7State the players name and'
+      - '&7receive the following rewards:'
+      - ''
+      - '&e1x Diamond'
+      - '&e1x Golden Apple'
+      - ' '
+      - '&b► Click To Apply'
+      action: '[apply]'
+    '35':
+      item: OAK_SIGN
+      name: '&aCreate Own Referral'
+      lore:
+      - '&7Create your own referral to invite your friends.'
+      - '&7By doing so, you will receive interesting rewards.'
+      - '&7Invited players will also receive rewards.'
+      - ' '
+      - '&b► Click To Create'
+      action: '[create_referral]'
+    '27':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+renewableReferralRewards:
+  title: Renewable Referral Rewards Menu
+  rows: 4
+  content:
+    '13': exampleRenewableReferralReward
+    '31':
+      item: NAME_TAG
+      name: '&aApply Referral'
+      lore:
+      - '&7State the players name and'
+      - '&7receive the following rewards:'
+      - ''
+      - '&e1x Diamond'
+      - '&e1x Golden Apple'
+      - ' '
+      - '&b► Click To Apply'
+      action: '[apply]'
+    '35':
+      item: OAK_SIGN
+      name: '&aCreate Own Referral'
+      lore:
+      - '&7Create your own referral to invite your friends.'
+      - '&7By doing so, you will receive interesting rewards.'
+      - '&7Invited players will also receive rewards.'
+      - ' '
+      - '&b► Click To Create'
+      action: '[create_referral]'
+    '27':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+streakRewards:
+  title: Streak Rewards Menu
+  rows: 4
+  sound: BLOCK_NOTE_BLOCK_DIDGERIDOO
+  content:
+    '11': exampleStreakReward:1
+    '12': exampleStreakReward:2
+    '13': exampleStreakReward:3
+    '14': exampleStreakReward:4
+    '15': exampleStreakReward:5
+    '31':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+voteRewards:
+  title: Vote Rewards Menu
+  rows: 5
+  content:
+    '13': exampleVoteReward
+    '22':
+      item: OAK_BUTTON
+      name: '&eWhere to vote?'
+      lore:
+      - '&7Click to get all available'
+      - '&7vote sites!'
+      action: '[message] You can vote for us on: | &b► &f&nhttps://examplesite.com'
+    '40':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+renewableVoteRewards:
+  title: Renewable Vote Rewards
+  rows: 4
+  content:
+    '13': exampleRenewableVoteReward
+    '31':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+streakVoteRewards:
+  title: Streak Vote Rewards
+  rows: 4
+  content:
+    '11': exampleStreakVoteReward:1
+    '12': exampleStreakVoteReward:2
+    '13': exampleStreakVoteReward:3
+    '14': exampleStreakVoteReward:4
+    '15': exampleStreakVoteReward:5
+    '31':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+oneTimeRewards:
+  title: One Time Rewards Menu
+  rows: 4
+  content:
+    '13': exampleOneTimeReward
+    '31':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+timeLimitedRewards:
+  title: Time Limited Reward Menu
+  rows: 4
+  content:
+    '13': exampleTimeLimitedReward
+    '31':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+timeRewards:
+  title: Time Rewards Menu
+  sound: ANVIL_FALL
+  rows: 4
+  content:
+    '13': exampleTimeReward
+    '31':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+playTimeRewards:
+  title: Play Time Rewards
+  rows: 4
+  content:
+    '13': examplePlayTimeReward
+    '31':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+renewablePlayTimeRewards:
+  title: Renewable Play Time Rewards
+  rows: 4
+  content:
+    '13': exampleRenewablePlayTimeReward
+    '31':
+      item: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkOGVmZjRjNjczZTA2MzY5MDdlYTVjMGI1ZmY0ZjY0ZGMzNWM2YWFkOWI3OTdmMWRmNjYzMzUxYjRjMDgxNCJ9fX0=
+      name: '&cBack'
+      lore:
+      - '&7Return to the main menu'
+      action: '[open] main'
+
+settings:
+  title: Настройки
+  rows: 4
+  content:
+    '11':
+      item: SLIME_BALL
+      name: '&a&lЖивые уведомления'
+      lore:
+      - ' '
+      - ' &8Информация'
+      - '  &fСразу уведомляет вас о награде,'
+      - '  &fкоторую вы можете получить прямо сейчас.'
+      - ' '
+      - '&a▸ Нажмите, чтобы переключить'
+      action: '[toggle_live_notifications]'
+    '13':
+      item: OAK_DOOR
+      name: '&a&lУведомление о подключении'
+      lore:
+      - ' '
+      - ' &8Информация'
+      - '  &fПри подключении к серверу уведомляет вас'
+      - '  &fо доступных для получения наградах.'
+      - ' '
+      - '&a▸ Нажмите, чтобы переключить'
+      action: '[toggle_join_notification]'
+    '15':
+      item: REDSTONE_TORCH
+      name: '&a&lАвтоматическое получение'
+      lore:
+      - ' '
+      - ' &8Информация'
+      - '  &fАвтоматически получает доступные награды.'
+      - ' '
+      - ' &cПРИМЕЧАНИЕ: В случае недостатка места в'
+      - ' &cинвентаре награда не будет получена.'
+      - ' '
+      - '&a▸ Нажмите, чтобы переключить'
+      action: '[toggle_join_auto_claim]'
+    '31':
+      item: arrow
+      name: '&e&lНазад'
+      lore:
+      - '&8Возврат в главное меню'
+      - ''
+      - ' &8Информация'
+      - '  &fВернуться на предыдущую'
+      - '  &fстраницу где Вы были'
+      - ''
+      - '&a▸ Нажмите, чтобы перейти'
+      action: '[open] main'
+

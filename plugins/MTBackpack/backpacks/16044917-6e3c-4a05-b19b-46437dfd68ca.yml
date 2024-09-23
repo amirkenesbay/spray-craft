@@ -1,0 +1,11 @@
+backpack_data:
+  classname: teammt.mtbackpack.classes.Backpack
+  fields:
+    items:
+      classname: java.util.HashMap
+    requiresRerender: false
+    type: uncommon_bp
+    id:
+      classname: java.util.UUID
+      value: 16044917-6e3c-4a05-b19b-46437dfd68ca
+    size: 18

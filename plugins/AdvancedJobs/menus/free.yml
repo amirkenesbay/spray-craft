@@ -1,0 +1,29 @@
+menu-title: 'Обычные работы'
+menu-rows: 5
+
+jobs-slots:
+  slots: '11...15, 20...24'
+
+menu:
+  '39':
+    item:
+      material: arrow:0
+      name: '&eПредыдущая страница'
+      lore: []
+    actions:
+      - '[menu](page = 1) {portal}' # Если страница 1, перейти на страницу портала
+      - '[menu](page ! 1) {previous-page}' # Если текущая страница не 1, перейти на предыдущую страницу
+  '40':
+    item:
+      material: book:0
+      name: '&eСколько осталось до новых работ?'
+      lore:
+        - '&7Новые работы через &e%time_left%...'
+    actions: []
+  '41':
+    item:
+      material: arrow:0
+      name: '&eСледующая страница'
+      lore: []
+    actions:
+      - '[menu] {next-page}' # Перейти на следующую страницу

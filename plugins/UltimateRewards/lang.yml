@@ -1,0 +1,140 @@
+#
+#     _     _ _       _                            ______                               _
+#    (_)   (_) |  _  (_)              _           (_____ \                             | |
+#    | |   | |_| |_|_| |___  _____ _| |_ _____    _____) )_____ _ _  _ _ _____  ____ __| |  ___
+#    | |   | | (_   _) |    \(____ (_   _) ___ |  |  __  /| ___ |  |  | (____ |/ ___) _  |/___)
+#    | |___| | | | |_| | | | / /_\_ | | |_| ____| | |  \ \|____|  |  | / /_\ | |  ( (_| |___ |
+#    \_____/ \_) \__)_|_|_|_\_|  |_|  \__)_____)  |_|   |_|_____)\___/\_|  |_|_|   \____(___/
+#
+#   Language Configuration
+#
+prefix: '&x&7&5&7&5&7&5[&x&E&A&F&B&1&CНаграды&x&7&5&7&5&7&5]'
+reload-message: '%prefix% &aКонфигурация плагина была перезагружена!'
+insufficient-permissions-message: '%prefix% &cНедостаточно прав!'
+correct-usage-of-command: '%prefix% &cПравильное использование команды: &4%usage%'
+unavailable-player-message: '%prefix% &cИгрок недоступен!'
+unavailable-reward-message: '%prefix% &cНаграда с именем ''%name%'' не существует!'
+unavailable-gui-message: '%prefix% &cИнтерфейс с именем ''%name%'' не существует!'
+account-not-synced-with-discord: '%prefix% &cВам нужно синхронизировать свою учетную запись с Discord!'
+try-to-claim-in-disabled-world: '%prefix% &cНаграда %tag% не может быть получена в этом мире (%world%).'
+not-enough-free-slots-in-inventory: '%prefix% &cВам нужно иметь %slots% свободных слотов в инвентаре, чтобы получить эту
+  награду!'
+
+successfully-referred: '%prefix% &aВы успешно пригласили игрока %player%!'
+already-referred: '%prefix% &cВы уже приглашены игроком %player%!'
+player-does-not-have-referral: '%prefix% &cУ игрока %player% нет приглашения для применения!'
+referral-created: '%prefix% &aПриглашение создано! Теперь вы можете приглашать игроков с помощью кода,
+  который является вашим именем, и получать награду!'
+referral-already-created: '%prefix% &cВы уже создали свое приглашение!'
+referral-reset: '%prefix% &aYou have reset the player that %player% being referred to.'
+referral-write-player-name: '&a► Write the players name that you want to refer to'
+refer-player-unavailable: '%prefix% &cВы не можете пригласить игрока %player% из-за его недоступности!'
+own-referral: '%prefix% &cВы не можете пригласить себя!'
+referral-input-text: Введите никнейм
+
+referral-help-command:
+- ' '
+- '&8 - &fUltimate&lRewards&8 - &eReferral Help'
+- '&7  A player can refer another to obtain'
+- '&7  cool rewards by command:'
+- '&2   • &a/referral apply <player>'
+- ' '
+- '&7  Also player can have its own referral,'
+- '&7  the command to do so:'
+- '&2   • &a/referral create'
+- ' '
+
+referrals-uses-placeholder-not-created: '&cВы еще не создали приглашение'
+referrals-uses-placeholder-zero: '&eПока никто'
+rewards-available-placeholder-zero: '&eВы уже получили все награды на сегодня'
+
+vote-command:
+- ' '
+- '&8 - &fUltimate&lRewards&8 - &eVotes'
+- '&7  You can vote on several sites:'
+- '&a   1) &fhttps://example.com/'
+- '&a   2) &fhttps://coolwebsite.com/'
+- '&8     by clicking on the link you will'
+- '&8     be redirected to the page'
+- ' '
+
+proceeded-vote: '%prefix% &aSuccessfully proceeded vote for %player%.'
+votes-reset: '%prefix% &aVotes has been reset for player %player%.'
+
+# Used for the placeholder %ultimaterewards_cooldown_{rewardName}%
+# to indicate the current status of the reward
+claimable: '&a✓ Можно получить'
+unavailable: '&c✖ Недоступно'
+no-permission: '&cНет прав'
+loading: '&bЗагрузка...'
+
+reward-is-already-claimed: '%prefix% &cНаграда %reward% уже получена!'
+reward-collect-unavailable-message: '%prefix% &cВы не можете получить свою награду пока.'
+reward-variant-no-permission: '%prefix% &cYou don''t have permission %permission% for this variant of reward!'
+reward-is-under-cooldown-message: '%prefix% &cНаграда %reward% в данный момент недоступна. Вам нужно подождать %cooldown%!'
+reward-successfully-reset-message: '%prefix% &aПерезагружено время ожидания для награды %reward% у игрока %player%!'
+rewards-successfully-reset-message:
+- '%prefix% &aFollowing rewards has been reset for %player%:'
+- '  &f%listOfRewardsSplit%'
+reward-successfully-reset-for-all-players: '%prefix% &aНаграда %reward% была сброшена для всех игроков!'
+reward-successfully-reset-for-online-players: '%prefix% &aНаграда %reward% была сброшена для всех онлайн-игроков!'
+reward-successfully-claimed-for-player: '%prefix% &aВы получили награду %reward% для игрока %player%.'
+
+unclaimed-rewards-notification:
+- ' '
+- ' &a&lЕжедневные награды'
+- '  &fУ вас есть &e%rewards% &fнеполученная награда.'
+- ' '
+- '  &7Нажмите на сообщение, чтобы посмотреть'
+- ' '
+unclaimed-rewards-notification-hover-text: '&2Нажмите, чтобы получить награды!'
+
+join-auto-claimed-notification:
+- ' '
+- '&a ✔ Following reward(s) has been auto-claimed: &f%listOfRewards%'
+- ' '
+join-auto-claim-full-inventory: '%prefix% &cСледующие награды не могут быть получены, так как у вас недостаточно места
+  в инвентаре: &4%listOfRewards%'
+
+live-notification-for-reward:
+- ' '
+- '&a вћ”%reward% теперь доступна для получения! &7в–є&f Нажмите &7в—„'
+- ' '
+live-notification-for-reward-hover-text: '&2в–є Нажмите, чтобы получить %reward%'
+
+auto-claim-failed: '%prefix% &cНекоторые награды не могут быть автоматически получены, наведите курсор
+  для деталей.'
+auto-claim-failed-hover-text-list-format: '%reward% - %reason%'
+auto-claim-failed-hover-text: '&cСледующие награды не могут быть автоматически получены: %format%'
+
+discord-sync-required: Синхронизация с Discord требуется
+located-in-restricted-world: Недоступно в этом мире
+insufficient-play-time: Недостаточное время игры
+short-session-play-time: Короткое время сессии
+not-enough-free-inventory-slots: Недостаточно места в инвентаре
+
+invalid-setting-type: '&cТакой настройки не существует!'
+join-notification-setting-name: Уведомление при входе
+live-notification-setting-name: Живые уведомления
+join-auto-claim-setting-name: Автоматическое получение при входе
+live-auto-claim-setting-name: Автоматическое живое получение
+setting-enabled: '%prefix% &aНастройка %setting% была включена!'
+setting-disabled: '%prefix% &cНастройка %setting% была отключена!'
+no-permission-setting-display-name: '&c&l%settingType%'
+no-permission-setting-lore:
+- '&cВы не можете переключить этот тип настройки!'
+- '&cНедостаточно прав: %permission%'
+
+gui-successfully-opened-for-player: '%prefix% &aИнтерфейс награды %reward% был открыт для игрока %player%.'
+
+not-enough-required-time-to-claim: '%prefix% &cВы должны провести на сервере не менее &e%requiredMinutes% минут&c, прежде
+  чем получить награды &7[Осталось %minutes% минут].'
+not-enough-session-required-time-to-claim: '%prefix% &cТекущая сессия должна длиться не менее %requiredMinutes% минут, прежде
+  чем получить награды (%minutes% минут осталось).'
+not-enough-play-time-to-create-referral: '%prefix% &cВы должны провести на сервере как минимум %requiredMinutes% минут, прежде
+  чем создать реферала (%minutes% минут осталось).'
+maximum-playtime-to-refer-reached: '%prefix% &cReferral can only be redeemed for %minutes% minutes after the first connection!'
+
+invalid-number: '%prefix% &c%input% не является допустимым числом!'
+negative-number: '%prefix% &cЧисло должно быть положительным!'
+specify-streak: '%prefix% &cВы должны указать серию/день для получения награды!'

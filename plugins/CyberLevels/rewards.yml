@@ -1,0 +1,787 @@
+rewards:
+  reward-1:
+    commands:
+      - '[console] money give {player} 100'
+      - '[console] lp user {player} permission set deluxemenus.level.1 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &x&3&9&f&d&c&8П&x&3&a&f&5&c&dо&x&3&c&e&d&d&3з&x&3&d&e&4&d&8д&x&3&f&d&c&d&dр&x&4&0&d&4&e&3а&x&4&1&c&c&e&8в&x&4&3&c&4&e&dл&x&4&4&b&b&f&2я&x&4&6&b&3&f&8е&x&4&7&a&b&f&dм &#50b3fd★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 100 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 1
+  reward-2:
+    commands:
+      - '[console] lp user {player} permission set deluxemenus.level.2 true'
+      - '[console] excellentcrates key give {player} armor 1'
+      - '[console] excellentcrates key give {player} items 1'      
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с предметами'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с броней'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 2
+  reward-3:
+    commands:
+      - '[console] money give {player} 200'
+      - '[console] lp user {player} permission set deluxemenus.level.3 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 200 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 3
+  reward-4:
+    commands:
+      - '[console] excellentcrates key give {player} armor 1'
+      - '[console] money give {player} 100'
+      - '[console] lp user {player} permission set deluxemenus.level.4 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 100 монет'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с броней'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 4
+  reward-5:
+    commands:
+      - '[console] money give {player} 300'
+      - '[console] lp user {player} permission set deluxemenus.level.5 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 300 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 5
+  reward-6:
+    commands:
+      - '[console] excellentcrates key give {player} armor 1'
+      - '[console] lp user {player} permission set deluxemenus.level.6 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с броней'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 6
+  reward-7:
+    commands:
+      - '[console] money give {player} 400'
+      - '[console] lp user {player} permission set deluxemenus.level.7 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 400 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 7
+  reward-8:
+    commands:
+      - '[console] excellentcrates key give {player} armor 1'
+      - '[console] money give {player} 450'
+      - '[console] lp user {player} permission set deluxemenus.level.8 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с броней'
+      - '[player] [C] &#6C6C6C- &#1FFF00450 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 8
+  reward-9:
+    commands:
+      - '[console] money give {player} 500'
+      - '[console] lp user {player} permission set deluxemenus.level.9 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 500 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 9
+  reward-10:
+    commands:
+      - '[console] lp user {player} permission set deluxemenus.level.10 true'
+      - '[console] money give {player} 600'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00600 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 10
+  reward-11:
+    commands:
+      - '[console] money give {player} 750'
+      - '[console] lp user {player} permission set deluxemenus.level.11 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 750 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 11
+  reward-12:
+    commands:
+      - '[console] lp user {player} permission set nether.portal true'
+      - '[console] money give {player} 850'
+      - '[console] excellentcrates key give {player} armor 1'
+      - '[console] lp user {player} permission set deluxemenus.level.12 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 850 монет'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ Доступ в Адский мир'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с броней'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 12
+  reward-13:
+    commands:
+      - '[console] money give {player} 1000'
+      - '[console] lp user {player} permission set deluxemenus.level.13 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1000 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 13
+  reward-14:
+    commands:
+      - '[console] lp user {player} permission set end.portal true'
+      - '[console] money give {player} 1100'
+      - '[console] lp user {player} permission set deluxemenus.level.14 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ Доступ к Эндер-миру'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1100 монет'      
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 14
+  reward-15:
+    commands:
+      - '[console] money give {player} 1250'
+      - '[console] lp user {player} permission set deluxemenus.level.15 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1250 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 15
+  reward-16:
+    commands:
+      - '[console] excellentcrates key give {player} armor 1'
+      - '[console] money give {player} 1400'
+      - '[console] lp user {player} permission set deluxemenus.level.16 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с броней'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1400 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 16
+  reward-17:
+    commands:
+      - '[console] money give {player} 1500'
+      - '[console] lp user {player} permission set deluxemenus.level.17 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1500 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 17
+  reward-18:
+    commands:
+      - '[console] excellentcrates key give {player} items 1'
+      - '[console] lp user {player} permission set deluxemenus.level.18 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с предметами'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 18
+  reward-19:
+    commands:
+      - '[console] money give {player} 1750'
+      - '[console] lp user {player} permission set deluxemenus.level.19 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1750 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 19
+  reward-20:
+    commands:
+      - '[console] money give {player} 1850'    
+      - '[console] excellentcrates key give {player} armor 1'
+      - '[console] excellentcrates key give {player} items 1'      
+      - '[console] lp user {player} permission set deluxemenus.level.20 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с броней'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с предметами'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1850 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 20
+  reward-21:
+    commands:
+      - '[console] money give {player} 2000'
+      - '[console] lp user {player} permission set deluxemenus.level.21 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 2000 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 21
+  reward-22:
+    commands:
+      - '[console] money give {player} 2000'
+      - '[console] lp user {player} permission set deluxemenus.level.22 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 2000 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 22
+  reward-23:
+    commands:
+      - '[console] money give {player} 2250'
+      - '[console] lp user {player} permission set deluxemenus.level.23 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 2250 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 23
+  reward-24:
+    commands:
+      - '[console] money give {player} 2300'
+      - '[console] excellentcrates key give {player} armor 1'
+      - '[console] lp user {player} permission set deluxemenus.level.24 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 2300 монет'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с броней'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 24
+  reward-25:
+    commands:
+      - '[console] money give {player} 2500'
+      - '[console] lp user {player} permission set deluxemenus.level.25 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 2500 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 25
+  reward-26:
+    commands:
+      - '[console] excellentcrates key give {player} items 1'
+      - '[console] lp user {player} permission set deluxemenus.level.26 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с предметами'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 26
+  reward-27:
+    commands:
+      - '[console] money give {player} 2750'
+      - '[console] lp user {player} permission set deluxemenus.level.27 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 2750 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 27
+  reward-28:
+    commands:
+      - '[console] excellentcrates key give {player} armor 1'
+      - '[console] lp user {player} permission set deluxemenus.level.28 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с броней'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 28
+  reward-29:
+    commands:
+      - '[console] money give {player} 3000'
+      - '[console] lp user {player} permission set deluxemenus.level.29 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 3000 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 29
+  reward-30:
+    commands:
+      - '[console] excellentcrates key give {player} armor 1'
+      - '[console] excellentcrates key give {player} items 1'      
+      - '[console] lp user {player} permission set deluxemenus.level.30 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с предметами'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с броней'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 30
+  reward-31:
+    commands:
+      - '[console] money give {player} 3250'
+      - '[console] lp user {player} permission set deluxemenus.level.31 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 3250 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 31
+  reward-32:
+    commands:
+      - '[console] excellentcrates key give {player} armor 1'
+      - '[console] lp user {player} permission set deluxemenus.level.32 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с броней'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 32
+  reward-33:
+    commands:
+      - '[console] money give {player} 3500'
+      - '[console] lp user {player} permission set deluxemenus.level.33 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 3500 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 33
+  reward-34:
+    commands:
+      - '[console] excellentcrates key give {player} items 1'
+      - '[console] lp user {player} permission set deluxemenus.level.34 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с предметами'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 34
+  reward-35:
+    commands:
+      - '[console] money give {player} 3750'
+      - '[console] lp user {player} permission set deluxemenus.level.35 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 3750 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 35
+  reward-36:
+    commands:
+      - '[console] excellentcrates key give {player} armor 1'
+      - '[console] lp user {player} permission set deluxemenus.level.36 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кейс с броней'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 36
+  reward-37:
+    commands:
+      - '[console] money give {player} 4000'
+      - '[console] lp user {player} permission set deluxemenus.level.37 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 4000 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 37
+  reward-38:
+    commands:
+      - '[console] excellentcrates key give {player} items 1'    
+      - '[console] lp user {player} permission set deluxemenus.level.38 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 1 кей сокровища'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 38
+  reward-39:
+    commands:
+      - '[console] money give {player} 5000'
+      - '[console] lp user {player} permission set deluxemenus.level.39 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 5000 монет'
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 39
+  reward-40:
+    commands:
+      - '[console] excellentcrates key give {player} armor 5'
+      - '[console] excellentcrates key give {player} items 5'      
+      - '[console] money give {player} 7000'
+      - '[console] lp user {player} permission set deluxemenus.level.40 true'
+    messages:
+      - '[player] [title] &#55B9FC▲ &lПОВЫШЕНИЕ УРОВНЯ &#55B9FC▲<n>&#DFDFDFВы теперь на {level} уровне'
+      - '[player] &r'
+      - '[player] [C] &#90f5fb★ &#39fdc8П&#3af5cdо&#3cedd3з&#3de4d8д&#3fdcddр&#40d4e3а&#41cce8в&#43c4edл&#44bbf2я&#46b3f8е&#47abfdм ★'
+      - '[player] [C] &#6C6C6CВы теперь на уровне %clv_player_level%'
+      - '[player] &r'
+      - '[player] [C] &#DFDFDFВаши награды:'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 5 кейов сокровища'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 5 кейов уровневые'
+      - '[player] [C] &#6C6C6C- &#1FFF00+ 7000 монет'      
+      - '[player] &r'
+    sound:
+      sound-effect: 'ENTITY_WITHER_DEATH'
+      volume: 1
+      pitch: 1
+    levels:
+      - 40

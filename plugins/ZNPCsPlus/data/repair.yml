@@ -1,0 +1,35 @@
+id: repair
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: eea73af1-907a-4289-9be3-941765f7ed97
+world: spawn
+location:
+  x: -69.51007915624183
+  y: 61.0
+  z: -906.517877816974
+  yaw: -0.52685547
+  pitch: -1.1092879
+type: player
+properties:
+  skin_left_leg: 'true'
+  look: CLOSEST_PLAYER
+  skin_cape: 'true'
+  skin_hat: 'true'
+  skin_jacket: 'true'
+  skin: fetching;L_Rero
+  skin_left_sleeve: 'true'
+  skin_right_leg: 'true'
+  skin_right_sleeve: 'true'
+  hand: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA9xdAAMSVJPTl9QSUNLQVhFc3EAfgAAc3EAfgADdXEAfgAGAAAAA3EAfgAIdAAJbWV0YS10eXBldAAGY3VzdG9tdXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAMEg0c0lBQUFBQUFBQS8rTmlZR0JtWUhOSnpFMU1UMlVBQVFDb2dXNlhFUUFBQUE9PQ==
+hologram:
+  lines:
+  - '&a&lКУЗНЕЦ'
+  - '&7Ремонтируй свои предметы'
+  - ''
+  - '&fИспользуй услуги кузнеца'
+  - '&fдля ремонта своих предметов'
+  - ''
+  - '&aʜᴀжᴍиᴛᴇ, чᴛᴏбы пᴏᴄᴍоᴛᴘᴇᴛь'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;dXJhbnZpbA==;1000;ANY_CLICK;0

@@ -1,0 +1,59 @@
+################################################################
+#
+#    Chatty (version 3.0.0-SNAPSHOT)
+#    Author: Brikster
+#
+################################################################
+
+# Caps moderation method
+caps:
+  enable: true
+  
+  # Minimal length for processing with this method
+  length: 6
+  
+  # Minimal percent of uppercase characters
+  # to handle as CAPS
+  percent: 80
+  
+  # Cancel chat event? If false, 
+  # message will be just lowercased
+  block: true
+
+# Ads moderation method
+advertisement:
+  enable: true
+  
+  # Regular expression for IP addresses matching
+  ip-pattern: \b((\d{1,2}|2(5[0-5]|[0-4]\d))[._,)(-]+){3}(\d{1,2}|2(5[0-5]|[0-4]\d))(:\d{2,7})?
+  
+  # Regular expression for websites links matching
+  link-pattern: \bhttps?://(?:www\.)?[^\s/$.?#].\S*\b
+  
+  # Cancel chat event? If false, 
+  # ad will be replaced
+  block: true
+  
+  # Replacement for ad words
+  replacement: <advertisement>
+  
+  # Whitelist of allowed IP addresses and links
+  whitelist:
+  - 192.168.1.1
+  - 192.168.0.1
+  - google.com
+  - 127.0.0.1
+
+# Swear moderation method.
+# Swears and whitelist located in "plugins/Chatty/swears" folder. 
+# "swears.txt" should contain regular expressions from new lines, 
+# "whitelist.txt" - whitelist words from new line (case insensitive)
+swear:
+  enable: true
+  
+  # Cancel chat event? If false, 
+  # swear will be replaced
+  block: true
+  
+  # Replacement for swear words
+  replacement: <swear>

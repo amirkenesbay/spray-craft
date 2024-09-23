@@ -1,0 +1,198 @@
+# Создание настраиваемых команд.
+enchantment-info:
+  # Включена ли эта команда?
+  enabled: true
+  # Измените начало команды
+  # Используйте ее в игре: /<command> <enchantment>
+  command: /enchant
+  aliases:
+  - /enchantment
+  # Разрешение для команды
+  # Установите "" чтобы отключить
+  permission: ''
+  inventory:
+    # Размер инвентаря (9-18-27-36-45-54)
+    size: 9
+    # Название инвентаря
+    name: '&e%enchant%&7 информация'
+    items:
+      # Слоты начинаются с 0
+      # Этот номер определяет слот инвентаря.
+      '2':
+        type: STAINED_GLASS_PANE
+        id: 15
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+        prefix-addon: ' &f* &7'
+      '3':
+        type: ENCHANTED_BOOK
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        name: '&7Информация о зачаровании &e%enchant% &7'
+        lore:
+        - ' &f* &eЗачарование &7>> &r%ench-colors%'
+        - ' &f* &eПрименяется к &7>> &r%applies-to%'
+        - ' &f* &eМаксимальный уровень &7>> &r%max-lvl%'
+        - ' &f* &eОписание &7>> &r%desc%'
+        # Вы также можете использовать %group-color%, чтобы получить цвет зачарования
+        prefix-addon: ' &f* &7'
+      '4':
+        type: STAINED_GLASS_PANE
+        id: 15
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+        prefix-addon: ' &f* &7'
+      '5':
+        type: CHEST
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        name: '&eApplies to &7>>'
+        lore:
+        - '&7%applies-to%'
+        prefix-addon: ' &f* &7'
+      '6':
+        type: STAINED_GLASS_PANE
+        id: 15
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+        prefix-addon: ' &f* &7'
+enchantments:
+  # Включена ли эта команда?
+  enabled: true
+  # Измените команду
+  # Используйте ее в игре: /<command>
+  command: /enchants
+  aliases:
+  - /enchantments
+  # Разрешение для команды
+  # Установите "" чтобы отключить
+  permission: ''
+  mode:
+    # Режимы: GROUPS, ALL
+    # Если установлено значение GROUPS, сначала будет отображаться инвентарь выбора группы
+    # Если установлено значение ALL, первый инвентарь покажет все доступные чары
+    currentMode: GROUPS
+  inventory:
+    # Размер инвентаря (18-27-36-45-54)
+    size: 36
+    # Отображать номер страницы с количеством предметов на следующей/предыдущей странице?
+    display-page-number: true
+    # Название инвентаря
+    name: '&0Чары сервера'
+    items:
+      # Слоты начинаются с 0
+      # Этот номер определяет слот инвентаря.
+      '11':
+        type: STAINED_GLASS_PANE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        # Какую группу чар он должен открыть?
+        group: SIMPLE
+        name: '&f&lПростые чары'
+        lore: []
+      '12':
+        type: STAINED_GLASS_PANE
+        id: 5
+        custom-model-data: 0
+        force-glow: false
+        group: UNIQUE
+        name: '&a&lУникальные чары'
+        lore: []
+      '13':
+        type: STAINED_GLASS_PANE
+        id: 3
+        custom-model-data: 0
+        force-glow: false
+        group: ELITE
+        name: '&b&lЭлитные чары'
+        lore: []
+      '14':
+        type: STAINED_GLASS_PANE
+        id: 4
+        custom-model-data: 0
+        force-glow: false
+        group: ULTIMATE
+        name: '&e&lУльтимативные чары'
+        lore: []
+      '15':
+        type: STAINED_GLASS_PANE
+        id: 1
+        custom-model-data: 0
+        force-glow: false
+        group: LEGENDARY
+        name: '&6&lЛегендарные чары'
+        lore: []
+      '22':
+        type: STAINED_GLASS_PANE
+        id: 6
+        custom-model-data: 0
+        force-glow: false
+        group: FABLED
+        name: '&d&lСказочные чары'
+        lore: []
+  group-enchantment-inventory:
+    name: '%color%%group%&7 чары'
+    # Заполняет пустые слоты этим предметом
+    fill-item:
+      material: STAINED_GLASS_PANE
+      id: 15
+      custom-model-data: 0
+      name: ' '
+      lore: []
+    go-back-item:
+      # Показать кнопку "Назад"?
+      enabled: true
+      slot: '%invSize% - 7'
+      item:
+        type: NETHER_STAR
+        id: 0
+        custom-model-data: 0
+      name: '&cНазад'
+      lore: []
+    previous-page:
+      material: STAINED_GLASS_PANE
+      id: 14
+      custom-model-data: 0
+      name: '&cПредыдущая страница.'
+      lore: []
+      slot: '%invSize% - 3'
+    next-page:
+      material: STAINED_GLASS_PANE
+      id: 5
+      custom-model-data: 0
+      name: '&aСледующая страница.'
+      lore: []
+      slot: '%invSize% - 2'
+    item:
+      type: ENCHANTED_BOOK
+      id: 0
+      custom-model-data: 0
+      force-glow: false
+      # Какую команду нужно выполнить, когда игрок кликает на одно из зачарований?
+      # %max-lvl% - Отображает макс. уровень в цифрах, %max-lvl-roman% - отображает макс. уровень римскими цифрами
+      command: /enchant %enchantment%
+      name: '&e%enchant% &7зачарование'
+      lore:
+      - ''
+      - ' &d&lИнформация о зачаровании'
+      - ''
+      - '  &fЧары: &r%ench-colors%'
+      - '  &fПрименяется к: &e%applies-to%'
+      - '  &fМакс. уровень: &b%max-lvl-roman%'
+      - ''
+      - '  &7%desc%'
+      - ''
+      prefix-addon: ' &f* &7'
+enchants:
+  group-enchantment-inventory:
+    item:
+      prefix-addon: ' &f* &7'
